@@ -1,0 +1,17 @@
+{
+  "name": "Christopher Alexander Whitmore",
+  "extra_bullets": [
+    "Paired with the data team to add delivery time estimates to the dispatch dashboard, which cut customer calls about late loads by roughly a fifth in the first month",
+    "Rewrote the grading rubric for linked-list assignments so feedback came back within 48 hours instead of a week, and shared it with the other eight TAs",
+    "Documented setup steps for 14 lab printers in the help desk wiki, which new student workers now use during their first week on the job"
+  ],
+  "cover_letter_paragraph": "I also care about the people who use the tools. During my internship I spent two mornings riding along with dispatchers to see where the old export slowed them down, and those notes shaped the first version of the API. I would bring the same habit to your team and check what users need before writing code.",
+  "extra_reference": {
+    "name": "Daniel Brooks",
+    "role": "Senior Software Engineer",
+    "organization": "Northwind Freight",
+    "email": "daniel.brooks@northwindfreight.com",
+    "phone": "(312) 555-0195",
+    "relationship": "Code reviewer and mentor during my internship"
+  }
+}

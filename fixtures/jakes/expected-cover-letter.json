@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Jordan Ellis",
+    "(312) 555-0143",
+    "jordan.ellis@email.com",
+    "linkedin.com/in/jordanellis",
+    "github.com/jordanellis",
+    "October 5, 2026",
+    "Hiring Team",
+    "Northwind Freight",
+    "Chicago, IL",
+    "Dear Hiring Team,",
+    "I'm applying for the Software Engineer, New Grad role on your platform team. Last summer I interned with the dispatch tools group, and I would like to come back full time after I graduate from Lakeshore State in May 2026.",
+    "During the internship I built the shipment status API that replaced the nightly CSV export. Dispatchers used to work from data that was up to a day old; after launch they saw changes within five minutes. I also wrote the integration tests for the billing service and found two rounding bugs before they reached customers.",
+    "Outside of work, I build small tools that people actually use. Transit Pulse puts live bus arrivals next to crowding estimates, and Shelfie tracks book loans for my dorm. Both taught me to cut scope early and ship something people can try.",
+    "I already work comfortably in Go, PostgreSQL and AWS, and I know how the team reviews code. I'd welcome the chance to talk about how I could help with the carrier integrations planned for next year.",
+    "Sincerely,",
+    "Jordan Ellis"
+  ],
+  "template": "jakes",
+  "doc": "cover-letter",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

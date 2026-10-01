@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Taylor Morgan",
+    "Columbus, OH",
+    "(614) 555-0128",
+    "taylor.morgan@email.com",
+    "linkedin.com/in/taylormorgan",
+    "REFERENCES",
+    "Angela Ruiz",
+    "Marketing Director",
+    "Harborview Health Partners",
+    "aruiz@harborviewhealth.org",
+    "(614) 555-0152",
+    "Current manager since Jun 2023",
+    "Kevin Marsh",
+    "Store Operations Manager",
+    "Redline Outfitters",
+    "kevin.marsh@redlineoutfitters.com",
+    "(614) 555-0167",
+    "Manager, Aug 2021 – May 2023",
+    "Dana Whitfield",
+    "Lecturer in Communication",
+    "Franklin Ridge University",
+    "dwhitfield@franklinridge.edu",
+    "(614) 555-0174",
+    "Academic advisor and instructor for two courses"
+  ],
+  "template": "plain",
+  "doc": "references",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

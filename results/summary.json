@@ -1,0 +1,290 @@
+{
+  "classic-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.511
+  },
+  "classic-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.53
+  },
+  "classic-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.368
+  },
+  "classic-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.395
+  },
+  "classic-resume-a4": {
+    "pass": true,
+    "c1": "38/38",
+    "pages": 1,
+    "fill": 0.734
+  },
+  "classic-resume-letter": {
+    "pass": true,
+    "c1": "38/38",
+    "pages": 1,
+    "fill": 0.769
+  },
+  "compact-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.444
+  },
+  "compact-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.475
+  },
+  "compact-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.337
+  },
+  "compact-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.36
+  },
+  "compact-resume-a4": {
+    "pass": true,
+    "c1": "36/36",
+    "pages": 1,
+    "fill": 0.676
+  },
+  "compact-resume-letter": {
+    "pass": true,
+    "c1": "36/36",
+    "pages": 1,
+    "fill": 0.673
+  },
+  "international-cv-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.527
+  },
+  "international-cv-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.566
+  },
+  "international-cv-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.4
+  },
+  "international-cv-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.429
+  },
+  "international-cv-resume-a4": {
+    "pass": true,
+    "c1": "63/63",
+    "pages": 2,
+    "fill": 0.619
+  },
+  "international-cv-resume-letter": {
+    "pass": true,
+    "c1": "63/63",
+    "pages": 2,
+    "fill": 0.706
+  },
+  "jakes-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.487
+  },
+  "jakes-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.523
+  },
+  "jakes-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.365
+  },
+  "jakes-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.392
+  },
+  "jakes-resume-a4": {
+    "pass": true,
+    "c1": "46/46",
+    "pages": 1,
+    "fill": 0.782
+  },
+  "jakes-resume-letter": {
+    "pass": true,
+    "c1": "46/46",
+    "pages": 1,
+    "fill": 0.822
+  },
+  "modern-accent-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.504
+  },
+  "modern-accent-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.541
+  },
+  "modern-accent-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.379
+  },
+  "modern-accent-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.407
+  },
+  "modern-accent-resume-a4": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.825
+  },
+  "modern-accent-resume-letter": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.847
+  },
+  "plain-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.547
+  },
+  "plain-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.566
+  },
+  "plain-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.397
+  },
+  "plain-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.426
+  },
+  "plain-resume-a4": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.78
+  },
+  "plain-resume-letter": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.775
+  },
+  "skills-first-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.518
+  },
+  "skills-first-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.537
+  },
+  "skills-first-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.375
+  },
+  "skills-first-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.402
+  },
+  "skills-first-resume-a4": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.703
+  },
+  "skills-first-resume-letter": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.735
+  },
+  "student-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.489
+  },
+  "student-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.525
+  },
+  "student-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.38
+  },
+  "student-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.408
+  },
+  "student-resume-a4": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.652
+  },
+  "student-resume-letter": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.7
+  }
+}

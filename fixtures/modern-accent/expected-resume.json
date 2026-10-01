@@ -1,0 +1,193 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Priya Shah",
+      "email": "priya.shah@email.com",
+      "phone": "(206) 555-0119",
+      "location": "Seattle, WA",
+      "url": "priyashah.design/work",
+      "summary": "Product designer with three years of experience in health and consumer apps. I run my own interviews, prototype in Figma, and work closely with engineers until the feature ships. Most proud of work that made complicated forms feel short."
+    },
+    "workExperiences": [
+      {
+        "company": "Larkspur Health",
+        "jobTitle": "Product Designer",
+        "date": "Mar 2024 – Present",
+        "descriptions": [
+          "Redesigned the patient intake flow from 14 screens to 6, raising completion from 61% to 83% in the first quarter",
+          "Ran 22 interviews with clinic staff and turned the findings into a shared research library the team still uses",
+          "Built a Figma component library with the front-end lead that cut design-to-build handoff time by about a third"
+        ]
+      },
+      {
+        "company": "Cobalt Lane Studio",
+        "jobTitle": "UX Designer",
+        "date": "Jul 2022 – Feb 2024",
+        "descriptions": [
+          "Designed mobile checkout for a regional grocery chain, which lowered abandoned carts by 12% after launch",
+          "Led usability tests with 40 participants across five client projects and wrote the findings for each client",
+          "Mentored two design interns through their first shipped features"
+        ]
+      },
+      {
+        "company": "Northgate Transit Authority",
+        "jobTitle": "Design Intern",
+        "date": "Jun 2021 – Aug 2021",
+        "descriptions": [
+          "Sketched and tested new bus stop signs with riders at three busy stops, and the agency adopted two of the ideas"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Pacific Crest University",
+        "degree": "Bachelor of Fine Arts in Interaction Design",
+        "date": "Jun 2022",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [
+      {
+        "project": "Wayfinding for Pine Street Library | Research, signage",
+        "date": "Oct 2023",
+        "descriptions": [
+          "Volunteered to map how visitors get lost and designed floor signs that reduced front desk direction questions by half"
+        ]
+      },
+      {
+        "project": "Habit tracker concept | Figma, ProtoPie",
+        "date": "Jan 2023",
+        "descriptions": [
+          "Designed and tested a habit app for shift workers, written up as a case study with 4,000 reads on Medium"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Design: Figma, ProtoPie, Adobe Illustrator, design systems",
+        "Research: Interviews, usability testing, surveys, Dovetail",
+        "Collaboration: Jira, Notion, basic HTML and CSS"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Seattle, WA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Seattle, WA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Tacoma, WA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Seattle, WA",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Priya Shah",
+    "Seattle, WA",
+    "(206) 555-0119",
+    "priya.shah@email.com",
+    "priyashah.design/work",
+    "SUMMARY",
+    "Product designer with three years of experience in health and consumer apps. I run my own interviews, prototype in Figma, and work closely with engineers until the feature ships. Most proud of work that made complicated forms feel short.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Larkspur Health",
+        "Product Designer",
+        "Mar 2024 – Present",
+        "Seattle, WA"
+      ]
+    },
+    "Redesigned the patient intake flow from 14 screens to 6, raising completion from 61% to 83% in the first quarter",
+    "Ran 22 interviews with clinic staff and turned the findings into a shared research library the team still uses",
+    "Built a Figma component library with the front-end lead that cut design-to-build handoff time by about a third",
+    {
+      "anyOrder": [
+        "Cobalt Lane Studio",
+        "UX Designer",
+        "Jul 2022 – Feb 2024",
+        "Seattle, WA"
+      ]
+    },
+    "Designed mobile checkout for a regional grocery chain, which lowered abandoned carts by 12% after launch",
+    "Led usability tests with 40 participants across five client projects and wrote the findings for each client",
+    "Mentored two design interns through their first shipped features",
+    {
+      "anyOrder": [
+        "Northgate Transit Authority",
+        "Design Intern",
+        "Jun 2021 – Aug 2021",
+        "Tacoma, WA"
+      ]
+    },
+    "Sketched and tested new bus stop signs with riders at three busy stops, and the agency adopted two of the ideas",
+    "PROJECTS",
+    {
+      "anyOrder": [
+        "Wayfinding for Pine Street Library",
+        "Research, signage",
+        "Oct 2023"
+      ]
+    },
+    "Volunteered to map how visitors get lost and designed floor signs that reduced front desk direction questions by half",
+    {
+      "anyOrder": [
+        "Habit tracker concept",
+        "Figma, ProtoPie",
+        "Jan 2023"
+      ]
+    },
+    "Designed and tested a habit app for shift workers, written up as a case study with 4,000 reads on Medium",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Pacific Crest University",
+        "Seattle, WA",
+        "Bachelor of Fine Arts in Interaction Design",
+        "Jun 2022"
+      ]
+    },
+    "SKILLS",
+    "Design: Figma, ProtoPie, Adobe Illustrator, design systems",
+    "Research: Interviews, usability testing, surveys, Dovetail",
+    "Collaboration: Jira, Notion, basic HTML and CSS"
+  ],
+  "template": "modern-accent",
+  "doc": "resume",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Redesigned the patient intake flow from 14 screens to 6, raising completion from 61% to 83% in the first quarter",
+    "Ran 22 interviews with clinic staff and turned the findings into a shared research library the team still uses",
+    "Built a Figma component library with the front-end lead that cut design-to-build handoff time by about a third",
+    "Designed mobile checkout for a regional grocery chain, which lowered abandoned carts by 12% after launch",
+    "Led usability tests with 40 participants across five client projects and wrote the findings for each client",
+    "Mentored two design interns through their first shipped features",
+    "Sketched and tested new bus stop signs with riders at three busy stops, and the agency adopted two of the ideas",
+    "Volunteered to map how visitors get lost and designed floor signs that reduced front desk direction questions by half",
+    "Designed and tested a habit app for shift workers, written up as a case study with 4,000 reads on Medium"
+  ]
+}

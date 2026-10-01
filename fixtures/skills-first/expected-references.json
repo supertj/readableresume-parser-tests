@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Rachel Nguyen",
+    "Portland, OR",
+    "(503) 555-0121",
+    "rachel.nguyen@email.com",
+    "linkedin.com/in/rachelnguyen",
+    "REFERENCES",
+    "Monica Reyes",
+    "Training Manager",
+    "Cascade Credit Union",
+    "mreyes@cascadecu.org",
+    "(503) 555-0134",
+    "Client contact for my contract work since Jan 2024",
+    "Alan Brooks",
+    "Principal",
+    "Lincoln Park Middle School",
+    "abrooks@lincolnparkms.org",
+    "(503) 555-0146",
+    "Principal for six of my eight years teaching",
+    "Hannah Cole",
+    "Volunteer Program Director",
+    "Portland Food Share",
+    "hcole@portlandfoodshare.org",
+    "(503) 555-0158",
+    "Partner on the volunteer onboarding course"
+  ],
+  "template": "skills-first",
+  "doc": "references",
+  "font": "Verdana",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

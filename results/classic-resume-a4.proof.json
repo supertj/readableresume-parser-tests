@@ -1,0 +1,475 @@
+{
+  "file": "classic-resume-a4",
+  "template": "classic",
+  "doc": "resume",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1nKozu8_j4V_o_56CWfrj3YdyZo2yplxjTYpwJcMNvEk/export?format=pdf",
+  "pdfSha256": "355b2d3572f6f284b1b8ec92e53d4ffe2390a1236e248a0c5e0d898574f83f51",
+  "docxSha256": "6d4adec9e065fa50e5e123cf89b9bbdf0e3d6e16f9208dddcb9d08326d390a73",
+  "runAt": "2026-10-01T12:01:43+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.734,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold",
+      "Georgia-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 25,
+      "Georgia": 246,
+      "TimesNewRomanPSMT": 22,
+      "Georgia-Italic": 18
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Olivia Bennett",
+      "Providence, RI | (401) 555-0132 | olivia.bennett@email.com | linkedin.com/in/oliviabennett",
+      "EDUCATION",
+      "Halden College Providence, RI",
+      "Bachelor of Arts in Economics, Minor in Statistics Sep 2022 – May 2026",
+      "• GPA: 3.8/4.0, Economics Department Honors Program",
+      "• Relevant Coursework: Econometrics, Corporate Finance, Game Theory, Financial Accounting, Data",
+      "Analysis in Python",
+      "EXPERIENCE",
+      "Ridgeway Capital Partners New York, NY",
+      "Investment Banking Analyst Intern Jun 2025 – Aug 2025",
+      "• Built three-statement models for two consumer retail clients and updated comparable company sets each",
+      "week",
+      "• Drafted 20 pages of a sell-side pitch book, including the industry overview and buyer list",
+      "• Checked a 40-tab merger model line by line before it went to the client and found a circular reference in",
+      "debt schedules",
+      "Halden College Department of Economics Providence, RI",
+      "Research Assistant Jan 2024 – May 2025",
+      "• Cleaned and merged 15 years of county wage data in Stata for a professor's study on minimum wage",
+      "spillovers",
+      "• Wrote summary tables and charts that appeared in a working paper presented at two conferences",
+      "Halden College Writing Center Providence, RI",
+      "Peer Tutor Sep 2023 – Dec 2024",
+      "• Met with about eight students a week to work on essays, lab reports and cover letters",
+      "• Led two workshops on writing clear policy memos for first-year economics students",
+      "PROJECTS & ACTIVITIES",
+      "Halden Investment Club | Vice President Sep 2023 – Present",
+      "• Run weekly stock pitch meetings for 45 members and manage a $25,000 student portfolio with four",
+      "sector heads",
+      "• Started a mentoring program that paired 18 first-year members with alumni working in finance"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 12,
+      "actual": 12,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 38,
+    "total": 38,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Olivia Bennett",
+        "actual": "Olivia Bennett",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "olivia.bennett@email.com",
+        "actual": "olivia.bennett@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(401) 555-0132",
+        "actual": "(401) 555-0132",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Providence, RI",
+        "actual": "Providence, RI",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/oliviabennett",
+        "actual": "linkedin.com/in/oliviabennett",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Ridgeway Capital Partners",
+        "actual": "Ridgeway Capital Partners",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Investment Banking Analyst Intern",
+        "actual": "Investment Banking Analyst Intern",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jun 2025 – Aug 2025",
+        "actual": "Jun 2025 – Aug 2025",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Built three-statement models for two consumer retail clients and updated comparable company sets each week",
+        "actual": "Built three-statement models for two consumer retail clients and updated comparable company sets each week",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Drafted 20 pages of a sell-side pitch book, including the industry overview and buyer list",
+        "actual": "Drafted 20 pages of a sell-side pitch book, including the industry overview and buyer list",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Checked a 40-tab merger model line by line before it went to the client and found a circular reference in debt schedules",
+        "actual": "Checked a 40-tab merger model line by line before it went to the client and found a circular reference in debt schedules",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Halden College Department of Economics",
+        "actual": "Halden College Department of Economics",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Research Assistant",
+        "actual": "Research Assistant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jan 2024 – May 2025",
+        "actual": "Jan 2024 – May 2025",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Cleaned and merged 15 years of county wage data in Stata for a professor's study on minimum wage spillovers",
+        "actual": "Cleaned and merged 15 years of county wage data in Stata for a professor's study on minimum wage spillovers",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Wrote summary tables and charts that appeared in a working paper presented at two conferences",
+        "actual": "Wrote summary tables and charts that appeared in a working paper presented at two conferences",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Halden College Writing Center",
+        "actual": "Halden College Writing Center",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Peer Tutor",
+        "actual": "Peer Tutor",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Sep 2023 – Dec 2024",
+        "actual": "Sep 2023 – Dec 2024",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Met with about eight students a week to work on essays, lab reports and cover letters",
+        "actual": "Met with about eight students a week to work on essays, lab reports and cover letters",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Led two workshops on writing clear policy memos for first-year economics students",
+        "actual": "Led two workshops on writing clear policy memos for first-year economics students",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Halden College",
+        "actual": "Halden College",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Arts in Economics, Minor in Statistics",
+        "actual": "Bachelor of Arts in Economics, Minor in Statistics",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Sep 2022 – May 2026",
+        "actual": "Sep 2022 – May 2026",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "3.8",
+        "actual": "3.8",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "GPA: 3.8/4.0, Economics Department Honors Program",
+        "actual": "GPA: 3.8/4.0, Economics Department Honors Program",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[1]",
+        "expected": "Relevant Coursework: Econometrics, Corporate Finance, Game Theory, Financial Accounting, Data Analysis in Python",
+        "actual": "Relevant Coursework: Econometrics, Corporate Finance, Game Theory, Financial Accounting, Data Analysis in Python",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Halden Investment Club | Vice President",
+        "actual": "Halden Investment Club | Vice President",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "Sep 2023 – Present",
+        "actual": "Sep 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Run weekly stock pitch meetings for 45 members and manage a $25,000 student portfolio with four sector heads",
+        "actual": "Run weekly stock pitch meetings for 45 members and manage a $25,000 student portfolio with four sector heads",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[1]",
+        "expected": "Started a mentoring program that paired 18 first-year members with alumni working in finance",
+        "actual": "Started a mentoring program that paired 18 first-year members with alumni working in finance",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Halden Habitat Builders | Volunteer Coordinator",
+        "actual": "Halden Habitat Builders | Volunteer Coordinator",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "Sep 2022 – May 2024",
+        "actual": "Sep 2022 – May 2024",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "Organized monthly build days for about 30 volunteers and kept the sign-up and safety records",
+        "actual": "Organized monthly build days for about 30 volunteers and kept the sign-up and safety records",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Technical: Excel, PowerPoint, Python (pandas), Stata, Capital IQ",
+        "actual": "Technical: Excel, PowerPoint, Python (pandas), Stata, Capital IQ",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Certifications: Bloomberg Market Concepts, Wall Street Prep Financial Modeling",
+        "actual": "Certifications: Bloomberg Market Concepts, Wall Street Prep Financial Modeling",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Languages: French (fluent), Spanish (basic)",
+        "actual": "Languages: French (fluent), Spanish (basic)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "educations[0].location",
+        "value": "Providence, RI",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "New York, NY",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Providence, RI",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Providence, RI",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Olivia Bennett",
+      "Providence, RI | (401) 555-0132 | olivia.bennett@email.com | linkedin.com/in/oliviabennett",
+      "EDUCATION",
+      "Halden College ‖ Providence, RI",
+      "Bachelor of Arts in Economics, Minor in Statistics ‖ Sep 2022 – May 2026",
+      "• ‖ GPA: 3.8/4.0, Economics Department Honors Program",
+      "• ‖ Relevant Coursework: Econometrics, Corporate Finance, Game Theory, Financial Accounting, Data",
+      "Analysis in Python",
+      "EXPERIENCE",
+      "Ridgeway Capital Partners ‖ New York, NY",
+      "Investment Banking Analyst Intern ‖ Jun 2025 – Aug 2025",
+      "• ‖ Built three-statement models for two consumer retail clients and updated comparable company sets each",
+      "week",
+      "• ‖ Drafted 20 pages of a sell-side pitch book, including the industry overview and buyer list",
+      "• ‖ Checked a 40-tab merger model line by line before it went to the client and found a circular reference in",
+      "debt schedules",
+      "Halden College Department of Economics ‖ Providence, RI",
+      "Research Assistant ‖ Jan 2024 – May 2025",
+      "• ‖ Cleaned and merged 15 years of county wage data in Stata for a professor's study on minimum wage",
+      "spillovers",
+      "• ‖ Wrote summary tables and charts that appeared in a working paper presented at two conferences",
+      "Halden College Writing Center ‖ Providence, RI",
+      "Peer Tutor ‖ Sep 2023 – Dec 2024",
+      "• ‖ Met with about eight students a week to work on essays, lab reports and cover letters",
+      "• ‖ Led two workshops on writing clear policy memos for first-year economics students",
+      "PROJECTS & ACTIVITIES",
+      "Halden Investment Club | Vice President ‖ Sep 2023 – Present",
+      "• ‖ Run weekly stock pitch meetings for 45 members and manage a $25,000 student portfolio with four",
+      "sector heads",
+      "• ‖ Started a mentoring program that paired 18 first-year members with alumni working in finance",
+      "Halden Habitat Builders | Volunteer Coordinator ‖ Sep 2022 – May 2024",
+      "• ‖ Organized monthly build days for about 30 volunteers and kept the sign-up and safety records",
+      "SKILLS",
+      "Technical: Excel, PowerPoint, Python (pandas), Stata, Capital IQ",
+      "Certifications: Bloomberg Market Concepts, Wall Street Prep Financial Modeling",
+      "Languages: French (fluent), Spanish (basic)"
+    ]
+  },
+  "pass": true
+}

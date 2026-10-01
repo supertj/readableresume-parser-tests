@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Avery Johnson",
+    "Raleigh, NC",
+    "(919) 555-0137",
+    "avery.johnson@email.com",
+    "linkedin.com/in/averyjohnson",
+    "REFERENCES",
+    "Laura Bennett",
+    "Assistant Professor of Biology",
+    "Cardinal Ridge University",
+    "lbennett@cardinalridge.edu",
+    "(919) 555-0141",
+    "Instructor for Intro Biology and the soil microbe project",
+    "James Carter",
+    "Circulation Supervisor",
+    "Cardinal Ridge University Libraries",
+    "jcarter@cardinalridge.edu",
+    "(919) 555-0153",
+    "Supervisor since Sep 2024",
+    "Maria Lopez",
+    "Store Manager",
+    "Corner Books & Coffee",
+    "maria@cornerbooks.com",
+    "(919) 555-0165",
+    "Manager, Jun 2023 – Aug 2024"
+  ],
+  "template": "student",
+  "doc": "references",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

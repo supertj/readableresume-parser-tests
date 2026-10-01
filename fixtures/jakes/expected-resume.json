@@ -1,0 +1,237 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Jordan Ellis",
+      "email": "jordan.ellis@email.com",
+      "phone": "(312) 555-0143",
+      "location": "",
+      "url": "linkedin.com/in/jordanellis",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Northwind Freight",
+        "jobTitle": "Software Engineer Intern",
+        "date": "May 2025 – Aug 2025",
+        "descriptions": [
+          "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+          "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+          "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+          "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents"
+        ]
+      },
+      {
+        "company": "Lakeshore State University",
+        "jobTitle": "Undergraduate Teaching Assistant",
+        "date": "Jan 2024 – May 2025",
+        "descriptions": [
+          "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+          "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+          "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment"
+        ]
+      },
+      {
+        "company": "Campus Technology Services",
+        "jobTitle": "IT Support Technician",
+        "date": "Sep 2022 – Dec 2023",
+        "descriptions": [
+          "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+          "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Lakeshore State University",
+        "degree": "Bachelor of Science in Computer Science, Minor in Mathematics",
+        "date": "Aug 2022 – May 2026",
+        "gpa": "3.7",
+        "descriptions": [
+          "GPA: 3.7/4.0, Dean's List six semesters",
+          "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+        "date": "Jan 2025 – Mar 2025",
+        "descriptions": [
+          "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+          "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+          "Posted it on the campus subreddit, where about 1,100 students used it in the first month"
+        ]
+      },
+      {
+        "project": "Shelfie | Python, Flask, SQLite, Docker",
+        "date": "Sep 2024",
+        "descriptions": [
+          "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+          "Packaged it with Docker Compose so new maintainers can run it locally with one command"
+        ]
+      },
+      {
+        "project": "Course Planner | Java, Spring Boot, MySQL",
+        "date": "Apr 2024",
+        "descriptions": [
+          "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+          "Won second place out of 34 teams at the campus hackathon, judged by local engineers"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Languages: Java, Python, Go, TypeScript, SQL, C",
+        "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+        "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "profile.url (second link)",
+      "value": "github.com/jordanellis",
+      "reason": "parser keeps one URL"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Chicago, IL",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Chicago, IL",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Chicago, IL",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Chicago, IL",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Jordan Ellis",
+    "(312) 555-0143",
+    "jordan.ellis@email.com",
+    "linkedin.com/in/jordanellis",
+    "github.com/jordanellis",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Lakeshore State University",
+        "Chicago, IL",
+        "Bachelor of Science in Computer Science, Minor in Mathematics",
+        "Aug 2022 – May 2026"
+      ]
+    },
+    "GPA: 3.7/4.0, Dean's List six semesters",
+    "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Northwind Freight",
+        "Software Engineer Intern",
+        "May 2025 – Aug 2025",
+        "Chicago, IL"
+      ]
+    },
+    "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+    "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+    "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+    "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+    {
+      "anyOrder": [
+        "Lakeshore State University",
+        "Undergraduate Teaching Assistant",
+        "Jan 2024 – May 2025",
+        "Chicago, IL"
+      ]
+    },
+    "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+    "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+    "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+    {
+      "anyOrder": [
+        "Campus Technology Services",
+        "IT Support Technician",
+        "Sep 2022 – Dec 2023",
+        "Chicago, IL"
+      ]
+    },
+    "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+    "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+    "PROJECTS",
+    {
+      "anyOrder": [
+        "Transit Pulse",
+        "TypeScript, React, Node.js, PostgreSQL",
+        "Jan 2025 – Mar 2025"
+      ]
+    },
+    "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+    "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+    "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+    {
+      "anyOrder": [
+        "Shelfie",
+        "Python, Flask, SQLite, Docker",
+        "Sep 2024"
+      ]
+    },
+    "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+    "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+    {
+      "anyOrder": [
+        "Course Planner",
+        "Java, Spring Boot, MySQL",
+        "Apr 2024"
+      ]
+    },
+    "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+    "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+    "TECHNICAL SKILLS",
+    "Languages: Java, Python, Go, TypeScript, SQL, C",
+    "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+    "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+  ],
+  "template": "jakes",
+  "doc": "resume",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "GPA: 3.7/4.0, Dean's List six semesters",
+    "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+    "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+    "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+    "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+    "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+    "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+    "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+    "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+    "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+    "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+    "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+    "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+    "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+    "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+    "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+    "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+    "Won second place out of 34 teams at the campus hackathon, judged by local engineers"
+  ]
+}

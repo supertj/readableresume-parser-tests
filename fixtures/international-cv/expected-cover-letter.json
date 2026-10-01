@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Oliver Hughes",
+    "Manchester, UK",
+    "+44 7700 900456",
+    "oliver.hughes@email.com",
+    "linkedin.com/in/oliverhughes",
+    "5 October 2026",
+    "Hiring Manager",
+    "Lowry Home Retail",
+    "Salford, UK",
+    "Dear Hiring Manager,",
+    "I am applying for the Analytics Lead role advertised on your careers page. I have spent six years in data roles in retail and energy, and for the last three I have led pricing and customer analytics at Northgate Retail Group.",
+    "At Northgate I built the promotion uplift model that now plans every seasonal campaign, and I redesigned how we target loyalty vouchers. We found that almost a fifth of vouchers were going to customers who would have bought anyway. Changing that saves the business about £400,000 a year.",
+    "I also care about how a team works. I introduced code review and a shared SQL library, and new analysts now deliver their first report in half the time. I would like to bring that mix of hands-on analysis and team building to your growing analytics function.",
+    "Thank you for considering my application. I would be happy to discuss the role at your convenience.",
+    "Yours faithfully,",
+    "Oliver Hughes"
+  ],
+  "template": "international-cv",
+  "doc": "cover-letter",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

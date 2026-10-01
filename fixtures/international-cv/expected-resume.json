@@ -1,0 +1,320 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Oliver Hughes",
+      "email": "oliver.hughes@email.com",
+      "url": "linkedin.com/in/oliverhughes",
+      "summary": "Data analyst with six years of experience in retail and energy, most recently leading pricing and customer analytics for a UK retail group. I build models and dashboards that commercial teams use every week, and I enjoy explaining numbers to people who don't work with data all day. Looking for a senior analyst or analytics lead role in Manchester or remote."
+    },
+    "workExperiences": [
+      {
+        "company": "Northgate Retail Group",
+        "jobTitle": "Senior Data Analyst",
+        "date": "Mar 2023 – Present",
+        "descriptions": [
+          "Lead a team of three analysts supporting pricing, promotions and loyalty for 140 stores and the online shop",
+          "Built a promotion uplift model in Python that replaced a manual spreadsheet process and is now used to plan every seasonal campaign",
+          "Designed the weekly trading dashboard in Power BI, used by 60 managers across buying and store operations",
+          "Found that 18% of loyalty vouchers were going to customers who would have bought anyway, and redesigned targeting to save about £400,000 a year",
+          "Introduced code review and a shared SQL library, which halved the time new analysts need to deliver their first report",
+          "Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season clearance by about 9% across clothing and homeware"
+        ]
+      },
+      {
+        "company": "Pennine Energy",
+        "jobTitle": "Data Analyst",
+        "date": "Jun 2020 – Feb 2023",
+        "descriptions": [
+          "Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention team",
+          "Built a self-serve churn dashboard so the retention team could filter at-risk customers by tariff and region without waiting for an analyst",
+          "Automated regulatory reporting to Ofgem with SQL and Python, cutting a three-day monthly task to two hours",
+          "Worked with the call centre to analyse complaint reasons, which led to a simpler bill layout and 15% fewer billing calls",
+          "Ran A/B tests on renewal emails that raised fixed-tariff renewals by 6 percentage points"
+        ]
+      },
+      {
+        "company": "Calder & Wright",
+        "jobTitle": "Graduate Analyst",
+        "date": "Sep 2018 – May 2020",
+        "descriptions": [
+          "Cleaned and analysed sales data for consulting projects with clients in food manufacturing and logistics",
+          "Built Excel models for market sizing and supplier cost comparisons used in client recommendations",
+          "Prepared charts and short summaries for partner presentations, often on tight overnight deadlines",
+          "Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote up the findings for the client steering group"
+        ]
+      },
+      {
+        "company": "University of Sheffield Department of Economics",
+        "jobTitle": "Research Assistant",
+        "date": "Jul 2017 – Aug 2018",
+        "descriptions": [
+          "Collected Land Registry and census data for a study on regional house prices",
+          "Cleaned and matched 1.2 million sale records to local authority areas",
+          "Wrote Stata scripts for the regression analysis and documented each step",
+          "Produced the maps and charts used in the final report and a journal article",
+          "Checked other researchers' code before each draft went to the funder",
+          "Presented interim results at two department seminars"
+        ]
+      },
+      {
+        "company": "Harlow's Pharmacy",
+        "jobTitle": "Sales Assistant",
+        "date": "Sep 2015 – Jun 2017",
+        "descriptions": [
+          "Worked weekend shifts on the till and pharmacy counter while studying, and trained four new starters",
+          "Kept the weekly stock count for the health and beauty aisles and flagged slow lines to the store manager"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "University of Manchester",
+        "degree": "MSc Data Science, Distinction",
+        "date": "Sep 2019 – Sep 2021",
+        "gpa": "",
+        "descriptions": [
+          "Part-time while working; dissertation on forecasting store footfall with weather and calendar data"
+        ]
+      },
+      {
+        "school": "University of Sheffield",
+        "degree": "BSc (Hons) Economics, First Class",
+        "date": "Sep 2014 – Jun 2017",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [
+      {
+        "project": "Store footfall forecasting | MSc dissertation, Python",
+        "date": "Jan 2021 – Sep 2021",
+        "descriptions": [
+          "Combined two years of door-counter data with weather and bank holiday calendars to forecast daily footfall for 40 stores",
+          "Cut forecast error by 22% against the retailer's existing method, and the model became the starting point for staffing plans at Northgate"
+        ]
+      },
+      {
+        "project": "Open data dashboard for Leeds bus punctuality | Personal project, Power BI",
+        "date": "Mar 2022",
+        "descriptions": [
+          "Built a public dashboard from open bus timing data that a local transport campaign group used in its submission to the council"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Analysis: SQL, Python (pandas, scikit-learn), R, Excel",
+        "Reporting: Power BI, Tableau, Looker Studio",
+        "Data platforms: Snowflake, BigQuery, dbt, Git",
+        "Languages: English (native), German (intermediate)",
+        "Certifications: Microsoft Power BI Data Analyst Associate"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "profile.phone",
+      "value": "+44 7700 900456",
+      "reason": "outside the parser's US-format rules"
+    },
+    {
+      "path": "profile.location",
+      "value": "Manchester, UK",
+      "reason": "outside the parser's US-format rules"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Manchester, UK",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Leeds, UK",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Leeds, UK",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[3].location",
+      "value": "Sheffield, UK",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[4].location",
+      "value": "Sheffield, UK",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Manchester, UK",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Sheffield, UK",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Oliver Hughes",
+    "Manchester, UK",
+    "+44 7700 900456",
+    "oliver.hughes@email.com",
+    "linkedin.com/in/oliverhughes",
+    "PROFESSIONAL SUMMARY",
+    "Data analyst with six years of experience in retail and energy, most recently leading pricing and customer analytics for a UK retail group. I build models and dashboards that commercial teams use every week, and I enjoy explaining numbers to people who don't work with data all day. Looking for a senior analyst or analytics lead role in Manchester or remote.",
+    "WORK EXPERIENCE",
+    {
+      "anyOrder": [
+        "Northgate Retail Group",
+        "Senior Data Analyst",
+        "Mar 2023 – Present",
+        "Manchester, UK"
+      ]
+    },
+    "Lead a team of three analysts supporting pricing, promotions and loyalty for 140 stores and the online shop",
+    "Built a promotion uplift model in Python that replaced a manual spreadsheet process and is now used to plan every seasonal campaign",
+    "Designed the weekly trading dashboard in Power BI, used by 60 managers across buying and store operations",
+    "Found that 18% of loyalty vouchers were going to customers who would have bought anyway, and redesigned targeting to save about £400,000 a year",
+    "Introduced code review and a shared SQL library, which halved the time new analysts need to deliver their first report",
+    "Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season clearance by about 9% across clothing and homeware",
+    {
+      "anyOrder": [
+        "Pennine Energy",
+        "Data Analyst",
+        "Jun 2020 – Feb 2023",
+        "Leeds, UK"
+      ]
+    },
+    "Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention team",
+    "Built a self-serve churn dashboard so the retention team could filter at-risk customers by tariff and region without waiting for an analyst",
+    "Automated regulatory reporting to Ofgem with SQL and Python, cutting a three-day monthly task to two hours",
+    "Worked with the call centre to analyse complaint reasons, which led to a simpler bill layout and 15% fewer billing calls",
+    "Ran A/B tests on renewal emails that raised fixed-tariff renewals by 6 percentage points",
+    {
+      "anyOrder": [
+        "Calder & Wright",
+        "Graduate Analyst",
+        "Sep 2018 – May 2020",
+        "Leeds, UK"
+      ]
+    },
+    "Cleaned and analysed sales data for consulting projects with clients in food manufacturing and logistics",
+    "Built Excel models for market sizing and supplier cost comparisons used in client recommendations",
+    "Prepared charts and short summaries for partner presentations, often on tight overnight deadlines",
+    "Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote up the findings for the client steering group",
+    {
+      "anyOrder": [
+        "University of Sheffield Department of Economics",
+        "Research Assistant",
+        "Jul 2017 – Aug 2018",
+        "Sheffield, UK"
+      ]
+    },
+    "Collected Land Registry and census data for a study on regional house prices",
+    "Cleaned and matched 1.2 million sale records to local authority areas",
+    "Wrote Stata scripts for the regression analysis and documented each step",
+    "Produced the maps and charts used in the final report and a journal article",
+    "Checked other researchers' code before each draft went to the funder",
+    "Presented interim results at two department seminars",
+    {
+      "anyOrder": [
+        "Harlow's Pharmacy",
+        "Sales Assistant",
+        "Sep 2015 – Jun 2017",
+        "Sheffield, UK"
+      ]
+    },
+    "Worked weekend shifts on the till and pharmacy counter while studying, and trained four new starters",
+    "Kept the weekly stock count for the health and beauty aisles and flagged slow lines to the store manager",
+    "KEY PROJECTS",
+    {
+      "anyOrder": [
+        "Store footfall forecasting",
+        "MSc dissertation, Python",
+        "Jan 2021 – Sep 2021"
+      ]
+    },
+    "Combined two years of door-counter data with weather and bank holiday calendars to forecast daily footfall for 40 stores",
+    "Cut forecast error by 22% against the retailer's existing method, and the model became the starting point for staffing plans at Northgate",
+    {
+      "anyOrder": [
+        "Open data dashboard for Leeds bus punctuality",
+        "Personal project, Power BI",
+        "Mar 2022"
+      ]
+    },
+    "Built a public dashboard from open bus timing data that a local transport campaign group used in its submission to the council",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "University of Manchester",
+        "Manchester, UK",
+        "MSc Data Science, Distinction",
+        "Sep 2019 – Sep 2021"
+      ]
+    },
+    "Part-time while working; dissertation on forecasting store footfall with weather and calendar data",
+    {
+      "anyOrder": [
+        "University of Sheffield",
+        "Sheffield, UK",
+        "BSc (Hons) Economics, First Class",
+        "Sep 2014 – Jun 2017"
+      ]
+    },
+    "SKILLS",
+    "Analysis: SQL, Python (pandas, scikit-learn), R, Excel",
+    "Reporting: Power BI, Tableau, Looker Studio",
+    "Data platforms: Snowflake, BigQuery, dbt, Git",
+    "Languages: English (native), German (intermediate)",
+    "Certifications: Microsoft Power BI Data Analyst Associate"
+  ],
+  "template": "international-cv",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 2,
+  "bulletTexts": [
+    "Lead a team of three analysts supporting pricing, promotions and loyalty for 140 stores and the online shop",
+    "Built a promotion uplift model in Python that replaced a manual spreadsheet process and is now used to plan every seasonal campaign",
+    "Designed the weekly trading dashboard in Power BI, used by 60 managers across buying and store operations",
+    "Found that 18% of loyalty vouchers were going to customers who would have bought anyway, and redesigned targeting to save about £400,000 a year",
+    "Introduced code review and a shared SQL library, which halved the time new analysts need to deliver their first report",
+    "Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season clearance by about 9% across clothing and homeware",
+    "Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention team",
+    "Built a self-serve churn dashboard so the retention team could filter at-risk customers by tariff and region without waiting for an analyst",
+    "Automated regulatory reporting to Ofgem with SQL and Python, cutting a three-day monthly task to two hours",
+    "Worked with the call centre to analyse complaint reasons, which led to a simpler bill layout and 15% fewer billing calls",
+    "Ran A/B tests on renewal emails that raised fixed-tariff renewals by 6 percentage points",
+    "Cleaned and analysed sales data for consulting projects with clients in food manufacturing and logistics",
+    "Built Excel models for market sizing and supplier cost comparisons used in client recommendations",
+    "Prepared charts and short summaries for partner presentations, often on tight overnight deadlines",
+    "Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote up the findings for the client steering group",
+    "Collected Land Registry and census data for a study on regional house prices",
+    "Cleaned and matched 1.2 million sale records to local authority areas",
+    "Wrote Stata scripts for the regression analysis and documented each step",
+    "Produced the maps and charts used in the final report and a journal article",
+    "Checked other researchers' code before each draft went to the funder",
+    "Presented interim results at two department seminars",
+    "Worked weekend shifts on the till and pharmacy counter while studying, and trained four new starters",
+    "Kept the weekly stock count for the health and beauty aisles and flagged slow lines to the store manager",
+    "Combined two years of door-counter data with weather and bank holiday calendars to forecast daily footfall for 40 stores",
+    "Cut forecast error by 22% against the retailer's existing method, and the model became the starting point for staffing plans at Northgate",
+    "Built a public dashboard from open bus timing data that a local transport campaign group used in its submission to the council",
+    "Part-time while working; dissertation on forecasting store footfall with weather and calendar data"
+  ]
+}

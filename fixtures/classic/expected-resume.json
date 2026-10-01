@@ -1,0 +1,201 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Olivia Bennett",
+      "email": "olivia.bennett@email.com",
+      "phone": "(401) 555-0132",
+      "location": "Providence, RI",
+      "url": "linkedin.com/in/oliviabennett",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Ridgeway Capital Partners",
+        "jobTitle": "Investment Banking Analyst Intern",
+        "date": "Jun 2025 – Aug 2025",
+        "descriptions": [
+          "Built three-statement models for two consumer retail clients and updated comparable company sets each week",
+          "Drafted 20 pages of a sell-side pitch book, including the industry overview and buyer list",
+          "Checked a 40-tab merger model line by line before it went to the client and found a circular reference in debt schedules"
+        ]
+      },
+      {
+        "company": "Halden College Department of Economics",
+        "jobTitle": "Research Assistant",
+        "date": "Jan 2024 – May 2025",
+        "descriptions": [
+          "Cleaned and merged 15 years of county wage data in Stata for a professor's study on minimum wage spillovers",
+          "Wrote summary tables and charts that appeared in a working paper presented at two conferences"
+        ]
+      },
+      {
+        "company": "Halden College Writing Center",
+        "jobTitle": "Peer Tutor",
+        "date": "Sep 2023 – Dec 2024",
+        "descriptions": [
+          "Met with about eight students a week to work on essays, lab reports and cover letters",
+          "Led two workshops on writing clear policy memos for first-year economics students"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Halden College",
+        "degree": "Bachelor of Arts in Economics, Minor in Statistics",
+        "date": "Sep 2022 – May 2026",
+        "gpa": "3.8",
+        "descriptions": [
+          "GPA: 3.8/4.0, Economics Department Honors Program",
+          "Relevant Coursework: Econometrics, Corporate Finance, Game Theory, Financial Accounting, Data Analysis in Python"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Halden Investment Club | Vice President",
+        "date": "Sep 2023 – Present",
+        "descriptions": [
+          "Run weekly stock pitch meetings for 45 members and manage a $25,000 student portfolio with four sector heads",
+          "Started a mentoring program that paired 18 first-year members with alumni working in finance"
+        ]
+      },
+      {
+        "project": "Halden Habitat Builders | Volunteer Coordinator",
+        "date": "Sep 2022 – May 2024",
+        "descriptions": [
+          "Organized monthly build days for about 30 volunteers and kept the sign-up and safety records"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Technical: Excel, PowerPoint, Python (pandas), Stata, Capital IQ",
+        "Certifications: Bloomberg Market Concepts, Wall Street Prep Financial Modeling",
+        "Languages: French (fluent), Spanish (basic)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "educations[0].location",
+      "value": "Providence, RI",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "New York, NY",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Providence, RI",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Providence, RI",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Olivia Bennett",
+    "Providence, RI",
+    "(401) 555-0132",
+    "olivia.bennett@email.com",
+    "linkedin.com/in/oliviabennett",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Halden College",
+        "Providence, RI",
+        "Bachelor of Arts in Economics, Minor in Statistics",
+        "Sep 2022 – May 2026"
+      ]
+    },
+    "GPA: 3.8/4.0, Economics Department Honors Program",
+    "Relevant Coursework: Econometrics, Corporate Finance, Game Theory, Financial Accounting, Data Analysis in Python",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Ridgeway Capital Partners",
+        "Investment Banking Analyst Intern",
+        "Jun 2025 – Aug 2025",
+        "New York, NY"
+      ]
+    },
+    "Built three-statement models for two consumer retail clients and updated comparable company sets each week",
+    "Drafted 20 pages of a sell-side pitch book, including the industry overview and buyer list",
+    "Checked a 40-tab merger model line by line before it went to the client and found a circular reference in debt schedules",
+    {
+      "anyOrder": [
+        "Halden College Department of Economics",
+        "Research Assistant",
+        "Jan 2024 – May 2025",
+        "Providence, RI"
+      ]
+    },
+    "Cleaned and merged 15 years of county wage data in Stata for a professor's study on minimum wage spillovers",
+    "Wrote summary tables and charts that appeared in a working paper presented at two conferences",
+    {
+      "anyOrder": [
+        "Halden College Writing Center",
+        "Peer Tutor",
+        "Sep 2023 – Dec 2024",
+        "Providence, RI"
+      ]
+    },
+    "Met with about eight students a week to work on essays, lab reports and cover letters",
+    "Led two workshops on writing clear policy memos for first-year economics students",
+    "PROJECTS & ACTIVITIES",
+    {
+      "anyOrder": [
+        "Halden Investment Club",
+        "Vice President",
+        "Sep 2023 – Present"
+      ]
+    },
+    "Run weekly stock pitch meetings for 45 members and manage a $25,000 student portfolio with four sector heads",
+    "Started a mentoring program that paired 18 first-year members with alumni working in finance",
+    {
+      "anyOrder": [
+        "Halden Habitat Builders",
+        "Volunteer Coordinator",
+        "Sep 2022 – May 2024"
+      ]
+    },
+    "Organized monthly build days for about 30 volunteers and kept the sign-up and safety records",
+    "SKILLS",
+    "Technical: Excel, PowerPoint, Python (pandas), Stata, Capital IQ",
+    "Certifications: Bloomberg Market Concepts, Wall Street Prep Financial Modeling",
+    "Languages: French (fluent), Spanish (basic)"
+  ],
+  "template": "classic",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "GPA: 3.8/4.0, Economics Department Honors Program",
+    "Relevant Coursework: Econometrics, Corporate Finance, Game Theory, Financial Accounting, Data Analysis in Python",
+    "Built three-statement models for two consumer retail clients and updated comparable company sets each week",
+    "Drafted 20 pages of a sell-side pitch book, including the industry overview and buyer list",
+    "Checked a 40-tab merger model line by line before it went to the client and found a circular reference in debt schedules",
+    "Cleaned and merged 15 years of county wage data in Stata for a professor's study on minimum wage spillovers",
+    "Wrote summary tables and charts that appeared in a working paper presented at two conferences",
+    "Met with about eight students a week to work on essays, lab reports and cover letters",
+    "Led two workshops on writing clear policy memos for first-year economics students",
+    "Run weekly stock pitch meetings for 45 members and manage a $25,000 student portfolio with four sector heads",
+    "Started a mentoring program that paired 18 first-year members with alumni working in finance",
+    "Organized monthly build days for about 30 volunteers and kept the sign-up and safety records"
+  ]
+}

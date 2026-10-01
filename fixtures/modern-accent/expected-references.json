@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Priya Shah",
+    "Seattle, WA",
+    "(206) 555-0119",
+    "priya.shah@email.com",
+    "priyashah.design/work",
+    "REFERENCES",
+    "Elena Vargas",
+    "Head of Product Design",
+    "Larkspur Health",
+    "elena.vargas@larkspurhealth.com",
+    "(206) 555-0124",
+    "Current manager since Mar 2024",
+    "Tom Becker",
+    "Front-End Engineering Lead",
+    "Larkspur Health",
+    "tom.becker@larkspurhealth.com",
+    "(206) 555-0136",
+    "Built the component library with me",
+    "Naomi Fischer",
+    "Creative Director",
+    "Cobalt Lane Studio",
+    "naomi@cobaltlane.studio",
+    "(206) 555-0148",
+    "Manager, Jul 2022 – Feb 2024"
+  ],
+  "template": "modern-accent",
+  "doc": "references",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

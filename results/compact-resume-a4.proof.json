@@ -1,0 +1,463 @@
+{
+  "file": "compact-resume-a4",
+  "template": "compact",
+  "doc": "resume",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/11gHYxHyPnNLoZKEkW8NgWLlTSwW8Q-8NHd9cuKFL6r4/export?format=pdf",
+  "pdfSha256": "e335b70461ffc9989b651a62a3b46122b7eca4fb91bb2ef2e8082ddf5ef4589f",
+  "docxSha256": "e2acf63d42827755743924f7b2dcc4bff51cd90703a7b53ca3b0b965da665688",
+  "runAt": "2026-10-01T12:01:44+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.676,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 18,
+      "ArialMT": 298,
+      "Arial-ItalicMT": 14
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Daniel Okafor",
+      "Atlanta, GA | (404) 555-0176 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "SUMMARY",
+      "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known",
+      "for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually",
+      "read.",
+      "EXPERIENCE",
+      "Peachtree Home Goods Atlanta, GA",
+      "Supply Chain Manager Feb 2022 – Present",
+      "• Manage inbound freight for 3 distribution centers and a team of 6 planners, about $48M in annual spend",
+      "• Renegotiated contracts with 9 truckload carriers, saving $2.1M a year while raising on-time delivery from",
+      "87% to 95%",
+      "• Set up a weekly carrier scorecard in Power BI that the VP of Operations reviews with every carrier each",
+      "quarter",
+      "• Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover",
+      "Corridor Freight Systems Atlanta, GA",
+      "Senior Logistics Analyst Apr 2020 – Jan 2022",
+      "• Modeled lane costs for 120 shipping lanes and recommended 14 consolidations that saved $640K in the first",
+      "year",
+      "• Built an SQL dashboard on detention charges that helped recover $210K in disputed fees from shippers",
+      "• Trained four analysts on the costing model and wrote the handbook the team still uses",
+      "Corridor Freight Systems Atlanta, GA",
+      "Logistics Analyst Jun 2018 – Mar 2020",
+      "• Tracked daily load status for 300 shipments and flagged delays to customer service before customers called",
+      "• Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week",
+      "Southline Distribution Macon, GA",
+      "Operations Coordinator Jul 2017 – May 2018",
+      "• Scheduled dock appointments for 60 inbound trucks a day and cut average wait time from 2 hours to 40",
+      "minutes",
+      "• Ran cycle counts with the inventory team, raising location accuracy from 92% to 98.5%"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 11,
+      "actual": 11,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 36,
+    "total": 36,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Daniel Okafor",
+        "actual": "Daniel Okafor",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "daniel.okafor@email.com",
+        "actual": "daniel.okafor@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(404) 555-0176",
+        "actual": "(404) 555-0176",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Atlanta, GA",
+        "actual": "Atlanta, GA",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/danielokafor",
+        "actual": "linkedin.com/in/danielokafor",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually read.",
+        "actual": "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually read.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Peachtree Home Goods",
+        "actual": "Peachtree Home Goods",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Supply Chain Manager",
+        "actual": "Supply Chain Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Feb 2022 – Present",
+        "actual": "Feb 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Manage inbound freight for 3 distribution centers and a team of 6 planners, about $48M in annual spend",
+        "actual": "Manage inbound freight for 3 distribution centers and a team of 6 planners, about $48M in annual spend",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Renegotiated contracts with 9 truckload carriers, saving $2.1M a year while raising on-time delivery from 87% to 95%",
+        "actual": "Renegotiated contracts with 9 truckload carriers, saving $2.1M a year while raising on-time delivery from 87% to 95%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Set up a weekly carrier scorecard in Power BI that the VP of Operations reviews with every carrier each quarter",
+        "actual": "Set up a weekly carrier scorecard in Power BI that the VP of Operations reviews with every carrier each quarter",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover",
+        "actual": "Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Corridor Freight Systems",
+        "actual": "Corridor Freight Systems",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Senior Logistics Analyst",
+        "actual": "Senior Logistics Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Apr 2020 – Jan 2022",
+        "actual": "Apr 2020 – Jan 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Modeled lane costs for 120 shipping lanes and recommended 14 consolidations that saved $640K in the first year",
+        "actual": "Modeled lane costs for 120 shipping lanes and recommended 14 consolidations that saved $640K in the first year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Built an SQL dashboard on detention charges that helped recover $210K in disputed fees from shippers",
+        "actual": "Built an SQL dashboard on detention charges that helped recover $210K in disputed fees from shippers",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Trained four analysts on the costing model and wrote the handbook the team still uses",
+        "actual": "Trained four analysts on the costing model and wrote the handbook the team still uses",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Corridor Freight Systems",
+        "actual": "Corridor Freight Systems",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Logistics Analyst",
+        "actual": "Logistics Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2018 – Mar 2020",
+        "actual": "Jun 2018 – Mar 2020",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Tracked daily load status for 300 shipments and flagged delays to customer service before customers called",
+        "actual": "Tracked daily load status for 300 shipments and flagged delays to customer service before customers called",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week",
+        "actual": "Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].company",
+        "expected": "Southline Distribution",
+        "actual": "Southline Distribution",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].jobTitle",
+        "expected": "Operations Coordinator",
+        "actual": "Operations Coordinator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].date",
+        "expected": "Jul 2017 – May 2018",
+        "actual": "Jul 2017 – May 2018",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[0]",
+        "expected": "Scheduled dock appointments for 60 inbound trucks a day and cut average wait time from 2 hours to 40 minutes",
+        "actual": "Scheduled dock appointments for 60 inbound trucks a day and cut average wait time from 2 hours to 40 minutes",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[1]",
+        "expected": "Ran cycle counts with the inventory team, raising location accuracy from 92% to 98.5%",
+        "actual": "Ran cycle counts with the inventory team, raising location accuracy from 92% to 98.5%",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Chattahoochee State University",
+        "actual": "Chattahoochee State University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Business Administration in Supply Chain Management",
+        "actual": "Bachelor of Business Administration in Supply Chain Management",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2017",
+        "actual": "May 2017",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Systems: SAP S/4HANA, Oracle TMS, Manhattan WMS",
+        "actual": "Systems: SAP S/4HANA, Oracle TMS, Manhattan WMS",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Analysis: Excel, SQL, Power BI, Python basics",
+        "actual": "Analysis: Excel, SQL, Power BI, Python basics",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Certifications: APICS CSCP, Six Sigma Green Belt",
+        "actual": "Certifications: APICS CSCP, Six Sigma Green Belt",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Atlanta, GA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Atlanta, GA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Atlanta, GA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[3].location",
+        "value": "Macon, GA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Columbus, GA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Daniel Okafor",
+      "Atlanta, GA | (404) 555-0176 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "SUMMARY",
+      "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known",
+      "for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually",
+      "read.",
+      "EXPERIENCE",
+      "Peachtree Home Goods ‖ Atlanta, GA",
+      "Supply Chain Manager ‖ Feb 2022 – Present",
+      "• ‖ Manage inbound freight for 3 distribution centers and a team of 6 planners, about $48M in annual spend",
+      "• ‖ Renegotiated contracts with 9 truckload carriers, saving $2.1M a year while raising on-time delivery from",
+      "87% to 95%",
+      "• ‖ Set up a weekly carrier scorecard in Power BI that the VP of Operations reviews with every carrier each",
+      "quarter",
+      "• ‖ Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover",
+      "Corridor Freight Systems ‖ Atlanta, GA",
+      "Senior Logistics Analyst ‖ Apr 2020 – Jan 2022",
+      "• ‖ Modeled lane costs for 120 shipping lanes and recommended 14 consolidations that saved $640K in the first",
+      "year",
+      "• ‖ Built an SQL dashboard on detention charges that helped recover $210K in disputed fees from shippers",
+      "• ‖ Trained four analysts on the costing model and wrote the handbook the team still uses",
+      "Corridor Freight Systems ‖ Atlanta, GA",
+      "Logistics Analyst ‖ Jun 2018 – Mar 2020",
+      "• ‖ Tracked daily load status for 300 shipments and flagged delays to customer service before customers called",
+      "• ‖ Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week",
+      "Southline Distribution ‖ Macon, GA",
+      "Operations Coordinator ‖ Jul 2017 – May 2018",
+      "• ‖ Scheduled dock appointments for 60 inbound trucks a day and cut average wait time from 2 hours to 40",
+      "minutes",
+      "• ‖ Ran cycle counts with the inventory team, raising location accuracy from 92% to 98.5%",
+      "EDUCATION",
+      "Chattahoochee State University ‖ Columbus, GA",
+      "Bachelor of Business Administration in Supply Chain Management ‖ May 2017",
+      "SKILLS",
+      "Systems: SAP S/4HANA, Oracle TMS, Manhattan WMS",
+      "Analysis: Excel, SQL, Power BI, Python basics",
+      "Certifications: APICS CSCP, Six Sigma Green Belt"
+    ]
+  },
+  "pass": true
+}

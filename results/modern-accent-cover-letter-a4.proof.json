@@ -1,0 +1,88 @@
+{
+  "file": "modern-accent-cover-letter-a4",
+  "template": "modern-accent",
+  "doc": "cover-letter",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1fb3fxxFgSv_x19DQoso0VxpzLBeWnc7R_rzgLF4D6g0/export?format=pdf",
+  "pdfSha256": "1abe95567830a39797660fa228210a6556c0bdf1800c47de723831c6c20661e9",
+  "docxSha256": "e50908e33d204a77163abacf7cf2dd8497dfeafbcdcbaee0482745a93e5611ad",
+  "runAt": "2026-10-01T12:01:47+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.504,
+  "fonts": {
+    "expected": "Trebuchet MS",
+    "found": [
+      "TrebuchetMS",
+      "TrebuchetMS-Bold"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TrebuchetMS-Bold": 2,
+      "TrebuchetMS": 183
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Priya Shah",
+      "Seattle, WA | (206) 555-0119 | priya.shah@email.com | priyashah.design/work",
+      "October 5, 2026",
+      "Hiring Team",
+      "Fernhill Health",
+      "Portland, OR",
+      "Dear Hiring Team,",
+      "I'm applying for the Senior Product Designer role on your patient experience team. Most of my work over",
+      "the last three years has been about one problem you also have, which is getting people through medical",
+      "forms without giving up.",
+      "At Larkspur Health I redesigned our patient intake flow. It went from 14 screens to 6, and completion rose",
+      "from 61% to 83% in the first quarter after launch. The biggest change didn't come from the screens. It came",
+      "from 22 interviews with front desk staff, who told us which questions patients skipped and why.",
+      "I like working close to engineering. I built our Figma component library together with our front-end lead,",
+      "and we cut handoff time by about a third. I also try to stay with a feature after launch and watch what",
+      "people do with it.",
+      "I'd be happy to walk you through the intake project and hear more about what your team is working on.",
+      "Best regards,",
+      "Priya Shah"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

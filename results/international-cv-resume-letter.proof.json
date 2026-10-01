@@ -1,0 +1,709 @@
+{
+  "file": "international-cv-resume-letter",
+  "template": "international-cv",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1XlKXNuLtxiOlcbcXnJrxxRQsY-z9x48Vz-kgUBmizMs/export?format=pdf",
+  "pdfSha256": "68698d1012da8ab455c67446df01db5e8c7bacce2e1533d27791122161746128",
+  "docxSha256": "8fe9d9c821f4c3c9f4acb38b026b9310db3e0884b68d056390f932e22a87a35e",
+  "runAt": "2026-10-01T12:01:45+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 2,
+    "actual": 2,
+    "ok": true
+  },
+  "pageFill": 0.706,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 39,
+      "ArialMT": 645,
+      "Arial-ItalicMT": 26
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Oliver Hughes",
+      "Manchester, UK | +44 7700 900456 | oliver.hughes@email.com | linkedin.com/in/oliverhughes",
+      "PROFESSIONAL SUMMARY",
+      "Data analyst with six years of experience in retail and energy, most recently leading pricing and customer",
+      "analytics for a UK retail group. I build models and dashboards that commercial teams use every week, and I",
+      "enjoy explaining numbers to people who don't work with data all day. Looking for a senior analyst or",
+      "analytics lead role in Manchester or remote.",
+      "WORK EXPERIENCE",
+      "Northgate Retail Group Manchester, UK",
+      "Senior Data Analyst Mar 2023 – Present",
+      "• Lead a team of three analysts supporting pricing, promotions and loyalty for 140 stores and the online",
+      "shop",
+      "• Built a promotion uplift model in Python that replaced a manual spreadsheet process and is now used to",
+      "plan every seasonal campaign",
+      "• Designed the weekly trading dashboard in Power BI, used by 60 managers across buying and store",
+      "operations",
+      "• Found that 18% of loyalty vouchers were going to customers who would have bought anyway, and",
+      "redesigned targeting to save about £400,000 a year",
+      "• Introduced code review and a shared SQL library, which halved the time new analysts need to deliver",
+      "their first report",
+      "• Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season",
+      "clearance by about 9% across clothing and homeware",
+      "Pennine Energy Leeds, UK",
+      "Data Analyst Jun 2020 – Feb 2023",
+      "• Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention",
+      "team",
+      "• Built a self-serve churn dashboard so the retention team could filter at-risk customers by tariff and region",
+      "without waiting for an analyst",
+      "• Automated regulatory reporting to Ofgem with SQL and Python, cutting a three-day monthly task to two",
+      "hours"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 27,
+      "actual": 27,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 63,
+    "total": 63,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Oliver Hughes",
+        "actual": "Oliver Hughes",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "oliver.hughes@email.com",
+        "actual": "oliver.hughes@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/oliverhughes",
+        "actual": "linkedin.com/in/oliverhughes",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Data analyst with six years of experience in retail and energy, most recently leading pricing and customer analytics for a UK retail group. I build models and dashboards that commercial teams use every week, and I enjoy explaining numbers to people who don't work with data all day. Looking for a senior analyst or analytics lead role in Manchester or remote.",
+        "actual": "Data analyst with six years of experience in retail and energy, most recently leading pricing and customer analytics for a UK retail group. I build models and dashboards that commercial teams use every week, and I enjoy explaining numbers to people who don't work with data all day. Looking for a senior analyst or analytics lead role in Manchester or remote.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Northgate Retail Group",
+        "actual": "Northgate Retail Group",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Senior Data Analyst",
+        "actual": "Senior Data Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2023 – Present",
+        "actual": "Mar 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Lead a team of three analysts supporting pricing, promotions and loyalty for 140 stores and the online shop",
+        "actual": "Lead a team of three analysts supporting pricing, promotions and loyalty for 140 stores and the online shop",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Built a promotion uplift model in Python that replaced a manual spreadsheet process and is now used to plan every seasonal campaign",
+        "actual": "Built a promotion uplift model in Python that replaced a manual spreadsheet process and is now used to plan every seasonal campaign",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Designed the weekly trading dashboard in Power BI, used by 60 managers across buying and store operations",
+        "actual": "Designed the weekly trading dashboard in Power BI, used by 60 managers across buying and store operations",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Found that 18% of loyalty vouchers were going to customers who would have bought anyway, and redesigned targeting to save about £400,000 a year",
+        "actual": "Found that 18% of loyalty vouchers were going to customers who would have bought anyway, and redesigned targeting to save about £400,000 a year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[4]",
+        "expected": "Introduced code review and a shared SQL library, which halved the time new analysts need to deliver their first report",
+        "actual": "Introduced code review and a shared SQL library, which halved the time new analysts need to deliver their first report",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[5]",
+        "expected": "Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season clearance by about 9% across clothing and homeware",
+        "actual": "Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season clearance by about 9% across clothing and homeware",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Pennine Energy",
+        "actual": "Pennine Energy",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Data Analyst",
+        "actual": "Data Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2020 – Feb 2023",
+        "actual": "Jun 2020 – Feb 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention team",
+        "actual": "Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention team",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Built a self-serve churn dashboard so the retention team could filter at-risk customers by tariff and region without waiting for an analyst",
+        "actual": "Built a self-serve churn dashboard so the retention team could filter at-risk customers by tariff and region without waiting for an analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Automated regulatory reporting to Ofgem with SQL and Python, cutting a three-day monthly task to two hours",
+        "actual": "Automated regulatory reporting to Ofgem with SQL and Python, cutting a three-day monthly task to two hours",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Worked with the call centre to analyse complaint reasons, which led to a simpler bill layout and 15% fewer billing calls",
+        "actual": "Worked with the call centre to analyse complaint reasons, which led to a simpler bill layout and 15% fewer billing calls",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[4]",
+        "expected": "Ran A/B tests on renewal emails that raised fixed-tariff renewals by 6 percentage points",
+        "actual": "Ran A/B tests on renewal emails that raised fixed-tariff renewals by 6 percentage points",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Calder & Wright",
+        "actual": "Calder & Wright",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Graduate Analyst",
+        "actual": "Graduate Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Sep 2018 – May 2020",
+        "actual": "Sep 2018 – May 2020",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Cleaned and analysed sales data for consulting projects with clients in food manufacturing and logistics",
+        "actual": "Cleaned and analysed sales data for consulting projects with clients in food manufacturing and logistics",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Built Excel models for market sizing and supplier cost comparisons used in client recommendations",
+        "actual": "Built Excel models for market sizing and supplier cost comparisons used in client recommendations",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[2]",
+        "expected": "Prepared charts and short summaries for partner presentations, often on tight overnight deadlines",
+        "actual": "Prepared charts and short summaries for partner presentations, often on tight overnight deadlines",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[3]",
+        "expected": "Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote up the findings for the client steering group",
+        "actual": "Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote up the findings for the client steering group",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].company",
+        "expected": "University of Sheffield Department of Economics",
+        "actual": "University of Sheffield Department of Economics",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].jobTitle",
+        "expected": "Research Assistant",
+        "actual": "Research Assistant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].date",
+        "expected": "Jul 2017 – Aug 2018",
+        "actual": "Jul 2017 – Aug 2018",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[0]",
+        "expected": "Collected Land Registry and census data for a study on regional house prices",
+        "actual": "Collected Land Registry and census data for a study on regional house prices",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[1]",
+        "expected": "Cleaned and matched 1.2 million sale records to local authority areas",
+        "actual": "Cleaned and matched 1.2 million sale records to local authority areas",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[2]",
+        "expected": "Wrote Stata scripts for the regression analysis and documented each step",
+        "actual": "Wrote Stata scripts for the regression analysis and documented each step",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[3]",
+        "expected": "Produced the maps and charts used in the final report and a journal article",
+        "actual": "Produced the maps and charts used in the final report and a journal article",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[4]",
+        "expected": "Checked other researchers' code before each draft went to the funder",
+        "actual": "Checked other researchers' code before each draft went to the funder",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[5]",
+        "expected": "Presented interim results at two department seminars",
+        "actual": "Presented interim results at two department seminars",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[4].company",
+        "expected": "Harlow's Pharmacy",
+        "actual": "Harlow's Pharmacy",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[4].jobTitle",
+        "expected": "Sales Assistant",
+        "actual": "Sales Assistant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[4].date",
+        "expected": "Sep 2015 – Jun 2017",
+        "actual": "Sep 2015 – Jun 2017",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[4].descriptions[0]",
+        "expected": "Worked weekend shifts on the till and pharmacy counter while studying, and trained four new starters",
+        "actual": "Worked weekend shifts on the till and pharmacy counter while studying, and trained four new starters",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[4].descriptions[1]",
+        "expected": "Kept the weekly stock count for the health and beauty aisles and flagged slow lines to the store manager",
+        "actual": "Kept the weekly stock count for the health and beauty aisles and flagged slow lines to the store manager",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "University of Manchester",
+        "actual": "University of Manchester",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "MSc Data Science, Distinction",
+        "actual": "MSc Data Science, Distinction",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Sep 2019 – Sep 2021",
+        "actual": "Sep 2019 – Sep 2021",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Part-time while working; dissertation on forecasting store footfall with weather and calendar data",
+        "actual": "Part-time while working; dissertation on forecasting store footfall with weather and calendar data",
+        "ok": true
+      },
+      {
+        "path": "educations[1].school",
+        "expected": "University of Sheffield",
+        "actual": "University of Sheffield",
+        "ok": true
+      },
+      {
+        "path": "educations[1].degree",
+        "expected": "BSc (Hons) Economics, First Class",
+        "actual": "BSc (Hons) Economics, First Class",
+        "ok": true
+      },
+      {
+        "path": "educations[1].date",
+        "expected": "Sep 2014 – Jun 2017",
+        "actual": "Sep 2014 – Jun 2017",
+        "ok": true
+      },
+      {
+        "path": "educations[1].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Store footfall forecasting | MSc dissertation, Python",
+        "actual": "Store footfall forecasting | MSc dissertation, Python",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "Jan 2021 – Sep 2021",
+        "actual": "Jan 2021 – Sep 2021",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Combined two years of door-counter data with weather and bank holiday calendars to forecast daily footfall for 40 stores",
+        "actual": "Combined two years of door-counter data with weather and bank holiday calendars to forecast daily footfall for 40 stores",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[1]",
+        "expected": "Cut forecast error by 22% against the retailer's existing method, and the model became the starting point for staffing plans at Northgate",
+        "actual": "Cut forecast error by 22% against the retailer's existing method, and the model became the starting point for staffing plans at Northgate",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Open data dashboard for Leeds bus punctuality | Personal project, Power BI",
+        "actual": "Open data dashboard for Leeds bus punctuality | Personal project, Power BI",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "Mar 2022",
+        "actual": "Mar 2022",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "Built a public dashboard from open bus timing data that a local transport campaign group used in its submission to the council",
+        "actual": "Built a public dashboard from open bus timing data that a local transport campaign group used in its submission to the council",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Analysis: SQL, Python (pandas, scikit-learn), R, Excel",
+        "actual": "Analysis: SQL, Python (pandas, scikit-learn), R, Excel",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Reporting: Power BI, Tableau, Looker Studio",
+        "actual": "Reporting: Power BI, Tableau, Looker Studio",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Data platforms: Snowflake, BigQuery, dbt, Git",
+        "actual": "Data platforms: Snowflake, BigQuery, dbt, Git",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Languages: English (native), German (intermediate)",
+        "actual": "Languages: English (native), German (intermediate)",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[4]",
+        "expected": "Certifications: Microsoft Power BI Data Analyst Associate",
+        "actual": "Certifications: Microsoft Power BI Data Analyst Associate",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 5,
+        "actual": 5,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 6,
+        "actual": 6,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 5,
+        "actual": 5,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions (count)",
+        "expected": 6,
+        "actual": 6,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[4].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 5,
+        "actual": 5,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "profile.phone",
+        "value": "+44 7700 900456",
+        "reason": "outside the parser's US-format rules",
+        "foundInText": true
+      },
+      {
+        "path": "profile.location",
+        "value": "Manchester, UK",
+        "reason": "outside the parser's US-format rules",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "Manchester, UK",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Leeds, UK",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Leeds, UK",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[3].location",
+        "value": "Sheffield, UK",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[4].location",
+        "value": "Sheffield, UK",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Manchester, UK",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[1].location",
+        "value": "Sheffield, UK",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Oliver Hughes",
+      "Manchester, UK | +44 7700 900456 | oliver.hughes@email.com | linkedin.com/in/oliverhughes",
+      "PROFESSIONAL SUMMARY",
+      "Data analyst with six years of experience in retail and energy, most recently leading pricing and customer",
+      "analytics for a UK retail group. I build models and dashboards that commercial teams use every week, and I",
+      "enjoy explaining numbers to people who don't work with data all day. Looking for a senior analyst or",
+      "analytics lead role in Manchester or remote.",
+      "WORK EXPERIENCE",
+      "Northgate Retail Group ‖ Manchester, UK",
+      "Senior Data Analyst ‖ Mar 2023 – Present",
+      "• ‖ Lead a team of three analysts supporting pricing, promotions and loyalty for 140 stores and the online",
+      "shop",
+      "• ‖ Built a promotion uplift model in Python that replaced a manual spreadsheet process and is now used to",
+      "plan every seasonal campaign",
+      "• ‖ Designed the weekly trading dashboard in Power BI, used by 60 managers across buying and store",
+      "operations",
+      "• ‖ Found that 18% of loyalty vouchers were going to customers who would have bought anyway, and",
+      "redesigned targeting to save about £400,000 a year",
+      "• ‖ Introduced code review and a shared SQL library, which halved the time new analysts need to deliver",
+      "their first report",
+      "• ‖ Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season",
+      "clearance by about 9% across clothing and homeware",
+      "Pennine Energy ‖ Leeds, UK",
+      "Data Analyst ‖ Jun 2020 – Feb 2023",
+      "• ‖ Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention",
+      "team",
+      "• ‖ Built a self-serve churn dashboard so the retention team could filter at-risk customers by tariff and region",
+      "without waiting for an analyst",
+      "• ‖ Automated regulatory reporting to Ofgem with SQL and Python, cutting a three-day monthly task to two",
+      "hours",
+      "• ‖ Worked with the call centre to analyse complaint reasons, which led to a simpler bill layout and 15%",
+      "fewer billing calls",
+      "• ‖ Ran A/B tests on renewal emails that raised fixed-tariff renewals by 6 percentage points",
+      "Calder & Wright ‖ Leeds, UK",
+      "Graduate Analyst ‖ Sep 2018 – May 2020",
+      "• ‖ Cleaned and analysed sales data for consulting projects with clients in food manufacturing and logistics",
+      "• ‖ Built Excel models for market sizing and supplier cost comparisons used in client recommendations",
+      "• ‖ Prepared charts and short summaries for partner presentations, often on tight overnight deadlines",
+      "• ‖ Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote",
+      "up the findings for the client steering group",
+      "University of Sheffield Department of Economics ‖ Sheffield, UK",
+      "Research Assistant ‖ Jul 2017 – Aug 2018",
+      "• ‖ Collected Land Registry and census data for a study on regional house prices",
+      "• ‖ Cleaned and matched 1.2 million sale records to local authority areas • ‖ Wrote Stata scripts for the regression analysis and documented each step",
+      "• ‖ Produced the maps and charts used in the final report and a journal article",
+      "• ‖ Checked other researchers' code before each draft went to the funder",
+      "• ‖ Presented interim results at two department seminars",
+      "Harlow's Pharmacy ‖ Sheffield, UK",
+      "Sales Assistant ‖ Sep 2015 – Jun 2017",
+      "• ‖ Worked weekend shifts on the till and pharmacy counter while studying, and trained four new starters",
+      "• ‖ Kept the weekly stock count for the health and beauty aisles and flagged slow lines to the store",
+      "manager",
+      "KEY PROJECTS",
+      "Store footfall forecasting | MSc dissertation, Python ‖ Jan 2021 – Sep 2021",
+      "• ‖ Combined two years of door-counter data with weather and bank holiday calendars to forecast daily",
+      "footfall for 40 stores",
+      "• ‖ Cut forecast error by 22% against the retailer's existing method, and the model became the starting",
+      "point for staffing plans at Northgate",
+      "Open data dashboard for Leeds bus punctuality | Personal project, Power BI ‖ Mar 2022",
+      "• ‖ Built a public dashboard from open bus timing data that a local transport campaign group used in its",
+      "submission to the council",
+      "EDUCATION",
+      "University of Manchester ‖ Manchester, UK",
+      "MSc Data Science, Distinction ‖ Sep 2019 – Sep 2021",
+      "• ‖ Part-time while working; dissertation on forecasting store footfall with weather and calendar data",
+      "University of Sheffield ‖ Sheffield, UK",
+      "BSc (Hons) Economics, First Class ‖ Sep 2014 – Jun 2017",
+      "SKILLS",
+      "Analysis: SQL, Python (pandas, scikit-learn), R, Excel",
+      "Reporting: Power BI, Tableau, Looker Studio",
+      "Data platforms: Snowflake, BigQuery, dbt, Git",
+      "Languages: English (native), German (intermediate)",
+      "Certifications: Microsoft Power BI Data Analyst Associate"
+    ]
+  },
+  "pass": true
+}

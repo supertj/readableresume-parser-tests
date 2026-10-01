@@ -1,0 +1,87 @@
+{
+  "file": "student-cover-letter-a4",
+  "template": "student",
+  "doc": "cover-letter",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1OITpiFu53foXyyIm4rCkwpRGv7cblFYcFMeoZe4THak/export?format=pdf",
+  "pdfSha256": "c67567d39d72586c9c69478e49fef57feb66fc40fb44cb185132565edbffb152",
+  "docxSha256": "746877eab0e92f8552932a6d418795fdff55cc7dc51c36944de8b83cb02d56aa",
+  "runAt": "2026-10-01T12:01:49+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.489,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 2,
+      "Georgia": 156
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Avery Johnson",
+      "Raleigh, NC | (919) 555-0137 | avery.johnson@email.com | linkedin.com/in/averyjohnson",
+      "October 5, 2026",
+      "Internship Coordinator",
+      "Triangle Research Labs",
+      "Durham, NC",
+      "Dear Internship Coordinator,",
+      "I'm a second-year biology student at Cardinal Ridge University, and I'm applying for your summer research",
+      "internship in the microbiology group.",
+      "My lab experience so far comes from coursework, but I've taken it seriously. In Intro Biology my team",
+      "cultured soil samples from 12 campus sites and compared what grew. I learned aseptic technique, kept a",
+      "careful lab notebook, and found out how much I enjoy the slow work of getting a culture right.",
+      "Outside of class I work at the university library and help lead the Pre-Health Society. Both jobs have taught",
+      "me to be reliable, to keep track of details, and to ask questions when something doesn't make sense.",
+      "I would be grateful for the chance to learn from your team this summer. Thank you for considering my",
+      "application.",
+      "Sincerely,",
+      "Avery Johnson"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Olivia Bennett",
+    "Providence, RI",
+    "(401) 555-0132",
+    "olivia.bennett@email.com",
+    "linkedin.com/in/oliviabennett",
+    "REFERENCES",
+    "Jonathan Price",
+    "Vice President, Investment Banking",
+    "Ridgeway Capital Partners",
+    "jprice@ridgewaycap.com",
+    "(212) 555-0147",
+    "Supervisor during my summer analyst internship",
+    "Grace Liu",
+    "Professor of Economics",
+    "Halden College",
+    "gliu@halden.edu",
+    "(401) 555-0158",
+    "Research supervisor and instructor for Econometrics",
+    "Samuel Ortiz",
+    "Director, Writing Center",
+    "Halden College",
+    "sortiz@halden.edu",
+    "(401) 555-0169",
+    "Supervisor for my peer tutor role"
+  ],
+  "template": "classic",
+  "doc": "references",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

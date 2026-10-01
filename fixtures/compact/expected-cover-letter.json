@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Daniel Okafor",
+    "Atlanta, GA",
+    "(404) 555-0176",
+    "daniel.okafor@email.com",
+    "linkedin.com/in/danielokafor",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Magnolia Grocers",
+    "Charlotte, NC",
+    "Dear Hiring Manager,",
+    "I'm writing about the Director of Inbound Logistics opening. I've spent seven years in freight and distribution, the last four running inbound for a home goods retailer with three distribution centers and about $48M in yearly freight spend.",
+    "When I joined Peachtree, on-time inbound delivery was 87% and nobody trusted the carrier numbers. I built a weekly scorecard, sat down with each of our nine truckload carriers, and renegotiated every contract. On-time delivery is now 95%, and we save about $2.1M a year.",
+    "Grocery is a different pace, and I know that. Before Peachtree I worked on 120 lanes at Corridor Freight, many of them for food shippers, so I'm used to short windows and cold-chain rules.",
+    "I would welcome a conversation about the network changes you're planning for next year.",
+    "Sincerely,",
+    "Daniel Okafor"
+  ],
+  "template": "compact",
+  "doc": "cover-letter",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

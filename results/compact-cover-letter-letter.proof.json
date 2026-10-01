@@ -1,0 +1,87 @@
+{
+  "file": "compact-cover-letter-letter",
+  "template": "compact",
+  "doc": "cover-letter",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1AmOuQ5Q_qh4YMarna_ZVpIHzMTE6GfvZx34BgMjjZfQ/export?format=pdf",
+  "pdfSha256": "73f40552ce5ea91073d46f23721a7ae322792b280cd39eaf09c2a5a2f6e68900",
+  "docxSha256": "5a37b53fd4f23ac40cea7147a282787bf5399187d8f124e1f39ee515163f40ad",
+  "runAt": "2026-10-01T12:01:44+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.475,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 2,
+      "ArialMT": 155
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Daniel Okafor",
+      "Atlanta, GA | (404) 555-0176 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "October 5, 2026",
+      "Hiring Manager",
+      "Magnolia Grocers",
+      "Charlotte, NC",
+      "Dear Hiring Manager,",
+      "I'm writing about the Director of Inbound Logistics opening. I've spent seven years in freight and distribution, the last",
+      "four running inbound for a home goods retailer with three distribution centers and about $48M in yearly freight",
+      "spend.",
+      "When I joined Peachtree, on-time inbound delivery was 87% and nobody trusted the carrier numbers. I built a",
+      "weekly scorecard, sat down with each of our nine truckload carriers, and renegotiated every contract. On-time",
+      "delivery is now 95%, and we save about $2.1M a year.",
+      "Grocery is a different pace, and I know that. Before Peachtree I worked on 120 lanes at Corridor Freight, many of",
+      "them for food shippers, so I'm used to short windows and cold-chain rules.",
+      "I would welcome a conversation about the network changes you're planning for next year.",
+      "Sincerely,",
+      "Daniel Okafor"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

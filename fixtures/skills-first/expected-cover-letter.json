@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Rachel Nguyen",
+    "Portland, OR",
+    "(503) 555-0121",
+    "rachel.nguyen@email.com",
+    "linkedin.com/in/rachelnguyen",
+    "October 5, 2026",
+    "Hiring Team",
+    "Evergreen Mutual Insurance",
+    "Portland, OR",
+    "Dear Hiring Team,",
+    "I'm applying for the Instructional Designer position on your learning and development team. I taught middle school science for eight years, and for the past two years I've designed online training for Cascade Credit Union as a contractor.",
+    "Teaching gave me a lot of practice turning dense material into something a tired person can follow. At Cascade I've used that to rebuild the teller onboarding course. New tellers now work on their own after four weeks instead of six, and first-try pass rates on the compliance quizzes rose from 64% to 88%.",
+    "I start every project by talking to the people who will use it. For the credit union that means a quarterly check-in with branch managers about where new staff struggle, and I'd bring the same habit to your claims and service teams.",
+    "Thank you for reading. I'd be glad to share a few course samples in an interview.",
+    "Best regards,",
+    "Rachel Nguyen"
+  ],
+  "template": "skills-first",
+  "doc": "cover-letter",
+  "font": "Verdana",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

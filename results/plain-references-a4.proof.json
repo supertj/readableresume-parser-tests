@@ -1,0 +1,89 @@
+{
+  "file": "plain-references-a4",
+  "template": "plain",
+  "doc": "references",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1AffaC_HUWduo6qelCCpyu74LH8WUmcIy0KAEpQlmIEY/export?format=pdf",
+  "pdfSha256": "0480dc660d1089f9317976b0511aeb447b06b413af9bf6b059dfac5a2ec0f05d",
+  "docxSha256": "c378c36a31524757729505709994ca0201626b6a83d483765268bad7893beb65",
+  "runAt": "2026-10-01T12:01:48+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.397,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 6,
+      "ArialMT": 43,
+      "Arial-ItalicMT": 15
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Taylor Morgan",
+      "Columbus, OH | (614) 555-0128 | taylor.morgan@email.com | linkedin.com/in/taylormorgan",
+      "REFERENCES",
+      "Angela Ruiz",
+      "Marketing Director",
+      "Harborview Health Partners",
+      "aruiz@harborviewhealth.org | (614) 555-0152",
+      "Current manager since Jun 2023",
+      "Kevin Marsh",
+      "Store Operations Manager",
+      "Redline Outfitters",
+      "kevin.marsh@redlineoutfitters.com | (614) 555-0167",
+      "Manager, Aug 2021 – May 2023",
+      "Dana Whitfield",
+      "Lecturer in Communication",
+      "Franklin Ridge University",
+      "dwhitfield@franklinridge.edu | (614) 555-0174",
+      "Academic advisor and instructor for two courses"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

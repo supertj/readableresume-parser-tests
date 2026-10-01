@@ -1,0 +1,89 @@
+{
+  "file": "student-references-letter",
+  "template": "student",
+  "doc": "references",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1SKYJnc5mPA3g_stJj9PTiyC7OahnxKAe0upJw4UusBY/export?format=pdf",
+  "pdfSha256": "7ace228953ce20808dfb49ad2b1ed856d7573add71a9ea438ad49a54a39487cf",
+  "docxSha256": "c2c79022666ba4931c78e23bf937b62ec14e7ee343f4571e1c061d3753795584",
+  "runAt": "2026-10-01T12:01:49+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.408,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold",
+      "Georgia-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 6,
+      "Georgia": 46,
+      "Georgia-Italic": 16
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Avery Johnson",
+      "Raleigh, NC | (919) 555-0137 | avery.johnson@email.com | linkedin.com/in/averyjohnson",
+      "REFERENCES",
+      "Laura Bennett",
+      "Assistant Professor of Biology",
+      "Cardinal Ridge University",
+      "lbennett@cardinalridge.edu | (919) 555-0141",
+      "Instructor for Intro Biology and the soil microbe project",
+      "James Carter",
+      "Circulation Supervisor",
+      "Cardinal Ridge University Libraries",
+      "jcarter@cardinalridge.edu | (919) 555-0153",
+      "Supervisor since Sep 2024",
+      "Maria Lopez",
+      "Store Manager",
+      "Corner Books & Coffee",
+      "maria@cornerbooks.com | (919) 555-0165",
+      "Manager, Jun 2023 – Aug 2024"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

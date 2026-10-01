@@ -1,0 +1,435 @@
+{
+  "file": "skills-first-resume-letter",
+  "template": "skills-first",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1RtnL66ttPUrNFJjT4mB9iop3XfKgYFvnlkRFBC9Dn5g/export?format=pdf",
+  "pdfSha256": "01e5ede2fa7d2c1d5f9ce46fe64c6263fed228faf93750fded1811c12bdda0b1",
+  "docxSha256": "b421974b5d0fb3b532cd73b0948effa8ec193e5df6c4bb8685001408f1183608",
+  "runAt": "2026-10-01T12:01:49+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.735,
+  "fonts": {
+    "expected": "Verdana",
+    "found": [
+      "Verdana",
+      "Verdana-Bold",
+      "Verdana-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Verdana-Bold": 19,
+      "Verdana": 213,
+      "ArialMT": 20,
+      "Verdana-Italic": 18
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Rachel Nguyen",
+      "Portland, OR | (503) 555-0121 | rachel.nguyen@email.com | linkedin.com/in/rachelnguyen",
+      "SUMMARY",
+      "Former middle school science teacher moving into instructional design. Eight years of planning lessons",
+      "for mixed-ability classes, plus two years building online courses for adult learners as a contractor.",
+      "Looking for a full-time learning design role on a training team.",
+      "SKILLS",
+      "• Instructional design: needs analysis, learning objectives, storyboarding, ADDIE, assessment design",
+      "• eLearning tools: Articulate Storyline and Rise, Canvas, Camtasia, Google Workspace",
+      "• Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
+      "• Results: course completion up 30% and onboarding time down two weeks (see Experience)",
+      "EXPERIENCE",
+      "Cascade Credit Union (contract) Portland, OR",
+      "Instructional Designer Jan 2024 – Present",
+      "• Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to",
+      "four",
+      "• Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
+      "• Interview branch managers each quarter to decide which courses to update next",
+      "Lincoln Park Middle School Portland, OR",
+      "Science Teacher Aug 2016 – Jun 2024",
+      "• Planned and taught 7th and 8th grade science for about 140 students a year",
+      "• Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
+      "• Coached five new teachers on lesson planning and classroom routines",
+      "PROJECTS",
+      "Volunteer onboarding course | Articulate Rise, Portland Food Share Sep 2023",
+      "• Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person",
+      "orientation",
+      "EDUCATION",
+      "Willamette Valley University Salem, OR",
+      "Master of Education in Curriculum and Instruction Jun 2019"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 11,
+      "actual": 11,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 33,
+    "total": 33,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Rachel Nguyen",
+        "actual": "Rachel Nguyen",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "rachel.nguyen@email.com",
+        "actual": "rachel.nguyen@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(503) 555-0121",
+        "actual": "(503) 555-0121",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Portland, OR",
+        "actual": "Portland, OR",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/rachelnguyen",
+        "actual": "linkedin.com/in/rachelnguyen",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Former middle school science teacher moving into instructional design. Eight years of planning lessons for mixed-ability classes, plus two years building online courses for adult learners as a contractor. Looking for a full-time learning design role on a training team.",
+        "actual": "Former middle school science teacher moving into instructional design. Eight years of planning lessons for mixed-ability classes, plus two years building online courses for adult learners as a contractor. Looking for a full-time learning design role on a training team.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Cascade Credit Union (contract)",
+        "actual": "Cascade Credit Union (contract)",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Instructional Designer",
+        "actual": "Instructional Designer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jan 2024 – Present",
+        "actual": "Jan 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to four",
+        "actual": "Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to four",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
+        "actual": "Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Interview branch managers each quarter to decide which courses to update next",
+        "actual": "Interview branch managers each quarter to decide which courses to update next",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Lincoln Park Middle School",
+        "actual": "Lincoln Park Middle School",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Science Teacher",
+        "actual": "Science Teacher",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Aug 2016 – Jun 2024",
+        "actual": "Aug 2016 – Jun 2024",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Planned and taught 7th and 8th grade science for about 140 students a year",
+        "actual": "Planned and taught 7th and 8th grade science for about 140 students a year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
+        "actual": "Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Coached five new teachers on lesson planning and classroom routines",
+        "actual": "Coached five new teachers on lesson planning and classroom routines",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Willamette Valley University",
+        "actual": "Willamette Valley University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Master of Education in Curriculum and Instruction",
+        "actual": "Master of Education in Curriculum and Instruction",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Jun 2019",
+        "actual": "Jun 2019",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[1].school",
+        "expected": "Columbia Gorge College",
+        "actual": "Columbia Gorge College",
+        "ok": true
+      },
+      {
+        "path": "educations[1].degree",
+        "expected": "Bachelor of Science in Biology",
+        "actual": "Bachelor of Science in Biology",
+        "ok": true
+      },
+      {
+        "path": "educations[1].date",
+        "expected": "Jun 2016",
+        "actual": "Jun 2016",
+        "ok": true
+      },
+      {
+        "path": "educations[1].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Volunteer onboarding course | Articulate Rise, Portland Food Share",
+        "actual": "Volunteer onboarding course | Articulate Rise, Portland Food Share",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "Sep 2023",
+        "actual": "Sep 2023",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person orientation",
+        "actual": "Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person orientation",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Instructional design: needs analysis, learning objectives, storyboarding, ADDIE, assessment design",
+        "actual": "Instructional design: needs analysis, learning objectives, storyboarding, ADDIE, assessment design",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "eLearning tools: Articulate Storyline and Rise, Canvas, Camtasia, Google Workspace",
+        "actual": "eLearning tools: Articulate Storyline and Rise, Canvas, Camtasia, Google Workspace",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
+        "actual": "Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Results: course completion up 30% and onboarding time down two weeks (see Experience)",
+        "actual": "Results: course completion up 30% and onboarding time down two weeks (see Experience)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Portland, OR",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Portland, OR",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Salem, OR",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[1].location",
+        "value": "Hood River, OR",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Rachel Nguyen",
+      "Portland, OR | (503) 555-0121 | rachel.nguyen@email.com | linkedin.com/in/rachelnguyen",
+      "SUMMARY",
+      "Former middle school science teacher moving into instructional design. Eight years of planning lessons",
+      "for mixed-ability classes, plus two years building online courses for adult learners as a contractor.",
+      "Looking for a full-time learning design role on a training team.",
+      "SKILLS",
+      "• Instructional design: needs analysis, learning objectives, storyboarding, ADDIE, assessment design",
+      "• eLearning tools: Articulate Storyline and Rise, Canvas, Camtasia, Google Workspace",
+      "• Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
+      "• Results: course completion up 30% and onboarding time down two weeks (see Experience)",
+      "EXPERIENCE",
+      "Cascade Credit Union (contract) ‖ Portland, OR",
+      "Instructional Designer ‖ Jan 2024 – Present",
+      "• Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to",
+      "four",
+      "• Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
+      "• Interview branch managers each quarter to decide which courses to update next",
+      "Lincoln Park Middle School ‖ Portland, OR",
+      "Science Teacher ‖ Aug 2016 – Jun 2024",
+      "• Planned and taught 7th and 8th grade science for about 140 students a year",
+      "• Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
+      "• Coached five new teachers on lesson planning and classroom routines",
+      "PROJECTS",
+      "Volunteer onboarding course | Articulate Rise, Portland Food Share ‖ Sep 2023",
+      "• Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person",
+      "orientation",
+      "EDUCATION",
+      "Willamette Valley University ‖ Salem, OR",
+      "Master of Education in Curriculum and Instruction ‖ Jun 2019",
+      "Columbia Gorge College ‖ Hood River, OR",
+      "Bachelor of Science in Biology ‖ Jun 2016"
+    ]
+  },
+  "pass": true
+}

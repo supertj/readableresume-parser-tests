@@ -1,0 +1,89 @@
+{
+  "file": "jakes-references-a4",
+  "template": "jakes",
+  "doc": "references",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1P0MLb58_912maLx_5Y6uMEypFczOzXHxoUGtqn7Dls8/export?format=pdf",
+  "pdfSha256": "28d5eedcbbf97572de1d0bd7f21a41f21f47863949747ba0c4b7233555897c06",
+  "docxSha256": "f09e4453391f0aff30c80f32be132673b0893342462b363e1d40fc976c9fd005",
+  "runAt": "2026-10-01T12:01:46+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.365,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 6,
+      "TimesNewRomanPSMT": 46,
+      "TimesNewRomanPS-ItalicMT": 18
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Jordan Ellis",
+      "(312) 555-0143 | jordan.ellis@email.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+      "REFERENCES",
+      "Priya Raman",
+      "Engineering Manager, Dispatch Tools",
+      "Northwind Freight",
+      "priya.raman@northwindfreight.com | (312) 555-0161",
+      "Internship manager, May 2025 – Aug 2025",
+      "Michael Osei",
+      "Associate Professor of Computer Science",
+      "Lakeshore State University",
+      "m.osei@lakeshorestate.edu | (312) 555-0178",
+      "Instructor for Data Structures; supervised my TA work",
+      "Laura Kim",
+      "Help Desk Supervisor",
+      "Campus Technology Services",
+      "laura.kim@lakeshorestate.edu | (312) 555-0189",
+      "Supervisor, Sep 2022 – Dec 2023"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

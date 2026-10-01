@@ -1,0 +1,171 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Taylor Morgan",
+      "email": "taylor.morgan@email.com",
+      "phone": "(614) 555-0128",
+      "location": "Columbus, OH",
+      "url": "linkedin.com/in/taylormorgan",
+      "summary": "Marketing coordinator with three years of experience running email and social campaigns for a regional health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to turning campaign results into short reports for managers."
+    },
+    "workExperiences": [
+      {
+        "company": "Harborview Health Partners",
+        "jobTitle": "Marketing Coordinator",
+        "date": "Jun 2023 – Present",
+        "descriptions": [
+          "Plan and send 10 to 12 patient email campaigns a month in HubSpot; average open rate rose from 24% to 31%",
+          "Built a monthly Looker Studio report on appointment requests that the director uses in budget meetings",
+          "Coordinate print and social assets for 14 clinic locations with two designers and an outside print vendor",
+          "Wrote the team's first email style guide, which cut review rounds per campaign from three to one"
+        ]
+      },
+      {
+        "company": "Redline Outfitters",
+        "jobTitle": "Marketing Assistant",
+        "date": "Aug 2021 – May 2023",
+        "descriptions": [
+          "Scheduled Instagram and Facebook posts for three store openings; followers grew from 4,800 to 9,100",
+          "Tracked weekly promo results in Excel and flagged two coupon codes that were losing money",
+          "Wrote product descriptions for about 150 items when the online store launched in 2022"
+        ]
+      },
+      {
+        "company": "Greenway Market",
+        "jobTitle": "Sales Associate",
+        "date": "Jan 2019 – Jul 2021",
+        "descriptions": [
+          "Helped about 80 customers a shift and trained five new hires on the register and returns process",
+          "Built the weekly endcap displays for seasonal items, which the store manager used as the model for other aisles"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Franklin Ridge University",
+        "degree": "Bachelor of Arts in Communication",
+        "date": "May 2021",
+        "gpa": "",
+        "descriptions": [
+          "Coursework: Public Relations Writing, Digital Media Strategy, Marketing Research, Statistics"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Marketing: HubSpot, Mailchimp, Google Analytics, Canva, Hootsuite",
+        "Data: Excel (pivot tables), Looker Studio, SQL",
+        "Certifications: HubSpot Content Marketing, Google Analytics Certification",
+        "Languages: English (native), Spanish (conversational)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Columbus, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Columbus, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Dublin, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Columbus, OH",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Taylor Morgan",
+    "Columbus, OH",
+    "(614) 555-0128",
+    "taylor.morgan@email.com",
+    "linkedin.com/in/taylormorgan",
+    "SUMMARY",
+    "Marketing coordinator with three years of experience running email and social campaigns for a regional health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to turning campaign results into short reports for managers.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Harborview Health Partners",
+        "Marketing Coordinator",
+        "Jun 2023 – Present",
+        "Columbus, OH"
+      ]
+    },
+    "Plan and send 10 to 12 patient email campaigns a month in HubSpot; average open rate rose from 24% to 31%",
+    "Built a monthly Looker Studio report on appointment requests that the director uses in budget meetings",
+    "Coordinate print and social assets for 14 clinic locations with two designers and an outside print vendor",
+    "Wrote the team's first email style guide, which cut review rounds per campaign from three to one",
+    {
+      "anyOrder": [
+        "Redline Outfitters",
+        "Marketing Assistant",
+        "Aug 2021 – May 2023",
+        "Columbus, OH"
+      ]
+    },
+    "Scheduled Instagram and Facebook posts for three store openings; followers grew from 4,800 to 9,100",
+    "Tracked weekly promo results in Excel and flagged two coupon codes that were losing money",
+    "Wrote product descriptions for about 150 items when the online store launched in 2022",
+    {
+      "anyOrder": [
+        "Greenway Market",
+        "Sales Associate",
+        "Jan 2019 – Jul 2021",
+        "Dublin, OH"
+      ]
+    },
+    "Helped about 80 customers a shift and trained five new hires on the register and returns process",
+    "Built the weekly endcap displays for seasonal items, which the store manager used as the model for other aisles",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Franklin Ridge University",
+        "Columbus, OH",
+        "Bachelor of Arts in Communication",
+        "May 2021"
+      ]
+    },
+    "Coursework: Public Relations Writing, Digital Media Strategy, Marketing Research, Statistics",
+    "SKILLS",
+    "Marketing: HubSpot, Mailchimp, Google Analytics, Canva, Hootsuite",
+    "Data: Excel (pivot tables), Looker Studio, SQL",
+    "Certifications: HubSpot Content Marketing, Google Analytics Certification",
+    "Languages: English (native), Spanish (conversational)"
+  ],
+  "template": "plain",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Plan and send 10 to 12 patient email campaigns a month in HubSpot; average open rate rose from 24% to 31%",
+    "Built a monthly Looker Studio report on appointment requests that the director uses in budget meetings",
+    "Coordinate print and social assets for 14 clinic locations with two designers and an outside print vendor",
+    "Wrote the team's first email style guide, which cut review rounds per campaign from three to one",
+    "Scheduled Instagram and Facebook posts for three store openings; followers grew from 4,800 to 9,100",
+    "Tracked weekly promo results in Excel and flagged two coupon codes that were losing money",
+    "Wrote product descriptions for about 150 items when the online store launched in 2022",
+    "Helped about 80 customers a shift and trained five new hires on the register and returns process",
+    "Built the weekly endcap displays for seasonal items, which the store manager used as the model for other aisles",
+    "Coursework: Public Relations Writing, Digital Media Strategy, Marketing Research, Statistics"
+  ]
+}

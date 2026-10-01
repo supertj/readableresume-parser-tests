@@ -1,0 +1,14 @@
+{
+  "name": "readableresume-openresume-runner",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "parse": "NODE_PATH=./node_modules tsx parse-pdf.ts"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "1.9.5",
+    "pdfjs-dist": "3.7.107",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3"
+  }
+}

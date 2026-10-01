@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Daniel Okafor",
+    "Atlanta, GA",
+    "(404) 555-0176",
+    "daniel.okafor@email.com",
+    "linkedin.com/in/danielokafor",
+    "REFERENCES",
+    "Sandra Mitchell",
+    "Vice President of Operations",
+    "Peachtree Home Goods",
+    "smitchell@peachtreehome.com",
+    "(404) 555-0183",
+    "Current manager since Feb 2022",
+    "Robert Haynes",
+    "Director of Logistics",
+    "Corridor Freight Systems",
+    "rhaynes@corridorfreight.com",
+    "(404) 555-0192",
+    "Manager, Jun 2018 – Jan 2022",
+    "Alicia Grant",
+    "Distribution Center Manager",
+    "Peachtree Home Goods",
+    "agrant@peachtreehome.com",
+    "(404) 555-0114",
+    "Peer partner on the TMS rollout"
+  ],
+  "template": "compact",
+  "doc": "references",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

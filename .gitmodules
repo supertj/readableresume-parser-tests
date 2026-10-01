@@ -1,0 +1,3 @@
+[submodule "vendor/open-resume"]
+	path = vendor/open-resume
+	url = https://github.com/xitanggg/open-resume.git

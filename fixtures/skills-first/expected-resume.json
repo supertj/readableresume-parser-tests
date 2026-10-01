@@ -1,0 +1,180 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Rachel Nguyen",
+      "email": "rachel.nguyen@email.com",
+      "phone": "(503) 555-0121",
+      "location": "Portland, OR",
+      "url": "linkedin.com/in/rachelnguyen",
+      "summary": "Former middle school science teacher moving into instructional design. Eight years of planning lessons for mixed-ability classes, plus two years building online courses for adult learners as a contractor. Looking for a full-time learning design role on a training team."
+    },
+    "workExperiences": [
+      {
+        "company": "Cascade Credit Union (contract)",
+        "jobTitle": "Instructional Designer",
+        "date": "Jan 2024 – Present",
+        "descriptions": [
+          "Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to four",
+          "Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
+          "Interview branch managers each quarter to decide which courses to update next"
+        ]
+      },
+      {
+        "company": "Lincoln Park Middle School",
+        "jobTitle": "Science Teacher",
+        "date": "Aug 2016 – Jun 2024",
+        "descriptions": [
+          "Planned and taught 7th and 8th grade science for about 140 students a year",
+          "Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
+          "Coached five new teachers on lesson planning and classroom routines"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Willamette Valley University",
+        "degree": "Master of Education in Curriculum and Instruction",
+        "date": "Jun 2019",
+        "gpa": "",
+        "descriptions": []
+      },
+      {
+        "school": "Columbia Gorge College",
+        "degree": "Bachelor of Science in Biology",
+        "date": "Jun 2016",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [
+      {
+        "project": "Volunteer onboarding course | Articulate Rise, Portland Food Share",
+        "date": "Sep 2023",
+        "descriptions": [
+          "Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person orientation"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Instructional design: needs analysis, learning objectives, storyboarding, ADDIE, assessment design",
+        "eLearning tools: Articulate Storyline and Rise, Canvas, Camtasia, Google Workspace",
+        "Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
+        "Results: course completion up 30% and onboarding time down two weeks (see Experience)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Portland, OR",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Portland, OR",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Salem, OR",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Hood River, OR",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Rachel Nguyen",
+    "Portland, OR",
+    "(503) 555-0121",
+    "rachel.nguyen@email.com",
+    "linkedin.com/in/rachelnguyen",
+    "SUMMARY",
+    "Former middle school science teacher moving into instructional design. Eight years of planning lessons for mixed-ability classes, plus two years building online courses for adult learners as a contractor. Looking for a full-time learning design role on a training team.",
+    "SKILLS",
+    "Instructional design: needs analysis, learning objectives, storyboarding, ADDIE, assessment design",
+    "eLearning tools: Articulate Storyline and Rise, Canvas, Camtasia, Google Workspace",
+    "Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
+    "Results: course completion up 30% and onboarding time down two weeks (see Experience)",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Cascade Credit Union (contract)",
+        "Instructional Designer",
+        "Jan 2024 – Present",
+        "Portland, OR"
+      ]
+    },
+    "Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to four",
+    "Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
+    "Interview branch managers each quarter to decide which courses to update next",
+    {
+      "anyOrder": [
+        "Lincoln Park Middle School",
+        "Science Teacher",
+        "Aug 2016 – Jun 2024",
+        "Portland, OR"
+      ]
+    },
+    "Planned and taught 7th and 8th grade science for about 140 students a year",
+    "Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
+    "Coached five new teachers on lesson planning and classroom routines",
+    "PROJECTS",
+    {
+      "anyOrder": [
+        "Volunteer onboarding course",
+        "Articulate Rise, Portland Food Share",
+        "Sep 2023"
+      ]
+    },
+    "Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person orientation",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Willamette Valley University",
+        "Salem, OR",
+        "Master of Education in Curriculum and Instruction",
+        "Jun 2019"
+      ]
+    },
+    {
+      "anyOrder": [
+        "Columbia Gorge College",
+        "Hood River, OR",
+        "Bachelor of Science in Biology",
+        "Jun 2016"
+      ]
+    }
+  ],
+  "template": "skills-first",
+  "doc": "resume",
+  "font": "Verdana",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Instructional design: needs analysis, learning objectives, storyboarding, ADDIE, assessment design",
+    "eLearning tools: Articulate Storyline and Rise, Canvas, Camtasia, Google Workspace",
+    "Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
+    "Results: course completion up 30% and onboarding time down two weeks (see Experience)",
+    "Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to four",
+    "Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
+    "Interview branch managers each quarter to decide which courses to update next",
+    "Planned and taught 7th and 8th grade science for about 140 students a year",
+    "Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
+    "Coached five new teachers on lesson planning and classroom routines",
+    "Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person orientation"
+  ]
+}

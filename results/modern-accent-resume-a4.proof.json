@@ -1,0 +1,460 @@
+{
+  "file": "modern-accent-resume-a4",
+  "template": "modern-accent",
+  "doc": "resume",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/11tBq_UIE22gd4fiWlTzsDQX0b5noqYEDaB9UyukpzrE/export?format=pdf",
+  "pdfSha256": "46be4639bc6e70a0b592c061c8d3708de3236b1bf9a7eb3be276ffe9ea1c67ea",
+  "docxSha256": "20d5c632ab47f94b112b911879309eacbe1099282282e9ae8373057b93d2e564",
+  "runAt": "2026-10-01T12:01:47+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.825,
+  "fonts": {
+    "expected": "Trebuchet MS",
+    "found": [
+      "TrebuchetMS",
+      "TrebuchetMS-Bold",
+      "TrebuchetMS-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TrebuchetMS-Bold": 21,
+      "TrebuchetMS": 252,
+      "ArialMT": 19,
+      "TrebuchetMS-Italic": 17
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Priya Shah",
+      "Seattle, WA | (206) 555-0119 | priya.shah@email.com | priyashah.design/work",
+      "SUMMARY",
+      "Product designer with three years of experience in health and consumer apps. I run my own interviews,",
+      "prototype in Figma, and work closely with engineers until the feature ships. Most proud of work that made",
+      "complicated forms feel short.",
+      "EXPERIENCE",
+      "Product Designer Mar 2024 – Present",
+      "Larkspur Health Seattle, WA",
+      "• Redesigned the patient intake flow from 14 screens to 6, raising completion from 61% to 83% in the first",
+      "quarter",
+      "• Ran 22 interviews with clinic staff and turned the findings into a shared research library the team still",
+      "uses",
+      "• Built a Figma component library with the front-end lead that cut design-to-build handoff time by about",
+      "a third",
+      "UX Designer Jul 2022 – Feb 2024",
+      "Cobalt Lane Studio Seattle, WA",
+      "• Designed mobile checkout for a regional grocery chain, which lowered abandoned carts by 12% after",
+      "launch",
+      "• Led usability tests with 40 participants across five client projects and wrote the findings for each client",
+      "• Mentored two design interns through their first shipped features",
+      "Design Intern Jun 2021 – Aug 2021",
+      "Northgate Transit Authority Tacoma, WA",
+      "• Sketched and tested new bus stop signs with riders at three busy stops, and the agency adopted two of",
+      "the ideas",
+      "PROJECTS",
+      "Wayfinding for Pine Street Library | Research, signage Oct 2023",
+      "• Volunteered to map how visitors get lost and designed floor signs that reduced front desk direction",
+      "questions by half",
+      "Habit tracker concept | Figma, ProtoPie Jan 2023"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 35,
+    "total": 35,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Priya Shah",
+        "actual": "Priya Shah",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "priya.shah@email.com",
+        "actual": "priya.shah@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(206) 555-0119",
+        "actual": "(206) 555-0119",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Seattle, WA",
+        "actual": "Seattle, WA",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "priyashah.design/work",
+        "actual": "priyashah.design/work",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Product designer with three years of experience in health and consumer apps. I run my own interviews, prototype in Figma, and work closely with engineers until the feature ships. Most proud of work that made complicated forms feel short.",
+        "actual": "Product designer with three years of experience in health and consumer apps. I run my own interviews, prototype in Figma, and work closely with engineers until the feature ships. Most proud of work that made complicated forms feel short.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Larkspur Health",
+        "actual": "Larkspur Health",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Product Designer",
+        "actual": "Product Designer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2024 – Present",
+        "actual": "Mar 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Redesigned the patient intake flow from 14 screens to 6, raising completion from 61% to 83% in the first quarter",
+        "actual": "Redesigned the patient intake flow from 14 screens to 6, raising completion from 61% to 83% in the first quarter",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Ran 22 interviews with clinic staff and turned the findings into a shared research library the team still uses",
+        "actual": "Ran 22 interviews with clinic staff and turned the findings into a shared research library the team still uses",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Built a Figma component library with the front-end lead that cut design-to-build handoff time by about a third",
+        "actual": "Built a Figma component library with the front-end lead that cut design-to-build handoff time by about a third",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Cobalt Lane Studio",
+        "actual": "Cobalt Lane Studio",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "UX Designer",
+        "actual": "UX Designer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jul 2022 – Feb 2024",
+        "actual": "Jul 2022 – Feb 2024",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Designed mobile checkout for a regional grocery chain, which lowered abandoned carts by 12% after launch",
+        "actual": "Designed mobile checkout for a regional grocery chain, which lowered abandoned carts by 12% after launch",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Led usability tests with 40 participants across five client projects and wrote the findings for each client",
+        "actual": "Led usability tests with 40 participants across five client projects and wrote the findings for each client",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Mentored two design interns through their first shipped features",
+        "actual": "Mentored two design interns through their first shipped features",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Northgate Transit Authority",
+        "actual": "Northgate Transit Authority",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Design Intern",
+        "actual": "Design Intern",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2021 – Aug 2021",
+        "actual": "Jun 2021 – Aug 2021",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Sketched and tested new bus stop signs with riders at three busy stops, and the agency adopted two of the ideas",
+        "actual": "Sketched and tested new bus stop signs with riders at three busy stops, and the agency adopted two of the ideas",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Pacific Crest University",
+        "actual": "Pacific Crest University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Fine Arts in Interaction Design",
+        "actual": "Bachelor of Fine Arts in Interaction Design",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Jun 2022",
+        "actual": "Jun 2022",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Wayfinding for Pine Street Library | Research, signage",
+        "actual": "Wayfinding for Pine Street Library | Research, signage",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "Oct 2023",
+        "actual": "Oct 2023",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Volunteered to map how visitors get lost and designed floor signs that reduced front desk direction questions by half",
+        "actual": "Volunteered to map how visitors get lost and designed floor signs that reduced front desk direction questions by half",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Habit tracker concept | Figma, ProtoPie",
+        "actual": "Habit tracker concept | Figma, ProtoPie",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "Jan 2023",
+        "actual": "Jan 2023",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "Designed and tested a habit app for shift workers, written up as a case study with 4,000 reads on Medium",
+        "actual": "Designed and tested a habit app for shift workers, written up as a case study with 4,000 reads on Medium",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Design: Figma, ProtoPie, Adobe Illustrator, design systems",
+        "actual": "Design: Figma, ProtoPie, Adobe Illustrator, design systems",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Research: Interviews, usability testing, surveys, Dovetail",
+        "actual": "Research: Interviews, usability testing, surveys, Dovetail",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Collaboration: Jira, Notion, basic HTML and CSS",
+        "actual": "Collaboration: Jira, Notion, basic HTML and CSS",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Seattle, WA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Seattle, WA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Tacoma, WA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Seattle, WA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Priya Shah",
+      "Seattle, WA | (206) 555-0119 | priya.shah@email.com | priyashah.design/work",
+      "SUMMARY",
+      "Product designer with three years of experience in health and consumer apps. I run my own interviews,",
+      "prototype in Figma, and work closely with engineers until the feature ships. Most proud of work that made",
+      "complicated forms feel short.",
+      "EXPERIENCE",
+      "Product Designer ‖ Mar 2024 – Present",
+      "Larkspur Health ‖ Seattle, WA",
+      "• ‖ Redesigned the patient intake flow from 14 screens to 6, raising completion from 61% to 83% in the first",
+      "quarter",
+      "• ‖ Ran 22 interviews with clinic staff and turned the findings into a shared research library the team still",
+      "uses",
+      "• ‖ Built a Figma component library with the front-end lead that cut design-to-build handoff time by about",
+      "a third",
+      "UX Designer ‖ Jul 2022 – Feb 2024",
+      "Cobalt Lane Studio ‖ Seattle, WA",
+      "• ‖ Designed mobile checkout for a regional grocery chain, which lowered abandoned carts by 12% after",
+      "launch",
+      "• ‖ Led usability tests with 40 participants across five client projects and wrote the findings for each client",
+      "• ‖ Mentored two design interns through their first shipped features",
+      "Design Intern ‖ Jun 2021 – Aug 2021",
+      "Northgate Transit Authority ‖ Tacoma, WA",
+      "• ‖ Sketched and tested new bus stop signs with riders at three busy stops, and the agency adopted two of",
+      "the ideas",
+      "PROJECTS",
+      "Wayfinding for Pine Street Library | Research, signage ‖ Oct 2023",
+      "• ‖ Volunteered to map how visitors get lost and designed floor signs that reduced front desk direction",
+      "questions by half",
+      "Habit tracker concept | Figma, ProtoPie ‖ Jan 2023",
+      "• ‖ Designed and tested a habit app for shift workers, written up as a case study with 4,000 reads on",
+      "Medium",
+      "EDUCATION",
+      "Pacific Crest University ‖ Seattle, WA",
+      "Bachelor of Fine Arts in Interaction Design ‖ Jun 2022",
+      "SKILLS",
+      "Design: Figma, ProtoPie, Adobe Illustrator, design systems",
+      "Research: Interviews, usability testing, surveys, Dovetail",
+      "Collaboration: Jira, Notion, basic HTML and CSS"
+    ]
+  },
+  "pass": true
+}

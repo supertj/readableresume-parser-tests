@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Avery Johnson",
+    "Raleigh, NC",
+    "(919) 555-0137",
+    "avery.johnson@email.com",
+    "linkedin.com/in/averyjohnson",
+    "October 5, 2026",
+    "Internship Coordinator",
+    "Triangle Research Labs",
+    "Durham, NC",
+    "Dear Internship Coordinator,",
+    "I'm a second-year biology student at Cardinal Ridge University, and I'm applying for your summer research internship in the microbiology group.",
+    "My lab experience so far comes from coursework, but I've taken it seriously. In Intro Biology my team cultured soil samples from 12 campus sites and compared what grew. I learned aseptic technique, kept a careful lab notebook, and found out how much I enjoy the slow work of getting a culture right.",
+    "Outside of class I work at the university library and help lead the Pre-Health Society. Both jobs have taught me to be reliable, to keep track of details, and to ask questions when something doesn't make sense.",
+    "I would be grateful for the chance to learn from your team this summer. Thank you for considering my application.",
+    "Sincerely,",
+    "Avery Johnson"
+  ],
+  "template": "student",
+  "doc": "cover-letter",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

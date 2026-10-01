@@ -1,0 +1,191 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Daniel Okafor",
+      "email": "daniel.okafor@email.com",
+      "phone": "(404) 555-0176",
+      "location": "Atlanta, GA",
+      "url": "linkedin.com/in/danielokafor",
+      "summary": "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually read."
+    },
+    "workExperiences": [
+      {
+        "company": "Peachtree Home Goods",
+        "jobTitle": "Supply Chain Manager",
+        "date": "Feb 2022 – Present",
+        "descriptions": [
+          "Manage inbound freight for 3 distribution centers and a team of 6 planners, about $48M in annual spend",
+          "Renegotiated contracts with 9 truckload carriers, saving $2.1M a year while raising on-time delivery from 87% to 95%",
+          "Set up a weekly carrier scorecard in Power BI that the VP of Operations reviews with every carrier each quarter",
+          "Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover"
+        ]
+      },
+      {
+        "company": "Corridor Freight Systems",
+        "jobTitle": "Senior Logistics Analyst",
+        "date": "Apr 2020 – Jan 2022",
+        "descriptions": [
+          "Modeled lane costs for 120 shipping lanes and recommended 14 consolidations that saved $640K in the first year",
+          "Built an SQL dashboard on detention charges that helped recover $210K in disputed fees from shippers",
+          "Trained four analysts on the costing model and wrote the handbook the team still uses"
+        ]
+      },
+      {
+        "company": "Corridor Freight Systems",
+        "jobTitle": "Logistics Analyst",
+        "date": "Jun 2018 – Mar 2020",
+        "descriptions": [
+          "Tracked daily load status for 300 shipments and flagged delays to customer service before customers called",
+          "Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week"
+        ]
+      },
+      {
+        "company": "Southline Distribution",
+        "jobTitle": "Operations Coordinator",
+        "date": "Jul 2017 – May 2018",
+        "descriptions": [
+          "Scheduled dock appointments for 60 inbound trucks a day and cut average wait time from 2 hours to 40 minutes",
+          "Ran cycle counts with the inventory team, raising location accuracy from 92% to 98.5%"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Chattahoochee State University",
+        "degree": "Bachelor of Business Administration in Supply Chain Management",
+        "date": "May 2017",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Systems: SAP S/4HANA, Oracle TMS, Manhattan WMS",
+        "Analysis: Excel, SQL, Power BI, Python basics",
+        "Certifications: APICS CSCP, Six Sigma Green Belt"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Atlanta, GA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Atlanta, GA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Atlanta, GA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[3].location",
+      "value": "Macon, GA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Columbus, GA",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Daniel Okafor",
+    "Atlanta, GA",
+    "(404) 555-0176",
+    "daniel.okafor@email.com",
+    "linkedin.com/in/danielokafor",
+    "SUMMARY",
+    "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually read.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Peachtree Home Goods",
+        "Supply Chain Manager",
+        "Feb 2022 – Present",
+        "Atlanta, GA"
+      ]
+    },
+    "Manage inbound freight for 3 distribution centers and a team of 6 planners, about $48M in annual spend",
+    "Renegotiated contracts with 9 truckload carriers, saving $2.1M a year while raising on-time delivery from 87% to 95%",
+    "Set up a weekly carrier scorecard in Power BI that the VP of Operations reviews with every carrier each quarter",
+    "Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover",
+    {
+      "anyOrder": [
+        "Corridor Freight Systems",
+        "Senior Logistics Analyst",
+        "Apr 2020 – Jan 2022",
+        "Atlanta, GA"
+      ]
+    },
+    "Modeled lane costs for 120 shipping lanes and recommended 14 consolidations that saved $640K in the first year",
+    "Built an SQL dashboard on detention charges that helped recover $210K in disputed fees from shippers",
+    "Trained four analysts on the costing model and wrote the handbook the team still uses",
+    {
+      "anyOrder": [
+        "Corridor Freight Systems",
+        "Logistics Analyst",
+        "Jun 2018 – Mar 2020",
+        "Atlanta, GA"
+      ]
+    },
+    "Tracked daily load status for 300 shipments and flagged delays to customer service before customers called",
+    "Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week",
+    {
+      "anyOrder": [
+        "Southline Distribution",
+        "Operations Coordinator",
+        "Jul 2017 – May 2018",
+        "Macon, GA"
+      ]
+    },
+    "Scheduled dock appointments for 60 inbound trucks a day and cut average wait time from 2 hours to 40 minutes",
+    "Ran cycle counts with the inventory team, raising location accuracy from 92% to 98.5%",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Chattahoochee State University",
+        "Columbus, GA",
+        "Bachelor of Business Administration in Supply Chain Management",
+        "May 2017"
+      ]
+    },
+    "SKILLS",
+    "Systems: SAP S/4HANA, Oracle TMS, Manhattan WMS",
+    "Analysis: Excel, SQL, Power BI, Python basics",
+    "Certifications: APICS CSCP, Six Sigma Green Belt"
+  ],
+  "template": "compact",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Manage inbound freight for 3 distribution centers and a team of 6 planners, about $48M in annual spend",
+    "Renegotiated contracts with 9 truckload carriers, saving $2.1M a year while raising on-time delivery from 87% to 95%",
+    "Set up a weekly carrier scorecard in Power BI that the VP of Operations reviews with every carrier each quarter",
+    "Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover",
+    "Modeled lane costs for 120 shipping lanes and recommended 14 consolidations that saved $640K in the first year",
+    "Built an SQL dashboard on detention charges that helped recover $210K in disputed fees from shippers",
+    "Trained four analysts on the costing model and wrote the handbook the team still uses",
+    "Tracked daily load status for 300 shipments and flagged delays to customer service before customers called",
+    "Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week",
+    "Scheduled dock appointments for 60 inbound trucks a day and cut average wait time from 2 hours to 40 minutes",
+    "Ran cycle counts with the inventory team, raising location accuracy from 92% to 98.5%"
+  ]
+}

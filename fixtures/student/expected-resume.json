@@ -1,0 +1,188 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Avery Johnson",
+      "email": "avery.johnson@email.com",
+      "phone": "(919) 555-0137",
+      "location": "Raleigh, NC",
+      "url": "linkedin.com/in/averyjohnson",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Cardinal Ridge University Libraries",
+        "jobTitle": "Library Assistant",
+        "date": "Sep 2024 – Present",
+        "descriptions": [
+          "Check out and shelve about 200 items per shift and help visitors find sources in the catalog",
+          "Rewrote the printer help sheet after noticing the same questions every night, and desk questions about printing dropped"
+        ]
+      },
+      {
+        "company": "Corner Books & Coffee",
+        "jobTitle": "Sales Associate",
+        "date": "Jun 2023 – Aug 2024",
+        "descriptions": [
+          "Handled the register and online pickup orders on weekend shifts of up to 300 customers",
+          "Set up the monthly staff picks table, which became one of the store's best-selling displays"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Cardinal Ridge University",
+        "degree": "Bachelor of Science in Biology, Minor in Chemistry",
+        "date": "Aug 2024 – May 2028",
+        "gpa": "3.6",
+        "descriptions": [
+          "GPA: 3.6/4.0, Dean's List three semesters",
+          "Relevant Coursework: Cell Biology, General Chemistry, Organic Chemistry, Statistics for Life Sciences"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Pre-Health Society | Events Chair",
+        "date": "Jan 2025 – Present",
+        "descriptions": [
+          "Plan four speaker events a semester with local doctors and nurses, with an average turnout of 60 students",
+          "Started a shadowing sign-up sheet that matched 25 members with clinics in the area"
+        ]
+      },
+      {
+        "project": "Soil Microbe Survey | Lab project, Intro Biology",
+        "date": "Mar 2025 – Apr 2025",
+        "descriptions": [
+          "Collected and cultured soil samples from 12 campus sites with a team of three and presented the results at the class poster session"
+        ]
+      },
+      {
+        "project": "Riverbend Community Garden | Volunteer",
+        "date": "Jun 2022 – Present",
+        "descriptions": [
+          "Help run Saturday harvests that send about 150 pounds of produce a month to a local food pantry"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Lab: Pipetting, gel electrophoresis, microscopy, aseptic technique",
+        "Software: Excel, Google Sheets, R (basics), ImageJ",
+        "Languages: English (native), Spanish (intermediate)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "educations[0].location",
+      "value": "Raleigh, NC",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Raleigh, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Cary, NC",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Avery Johnson",
+    "Raleigh, NC",
+    "(919) 555-0137",
+    "avery.johnson@email.com",
+    "linkedin.com/in/averyjohnson",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Cardinal Ridge University",
+        "Raleigh, NC",
+        "Bachelor of Science in Biology, Minor in Chemistry",
+        "Aug 2024 – May 2028"
+      ]
+    },
+    "GPA: 3.6/4.0, Dean's List three semesters",
+    "Relevant Coursework: Cell Biology, General Chemistry, Organic Chemistry, Statistics for Life Sciences",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Cardinal Ridge University Libraries",
+        "Library Assistant",
+        "Sep 2024 – Present",
+        "Raleigh, NC"
+      ]
+    },
+    "Check out and shelve about 200 items per shift and help visitors find sources in the catalog",
+    "Rewrote the printer help sheet after noticing the same questions every night, and desk questions about printing dropped",
+    {
+      "anyOrder": [
+        "Corner Books & Coffee",
+        "Sales Associate",
+        "Jun 2023 – Aug 2024",
+        "Cary, NC"
+      ]
+    },
+    "Handled the register and online pickup orders on weekend shifts of up to 300 customers",
+    "Set up the monthly staff picks table, which became one of the store's best-selling displays",
+    "PROJECTS & ACTIVITIES",
+    {
+      "anyOrder": [
+        "Pre-Health Society",
+        "Events Chair",
+        "Jan 2025 – Present"
+      ]
+    },
+    "Plan four speaker events a semester with local doctors and nurses, with an average turnout of 60 students",
+    "Started a shadowing sign-up sheet that matched 25 members with clinics in the area",
+    {
+      "anyOrder": [
+        "Soil Microbe Survey",
+        "Lab project, Intro Biology",
+        "Mar 2025 – Apr 2025"
+      ]
+    },
+    "Collected and cultured soil samples from 12 campus sites with a team of three and presented the results at the class poster session",
+    {
+      "anyOrder": [
+        "Riverbend Community Garden",
+        "Volunteer",
+        "Jun 2022 – Present"
+      ]
+    },
+    "Help run Saturday harvests that send about 150 pounds of produce a month to a local food pantry",
+    "SKILLS",
+    "Lab: Pipetting, gel electrophoresis, microscopy, aseptic technique",
+    "Software: Excel, Google Sheets, R (basics), ImageJ",
+    "Languages: English (native), Spanish (intermediate)"
+  ],
+  "template": "student",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "GPA: 3.6/4.0, Dean's List three semesters",
+    "Relevant Coursework: Cell Biology, General Chemistry, Organic Chemistry, Statistics for Life Sciences",
+    "Check out and shelve about 200 items per shift and help visitors find sources in the catalog",
+    "Rewrote the printer help sheet after noticing the same questions every night, and desk questions about printing dropped",
+    "Handled the register and online pickup orders on weekend shifts of up to 300 customers",
+    "Set up the monthly staff picks table, which became one of the store's best-selling displays",
+    "Plan four speaker events a semester with local doctors and nurses, with an average turnout of 60 students",
+    "Started a shadowing sign-up sheet that matched 25 members with clinics in the area",
+    "Collected and cultured soil samples from 12 campus sites with a team of three and presented the results at the class poster session",
+    "Help run Saturday harvests that send about 150 pounds of produce a month to a local food pantry"
+  ]
+}

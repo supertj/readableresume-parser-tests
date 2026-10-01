@@ -1,0 +1,19 @@
+{
+  "name": "Christopher Alexander Whitmore",
+  "extra_bullets": [
+    "Partnered with the finance team on the annual budget, providing sales forecasts by region and category that were within 3% of the final result",
+    "Mentored two junior analysts through their first year, including weekly check-ins and a shared reading list on statistics and SQL",
+    "Rebuilt the firm's template library for market sizing so that new graduates could start client work in their first week",
+    "Presented interim findings to the research group each month and kept the project's data dictionary up to date",
+    "Set up the shop's weekly rota in a shared spreadsheet so part-time staff could swap shifts without calling the manager"
+  ],
+  "cover_letter_paragraph": "Outside of work I volunteer with a local charity that teaches basic data skills to adults returning to employment. Explaining a pivot table to someone who has never used one keeps me honest about jargon, and it has made me a much clearer communicator with senior stakeholders who need the answer rather than the method.",
+  "extra_reference": {
+    "name": "Tom Fletcher",
+    "role": "Partner",
+    "organization": "Calder & Wright",
+    "email": "tom.fletcher@calderwright.co.uk",
+    "phone": "+44 113 496 0599",
+    "relationship": "Partner on most of my consulting projects"
+  }
+}

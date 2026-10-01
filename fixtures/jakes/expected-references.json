@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Jordan Ellis",
+    "(312) 555-0143",
+    "jordan.ellis@email.com",
+    "linkedin.com/in/jordanellis",
+    "github.com/jordanellis",
+    "REFERENCES",
+    "Priya Raman",
+    "Engineering Manager, Dispatch Tools",
+    "Northwind Freight",
+    "priya.raman@northwindfreight.com",
+    "(312) 555-0161",
+    "Internship manager, May 2025 – Aug 2025",
+    "Michael Osei",
+    "Associate Professor of Computer Science",
+    "Lakeshore State University",
+    "m.osei@lakeshorestate.edu",
+    "(312) 555-0178",
+    "Instructor for Data Structures; supervised my TA work",
+    "Laura Kim",
+    "Help Desk Supervisor",
+    "Campus Technology Services",
+    "laura.kim@lakeshorestate.edu",
+    "(312) 555-0189",
+    "Supervisor, Sep 2022 – Dec 2023"
+  ],
+  "template": "jakes",
+  "doc": "references",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Oliver Hughes",
+    "Manchester, UK",
+    "+44 7700 900456",
+    "oliver.hughes@email.com",
+    "linkedin.com/in/oliverhughes",
+    "REFERENCES",
+    "Sarah Whitaker",
+    "Commercial Director",
+    "Northgate Retail Group",
+    "sarah.whitaker@northgateretail.co.uk",
+    "+44 161 496 0321",
+    "Line manager since March 2023",
+    "James Patel",
+    "Head of Customer Insight",
+    "Pennine Energy",
+    "james.patel@pennineenergy.co.uk",
+    "+44 113 496 0745",
+    "Line manager, 2020 to 2023",
+    "Dr Helen Moore",
+    "Senior Lecturer in Economics",
+    "University of Sheffield",
+    "h.moore@sheffield.example.ac.uk",
+    "+44 114 496 0218",
+    "Supervisor for my research assistant role"
+  ],
+  "template": "international-cv",
+  "doc": "references",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

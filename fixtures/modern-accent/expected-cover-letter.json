@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Priya Shah",
+    "Seattle, WA",
+    "(206) 555-0119",
+    "priya.shah@email.com",
+    "priyashah.design/work",
+    "October 5, 2026",
+    "Hiring Team",
+    "Fernhill Health",
+    "Portland, OR",
+    "Dear Hiring Team,",
+    "I'm applying for the Senior Product Designer role on your patient experience team. Most of my work over the last three years has been about one problem you also have, which is getting people through medical forms without giving up.",
+    "At Larkspur Health I redesigned our patient intake flow. It went from 14 screens to 6, and completion rose from 61% to 83% in the first quarter after launch. The biggest change didn't come from the screens. It came from 22 interviews with front desk staff, who told us which questions patients skipped and why.",
+    "I like working close to engineering. I built our Figma component library together with our front-end lead, and we cut handoff time by about a third. I also try to stay with a feature after launch and watch what people do with it.",
+    "I'd be happy to walk you through the intake project and hear more about what your team is working on.",
+    "Best regards,",
+    "Priya Shah"
+  ],
+  "template": "modern-accent",
+  "doc": "cover-letter",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": []
+}
