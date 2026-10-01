@@ -1,0 +1,124 @@
+[
+  {
+    "template": "jakes",
+    "case": "accented",
+    "name": "José Álvarez",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "José Álvarez",
+    "parserNameOk": true,
+    "emailOk": true,
+    "fonts": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ]
+  },
+  {
+    "template": "jakes",
+    "case": "chinese",
+    "name": "王小明",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "",
+    "parserNameOk": false,
+    "emailOk": true,
+    "fonts": [
+      "MS-PMincho",
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ]
+  },
+  {
+    "template": "jakes",
+    "case": "cyrillic",
+    "name": "Иван Петров",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "Иван Петров",
+    "parserNameOk": true,
+    "emailOk": true,
+    "fonts": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ]
+  },
+  {
+    "template": "jakes",
+    "case": "latin-control",
+    "name": "Jordan Ellis",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "Jordan Ellis",
+    "parserNameOk": true,
+    "emailOk": true,
+    "fonts": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ]
+  },
+  {
+    "template": "plain",
+    "case": "accented",
+    "name": "José Álvarez",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "José Álvarez",
+    "parserNameOk": true,
+    "emailOk": true,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ]
+  },
+  {
+    "template": "plain",
+    "case": "chinese",
+    "name": "王小明",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "",
+    "parserNameOk": false,
+    "emailOk": true,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT",
+      "MS-PGothic"
+    ]
+  },
+  {
+    "template": "plain",
+    "case": "cyrillic",
+    "name": "Иван Петров",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "Иван Петров",
+    "parserNameOk": true,
+    "emailOk": true,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ]
+  },
+  {
+    "template": "plain",
+    "case": "latin-control",
+    "name": "Taylor Morgan",
+    "pages": 1,
+    "nameInText": true,
+    "parserName": "Taylor Morgan",
+    "parserNameOk": true,
+    "emailOk": true,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ]
+  }
+]

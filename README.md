@@ -1,5 +1,7 @@
 # ReadableResume parser tests
 
+[![verify](https://github.com/supertj/readableresume-parser-tests/actions/workflows/verify.yml/badge.svg)](https://github.com/supertj/readableresume-parser-tests/actions/workflows/verify.yml)
+
 Every template on [ReadableResume](https://readableresume.com) is checked with the scripts in this repository. The results are published next to each template. This repository lets anyone rerun them.
 
 ## What is tested
@@ -29,6 +31,17 @@ Each run writes `results/<file>.proof.json` with the expected and actual value o
 ## Why the PDF reader is re-implemented
 
 OpenResume's `read-pdf.ts` loads pdf.js through a browser worker entry, which doesn't run in Node. `parser/parse-pdf.ts` re-implements only that step, mirroring the upstream text-item mapping line for line, and imports the rest of the parser unchanged from the submodule.
+
+## Continuous verification
+
+`.github/workflows/verify.yml` runs on every push to `main`, weekly, and on demand. It runs the negative
+self-tests, fetches every template from Google Docs again, and runs every check. The reports and the exact
+files tested are kept as a workflow artifact for 90 days.
+
+## Findings
+
+One-off experiments live in `findings/`, each with the PDFs that were tested and the raw results, for
+example how non-Latin names behave (`findings/2026-10-02-non-latin-names/`).
 
 ## Known parser limits
 
