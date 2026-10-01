@@ -1,0 +1,60 @@
+# Re-runs every check against the live Google Docs exports (PRD 4.3.5 step 3).
+# No Google credentials are needed: the templates are public "anyone with the link" documents.
+name: verify
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Weekly, to catch a document that was edited, unshared or removed
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.18.1"
+          cache: npm
+          cache-dependency-path: parser/package-lock.json
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.21"
+
+      - name: Install parser dependencies
+        run: npm ci --no-audit --no-fund
+        working-directory: parser
+
+      - name: Install Python dependencies
+        run: uv sync --frozen --python 3.12
+
+      - name: Negative self-tests
+        run: uv run python checks/selftest.py
+
+      - name: Fetch the current exports from Google Docs
+        run: uv run python checks/fetch.py
+
+      - name: Run every check
+        run: uv run python checks/verify.py
+
+      - name: Upload proof reports and the files that were tested
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: proof-${{ github.run_id }}
+          path: |
+            results/
+            fixtures/**/*.pdf
+            fixtures/**/*.docx
+          retention-days: 90
