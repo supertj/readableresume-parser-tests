@@ -6,15 +6,15 @@
       "phone": "(919) 555-0124",
       "location": "Raleigh, NC",
       "url": "linkedin.com/in/michelleosei",
-      "summary": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist."
+      "summary": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation."
     },
     "workExperiences": [
       {
-        "company": "Oak City Health Partners",
+        "company": "Quenmore Health Partners",
         "jobTitle": "Ambulatory Care Pharmacy Specialist",
         "date": "Jan 2024 – Present",
         "descriptions": [
-          "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+          "Monitor about 180 patients on warfarin and DOACs and recommend dose changes to their four primary care physicians",
           "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
           "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours"
         ]
@@ -30,7 +30,7 @@
         ]
       },
       {
-        "company": "Pitt County Medical Center",
+        "company": "Ferrowby Medical Center",
         "jobTitle": "Pharmacy Intern",
         "date": "Jun 2019 – May 2021",
         "descriptions": [
@@ -40,7 +40,7 @@
     ],
     "educations": [
       {
-        "school": "Tar River University School of Pharmacy",
+        "school": "Marlbrook University School of Pharmacy",
         "date": "May 2021",
         "gpa": "",
         "descriptions": [
@@ -60,7 +60,7 @@
       ],
       "descriptions": [
         "License: Pharmacist, North Carolina; immunization certified",
-        "Certifications: BCACP, BLS",
+        "Certifications: BLS, APhA immunization delivery",
         "Systems: Epic Willow, PioneerRx, Pyxis"
       ]
     },
@@ -102,17 +102,17 @@
     "michelle.osei@email.com",
     "linkedin.com/in/michelleosei",
     "SUMMARY",
-    "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist.",
+    "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation.",
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Oak City Health Partners",
+        "Quenmore Health Partners",
         "Ambulatory Care Pharmacy Specialist",
         "Jan 2024 – Present",
         "Raleigh, NC"
       ]
     },
-    "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+    "Monitor about 180 patients on warfarin and DOACs and recommend dose changes to their four primary care physicians",
     "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
     "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
     {
@@ -128,7 +128,7 @@
     "Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
     {
       "anyOrder": [
-        "Pitt County Medical Center",
+        "Ferrowby Medical Center",
         "Pharmacy Intern",
         "Jun 2019 – May 2021",
         "Greenville, NC"
@@ -138,7 +138,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Tar River University School of Pharmacy",
+        "Marlbrook University School of Pharmacy",
         "Greenville, NC",
         "Doctor of Pharmacy (PharmD)",
         "May 2021"
@@ -147,7 +147,7 @@
     "Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
     "LICENSES AND SKILLS",
     "License: Pharmacist, North Carolina; immunization certified",
-    "Certifications: BCACP, BLS",
+    "Certifications: BLS, APhA immunization delivery",
     "Systems: Epic Willow, PioneerRx, Pyxis"
   ],
   "template": "example-pharmacist",
@@ -155,7 +155,7 @@
   "font": "Georgia",
   "expectedPages": 1,
   "bulletTexts": [
-    "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+    "Monitor about 180 patients on warfarin and DOACs and recommend dose changes to their four primary care physicians",
     "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
     "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
     "Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",

@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1QcbgeNfW3X-FXA50-1GVUKFvO_HOkdkHFd70ePp5Q_U/export?format=pdf",
-  "pdfSha256": "7347d91f6cc15cc568d5f281e03ca1c4e002d79ebab5b85a8cdda21c2232948d",
-  "docxSha256": "91f26cdb65efc0c885473a58eaf87459cb4ed215ed582b7df8c974b8dff95e6d",
-  "runAt": "2026-10-02T03:26:00+00:00",
+  "source": "https://docs.google.com/document/d/1iLhufaLnOCs6aSFj90hePY6rz_XwxpyKf9GLU34mnmQ/export?format=pdf",
+  "pdfSha256": "cb5976e702bb850a4e463e1b68980686d7bc457a536d2722127655e38f93eb8c",
+  "docxSha256": "0bfae6117998b26f1da9097232b18e76981b4dc5e4a8f8bccd325895fc6bd9d5",
+  "runAt": "2026-10-02T16:13:52+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -20,7 +20,7 @@
     "actual": 1,
     "ok": true
   },
-  "pageFill": 0.653,
+  "pageFill": 0.672,
   "fonts": {
     "expected": "Trebuchet MS",
     "found": [
@@ -31,9 +31,9 @@
     "unexpected": [],
     "whitespaceFonts": {
       "TrebuchetMS-Bold": 17,
-      "TrebuchetMS": 206,
+      "TrebuchetMS": 211,
       "ArialMT": 15,
-      "TrebuchetMS-Italic": 14
+      "TrebuchetMS-Italic": 13
     },
     "notEmbedded": [],
     "ok": true
@@ -49,30 +49,31 @@
       "Rachel Nguyen",
       "Portland, OR | (503) 555-0175 | rachel.nguyen@email.com | linkedin.com/in/rachelnguyen",
       "SUMMARY",
-      "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL",
-      "endorsement. Known for small-group reading work and steady communication with families.",
+      "Elementary teacher with seven years in second and third grade and an Oregon Professional Teaching License",
+      "with Elementary–Multiple Subjects and ESOL endorsements. Known for small-group reading work and steady",
+      "communication with families.",
       "EXPERIENCE",
       "Third Grade Teacher Aug 2022 – Present",
-      "Cedar Hills Elementary School Portland, OR",
+      "Thimbleberry Elementary School Portland, OR",
       "• Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in",
       "one year",
       "• Run daily small-group reading blocks using running records to regroup students every three weeks",
       "• Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100%",
       "attendance",
-      "• Mentor two student teachers from Willamette Crest University each spring",
+      "• Mentor two student teachers from Filbert Hill University each spring",
       "Second Grade Teacher Aug 2019 – Jun 2022",
-      "Riverbend Elementary School Salem, OR",
+      "Mossbrook Elementary School Salem, OR",
       "• Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above",
       "90%",
       "• Built a math station rotation that the grade-level team used across all four second grade classes",
       "• Served on the school's behavior support team and helped write the first schoolwide reward system",
       "• Coached the after-school running club for 40 students in grades 2 to 5",
       "EDUCATION",
-      "Willamette Crest University Salem, OR",
+      "Filbert Hill University Salem, OR",
       "Master of Arts in Teaching, Elementary Education Jun 2019",
-      "• Student teaching: second grade, Riverbend Elementary School",
+      "• Student teaching: second grade, Mossbrook Elementary School",
       "CERTIFICATIONS AND SKILLS",
-      "License: Oregon Preliminary Teaching License, ESOL endorsement",
+      "License: Oregon Professional Teaching License; Elementary–Multiple Subjects and ESOL endorsements",
       "Classroom: Guided reading, running records, IEPs, 504 plans",
       "Tools: Google Classroom, Seesaw, Lexia, i-Ready"
     ]
@@ -134,14 +135,14 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL endorsement. Known for small-group reading work and steady communication with families.",
-        "actual": "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL endorsement. Known for small-group reading work and steady communication with families.",
+        "expected": "Elementary teacher with seven years in second and third grade and an Oregon Professional Teaching License with Elementary–Multiple Subjects and ESOL endorsements. Known for small-group reading work and steady communication with families.",
+        "actual": "Elementary teacher with seven years in second and third grade and an Oregon Professional Teaching License with Elementary–Multiple Subjects and ESOL endorsements. Known for small-group reading work and steady communication with families.",
         "ok": true
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Cedar Hills Elementary School",
-        "actual": "Cedar Hills Elementary School",
+        "expected": "Thimbleberry Elementary School",
+        "actual": "Thimbleberry Elementary School",
         "ok": true
       },
       {
@@ -176,14 +177,14 @@
       },
       {
         "path": "workExperiences[0].descriptions[3]",
-        "expected": "Mentor two student teachers from Willamette Crest University each spring",
-        "actual": "Mentor two student teachers from Willamette Crest University each spring",
+        "expected": "Mentor two student teachers from Filbert Hill University each spring",
+        "actual": "Mentor two student teachers from Filbert Hill University each spring",
         "ok": true
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Riverbend Elementary School",
-        "actual": "Riverbend Elementary School",
+        "expected": "Mossbrook Elementary School",
+        "actual": "Mossbrook Elementary School",
         "ok": true
       },
       {
@@ -224,8 +225,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Willamette Crest University",
-        "actual": "Willamette Crest University",
+        "expected": "Filbert Hill University",
+        "actual": "Filbert Hill University",
         "ok": true
       },
       {
@@ -248,14 +249,14 @@
       },
       {
         "path": "educations[0].descriptions[0]",
-        "expected": "Student teaching: second grade, Riverbend Elementary School",
-        "actual": "Student teaching: second grade, Riverbend Elementary School",
+        "expected": "Student teaching: second grade, Mossbrook Elementary School",
+        "actual": "Student teaching: second grade, Mossbrook Elementary School",
         "ok": true
       },
       {
         "path": "skills.descriptions[0]",
-        "expected": "License: Oregon Preliminary Teaching License, ESOL endorsement",
-        "actual": "License: Oregon Preliminary Teaching License, ESOL endorsement",
+        "expected": "License: Oregon Professional Teaching License; Elementary–Multiple Subjects and ESOL endorsements",
+        "actual": "License: Oregon Professional Teaching License; Elementary–Multiple Subjects and ESOL endorsements",
         "ok": true
       },
       {
@@ -351,30 +352,31 @@
       "Rachel Nguyen",
       "Portland, OR | (503) 555-0175 | rachel.nguyen@email.com | linkedin.com/in/rachelnguyen",
       "SUMMARY",
-      "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL",
-      "endorsement. Known for small-group reading work and steady communication with families.",
+      "Elementary teacher with seven years in second and third grade and an Oregon Professional Teaching License",
+      "with Elementary–Multiple Subjects and ESOL endorsements. Known for small-group reading work and steady",
+      "communication with families.",
       "EXPERIENCE",
       "Third Grade Teacher ‖ Aug 2022 – Present",
-      "Cedar Hills Elementary School ‖ Portland, OR",
+      "Thimbleberry Elementary School ‖ Portland, OR",
       "• ‖ Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in",
       "one year",
       "• ‖ Run daily small-group reading blocks using running records to regroup students every three weeks",
       "• ‖ Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100%",
       "attendance",
-      "• ‖ Mentor two student teachers from Willamette Crest University each spring",
+      "• ‖ Mentor two student teachers from Filbert Hill University each spring",
       "Second Grade Teacher ‖ Aug 2019 – Jun 2022",
-      "Riverbend Elementary School ‖ Salem, OR",
+      "Mossbrook Elementary School ‖ Salem, OR",
       "• ‖ Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above",
       "90%",
       "• ‖ Built a math station rotation that the grade-level team used across all four second grade classes",
       "• ‖ Served on the school's behavior support team and helped write the first schoolwide reward system",
       "• ‖ Coached the after-school running club for 40 students in grades 2 to 5",
       "EDUCATION",
-      "Willamette Crest University ‖ Salem, OR",
+      "Filbert Hill University ‖ Salem, OR",
       "Master of Arts in Teaching, Elementary Education ‖ Jun 2019",
-      "• ‖ Student teaching: second grade, Riverbend Elementary School",
+      "• ‖ Student teaching: second grade, Mossbrook Elementary School",
       "CERTIFICATIONS AND SKILLS",
-      "License: Oregon Preliminary Teaching License, ESOL endorsement",
+      "License: Oregon Professional Teaching License; Elementary–Multiple Subjects and ESOL endorsements",
       "Classroom: Guided reading, running records, IEPs, 504 plans",
       "Tools: Google Classroom, Seesaw, Lexia, i-Ready"
     ]

@@ -10,13 +10,13 @@
     },
     "workExperiences": [
       {
-        "company": "Lake Erie College of Medicine",
+        "company": "Wendlow College of Medicine",
         "jobTitle": "Student Researcher",
         "date": "Jun 2024 – Present",
         "descriptions": [
-          "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+          "In the cardiology division, reviewed 410 charts for a study of 30-day readmissions after heart failure discharge; first-author poster presented at a national cardiology meeting, Nov 2025",
           "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
-          "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review"
+          "Ran the statistical analysis in R and drafted the methods section of the study manuscript, submitted to a cardiology journal and under review"
         ]
       },
       {
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "company": "Queen City Ambulance Service",
+        "company": "Riverbell Ambulance Service",
         "jobTitle": "Emergency Medical Technician",
         "date": "Jan 2021 – May 2023",
         "descriptions": [
@@ -40,7 +40,7 @@
     ],
     "educations": [
       {
-        "school": "Lake Erie College of Medicine",
+        "school": "Wendlow College of Medicine",
         "degree": "Doctor of Medicine (MD) Candidate",
         "date": "May 2027",
         "gpa": "",
@@ -115,7 +115,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Lake Erie College of Medicine",
+        "Wendlow College of Medicine",
         "Cleveland, OH",
         "Doctor of Medicine (MD) Candidate",
         "May 2027"
@@ -135,15 +135,15 @@
     "CLINICAL AND RESEARCH EXPERIENCE",
     {
       "anyOrder": [
-        "Lake Erie College of Medicine",
+        "Wendlow College of Medicine",
         "Student Researcher",
         "Jun 2024 – Present",
         "Cleveland, OH"
       ]
     },
-    "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+    "In the cardiology division, reviewed 410 charts for a study of 30-day readmissions after heart failure discharge; first-author poster presented at a national cardiology meeting, Nov 2025",
     "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
-    "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+    "Ran the statistical analysis in R and drafted the methods section of the study manuscript, submitted to a cardiology journal and under review",
     {
       "anyOrder": [
         "Westshore Free Clinic",
@@ -156,7 +156,7 @@
     "Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
     {
       "anyOrder": [
-        "Queen City Ambulance Service",
+        "Riverbell Ambulance Service",
         "Emergency Medical Technician",
         "Jan 2021 – May 2023",
         "Cincinnati, OH"
@@ -177,9 +177,9 @@
     "USMLE Step 1: Pass; Step 2 CK: 251",
     "Alpha Omega Alpha Honor Medical Society",
     "GPA: 3.9/4.0, summa cum laude",
-    "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+    "In the cardiology division, reviewed 410 charts for a study of 30-day readmissions after heart failure discharge; first-author poster presented at a national cardiology meeting, Nov 2025",
     "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
-    "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+    "Ran the statistical analysis in R and drafted the methods section of the study manuscript, submitted to a cardiology journal and under review",
     "Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
     "Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
     "Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",

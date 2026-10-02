@@ -10,7 +10,7 @@
     },
     "workExperiences": [
       {
-        "company": "St. Brendan Medical Center",
+        "company": "St. Odile Medical Center",
         "jobTitle": "Registered Nurse (Med-Surg)",
         "date": "Aug 2022 – Present",
         "descriptions": [
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "company": "Front Range Rehabilitation Hospital",
+        "company": "Elkmeadow Rehabilitation Hospital",
         "jobTitle": "Registered Nurse",
         "date": "Jun 2021 – Jul 2022",
         "descriptions": [
@@ -33,12 +33,11 @@
     ],
     "educations": [
       {
-        "school": "Rocky Ridge University",
+        "school": "Pinyon Draw University",
         "degree": "Bachelor of Science in Nursing",
         "date": "May 2021",
         "gpa": "",
         "descriptions": [
-          "Capstone: 160 hours in a cardiac intensive care unit",
           "Sigma Theta Tau International Honor Society of Nursing"
         ]
       }
@@ -92,7 +91,7 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "St. Brendan Medical Center",
+        "St. Odile Medical Center",
         "Registered Nurse (Med-Surg)",
         "Aug 2022 – Present",
         "Denver, CO"
@@ -104,7 +103,7 @@
     "Precept new graduate nurses and have oriented seven through their first 12 weeks",
     {
       "anyOrder": [
-        "Front Range Rehabilitation Hospital",
+        "Elkmeadow Rehabilitation Hospital",
         "Registered Nurse",
         "Jun 2021 – Jul 2022",
         "Aurora, CO"
@@ -116,13 +115,12 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Rocky Ridge University",
+        "Pinyon Draw University",
         "Fort Collins, CO",
         "Bachelor of Science in Nursing",
         "May 2021"
       ]
     },
-    "Capstone: 160 hours in a cardiac intensive care unit",
     "Sigma Theta Tau International Honor Society of Nursing",
     "LICENSES AND SKILLS",
     "License: Registered Nurse, Colorado (multistate compact)",
@@ -142,7 +140,6 @@
     "Managed medications and wound care for 12 rehab patients on day shift and documented every assessment in Epic",
     "Taught patients and families how to manage new insulin and blood thinner routines before discharge",
     "Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
-    "Capstone: 160 hours in a cardiac intensive care unit",
     "Sigma Theta Tau International Honor Society of Nursing"
   ]
 }

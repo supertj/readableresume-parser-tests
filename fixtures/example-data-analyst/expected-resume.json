@@ -10,7 +10,7 @@
     },
     "workExperiences": [
       {
-        "company": "Trailhead Outdoor Supply",
+        "company": "Talus & Tern Outdoor Supply",
         "jobTitle": "Data Analyst",
         "date": "Apr 2023 – Present",
         "descriptions": [
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "company": "Foothill Credit Union",
+        "company": "Larkmead Credit Union",
         "jobTitle": "Junior Data Analyst",
         "date": "Jul 2021 – Mar 2023",
         "descriptions": [
@@ -33,7 +33,7 @@
     ],
     "educations": [
       {
-        "school": "Front Range State University",
+        "school": "Cottonhollow University",
         "degree": "Bachelor of Science in Statistics",
         "date": "May 2021",
         "gpa": "",
@@ -103,7 +103,7 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Trailhead Outdoor Supply",
+        "Talus & Tern Outdoor Supply",
         "Data Analyst",
         "Apr 2023 – Present",
         "Denver, CO"
@@ -115,7 +115,7 @@
     "Designed the A/B test readout template the marketing team now uses for every email and site test",
     {
       "anyOrder": [
-        "Foothill Credit Union",
+        "Larkmead Credit Union",
         "Junior Data Analyst",
         "Jul 2021 – Mar 2023",
         "Boulder, CO"
@@ -136,7 +136,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Front Range State University",
+        "Cottonhollow University",
         "Fort Collins, CO",
         "Bachelor of Science in Statistics",
         "May 2021"

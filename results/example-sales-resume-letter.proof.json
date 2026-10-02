@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1Ta4ZunYkWDu7n0qzB4S3Wo536km7nYGS4jgp7MIM8nk/export?format=pdf",
-  "pdfSha256": "3b228cd9230eeecd3aeae9d8a1d14788594b44001f52a107194be26fde7ed792",
-  "docxSha256": "04636279b1efa78d49de4e293c101b847a811ca76abae40a44a16520a7ac05e0",
-  "runAt": "2026-10-02T03:26:00+00:00",
+  "source": "https://docs.google.com/document/d/1KDLM7p2mEXWGW3EdTeHGbktwfug52bf6a6XnnAu2RI4/export?format=pdf",
+  "pdfSha256": "46893a0d60dbc5733abb600066faa31ce2454c8bc6aae8193d6813351a4532e8",
+  "docxSha256": "a1ee2214c4e16cc192cff307665d4345db21b79601fe2677073825ff1170eb48",
+  "runAt": "2026-10-02T16:13:51+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -20,7 +20,7 @@
     "actual": 1,
     "ok": true
   },
-  "pageFill": 0.713,
+  "pageFill": 0.734,
   "fonts": {
     "expected": "Arial",
     "found": [
@@ -31,7 +31,7 @@
     "unexpected": [],
     "whitespaceFonts": {
       "Arial-BoldMT": 18,
-      "ArialMT": 220,
+      "ArialMT": 226,
       "Arial-ItalicMT": 9
     },
     "notEmbedded": [],
@@ -48,13 +48,14 @@
       "Tyler Brennan",
       "Nashville, TN | (615) 555-0144 | tyler.brennan@email.com | linkedin.com/in/tylerbrennan",
       "SUMMARY",
-      "Sales representative with five years selling packaging supplies to food and beverage distributors across the",
-      "Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+      "Sales representative with six years in B2B sales, the last four selling packaging supplies to food and",
+      "beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long",
+      "sales cycles.",
       "EXPERIENCE",
-      "Tri-State Packaging Supply Nashville, TN",
+      "Tennwick Packaging Supply Nashville, TN",
       "Territory Sales Representative Mar 2022 – Present",
-      "• Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in",
-      "2023",
+      "• Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2025 and 109% in",
+      "2024",
       "• Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
       "• Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of",
       "target margin",
@@ -65,7 +66,7 @@
       "reps",
       "• Ranked first of eight inside reps for closed revenue in 2021",
       "• Trained three new inside reps on our call scripts and CRM process",
-      "The Copper Kettle Knoxville, TN",
+      "The Sorrel Hen Knoxville, TN",
       "Server Aug 2016 – May 2020",
       "• Worked weekend shifts through college and was regularly asked to train new staff",
       "EDUCATION",
@@ -73,8 +74,7 @@
       "Bachelor of Business Administration, Marketing May 2020",
       "SKILLS",
       "Sales: Prospecting, negotiation, account planning, pricing",
-      "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel",
-      "Training: Sandler Selling System, Challenger Sale workshop"
+      "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel"
     ]
   },
   "c3Docx": {
@@ -134,14 +134,14 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Sales representative with five years selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
-        "actual": "Sales representative with five years selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+        "expected": "Sales representative with six years in B2B sales, the last four selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+        "actual": "Sales representative with six years in B2B sales, the last four selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
         "ok": true
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Tri-State Packaging Supply",
-        "actual": "Tri-State Packaging Supply",
+        "expected": "Tennwick Packaging Supply",
+        "actual": "Tennwick Packaging Supply",
         "ok": true
       },
       {
@@ -158,8 +158,8 @@
       },
       {
         "path": "workExperiences[0].descriptions[0]",
-        "expected": "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in 2023",
-        "actual": "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in 2023",
+        "expected": "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2025 and 109% in 2024",
+        "actual": "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2025 and 109% in 2024",
         "ok": true
       },
       {
@@ -218,8 +218,8 @@
       },
       {
         "path": "workExperiences[2].company",
-        "expected": "The Copper Kettle",
-        "actual": "The Copper Kettle",
+        "expected": "The Sorrel Hen",
+        "actual": "The Sorrel Hen",
         "ok": true
       },
       {
@@ -375,13 +375,14 @@
       "Tyler Brennan",
       "Nashville, TN | (615) 555-0144 | tyler.brennan@email.com | linkedin.com/in/tylerbrennan",
       "SUMMARY",
-      "Sales representative with five years selling packaging supplies to food and beverage distributors across the",
-      "Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+      "Sales representative with six years in B2B sales, the last four selling packaging supplies to food and",
+      "beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long",
+      "sales cycles.",
       "EXPERIENCE",
-      "Tri-State Packaging Supply ‖ Nashville, TN",
+      "Tennwick Packaging Supply ‖ Nashville, TN",
       "Territory Sales Representative ‖ Mar 2022 – Present",
-      "• ‖ Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in",
-      "2023",
+      "• ‖ Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2025 and 109% in",
+      "2024",
       "• ‖ Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
       "• ‖ Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of",
       "target margin",
@@ -392,7 +393,7 @@
       "reps",
       "• ‖ Ranked first of eight inside reps for closed revenue in 2021",
       "• ‖ Trained three new inside reps on our call scripts and CRM process",
-      "The Copper Kettle ‖ Knoxville, TN",
+      "The Sorrel Hen ‖ Knoxville, TN",
       "Server ‖ Aug 2016 – May 2020",
       "• ‖ Worked weekend shifts through college and was regularly asked to train new staff",
       "EDUCATION",

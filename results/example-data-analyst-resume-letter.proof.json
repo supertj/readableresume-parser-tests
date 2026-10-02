@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1IOyaJYrrZJ7ijcEJ-zPpCrS38-t-fRb7Ja6Yp6wsacQ/export?format=pdf",
-  "pdfSha256": "277a18ba8dd41adee60d937be001078012a411505d89749973a524ec0622c2b2",
-  "docxSha256": "29975eea9a975953348da6fe5e5f9a21b4025ca77aae7dd65bf60604cf4a4e5e",
-  "runAt": "2026-10-02T03:25:55+00:00",
+  "source": "https://docs.google.com/document/d/15p_c5ZFNM_uVS3kwg2187lmaf9qnrBIUogUpbUj1sMg/export?format=pdf",
+  "pdfSha256": "23cd76085bc38eaacc0c7b7050dc04253c964277bd2eabdeb3dc2129701f0924",
+  "docxSha256": "f828a6b70f106627dd9e318982a8c12d32efdbe39b4350960d51a8770b804326",
+  "runAt": "2026-10-02T16:13:47+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -51,7 +51,7 @@
       "Data analyst with three years in e-commerce, working mostly in SQL, dbt and Looker. I like turning a messy",
       "question from marketing or operations into one clear chart and a recommendation.",
       "EXPERIENCE",
-      "Trailhead Outdoor Supply Denver, CO",
+      "Talus & Tern Outdoor Supply Denver, CO",
       "Data Analyst Apr 2023 – Present",
       "• Built the Looker dashboard for weekly sales and returns that 40 managers use; it replaced six emailed",
       "spreadsheets",
@@ -59,7 +59,7 @@
       "saved $380K a year",
       "• Moved 25 reporting queries into dbt models with tests, cutting broken-report tickets from about 10 a month to 2",
       "• Designed the A/B test readout template the marketing team now uses for every email and site test",
-      "Foothill Credit Union Boulder, CO",
+      "Larkmead Credit Union Boulder, CO",
       "Junior Data Analyst Jul 2021 – Mar 2023",
       "• Wrote SQL and Excel reports on loan applications for the lending team and automated three of them in Python",
       "• Cleaned five years of member data before a core system migration and documented every field mapping",
@@ -68,7 +68,7 @@
       "Colorado Trail Usage | Python, BigQuery, Streamlit 2024",
       "• Public dashboard of trailhead counts from state open data; featured in a local outdoor newsletter",
       "EDUCATION",
-      "Front Range State University Fort Collins, CO",
+      "Cottonhollow University Fort Collins, CO",
       "Bachelor of Science in Statistics May 2021",
       "SKILLS",
       "Languages: SQL, Python (pandas), R",
@@ -140,8 +140,8 @@
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Trailhead Outdoor Supply",
-        "actual": "Trailhead Outdoor Supply",
+        "expected": "Talus & Tern Outdoor Supply",
+        "actual": "Talus & Tern Outdoor Supply",
         "ok": true
       },
       {
@@ -182,8 +182,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Foothill Credit Union",
-        "actual": "Foothill Credit Union",
+        "expected": "Larkmead Credit Union",
+        "actual": "Larkmead Credit Union",
         "ok": true
       },
       {
@@ -218,8 +218,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Front Range State University",
-        "actual": "Front Range State University",
+        "expected": "Cottonhollow University",
+        "actual": "Cottonhollow University",
         "ok": true
       },
       {
@@ -378,7 +378,7 @@
       "Data analyst with three years in e-commerce, working mostly in SQL, dbt and Looker. I like turning a messy",
       "question from marketing or operations into one clear chart and a recommendation.",
       "EXPERIENCE",
-      "Trailhead Outdoor Supply ‖ Denver, CO",
+      "Talus & Tern Outdoor Supply ‖ Denver, CO",
       "Data Analyst ‖ Apr 2023 – Present",
       "• ‖ Built the Looker dashboard for weekly sales and returns that 40 managers use; it replaced six emailed",
       "spreadsheets",
@@ -386,7 +386,7 @@
       "saved $380K a year",
       "• ‖ Moved 25 reporting queries into dbt models with tests, cutting broken-report tickets from about 10 a month to 2",
       "• ‖ Designed the A/B test readout template the marketing team now uses for every email and site test",
-      "Foothill Credit Union ‖ Boulder, CO",
+      "Larkmead Credit Union ‖ Boulder, CO",
       "Junior Data Analyst ‖ Jul 2021 – Mar 2023",
       "• ‖ Wrote SQL and Excel reports on loan applications for the lending team and automated three of them in Python",
       "• ‖ Cleaned five years of member data before a core system migration and documented every field mapping",
@@ -395,7 +395,7 @@
       "Colorado Trail Usage | Python, BigQuery, Streamlit ‖ 2024",
       "• ‖ Public dashboard of trailhead counts from state open data; featured in a local outdoor newsletter",
       "EDUCATION",
-      "Front Range State University ‖ Fort Collins, CO",
+      "Cottonhollow University ‖ Fort Collins, CO",
       "Bachelor of Science in Statistics ‖ May 2021",
       "SKILLS",
       "Languages: SQL, Python (pandas), R",

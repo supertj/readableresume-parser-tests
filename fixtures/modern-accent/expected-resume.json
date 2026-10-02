@@ -10,7 +10,7 @@
     },
     "workExperiences": [
       {
-        "company": "Larkspur Health",
+        "company": "Wrenfold Health",
         "jobTitle": "Product Designer",
         "date": "Mar 2024 – Present",
         "descriptions": [
@@ -20,7 +20,7 @@
         ]
       },
       {
-        "company": "Cobalt Lane Studio",
+        "company": "Larchpenny Studio",
         "jobTitle": "UX Designer",
         "date": "Jul 2022 – Feb 2024",
         "descriptions": [
@@ -30,7 +30,7 @@
         ]
       },
       {
-        "company": "Northgate Transit Authority",
+        "company": "Carrowmere Transit Authority",
         "jobTitle": "Design Intern",
         "date": "Jun 2021 – Aug 2021",
         "descriptions": [
@@ -115,7 +115,7 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Larkspur Health",
+        "Wrenfold Health",
         "Product Designer",
         "Mar 2024 – Present",
         "Seattle, WA"
@@ -126,7 +126,7 @@
     "Built a Figma component library with the front-end lead that cut design-to-build handoff time by about a third",
     {
       "anyOrder": [
-        "Cobalt Lane Studio",
+        "Larchpenny Studio",
         "UX Designer",
         "Jul 2022 – Feb 2024",
         "Seattle, WA"
@@ -137,7 +137,7 @@
     "Mentored two design interns through their first shipped features",
     {
       "anyOrder": [
-        "Northgate Transit Authority",
+        "Carrowmere Transit Authority",
         "Design Intern",
         "Jun 2021 – Aug 2021",
         "Tacoma, WA"

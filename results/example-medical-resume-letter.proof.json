@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1Vb4KA-WOrGwgJjuTbvEQDWK0cl37h1qi2bSFGMddgPQ/export?format=pdf",
-  "pdfSha256": "0e8666a03a3980d22095d8e9dc08aa142e2c7817f343b7b382b976090132daf6",
-  "docxSha256": "29b485dc8a88c370ec6af520e2fcdabd2da5336527b96b18cc885a592ce4858e",
-  "runAt": "2026-10-02T03:25:58+00:00",
+  "source": "https://docs.google.com/document/d/1J-z4zvn3a20bWMnUd6LIPGHF8NXFIoonhLrJe6ZFdFc/export?format=pdf",
+  "pdfSha256": "52fe9d315d0b7ffd4ea435e7bec808bec8f1a8e267302612eb02c5ae3e741930",
+  "docxSha256": "8d6a6273b67463a079fafaa1743efdac572ed8b908c988ded14d1ed733a3210e",
+  "runAt": "2026-10-02T16:13:49+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -20,7 +20,7 @@
     "actual": 1,
     "ok": true
   },
-  "pageFill": 0.64,
+  "pageFill": 0.658,
   "fonts": {
     "expected": "Georgia",
     "found": [
@@ -30,8 +30,8 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Georgia-Bold": 28,
-      "Georgia": 183,
+      "Georgia-Bold": 25,
+      "Georgia": 193,
       "TimesNewRomanPSMT": 20,
       "Georgia-Italic": 16
     },
@@ -49,7 +49,7 @@
       "Omar Haddad",
       "Cleveland, OH | (216) 555-0131 | omar.haddad@email.com | linkedin.com/in/omarhaddad",
       "EDUCATION",
-      "Lake Erie College of Medicine Cleveland, OH",
+      "Wendlow College of Medicine Cleveland, OH",
       "Doctor of Medicine (MD) Candidate May 2027",
       "• USMLE Step 1: Pass; Step 2 CK: 251",
       "• Alpha Omega Alpha Honor Medical Society",
@@ -57,17 +57,18 @@
       "Bachelor of Science in Biochemistry May 2023",
       "• GPA: 3.9/4.0, summa cum laude",
       "CLINICAL AND RESEARCH EXPERIENCE",
-      "Lake Erie College of Medicine Cleveland, OH",
+      "Wendlow College of Medicine Cleveland, OH",
       "Student Researcher Jun 2024 – Present",
-      "• In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge;",
-      "abstract accepted at a national cardiology meeting",
+      "• In the cardiology division, reviewed 410 charts for a study of 30-day readmissions after heart failure",
+      "discharge; first-author poster presented at a national cardiology meeting, Nov 2025",
       "• Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
-      "• Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+      "• Ran the statistical analysis in R and drafted the methods section of the study manuscript, submitted to a",
+      "cardiology journal and under review",
       "Westshore Free Clinic Cleveland, OH",
       "Student Volunteer, Clinic Coordinator Aug 2023 – Present",
       "• Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
       "• Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
-      "Queen City Ambulance Service Cincinnati, OH",
+      "Riverbell Ambulance Service Cincinnati, OH",
       "Emergency Medical Technician Jan 2021 – May 2023",
       "• Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
       "• Trained four new EMTs on the stretcher, radio and patient care report system",
@@ -140,8 +141,8 @@
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Lake Erie College of Medicine",
-        "actual": "Lake Erie College of Medicine",
+        "expected": "Wendlow College of Medicine",
+        "actual": "Wendlow College of Medicine",
         "ok": true
       },
       {
@@ -158,8 +159,8 @@
       },
       {
         "path": "workExperiences[0].descriptions[0]",
-        "expected": "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
-        "actual": "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+        "expected": "In the cardiology division, reviewed 410 charts for a study of 30-day readmissions after heart failure discharge; first-author poster presented at a national cardiology meeting, Nov 2025",
+        "actual": "In the cardiology division, reviewed 410 charts for a study of 30-day readmissions after heart failure discharge; first-author poster presented at a national cardiology meeting, Nov 2025",
         "ok": true
       },
       {
@@ -170,8 +171,8 @@
       },
       {
         "path": "workExperiences[0].descriptions[2]",
-        "expected": "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
-        "actual": "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+        "expected": "Ran the statistical analysis in R and drafted the methods section of the study manuscript, submitted to a cardiology journal and under review",
+        "actual": "Ran the statistical analysis in R and drafted the methods section of the study manuscript, submitted to a cardiology journal and under review",
         "ok": true
       },
       {
@@ -206,8 +207,8 @@
       },
       {
         "path": "workExperiences[2].company",
-        "expected": "Queen City Ambulance Service",
-        "actual": "Queen City Ambulance Service",
+        "expected": "Riverbell Ambulance Service",
+        "actual": "Riverbell Ambulance Service",
         "ok": true
       },
       {
@@ -236,8 +237,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Lake Erie College of Medicine",
-        "actual": "Lake Erie College of Medicine",
+        "expected": "Wendlow College of Medicine",
+        "actual": "Wendlow College of Medicine",
         "ok": true
       },
       {
@@ -423,7 +424,7 @@
       "Omar Haddad",
       "Cleveland, OH | (216) 555-0131 | omar.haddad@email.com | linkedin.com/in/omarhaddad",
       "EDUCATION",
-      "Lake Erie College of Medicine ‖ Cleveland, OH",
+      "Wendlow College of Medicine ‖ Cleveland, OH",
       "Doctor of Medicine (MD) Candidate ‖ May 2027",
       "• ‖ USMLE Step 1: Pass; Step 2 CK: 251",
       "• ‖ Alpha Omega Alpha Honor Medical Society",
@@ -431,17 +432,18 @@
       "Bachelor of Science in Biochemistry ‖ May 2023",
       "• ‖ GPA: 3.9/4.0, summa cum laude",
       "CLINICAL AND RESEARCH EXPERIENCE",
-      "Lake Erie College of Medicine ‖ Cleveland, OH",
+      "Wendlow College of Medicine ‖ Cleveland, OH",
       "Student Researcher ‖ Jun 2024 – Present",
-      "• ‖ In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge;",
-      "abstract accepted at a national cardiology meeting",
+      "• ‖ In the cardiology division, reviewed 410 charts for a study of 30-day readmissions after heart failure",
+      "discharge; first-author poster presented at a national cardiology meeting, Nov 2025",
       "• ‖ Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
-      "• ‖ Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+      "• ‖ Ran the statistical analysis in R and drafted the methods section of the study manuscript, submitted to a",
+      "cardiology journal and under review",
       "Westshore Free Clinic ‖ Cleveland, OH",
       "Student Volunteer, Clinic Coordinator ‖ Aug 2023 – Present",
       "• ‖ Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
       "• ‖ Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
-      "Queen City Ambulance Service ‖ Cincinnati, OH",
+      "Riverbell Ambulance Service ‖ Cincinnati, OH",
       "Emergency Medical Technician ‖ Jan 2021 – May 2023",
       "• ‖ Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
       "• ‖ Trained four new EMTs on the stretcher, radio and patient care report system",

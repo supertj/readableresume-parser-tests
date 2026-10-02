@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1Hdc-6Iy6foCtJwKwDjvoh14h1D8_XQ3lQI6iTbPSmZw/export?format=pdf",
-  "pdfSha256": "ff99f82b5aa49eed18e9c2108f4d263bc38690f24cee7735b70360a1462448fd",
-  "docxSha256": "1e627ee1ab44d6cd53efc3d948be2d64824fab8cd5737926a0898bd42e5d3555",
-  "runAt": "2026-10-02T03:25:56+00:00",
+  "source": "https://docs.google.com/document/d/1Fb57sEbJO08Bq4_hjk5EuRGT0iHxNweU_1KZE69POdQ/export?format=pdf",
+  "pdfSha256": "ff150d7ecabbc120edd9f1565cc1d31d979e8d6029eda6c89b7d9c5f6aeb477d",
+  "docxSha256": "3b6a20444dc7439cabbc034b8eaa3e6b55d42e09891b7a05737a865a5ed1bb0e",
+  "runAt": "2026-10-02T16:13:48+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -31,9 +31,9 @@
     "unexpected": [],
     "whitespaceFonts": {
       "TrebuchetMS-Bold": 15,
-      "TrebuchetMS": 218,
+      "TrebuchetMS": 219,
       "ArialMT": 14,
-      "TrebuchetMS-Italic": 16
+      "TrebuchetMS-Italic": 15
     },
     "notEmbedded": [],
     "ok": true
@@ -49,7 +49,7 @@
       "Sofia Marquez",
       "Austin, TX | (512) 555-0153 | sofia.marquez@email.com | sofiamarquez.design/work",
       "SUMMARY",
-      "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients.",
+      "Graphic designer with six years of brand, packaging and campaign work for food and beverage clients.",
       "Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
       "EXPERIENCE",
       "Senior Graphic Designer Feb 2023 – Present",
@@ -61,14 +61,14 @@
       "• Present concepts to clients and art direct two junior designers and one freelance illustrator",
       "• Designed the agency's pitch template, used in 12 new business presentations last year",
       "Graphic Designer Jun 2020 – Jan 2023",
-      "Lone Oak Brewing Company San Antonio, TX",
+      "Rattlebrush Brewing Company San Antonio, TX",
       "• Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
-      "• Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000",
-      "labels",
+      "• Prepared print files for three vendors and caught a color profile error that would have meant reprinting",
+      "40,000 labels",
       "• Made social graphics and short motion pieces in After Effects that doubled average engagement on new",
       "release posts",
       "EDUCATION",
-      "Hill Country University San Marcos, TX",
+      "Mesquite Hollow University San Marcos, TX",
       "Bachelor of Fine Arts in Graphic Design May 2020",
       "• Senior show: identity system for a fictional public library, chosen for the department's annual exhibition",
       "SKILLS",
@@ -135,8 +135,8 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
-        "actual": "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
+        "expected": "Graphic designer with six years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
+        "actual": "Graphic designer with six years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
         "ok": true
       },
       {
@@ -183,8 +183,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Lone Oak Brewing Company",
-        "actual": "Lone Oak Brewing Company",
+        "expected": "Rattlebrush Brewing Company",
+        "actual": "Rattlebrush Brewing Company",
         "ok": true
       },
       {
@@ -207,8 +207,8 @@
       },
       {
         "path": "workExperiences[1].descriptions[1]",
-        "expected": "Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000 labels",
-        "actual": "Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000 labels",
+        "expected": "Prepared print files for three vendors and caught a color profile error that would have meant reprinting 40,000 labels",
+        "actual": "Prepared print files for three vendors and caught a color profile error that would have meant reprinting 40,000 labels",
         "ok": true
       },
       {
@@ -219,8 +219,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Hill Country University",
-        "actual": "Hill Country University",
+        "expected": "Mesquite Hollow University",
+        "actual": "Mesquite Hollow University",
         "ok": true
       },
       {
@@ -352,7 +352,7 @@
       "Sofia Marquez",
       "Austin, TX | (512) 555-0153 | sofia.marquez@email.com | sofiamarquez.design/work",
       "SUMMARY",
-      "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients.",
+      "Graphic designer with six years of brand, packaging and campaign work for food and beverage clients.",
       "Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
       "EXPERIENCE",
       "Senior Graphic Designer ‖ Feb 2023 – Present",
@@ -364,14 +364,14 @@
       "• ‖ Present concepts to clients and art direct two junior designers and one freelance illustrator",
       "• ‖ Designed the agency's pitch template, used in 12 new business presentations last year",
       "Graphic Designer ‖ Jun 2020 – Jan 2023",
-      "Lone Oak Brewing Company ‖ San Antonio, TX",
+      "Rattlebrush Brewing Company ‖ San Antonio, TX",
       "• ‖ Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
-      "• ‖ Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000",
-      "labels",
+      "• ‖ Prepared print files for three vendors and caught a color profile error that would have meant reprinting",
+      "40,000 labels",
       "• ‖ Made social graphics and short motion pieces in After Effects that doubled average engagement on new",
       "release posts",
       "EDUCATION",
-      "Hill Country University ‖ San Marcos, TX",
+      "Mesquite Hollow University ‖ San Marcos, TX",
       "Bachelor of Fine Arts in Graphic Design ‖ May 2020",
       "• ‖ Senior show: identity system for a fictional public library, chosen for the department's annual exhibition",
       "SKILLS",

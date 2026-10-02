@@ -4,10 +4,10 @@
   "doc": "cover-letter",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1gEq1HXPOxGIeinOrxD-OwFskipR1kkDQ6aQOCrozLmA/export?format=pdf",
-  "pdfSha256": "ba1a3b1ddafbc6892b89d82be1708fcc66907529cb97d651badd7776e90b9085",
-  "docxSha256": "cdbf20edae005c3e1ab3323f111125f0514436495f0168fd66c715c90bd21004",
-  "runAt": "2026-10-01T12:01:43+00:00",
+  "source": "https://docs.google.com/document/d/1Vxa7GnVVxkCU_aCDOoMGx75SAGrlb-9_ygCw1Y_FhA0/export?format=pdf",
+  "pdfSha256": "417f0517907417e6394d137dae7a876cd899cc01fc4060095c0a0219f137167a",
+  "docxSha256": "66a4a559a668f2504fba4143cab8392def1e23520d5f4a4bb621ca38892a0d60",
+  "runAt": "2026-10-02T15:58:24+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,7 +30,7 @@
     "unexpected": [],
     "whitespaceFonts": {
       "Georgia-Bold": 2,
-      "Georgia": 184
+      "Georgia": 185
     },
     "notEmbedded": [],
     "ok": true
@@ -52,8 +52,8 @@
       "Dear Recruiting Team,",
       "I'm a senior at Halden College studying economics, and I'm applying for the Investment Banking Analyst position",
       "in your consumer and retail group starting in July 2026.",
-      "This past summer I worked as a summer analyst at Ridgeway Capital Partners. I built three-statement models for",
-      "two retail clients, drafted the industry section of a sell-side pitch book, and checked a 40-tab merger model",
+      "This past summer I worked as a summer analyst at Harlan Quay Capital Partners. I built three-statement models",
+      "for two retail clients, drafted the industry section of a sell-side pitch book, and checked a 40-tab merger model",
       "before it went out. That last job taught me to slow down and trace every link, which is how I found a circular",
       "reference in the debt schedule a day before the client meeting.",
       "At school I run the weekly pitch meetings for our investment club and help manage a $25,000 student portfolio.",

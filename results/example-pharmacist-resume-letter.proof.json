@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1k0Vzx6eXiHI-Luk_jWRvQ1Zv-JTxldS0aNppiuUyUPI/export?format=pdf",
-  "pdfSha256": "540ed7e3d9e932db75c09313de4490ea89d2ae4cc7bd2b0d99bc071a36fbc269",
-  "docxSha256": "c28d95eaefaf6cc28c0fe93c01540a2ab11f01ac686c0cf6584998f6c63f0776",
-  "runAt": "2026-10-02T03:25:59+00:00",
+  "source": "https://docs.google.com/document/d/1aqFU0rE3xV9jDZ37BJF9yrqeJHaxPErERc4PXTEFwzE/export?format=pdf",
+  "pdfSha256": "56219bb649269c260708e420cb34bf5859e5d48a3e157374ab913c8197fb08aa",
+  "docxSha256": "e3834bc65f02d48673d4838ba179c18697576f4668b8f754939bb3d7119f8a91",
+  "runAt": "2026-10-02T16:13:50+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -20,7 +20,7 @@
     "actual": 1,
     "ok": true
   },
-  "pageFill": 0.664,
+  "pageFill": 0.645,
   "fonts": {
     "expected": "Georgia",
     "found": [
@@ -30,8 +30,8 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Georgia-Bold": 24,
-      "Georgia": 190,
+      "Georgia-Bold": 21,
+      "Georgia": 189,
       "TimesNewRomanPSMT": 16,
       "Georgia-Italic": 9
     },
@@ -50,11 +50,10 @@
       "Raleigh, NC | (919) 555-0124 | michelle.osei@email.com | linkedin.com/in/michelleosei",
       "SUMMARY",
       "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation.",
-      "Board Certified Ambulatory Care Pharmacist.",
       "EXPERIENCE",
-      "Oak City Health Partners Raleigh, NC",
+      "Quenmore Health Partners Raleigh, NC",
       "Ambulatory Care Pharmacy Specialist Jan 2024 – Present",
-      "• Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four",
+      "• Monitor about 180 patients on warfarin and DOACs and recommend dose changes to their four primary care",
       "physicians",
       "• Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six",
       "months",
@@ -64,17 +63,17 @@
       "• Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
       "• Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
       "• Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
-      "Pitt County Medical Center Greenville, NC",
+      "Ferrowby Medical Center Greenville, NC",
       "Pharmacy Intern Jun 2019 – May 2021",
       "• Took medication histories in the emergency department and flagged dosing problems for the clinical",
       "pharmacist",
       "EDUCATION",
-      "Tar River University School of Pharmacy Greenville, NC",
+      "Marlbrook University School of Pharmacy Greenville, NC",
       "Doctor of Pharmacy (PharmD) May 2021",
       "• Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
       "LICENSES AND SKILLS",
       "License: Pharmacist, North Carolina; immunization certified",
-      "Certifications: BCACP, BLS",
+      "Certifications: BLS, APhA immunization delivery",
       "Systems: Epic Willow, PioneerRx, Pyxis"
     ]
   },
@@ -135,14 +134,14 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist.",
-        "actual": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist.",
+        "expected": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation.",
+        "actual": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation.",
         "ok": true
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Oak City Health Partners",
-        "actual": "Oak City Health Partners",
+        "expected": "Quenmore Health Partners",
+        "actual": "Quenmore Health Partners",
         "ok": true
       },
       {
@@ -159,8 +158,8 @@
       },
       {
         "path": "workExperiences[0].descriptions[0]",
-        "expected": "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
-        "actual": "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+        "expected": "Monitor about 180 patients on warfarin and DOACs and recommend dose changes to their four primary care physicians",
+        "actual": "Monitor about 180 patients on warfarin and DOACs and recommend dose changes to their four primary care physicians",
         "ok": true
       },
       {
@@ -213,8 +212,8 @@
       },
       {
         "path": "workExperiences[2].company",
-        "expected": "Pitt County Medical Center",
-        "actual": "Pitt County Medical Center",
+        "expected": "Ferrowby Medical Center",
+        "actual": "Ferrowby Medical Center",
         "ok": true
       },
       {
@@ -237,8 +236,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Tar River University School of Pharmacy",
-        "actual": "Tar River University School of Pharmacy",
+        "expected": "Marlbrook University School of Pharmacy",
+        "actual": "Marlbrook University School of Pharmacy",
         "ok": true
       },
       {
@@ -267,8 +266,8 @@
       },
       {
         "path": "skills.descriptions[1]",
-        "expected": "Certifications: BCACP, BLS",
-        "actual": "Certifications: BCACP, BLS",
+        "expected": "Certifications: BLS, APhA immunization delivery",
+        "actual": "Certifications: BLS, APhA immunization delivery",
         "ok": true
       },
       {
@@ -377,11 +376,10 @@
       "Raleigh, NC | (919) 555-0124 | michelle.osei@email.com | linkedin.com/in/michelleosei",
       "SUMMARY",
       "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation.",
-      "Board Certified Ambulatory Care Pharmacist.",
       "EXPERIENCE",
-      "Oak City Health Partners ‖ Raleigh, NC",
+      "Quenmore Health Partners ‖ Raleigh, NC",
       "Ambulatory Care Pharmacy Specialist ‖ Jan 2024 – Present",
-      "• ‖ Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four",
+      "• ‖ Monitor about 180 patients on warfarin and DOACs and recommend dose changes to their four primary care",
       "physicians",
       "• ‖ Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six",
       "months",
@@ -391,17 +389,17 @@
       "• ‖ Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
       "• ‖ Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
       "• ‖ Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
-      "Pitt County Medical Center ‖ Greenville, NC",
+      "Ferrowby Medical Center ‖ Greenville, NC",
       "Pharmacy Intern ‖ Jun 2019 – May 2021",
       "• ‖ Took medication histories in the emergency department and flagged dosing problems for the clinical",
       "pharmacist",
       "EDUCATION",
-      "Tar River University School of Pharmacy ‖ Greenville, NC",
+      "Marlbrook University School of Pharmacy ‖ Greenville, NC",
       "Doctor of Pharmacy (PharmD) ‖ May 2021",
       "• ‖ Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
       "LICENSES AND SKILLS",
       "License: Pharmacist, North Carolina; immunization certified",
-      "Certifications: BCACP, BLS",
+      "Certifications: BLS, APhA immunization delivery",
       "Systems: Epic Willow, PioneerRx, Pyxis"
     ]
   },

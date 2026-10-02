@@ -10,7 +10,7 @@
     },
     "workExperiences": [
       {
-        "company": "Harborview Health Partners",
+        "company": "Kettlewell Health Partners",
         "jobTitle": "Marketing Coordinator",
         "date": "Jun 2023 – Present",
         "descriptions": [
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "company": "Redline Outfitters",
+        "company": "Ostrafell Outfitters",
         "jobTitle": "Marketing Assistant",
         "date": "Aug 2021 – May 2023",
         "descriptions": [
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "company": "Greenway Market",
+        "company": "Turnip & Tansy Market",
         "jobTitle": "Sales Associate",
         "date": "Jan 2019 – Jul 2021",
         "descriptions": [
@@ -42,7 +42,7 @@
     ],
     "educations": [
       {
-        "school": "Franklin Ridge University",
+        "school": "Sycamore Larch University",
         "degree": "Bachelor of Arts in Communication",
         "date": "May 2021",
         "gpa": "",
@@ -105,7 +105,7 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Harborview Health Partners",
+        "Kettlewell Health Partners",
         "Marketing Coordinator",
         "Jun 2023 – Present",
         "Columbus, OH"
@@ -117,7 +117,7 @@
     "Wrote the team's first email style guide, which cut review rounds per campaign from three to one",
     {
       "anyOrder": [
-        "Redline Outfitters",
+        "Ostrafell Outfitters",
         "Marketing Assistant",
         "Aug 2021 – May 2023",
         "Columbus, OH"
@@ -128,7 +128,7 @@
     "Wrote product descriptions for about 150 items when the online store launched in 2022",
     {
       "anyOrder": [
-        "Greenway Market",
+        "Turnip & Tansy Market",
         "Sales Associate",
         "Jan 2019 – Jul 2021",
         "Dublin, OH"
@@ -139,7 +139,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Franklin Ridge University",
+        "Sycamore Larch University",
         "Columbus, OH",
         "Bachelor of Arts in Communication",
         "May 2021"

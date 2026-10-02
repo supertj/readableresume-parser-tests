@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1NaS1advP2oGeKqFOqHrPE4_kXeBTSD3aZmGY3YlS-Hk/export?format=pdf",
-  "pdfSha256": "0f69aeededa5229dbd67650afdd7fe9692afff1f564b5ad62e2bd2d1acd48334",
-  "docxSha256": "d9d1556a522cfb5ca0e3119e9dff181a82e2966b51d8b51dbbc4af9ae2026081",
-  "runAt": "2026-10-01T12:01:46+00:00",
+  "source": "https://docs.google.com/document/d/1P_eN0_LuOdPER1w46XmCHo7_j8PqQEMvOI7iglkPfZU/export?format=pdf",
+  "pdfSha256": "d254c929af77b2e79b91a8d376509fc92bf95e3af25f9df43332ae88fd2c4670",
+  "docxSha256": "4ea06c9f1bbb90d734b7c541c2b8f614e90449ad6d97dc12d6a35699a58c9980",
+  "runAt": "2026-10-02T15:58:27+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -54,7 +54,7 @@
       "• Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
       "EXPERIENCE",
       "Software Engineer Intern May 2025 – Aug 2025",
-      "Northwind Freight Chicago, IL",
+      "Ironhaw Freight Chicago, IL",
       "• Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
       "• Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
       "• Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
@@ -140,8 +140,8 @@
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Northwind Freight",
-        "actual": "Northwind Freight",
+        "expected": "Ironhaw Freight",
+        "actual": "Ironhaw Freight",
         "ok": true
       },
       {
@@ -501,7 +501,7 @@
       "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
       "EXPERIENCE",
       "Software Engineer Intern ‖ May 2025 – Aug 2025",
-      "Northwind Freight ‖ Chicago, IL",
+      "Ironhaw Freight ‖ Chicago, IL",
       "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
       "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
       "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",

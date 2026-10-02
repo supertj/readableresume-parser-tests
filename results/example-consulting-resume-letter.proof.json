@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1D53FKgGRu1EiQeg3MeHPWokUimJtNqsKx25CRlpcZPE/export?format=pdf",
-  "pdfSha256": "5e137b3b614f52f92bab5a6633235ed63df1ba0c6bc9158d559eebb4f039288b",
-  "docxSha256": "5d646e31128a7b71d1dfcc067be67d2b490f12a74c1c82c5e0e0dc65a2231c85",
-  "runAt": "2026-10-02T03:25:55+00:00",
+  "source": "https://docs.google.com/document/d/1swE4NETlVYvSOSE4ZQJ0f3vJeEV5RXj9aQqRdnTdjUE/export?format=pdf",
+  "pdfSha256": "0e4b4b8315a7d03b6ca6ece13448daebd0ea9611530d452091f967fa9abd6100",
+  "docxSha256": "e891e66ac55d188521622b8e0d2348667e5cab9ca9727501580728c39d05d992",
+  "runAt": "2026-10-02T16:13:46+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,7 +30,7 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Georgia-Bold": 19,
+      "Georgia-Bold": 18,
       "Georgia": 189,
       "TimesNewRomanPSMT": 16,
       "Georgia-Italic": 9
@@ -56,9 +56,9 @@
       "• Built the cost model for a hospital network's outpatient consolidation and presented scenarios to its CFO and",
       "COO",
       "• Wrote the training guide and ran six sessions when a client switched 200 staff to a new scheduling process",
-      "• Lead the weekly status deck for a five-person team and keep the issues log the partner reviews before client",
+      "• Build the weekly status deck for a five-person team and keep the issues log the partner reviews before client",
       "calls",
-      "Narragansett Bay Health Providence, RI",
+      "Pellmont Health Providence, RI",
       "Strategy Intern Jun 2023 – Aug 2023",
       "• Benchmarked emergency department wait times against 12 peer hospitals and presented the gaps to the COO",
       "• Built a staffing model in Excel that the nursing director used to plan weekend shifts",
@@ -176,14 +176,14 @@
       },
       {
         "path": "workExperiences[0].descriptions[3]",
-        "expected": "Lead the weekly status deck for a five-person team and keep the issues log the partner reviews before client calls",
-        "actual": "Lead the weekly status deck for a five-person team and keep the issues log the partner reviews before client calls",
+        "expected": "Build the weekly status deck for a five-person team and keep the issues log the partner reviews before client calls",
+        "actual": "Build the weekly status deck for a five-person team and keep the issues log the partner reviews before client calls",
         "ok": true
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Narragansett Bay Health",
-        "actual": "Narragansett Bay Health",
+        "expected": "Pellmont Health",
+        "actual": "Pellmont Health",
         "ok": true
       },
       {
@@ -382,9 +382,9 @@
       "• ‖ Built the cost model for a hospital network's outpatient consolidation and presented scenarios to its CFO and",
       "COO",
       "• ‖ Wrote the training guide and ran six sessions when a client switched 200 staff to a new scheduling process",
-      "• ‖ Lead the weekly status deck for a five-person team and keep the issues log the partner reviews before client",
+      "• ‖ Build the weekly status deck for a five-person team and keep the issues log the partner reviews before client",
       "calls",
-      "Narragansett Bay Health ‖ Providence, RI",
+      "Pellmont Health ‖ Providence, RI",
       "Strategy Intern ‖ Jun 2023 – Aug 2023",
       "• ‖ Benchmarked emergency department wait times against 12 peer hospitals and presented the gaps to the COO",
       "• ‖ Built a staffing model in Excel that the nursing director used to plan weekend shifts",

@@ -6,11 +6,11 @@
       "phone": "(614) 555-0182",
       "location": "Columbus, OH",
       "url": "linkedin.com/in/danielokafor",
-      "summary": "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training."
+      "summary": "Mechanical engineer with six years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Ohio Engineer Intern (EI) certificate."
     },
     "workExperiences": [
       {
-        "company": "Ridgeline Fluid Systems",
+        "company": "Harrowfield Pump Company",
         "jobTitle": "Mechanical Engineer",
         "date": "Mar 2022 – Present",
         "descriptions": [
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "company": "Cardinal Equipment Works",
+        "company": "Ironbriar Equipment Works",
         "jobTitle": "Associate Engineer",
         "date": "Jun 2020 – Feb 2022",
         "descriptions": [
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "company": "Miami Valley Tooling",
+        "company": "Brassfork Tooling",
         "jobTitle": "Engineering Co-op",
         "date": "Jan 2019 – Aug 2019",
         "descriptions": [
@@ -41,7 +41,7 @@
     ],
     "educations": [
       {
-        "school": "Buckeye Valley University",
+        "school": "Larchgrove University",
         "degree": "Bachelor of Science in Mechanical Engineering",
         "date": "May 2020",
         "gpa": "",
@@ -64,7 +64,7 @@
         "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
         "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
         "Manufacturing: Sheet metal, CNC machining, injection molding",
-        "Licenses: Engineer in Training (EIT), Ohio"
+        "Certification: Engineer Intern (EI), Ohio; PE exam planned"
       ]
     },
     "custom": {
@@ -100,11 +100,11 @@
     "daniel.okafor@email.com",
     "linkedin.com/in/danielokafor",
     "SUMMARY",
-    "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training.",
+    "Mechanical engineer with six years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Ohio Engineer Intern (EI) certificate.",
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Ridgeline Fluid Systems",
+        "Harrowfield Pump Company",
         "Mechanical Engineer",
         "Mar 2022 – Present",
         "Columbus, OH"
@@ -116,7 +116,7 @@
     "Review drawings and tolerance stacks with two suppliers before each production release",
     {
       "anyOrder": [
-        "Cardinal Equipment Works",
+        "Ironbriar Equipment Works",
         "Associate Engineer",
         "Jun 2020 – Feb 2022",
         "Dayton, OH"
@@ -127,7 +127,7 @@
     "Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
     {
       "anyOrder": [
-        "Miami Valley Tooling",
+        "Brassfork Tooling",
         "Engineering Co-op",
         "Jan 2019 – Aug 2019",
         "Dayton, OH"
@@ -137,7 +137,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Buckeye Valley University",
+        "Larchgrove University",
         "Columbus, OH",
         "Bachelor of Science in Mechanical Engineering",
         "May 2020"
@@ -148,7 +148,7 @@
     "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
     "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
     "Manufacturing: Sheet metal, CNC machining, injection molding",
-    "Licenses: Engineer in Training (EIT), Ohio"
+    "Certification: Engineer Intern (EI), Ohio; PE exam planned"
   ],
   "template": "example-engineering",
   "doc": "resume",
