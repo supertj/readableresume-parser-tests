@@ -1,0 +1,383 @@
+{
+  "file": "example-teacher-resume-letter",
+  "template": "example-teacher",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1QcbgeNfW3X-FXA50-1GVUKFvO_HOkdkHFd70ePp5Q_U/export?format=pdf",
+  "pdfSha256": "7347d91f6cc15cc568d5f281e03ca1c4e002d79ebab5b85a8cdda21c2232948d",
+  "docxSha256": "91f26cdb65efc0c885473a58eaf87459cb4ed215ed582b7df8c974b8dff95e6d",
+  "runAt": "2026-10-02T03:26:00+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.653,
+  "fonts": {
+    "expected": "Trebuchet MS",
+    "found": [
+      "TrebuchetMS",
+      "TrebuchetMS-Bold",
+      "TrebuchetMS-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TrebuchetMS-Bold": 17,
+      "TrebuchetMS": 206,
+      "ArialMT": 15,
+      "TrebuchetMS-Italic": 14
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Rachel Nguyen",
+      "Portland, OR | (503) 555-0175 | rachel.nguyen@email.com | linkedin.com/in/rachelnguyen",
+      "SUMMARY",
+      "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL",
+      "endorsement. Known for small-group reading work and steady communication with families.",
+      "EXPERIENCE",
+      "Third Grade Teacher Aug 2022 – Present",
+      "Cedar Hills Elementary School Portland, OR",
+      "• Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in",
+      "one year",
+      "• Run daily small-group reading blocks using running records to regroup students every three weeks",
+      "• Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100%",
+      "attendance",
+      "• Mentor two student teachers from Willamette Crest University each spring",
+      "Second Grade Teacher Aug 2019 – Jun 2022",
+      "Riverbend Elementary School Salem, OR",
+      "• Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above",
+      "90%",
+      "• Built a math station rotation that the grade-level team used across all four second grade classes",
+      "• Served on the school's behavior support team and helped write the first schoolwide reward system",
+      "• Coached the after-school running club for 40 students in grades 2 to 5",
+      "EDUCATION",
+      "Willamette Crest University Salem, OR",
+      "Master of Arts in Teaching, Elementary Education Jun 2019",
+      "• Student teaching: second grade, Riverbend Elementary School",
+      "CERTIFICATIONS AND SKILLS",
+      "License: Oregon Preliminary Teaching License, ESOL endorsement",
+      "Classroom: Guided reading, running records, IEPs, 504 plans",
+      "Tools: Google Classroom, Seesaw, Lexia, i-Ready"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 28,
+    "total": 28,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Rachel Nguyen",
+        "actual": "Rachel Nguyen",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "rachel.nguyen@email.com",
+        "actual": "rachel.nguyen@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(503) 555-0175",
+        "actual": "(503) 555-0175",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Portland, OR",
+        "actual": "Portland, OR",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/rachelnguyen",
+        "actual": "linkedin.com/in/rachelnguyen",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL endorsement. Known for small-group reading work and steady communication with families.",
+        "actual": "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL endorsement. Known for small-group reading work and steady communication with families.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Cedar Hills Elementary School",
+        "actual": "Cedar Hills Elementary School",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Third Grade Teacher",
+        "actual": "Third Grade Teacher",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Aug 2022 – Present",
+        "actual": "Aug 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in one year",
+        "actual": "Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in one year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Run daily small-group reading blocks using running records to regroup students every three weeks",
+        "actual": "Run daily small-group reading blocks using running records to regroup students every three weeks",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100% attendance",
+        "actual": "Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100% attendance",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Mentor two student teachers from Willamette Crest University each spring",
+        "actual": "Mentor two student teachers from Willamette Crest University each spring",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Riverbend Elementary School",
+        "actual": "Riverbend Elementary School",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Second Grade Teacher",
+        "actual": "Second Grade Teacher",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Aug 2019 – Jun 2022",
+        "actual": "Aug 2019 – Jun 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above 90%",
+        "actual": "Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above 90%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Built a math station rotation that the grade-level team used across all four second grade classes",
+        "actual": "Built a math station rotation that the grade-level team used across all four second grade classes",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Served on the school's behavior support team and helped write the first schoolwide reward system",
+        "actual": "Served on the school's behavior support team and helped write the first schoolwide reward system",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Coached the after-school running club for 40 students in grades 2 to 5",
+        "actual": "Coached the after-school running club for 40 students in grades 2 to 5",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Willamette Crest University",
+        "actual": "Willamette Crest University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Master of Arts in Teaching, Elementary Education",
+        "actual": "Master of Arts in Teaching, Elementary Education",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Jun 2019",
+        "actual": "Jun 2019",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Student teaching: second grade, Riverbend Elementary School",
+        "actual": "Student teaching: second grade, Riverbend Elementary School",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "License: Oregon Preliminary Teaching License, ESOL endorsement",
+        "actual": "License: Oregon Preliminary Teaching License, ESOL endorsement",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Classroom: Guided reading, running records, IEPs, 504 plans",
+        "actual": "Classroom: Guided reading, running records, IEPs, 504 plans",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Tools: Google Classroom, Seesaw, Lexia, i-Ready",
+        "actual": "Tools: Google Classroom, Seesaw, Lexia, i-Ready",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Portland, OR",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Salem, OR",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Salem, OR",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Rachel Nguyen",
+      "Portland, OR | (503) 555-0175 | rachel.nguyen@email.com | linkedin.com/in/rachelnguyen",
+      "SUMMARY",
+      "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL",
+      "endorsement. Known for small-group reading work and steady communication with families.",
+      "EXPERIENCE",
+      "Third Grade Teacher ‖ Aug 2022 – Present",
+      "Cedar Hills Elementary School ‖ Portland, OR",
+      "• ‖ Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in",
+      "one year",
+      "• ‖ Run daily small-group reading blocks using running records to regroup students every three weeks",
+      "• ‖ Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100%",
+      "attendance",
+      "• ‖ Mentor two student teachers from Willamette Crest University each spring",
+      "Second Grade Teacher ‖ Aug 2019 – Jun 2022",
+      "Riverbend Elementary School ‖ Salem, OR",
+      "• ‖ Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above",
+      "90%",
+      "• ‖ Built a math station rotation that the grade-level team used across all four second grade classes",
+      "• ‖ Served on the school's behavior support team and helped write the first schoolwide reward system",
+      "• ‖ Coached the after-school running club for 40 students in grades 2 to 5",
+      "EDUCATION",
+      "Willamette Crest University ‖ Salem, OR",
+      "Master of Arts in Teaching, Elementary Education ‖ Jun 2019",
+      "• ‖ Student teaching: second grade, Riverbend Elementary School",
+      "CERTIFICATIONS AND SKILLS",
+      "License: Oregon Preliminary Teaching License, ESOL endorsement",
+      "Classroom: Guided reading, running records, IEPs, 504 plans",
+      "Tools: Google Classroom, Seesaw, Lexia, i-Ready"
+    ]
+  },
+  "pass": true
+}

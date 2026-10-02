@@ -1,0 +1,381 @@
+{
+  "file": "example-hr-resume-letter",
+  "template": "example-hr",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1-xiONQ0Nb_RQUpwKGtAql5P1vScK1WYMjBFlVkW4Z9A/export?format=pdf",
+  "pdfSha256": "8ca4538ef77871af867d872fac86a9e6cc2888a8143eece95b5bd90a019a9bab",
+  "docxSha256": "4bc85ee517badfd0d377f7f31a0cb150357996719770aafae3e9cfcbf42e51f4",
+  "runAt": "2026-10-02T03:25:57+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.634,
+  "fonts": {
+    "expected": "Trebuchet MS",
+    "found": [
+      "TrebuchetMS",
+      "TrebuchetMS-Bold",
+      "TrebuchetMS-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TrebuchetMS-Bold": 15,
+      "TrebuchetMS": 180,
+      "ArialMT": 14,
+      "TrebuchetMS-Italic": 12
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Lauren Fischer",
+      "Milwaukee, WI | (414) 555-0133 | lauren.fischer@email.com | linkedin.com/in/laurenfischer",
+      "SUMMARY",
+      "HR specialist with five years supporting 300 to 600 employees in manufacturing and health care. Most of my",
+      "work is recruiting, onboarding and employee relations. SHRM-CP.",
+      "EXPERIENCE",
+      "Human Resources Specialist May 2022 – Present",
+      "Lakeport Components Milwaukee, WI",
+      "• Handle full-cycle hiring for about 90 roles a year across two plants; time to fill dropped from 41 days to 27",
+      "• Rebuilt onboarding into a two-week plan with checklists for managers; first-90-day turnover fell from 24%",
+      "to 13%",
+      "• Investigate and document employee relations cases and advise supervisors on leave, accommodation and",
+      "discipline",
+      "• Moved personnel files and time-off requests into BambooHR for 480 employees",
+      "Recruiting Coordinator Jul 2020 – Apr 2022",
+      "Brightwater Home Health Madison, WI",
+      "• Scheduled about 60 interviews a week for nursing and caregiver roles and ran Saturday hiring events",
+      "• Set up text reminders for candidates, which cut interview no-shows by about a third",
+      "• Kept the applicant tracking system clean and sent weekly pipeline reports to hiring managers",
+      "EDUCATION",
+      "Badger Lake University Madison, WI",
+      "Bachelor of Business Administration, Human Resource Management May 2020",
+      "• Society for Human Resource Management student chapter, treasurer",
+      "SKILLS",
+      "HR: Recruiting, onboarding, employee relations, FMLA, ADA",
+      "Systems: BambooHR, Workday, Greenhouse, ADP, Excel",
+      "Certifications: SHRM-CP",
+      "Languages: English (native), German (conversational)"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 8,
+      "actual": 8,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 28,
+    "total": 28,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Lauren Fischer",
+        "actual": "Lauren Fischer",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "lauren.fischer@email.com",
+        "actual": "lauren.fischer@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(414) 555-0133",
+        "actual": "(414) 555-0133",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Milwaukee, WI",
+        "actual": "Milwaukee, WI",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/laurenfischer",
+        "actual": "linkedin.com/in/laurenfischer",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "HR specialist with five years supporting 300 to 600 employees in manufacturing and health care. Most of my work is recruiting, onboarding and employee relations. SHRM-CP.",
+        "actual": "HR specialist with five years supporting 300 to 600 employees in manufacturing and health care. Most of my work is recruiting, onboarding and employee relations. SHRM-CP.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Lakeport Components",
+        "actual": "Lakeport Components",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Human Resources Specialist",
+        "actual": "Human Resources Specialist",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "May 2022 – Present",
+        "actual": "May 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Handle full-cycle hiring for about 90 roles a year across two plants; time to fill dropped from 41 days to 27",
+        "actual": "Handle full-cycle hiring for about 90 roles a year across two plants; time to fill dropped from 41 days to 27",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Rebuilt onboarding into a two-week plan with checklists for managers; first-90-day turnover fell from 24% to 13%",
+        "actual": "Rebuilt onboarding into a two-week plan with checklists for managers; first-90-day turnover fell from 24% to 13%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Investigate and document employee relations cases and advise supervisors on leave, accommodation and discipline",
+        "actual": "Investigate and document employee relations cases and advise supervisors on leave, accommodation and discipline",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Moved personnel files and time-off requests into BambooHR for 480 employees",
+        "actual": "Moved personnel files and time-off requests into BambooHR for 480 employees",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Brightwater Home Health",
+        "actual": "Brightwater Home Health",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Recruiting Coordinator",
+        "actual": "Recruiting Coordinator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jul 2020 – Apr 2022",
+        "actual": "Jul 2020 – Apr 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Scheduled about 60 interviews a week for nursing and caregiver roles and ran Saturday hiring events",
+        "actual": "Scheduled about 60 interviews a week for nursing and caregiver roles and ran Saturday hiring events",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Set up text reminders for candidates, which cut interview no-shows by about a third",
+        "actual": "Set up text reminders for candidates, which cut interview no-shows by about a third",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Kept the applicant tracking system clean and sent weekly pipeline reports to hiring managers",
+        "actual": "Kept the applicant tracking system clean and sent weekly pipeline reports to hiring managers",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Badger Lake University",
+        "actual": "Badger Lake University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Business Administration, Human Resource Management",
+        "actual": "Bachelor of Business Administration, Human Resource Management",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2020",
+        "actual": "May 2020",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Society for Human Resource Management student chapter, treasurer",
+        "actual": "Society for Human Resource Management student chapter, treasurer",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "HR: Recruiting, onboarding, employee relations, FMLA, ADA",
+        "actual": "HR: Recruiting, onboarding, employee relations, FMLA, ADA",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Systems: BambooHR, Workday, Greenhouse, ADP, Excel",
+        "actual": "Systems: BambooHR, Workday, Greenhouse, ADP, Excel",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Certifications: SHRM-CP",
+        "actual": "Certifications: SHRM-CP",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Languages: English (native), German (conversational)",
+        "actual": "Languages: English (native), German (conversational)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Milwaukee, WI",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Madison, WI",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Madison, WI",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Lauren Fischer",
+      "Milwaukee, WI | (414) 555-0133 | lauren.fischer@email.com | linkedin.com/in/laurenfischer",
+      "SUMMARY",
+      "HR specialist with five years supporting 300 to 600 employees in manufacturing and health care. Most of my",
+      "work is recruiting, onboarding and employee relations. SHRM-CP.",
+      "EXPERIENCE",
+      "Human Resources Specialist ‖ May 2022 – Present",
+      "Lakeport Components ‖ Milwaukee, WI",
+      "• ‖ Handle full-cycle hiring for about 90 roles a year across two plants; time to fill dropped from 41 days to 27",
+      "• ‖ Rebuilt onboarding into a two-week plan with checklists for managers; first-90-day turnover fell from 24%",
+      "to 13%",
+      "• ‖ Investigate and document employee relations cases and advise supervisors on leave, accommodation and",
+      "discipline",
+      "• ‖ Moved personnel files and time-off requests into BambooHR for 480 employees",
+      "Recruiting Coordinator ‖ Jul 2020 – Apr 2022",
+      "Brightwater Home Health ‖ Madison, WI",
+      "• ‖ Scheduled about 60 interviews a week for nursing and caregiver roles and ran Saturday hiring events",
+      "• ‖ Set up text reminders for candidates, which cut interview no-shows by about a third",
+      "• ‖ Kept the applicant tracking system clean and sent weekly pipeline reports to hiring managers",
+      "EDUCATION",
+      "Badger Lake University ‖ Madison, WI",
+      "Bachelor of Business Administration, Human Resource Management ‖ May 2020",
+      "• ‖ Society for Human Resource Management student chapter, treasurer",
+      "SKILLS",
+      "HR: Recruiting, onboarding, employee relations, FMLA, ADA",
+      "Systems: BambooHR, Workday, Greenhouse, ADP, Excel",
+      "Certifications: SHRM-CP",
+      "Languages: English (native), German (conversational)"
+    ]
+  },
+  "pass": true
+}

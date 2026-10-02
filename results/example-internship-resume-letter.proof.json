@@ -1,0 +1,435 @@
+{
+  "file": "example-internship-resume-letter",
+  "template": "example-internship",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1Btg6Tb-NYY6rX90B08g-NtDeIaXic8FVlhrqnslgk50/export?format=pdf",
+  "pdfSha256": "a965cb7609df18f35521a983c8b3b25c05c72a6b0fb31aac274ccd146cc2239d",
+  "docxSha256": "368a5a0e9125f45ac6fb5e9ec9dde119eb0041f908a31d22d0bce70523f91351",
+  "runAt": "2026-10-02T03:25:57+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.661,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold",
+      "Georgia-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 25,
+      "Georgia": 176,
+      "TimesNewRomanPSMT": 18,
+      "Georgia-Italic": 13
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Aaliyah Johnson",
+      "Atlanta, GA | (404) 555-0168 | aaliyah.johnson@email.com | linkedin.com/in/aaliyahjohnson",
+      "EDUCATION",
+      "Peachtree State University Atlanta, GA",
+      "Bachelor of Business Administration, Marketing Expected May 2028",
+      "• GPA: 3.5/4.0",
+      "• Coursework: Principles of Marketing, Consumer Behavior, Business Statistics, Microeconomics",
+      "EXPERIENCE",
+      "Peachtree State University Recreation Center Atlanta, GA",
+      "Front Desk Assistant Sep 2024 – Present",
+      "• Check in about 300 students a shift and answer questions about classes, rentals and memberships",
+      "• Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose",
+      "about 15%",
+      "Sweet Magnolia Bakery Decatur, GA",
+      "Sales Associate Jun 2023 – Aug 2024",
+      "• Handled the register and online pickup orders on weekends, often 150 orders a day",
+      "• Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
+      "PROJECTS AND ACTIVITIES",
+      "Marketing Association | Social Media Chair Aug 2024 – Present",
+      "• Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
+      "Consumer Behavior class project | Team of four Spring 2025",
+      "• Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
+      "Hosea Community Kitchen | Volunteer Jan 2024 – Present",
+      "• Serve meals twice a month and made the flyer for the kitchen's holiday food drive",
+      "SKILLS",
+      "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",
+      "Certifications: Google Analytics, HubSpot Inbound Marketing",
+      "Languages: English (native), French (intermediate)"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 34,
+    "total": 34,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Aaliyah Johnson",
+        "actual": "Aaliyah Johnson",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "aaliyah.johnson@email.com",
+        "actual": "aaliyah.johnson@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(404) 555-0168",
+        "actual": "(404) 555-0168",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Atlanta, GA",
+        "actual": "Atlanta, GA",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/aaliyahjohnson",
+        "actual": "linkedin.com/in/aaliyahjohnson",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Peachtree State University Recreation Center",
+        "actual": "Peachtree State University Recreation Center",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Front Desk Assistant",
+        "actual": "Front Desk Assistant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Sep 2024 – Present",
+        "actual": "Sep 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Check in about 300 students a shift and answer questions about classes, rentals and memberships",
+        "actual": "Check in about 300 students a shift and answer questions about classes, rentals and memberships",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose about 15%",
+        "actual": "Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose about 15%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Sweet Magnolia Bakery",
+        "actual": "Sweet Magnolia Bakery",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Sales Associate",
+        "actual": "Sales Associate",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2023 – Aug 2024",
+        "actual": "Jun 2023 – Aug 2024",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Handled the register and online pickup orders on weekends, often 150 orders a day",
+        "actual": "Handled the register and online pickup orders on weekends, often 150 orders a day",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
+        "actual": "Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Peachtree State University",
+        "actual": "Peachtree State University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Business Administration, Marketing",
+        "actual": "Bachelor of Business Administration, Marketing",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Expected May 2028",
+        "actual": "Expected May 2028",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "3.5",
+        "actual": "3.5",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "GPA: 3.5/4.0",
+        "actual": "GPA: 3.5/4.0",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[1]",
+        "expected": "Coursework: Principles of Marketing, Consumer Behavior, Business Statistics, Microeconomics",
+        "actual": "Coursework: Principles of Marketing, Consumer Behavior, Business Statistics, Microeconomics",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Marketing Association | Social Media Chair",
+        "actual": "Marketing Association | Social Media Chair",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "Aug 2024 – Present",
+        "actual": "Aug 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
+        "actual": "Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Consumer Behavior class project | Team of four",
+        "actual": "Consumer Behavior class project | Team of four",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "Spring 2025",
+        "actual": "Spring 2025",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
+        "actual": "Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
+        "ok": true
+      },
+      {
+        "path": "projects[2].project",
+        "expected": "Hosea Community Kitchen | Volunteer",
+        "actual": "Hosea Community Kitchen | Volunteer",
+        "ok": true
+      },
+      {
+        "path": "projects[2].date",
+        "expected": "Jan 2024 – Present",
+        "actual": "Jan 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "projects[2].descriptions[0]",
+        "expected": "Serve meals twice a month and made the flyer for the kitchen's holiday food drive",
+        "actual": "Serve meals twice a month and made the flyer for the kitchen's holiday food drive",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",
+        "actual": "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Certifications: Google Analytics, HubSpot Inbound Marketing",
+        "actual": "Certifications: Google Analytics, HubSpot Inbound Marketing",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Languages: English (native), French (intermediate)",
+        "actual": "Languages: English (native), French (intermediate)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "educations[0].location",
+        "value": "Atlanta, GA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "Atlanta, GA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Decatur, GA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Aaliyah Johnson",
+      "Atlanta, GA | (404) 555-0168 | aaliyah.johnson@email.com | linkedin.com/in/aaliyahjohnson",
+      "EDUCATION",
+      "Peachtree State University ‖ Atlanta, GA",
+      "Bachelor of Business Administration, Marketing ‖ Expected May 2028",
+      "• ‖ GPA: 3.5/4.0",
+      "• ‖ Coursework: Principles of Marketing, Consumer Behavior, Business Statistics, Microeconomics",
+      "EXPERIENCE",
+      "Peachtree State University Recreation Center ‖ Atlanta, GA",
+      "Front Desk Assistant ‖ Sep 2024 – Present",
+      "• ‖ Check in about 300 students a shift and answer questions about classes, rentals and memberships",
+      "• ‖ Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose",
+      "about 15%",
+      "Sweet Magnolia Bakery ‖ Decatur, GA",
+      "Sales Associate ‖ Jun 2023 – Aug 2024",
+      "• ‖ Handled the register and online pickup orders on weekends, often 150 orders a day",
+      "• ‖ Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
+      "PROJECTS AND ACTIVITIES",
+      "Marketing Association | Social Media Chair ‖ Aug 2024 – Present",
+      "• ‖ Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
+      "Consumer Behavior class project | Team of four ‖ Spring 2025",
+      "• ‖ Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
+      "Hosea Community Kitchen | Volunteer ‖ Jan 2024 – Present",
+      "• ‖ Serve meals twice a month and made the flyer for the kitchen's holiday food drive",
+      "SKILLS",
+      "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",
+      "Certifications: Google Analytics, HubSpot Inbound Marketing",
+      "Languages: English (native), French (intermediate)"
+    ]
+  },
+  "pass": true
+}

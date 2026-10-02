@@ -1,0 +1,168 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Priya Raman",
+      "email": "priya.raman@email.com",
+      "phone": "(704) 555-0137",
+      "location": "Charlotte, NC",
+      "url": "linkedin.com/in/priyaraman",
+      "summary": "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel."
+    },
+    "workExperiences": [
+      {
+        "company": "Bluewater Logistics",
+        "jobTitle": "Financial Analyst",
+        "date": "Jul 2023 – Present",
+        "descriptions": [
+          "Own the monthly forecast for a $240M freight division; operating income forecast error fell from 9% to 3% over four quarters",
+          "Built a driver-based Excel model for fuel and lane pricing that the CFO used to approve a 4% rate increase",
+          "Cut month-end variance reporting from five days to two by pulling data from three systems into one Power BI report",
+          "Prepared the capital request for a $6.5M warehouse expansion, with payback, downside and delay cases"
+        ]
+      },
+      {
+        "company": "Harmon & Pike Manufacturing",
+        "jobTitle": "Junior Financial Analyst",
+        "date": "Jun 2021 – Jun 2023",
+        "descriptions": [
+          "Tracked spending against budget for 11 cost centers and sent plant managers a one-page overrun summary each month",
+          "Rebuilt the plant headcount model after a reorganization, removing about 40 hours of manual updates per quarter",
+          "Consolidated department submissions for the annual budget into a single file the controller reviewed line by line"
+        ]
+      },
+      {
+        "company": "Queen City Community Bank",
+        "jobTitle": "Finance Intern",
+        "date": "Jun 2020 – Aug 2020",
+        "descriptions": [
+          "Reconciled loan fee accounts each week and wrote up the three largest variances for the accounting manager"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Piedmont State University",
+        "degree": "Bachelor of Science in Finance",
+        "date": "May 2021",
+        "gpa": "",
+        "descriptions": [
+          "Coursework: Corporate Finance, Financial Modeling, Managerial Accounting, Econometrics"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Modeling: Three-statement models, DCF, budgeting and forecasting, scenario analysis",
+        "Tools: Excel (Power Query, VBA), Power BI, NetSuite, Adaptive Planning",
+        "Certifications: CFA Level II candidate",
+        "Languages: English (native), Tamil (fluent)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Charlotte, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Greensboro, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Charlotte, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Raleigh, NC",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Priya Raman",
+    "Charlotte, NC",
+    "(704) 555-0137",
+    "priya.raman@email.com",
+    "linkedin.com/in/priyaraman",
+    "SUMMARY",
+    "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Bluewater Logistics",
+        "Financial Analyst",
+        "Jul 2023 – Present",
+        "Charlotte, NC"
+      ]
+    },
+    "Own the monthly forecast for a $240M freight division; operating income forecast error fell from 9% to 3% over four quarters",
+    "Built a driver-based Excel model for fuel and lane pricing that the CFO used to approve a 4% rate increase",
+    "Cut month-end variance reporting from five days to two by pulling data from three systems into one Power BI report",
+    "Prepared the capital request for a $6.5M warehouse expansion, with payback, downside and delay cases",
+    {
+      "anyOrder": [
+        "Harmon & Pike Manufacturing",
+        "Junior Financial Analyst",
+        "Jun 2021 – Jun 2023",
+        "Greensboro, NC"
+      ]
+    },
+    "Tracked spending against budget for 11 cost centers and sent plant managers a one-page overrun summary each month",
+    "Rebuilt the plant headcount model after a reorganization, removing about 40 hours of manual updates per quarter",
+    "Consolidated department submissions for the annual budget into a single file the controller reviewed line by line",
+    {
+      "anyOrder": [
+        "Queen City Community Bank",
+        "Finance Intern",
+        "Jun 2020 – Aug 2020",
+        "Charlotte, NC"
+      ]
+    },
+    "Reconciled loan fee accounts each week and wrote up the three largest variances for the accounting manager",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Piedmont State University",
+        "Raleigh, NC",
+        "Bachelor of Science in Finance",
+        "May 2021"
+      ]
+    },
+    "Coursework: Corporate Finance, Financial Modeling, Managerial Accounting, Econometrics",
+    "SKILLS",
+    "Modeling: Three-statement models, DCF, budgeting and forecasting, scenario analysis",
+    "Tools: Excel (Power Query, VBA), Power BI, NetSuite, Adaptive Planning",
+    "Certifications: CFA Level II candidate",
+    "Languages: English (native), Tamil (fluent)"
+  ],
+  "template": "example-finance",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Own the monthly forecast for a $240M freight division; operating income forecast error fell from 9% to 3% over four quarters",
+    "Built a driver-based Excel model for fuel and lane pricing that the CFO used to approve a 4% rate increase",
+    "Cut month-end variance reporting from five days to two by pulling data from three systems into one Power BI report",
+    "Prepared the capital request for a $6.5M warehouse expansion, with payback, downside and delay cases",
+    "Tracked spending against budget for 11 cost centers and sent plant managers a one-page overrun summary each month",
+    "Rebuilt the plant headcount model after a reorganization, removing about 40 hours of manual updates per quarter",
+    "Consolidated department submissions for the annual budget into a single file the controller reviewed line by line",
+    "Reconciled loan fee accounts each week and wrote up the three largest variances for the accounting manager",
+    "Coursework: Corporate Finance, Financial Modeling, Managerial Accounting, Econometrics"
+  ]
+}

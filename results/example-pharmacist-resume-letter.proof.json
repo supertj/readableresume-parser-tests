@@ -1,0 +1,409 @@
+{
+  "file": "example-pharmacist-resume-letter",
+  "template": "example-pharmacist",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1k0Vzx6eXiHI-Luk_jWRvQ1Zv-JTxldS0aNppiuUyUPI/export?format=pdf",
+  "pdfSha256": "540ed7e3d9e932db75c09313de4490ea89d2ae4cc7bd2b0d99bc071a36fbc269",
+  "docxSha256": "c28d95eaefaf6cc28c0fe93c01540a2ab11f01ac686c0cf6584998f6c63f0776",
+  "runAt": "2026-10-02T03:25:59+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.664,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold",
+      "Georgia-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 24,
+      "Georgia": 190,
+      "TimesNewRomanPSMT": 16,
+      "Georgia-Italic": 9
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Michelle Osei",
+      "Raleigh, NC | (919) 555-0124 | michelle.osei@email.com | linkedin.com/in/michelleosei",
+      "SUMMARY",
+      "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation.",
+      "Board Certified Ambulatory Care Pharmacist.",
+      "EXPERIENCE",
+      "Oak City Health Partners Raleigh, NC",
+      "Ambulatory Care Pharmacy Specialist Jan 2024 – Present",
+      "• Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four",
+      "physicians",
+      "• Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six",
+      "months",
+      "• Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
+      "Carolina Corner Drug Durham, NC",
+      "Pharmacy Manager Jun 2021 – Dec 2023",
+      "• Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
+      "• Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
+      "• Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
+      "Pitt County Medical Center Greenville, NC",
+      "Pharmacy Intern Jun 2019 – May 2021",
+      "• Took medication histories in the emergency department and flagged dosing problems for the clinical",
+      "pharmacist",
+      "EDUCATION",
+      "Tar River University School of Pharmacy Greenville, NC",
+      "Doctor of Pharmacy (PharmD) May 2021",
+      "• Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
+      "LICENSES AND SKILLS",
+      "License: Pharmacist, North Carolina; immunization certified",
+      "Certifications: BCACP, BLS",
+      "Systems: Epic Willow, PioneerRx, Pyxis"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 8,
+      "actual": 8,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 29,
+    "total": 29,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Michelle Osei",
+        "actual": "Michelle Osei",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "michelle.osei@email.com",
+        "actual": "michelle.osei@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(919) 555-0124",
+        "actual": "(919) 555-0124",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Raleigh, NC",
+        "actual": "Raleigh, NC",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/michelleosei",
+        "actual": "linkedin.com/in/michelleosei",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist.",
+        "actual": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Oak City Health Partners",
+        "actual": "Oak City Health Partners",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Ambulatory Care Pharmacy Specialist",
+        "actual": "Ambulatory Care Pharmacy Specialist",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jan 2024 – Present",
+        "actual": "Jan 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+        "actual": "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
+        "actual": "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
+        "actual": "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Carolina Corner Drug",
+        "actual": "Carolina Corner Drug",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Pharmacy Manager",
+        "actual": "Pharmacy Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2021 – Dec 2023",
+        "actual": "Jun 2021 – Dec 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
+        "actual": "Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
+        "actual": "Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
+        "actual": "Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Pitt County Medical Center",
+        "actual": "Pitt County Medical Center",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Pharmacy Intern",
+        "actual": "Pharmacy Intern",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2019 – May 2021",
+        "actual": "Jun 2019 – May 2021",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Took medication histories in the emergency department and flagged dosing problems for the clinical pharmacist",
+        "actual": "Took medication histories in the emergency department and flagged dosing problems for the clinical pharmacist",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Tar River University School of Pharmacy",
+        "actual": "Tar River University School of Pharmacy",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2021",
+        "actual": "May 2021",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
+        "actual": "Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "License: Pharmacist, North Carolina; immunization certified",
+        "actual": "License: Pharmacist, North Carolina; immunization certified",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Certifications: BCACP, BLS",
+        "actual": "Certifications: BCACP, BLS",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Systems: Epic Willow, PioneerRx, Pyxis",
+        "actual": "Systems: Epic Willow, PioneerRx, Pyxis",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Raleigh, NC",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Durham, NC",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Greenville, NC",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Greenville, NC",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].degree",
+        "value": "Doctor of Pharmacy (PharmD)",
+        "reason": "not in the parser's degree list",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Michelle Osei",
+      "Raleigh, NC | (919) 555-0124 | michelle.osei@email.com | linkedin.com/in/michelleosei",
+      "SUMMARY",
+      "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation.",
+      "Board Certified Ambulatory Care Pharmacist.",
+      "EXPERIENCE",
+      "Oak City Health Partners ‖ Raleigh, NC",
+      "Ambulatory Care Pharmacy Specialist ‖ Jan 2024 – Present",
+      "• ‖ Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four",
+      "physicians",
+      "• ‖ Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six",
+      "months",
+      "• ‖ Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
+      "Carolina Corner Drug ‖ Durham, NC",
+      "Pharmacy Manager ‖ Jun 2021 – Dec 2023",
+      "• ‖ Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
+      "• ‖ Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
+      "• ‖ Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
+      "Pitt County Medical Center ‖ Greenville, NC",
+      "Pharmacy Intern ‖ Jun 2019 – May 2021",
+      "• ‖ Took medication histories in the emergency department and flagged dosing problems for the clinical",
+      "pharmacist",
+      "EDUCATION",
+      "Tar River University School of Pharmacy ‖ Greenville, NC",
+      "Doctor of Pharmacy (PharmD) ‖ May 2021",
+      "• ‖ Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
+      "LICENSES AND SKILLS",
+      "License: Pharmacist, North Carolina; immunization certified",
+      "Certifications: BCACP, BLS",
+      "Systems: Epic Willow, PioneerRx, Pyxis"
+    ]
+  },
+  "pass": true
+}

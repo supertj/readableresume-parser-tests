@@ -1,0 +1,188 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Omar Haddad",
+      "email": "omar.haddad@email.com",
+      "phone": "(216) 555-0131",
+      "location": "Cleveland, OH",
+      "url": "linkedin.com/in/omarhaddad",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Lake Erie College of Medicine",
+        "jobTitle": "Student Researcher",
+        "date": "Jun 2024 – Present",
+        "descriptions": [
+          "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+          "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
+          "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review"
+        ]
+      },
+      {
+        "company": "Westshore Free Clinic",
+        "jobTitle": "Student Volunteer, Clinic Coordinator",
+        "date": "Aug 2023 – Present",
+        "descriptions": [
+          "Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
+          "Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month"
+        ]
+      },
+      {
+        "company": "Queen City Ambulance Service",
+        "jobTitle": "Emergency Medical Technician",
+        "date": "Jan 2021 – May 2023",
+        "descriptions": [
+          "Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
+          "Trained four new EMTs on the stretcher, radio and patient care report system"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Lake Erie College of Medicine",
+        "degree": "Doctor of Medicine (MD) Candidate",
+        "date": "May 2027",
+        "gpa": "",
+        "descriptions": [
+          "USMLE Step 1: Pass; Step 2 CK: 251",
+          "Alpha Omega Alpha Honor Medical Society"
+        ]
+      },
+      {
+        "school": "Ohio Riverside University",
+        "degree": "Bachelor of Science in Biochemistry",
+        "date": "May 2023",
+        "gpa": "3.9",
+        "descriptions": [
+          "GPA: 3.9/4.0, summa cum laude"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Certifications: BLS, ACLS, Ohio EMT (inactive)",
+        "Research: REDCap, R, chart review, abstract writing",
+        "Languages: Arabic (fluent), Spanish (medical)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "educations[0].location",
+      "value": "Cleveland, OH",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Cincinnati, OH",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Cleveland, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Cleveland, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Cincinnati, OH",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Omar Haddad",
+    "Cleveland, OH",
+    "(216) 555-0131",
+    "omar.haddad@email.com",
+    "linkedin.com/in/omarhaddad",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Lake Erie College of Medicine",
+        "Cleveland, OH",
+        "Doctor of Medicine (MD) Candidate",
+        "May 2027"
+      ]
+    },
+    "USMLE Step 1: Pass; Step 2 CK: 251",
+    "Alpha Omega Alpha Honor Medical Society",
+    {
+      "anyOrder": [
+        "Ohio Riverside University",
+        "Cincinnati, OH",
+        "Bachelor of Science in Biochemistry",
+        "May 2023"
+      ]
+    },
+    "GPA: 3.9/4.0, summa cum laude",
+    "CLINICAL AND RESEARCH EXPERIENCE",
+    {
+      "anyOrder": [
+        "Lake Erie College of Medicine",
+        "Student Researcher",
+        "Jun 2024 – Present",
+        "Cleveland, OH"
+      ]
+    },
+    "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+    "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
+    "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+    {
+      "anyOrder": [
+        "Westshore Free Clinic",
+        "Student Volunteer, Clinic Coordinator",
+        "Aug 2023 – Present",
+        "Cleveland, OH"
+      ]
+    },
+    "Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
+    "Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
+    {
+      "anyOrder": [
+        "Queen City Ambulance Service",
+        "Emergency Medical Technician",
+        "Jan 2021 – May 2023",
+        "Cincinnati, OH"
+      ]
+    },
+    "Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
+    "Trained four new EMTs on the stretcher, radio and patient care report system",
+    "SKILLS AND CERTIFICATIONS",
+    "Certifications: BLS, ACLS, Ohio EMT (inactive)",
+    "Research: REDCap, R, chart review, abstract writing",
+    "Languages: Arabic (fluent), Spanish (medical)"
+  ],
+  "template": "example-medical",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "USMLE Step 1: Pass; Step 2 CK: 251",
+    "Alpha Omega Alpha Honor Medical Society",
+    "GPA: 3.9/4.0, summa cum laude",
+    "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+    "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
+    "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+    "Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
+    "Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
+    "Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
+    "Trained four new EMTs on the stretcher, radio and patient care report system"
+  ]
+}

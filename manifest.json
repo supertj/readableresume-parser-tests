@@ -96,6 +96,166 @@
       "title": "Compact Resume – US Letter – ReadableResume",
       "backupDocId": "1GJiLbnZmV-O43RtKQ0qAOMpe6CsLBpziOzeqkIQNvXA"
     },
+    "example-acting-resume-letter": {
+      "docId": "1CXQcG6f5CZS6G4z_CcS8MX0SoNx_DqDeTeh6jzxV9VY",
+      "template": "example-acting",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Acting Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1J0tMMTcDoQnPJiuMU2MMI3pMxaiPWbP5oxs6mJXE00w"
+    },
+    "example-architecture-resume-letter": {
+      "docId": "1fj5_-zl1EdhhiVex7Mm5yeiP8rwWw0DPNOrPB-gv2eo",
+      "template": "example-architecture",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Architecture Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1oWtPkqUfiEgC2Ht8k8tTCfzs0qi41ShN6W13z9TrYMc"
+    },
+    "example-computer-science-resume-letter": {
+      "docId": "1aXjT-bCftZlv1VYFFGSc8p8AC5VQNgSQ1JqZqGSzzG0",
+      "template": "example-computer-science",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Computer Science Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1HeHfdogRLl3pxRyHsaqyRH8ypDZLvYZisM92OJ4cz6c"
+    },
+    "example-consulting-resume-letter": {
+      "docId": "1D53FKgGRu1EiQeg3MeHPWokUimJtNqsKx25CRlpcZPE",
+      "template": "example-consulting",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Consulting Resume Example – US Letter – ReadableResume",
+      "backupDocId": "11-B5wAaXdMtc-Zt6Q8C-3qTr9L4ymJRWLzVxZ3ZrrF4"
+    },
+    "example-data-analyst-resume-letter": {
+      "docId": "1IOyaJYrrZJ7ijcEJ-zPpCrS38-t-fRb7Ja6Yp6wsacQ",
+      "template": "example-data-analyst",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Data Analyst Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1RGgleo4kmJhrP-1hO6AVbkXhvnx9O59pzX0ZVM_YxIU"
+    },
+    "example-engineering-resume-letter": {
+      "docId": "1mC2leO3LkW7zTTJiNJKkoWxDuN2XAs7qpShSCzfjz8U",
+      "template": "example-engineering",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Engineering Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1ZIqY3r2THnQxybJOcrP0Ecxw9JdQjkFsJoiCZERbUEM"
+    },
+    "example-finance-resume-letter": {
+      "docId": "11rxbx-HQ4caNDHxnB5uGOwN1Tm55Pwb5HsFwPrOkzHw",
+      "template": "example-finance",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Finance Resume Example – US Letter – ReadableResume",
+      "backupDocId": "11EC6O5KA2t7X4K6iwW18z2xdygzH8orba6sP_q1ojKI"
+    },
+    "example-graphic-designer-resume-letter": {
+      "docId": "1Hdc-6Iy6foCtJwKwDjvoh14h1D8_XQ3lQI6iTbPSmZw",
+      "template": "example-graphic-designer",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Graphic Designer Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1eHw4fcg4NKt0xdkQsOX65ppJqxsOFs-NPR6sY5QjNLY"
+    },
+    "example-hr-resume-letter": {
+      "docId": "1-xiONQ0Nb_RQUpwKGtAql5P1vScK1WYMjBFlVkW4Z9A",
+      "template": "example-hr",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "HR Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1ln78-AWoqFdEA7sdgEF-2jaSsJU-9v-Lq52hV5RI15c"
+    },
+    "example-internship-resume-letter": {
+      "docId": "1Btg6Tb-NYY6rX90B08g-NtDeIaXic8FVlhrqnslgk50",
+      "template": "example-internship",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Internship Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1x882qfBP4Pw_FvAl6-JNEISS5QfLdgYaigxie7cT2pk"
+    },
+    "example-investment-banking-resume-letter": {
+      "docId": "1i_B0zL-OxddhRWmgCLAdqOL6Dv004tuXW6FGpBvqeH4",
+      "template": "example-investment-banking",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Investment Banking Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1YLDqs04tGigJFHMkBPD5Ei2fw47WTZZafY-BMQXfXN0"
+    },
+    "example-marketing-resume-letter": {
+      "docId": "1mjO0BFvmPnB6H8-TOTKO_xJTQaqDB94fYavmHAb0chU",
+      "template": "example-marketing",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Marketing Resume Example – US Letter – ReadableResume",
+      "backupDocId": "12LpJFVB6f4SlR58tOrk_VYpUiGqKW340GPvAU0WoBd4"
+    },
+    "example-medical-resume-letter": {
+      "docId": "1Vb4KA-WOrGwgJjuTbvEQDWK0cl37h1qi2bSFGMddgPQ",
+      "template": "example-medical",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Medical Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1dTntfHyu7oIXd5UiE3Uo0RA02RFC6LW1j5Qk_4woQXw"
+    },
+    "example-nursing-resume-letter": {
+      "docId": "1UO6xryxkQtXsE7oQDih-0WjpXxCkPx5kOjfAwC2nZnA",
+      "template": "example-nursing",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Nursing Resume Example – US Letter – ReadableResume",
+      "backupDocId": "17FxsO-ww8k0-0DeMdwl1USpCjcAIhGDwf9aIwZD0tpA"
+    },
+    "example-pharmacist-resume-letter": {
+      "docId": "1k0Vzx6eXiHI-Luk_jWRvQ1Zv-JTxldS0aNppiuUyUPI",
+      "template": "example-pharmacist",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Pharmacist Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1r7sTAn_bbITIXq9j-Vpq4gZEpLhbg2-juBleCYCDTo0"
+    },
+    "example-pilot-resume-letter": {
+      "docId": "1jH-Ql0z14Wsr4pin4F0dzjnt2srCnwAHMT4cDcOj8pM",
+      "template": "example-pilot",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Pilot Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1NDDfv5iEvsy4kIu3Lpnct2-R3Of-gfV9jj_--OevFOU"
+    },
+    "example-project-manager-resume-letter": {
+      "docId": "1DyQnngRmbYVPpmNCLvTf1jr0o2-Jqs4XbLH2Jl1W058",
+      "template": "example-project-manager",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Project Manager Resume Example – US Letter – ReadableResume",
+      "backupDocId": "10GVXQOQbKqQ5ML-R0Z7wvWYM92no-HmkU2M9O_nM0xk"
+    },
+    "example-retail-resume-letter": {
+      "docId": "13HJ4Iyqbfon1wcjUYjaBVap6-1E_4YMgm46iwYfPYjQ",
+      "template": "example-retail",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Retail Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1HmQzo1fyXsAh_UmIZPTNYJfNMY6qk3kOp2hio2rqxBQ"
+    },
+    "example-sales-resume-letter": {
+      "docId": "1Ta4ZunYkWDu7n0qzB4S3Wo536km7nYGS4jgp7MIM8nk",
+      "template": "example-sales",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Sales Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1NunNRm7oqkEyCahE97v_H1mhg9diHjRqI1j5R5xsVNM"
+    },
+    "example-teacher-resume-letter": {
+      "docId": "1QcbgeNfW3X-FXA50-1GVUKFvO_HOkdkHFd70ePp5Q_U",
+      "template": "example-teacher",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Teacher Resume Example – US Letter – ReadableResume",
+      "backupDocId": "1k1xVTmzuitFdmZHDb4Guavd8o6PXz_k4iKpo7sTFbBg"
+    },
     "international-cv-cover-letter-a4": {
       "docId": "1aarkd-T4EFSzD9-5uwgdW_LV2cUF3DhaL52KfENjHnk",
       "template": "international-cv",

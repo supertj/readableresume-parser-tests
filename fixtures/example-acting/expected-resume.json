@@ -1,0 +1,194 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Lena Castillo",
+      "email": "lena.castillo@email.com",
+      "phone": "(312) 555-0119",
+      "location": "Chicago, IL",
+      "url": "lenacastillo.com/reel",
+      "summary": ""
+    },
+    "workExperiences": [],
+    "educations": [
+      {
+        "school": "Prairie State University",
+        "degree": "Bachelor of Fine Arts in Acting",
+        "date": "May 2023",
+        "gpa": "",
+        "descriptions": [
+          "Voice and speech: Linklater technique; movement: Viewpoints and stage combat (SAFD certified)"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Our Town | Emily Webb, Northlake Repertory Theatre",
+        "date": "2025",
+        "descriptions": [
+          "Lead role in a 32-performance run; directed by Anna Feld"
+        ]
+      },
+      {
+        "project": "Twelfth Night | Viola, Lakeside Shakespeare Festival",
+        "date": "2024",
+        "descriptions": [
+          "Outdoor production for audiences of up to 600; also understudied Olivia"
+        ]
+      },
+      {
+        "project": "The Glass Garden | Ensemble, Steppingstone Theatre Company",
+        "date": "2023",
+        "descriptions": [
+          "New play workshop; developed the role with the playwright over six weeks of rehearsals"
+        ]
+      },
+      {
+        "project": "Second Shift | Nurse Ana (supporting), independent feature film",
+        "date": "2025",
+        "descriptions": [
+          "Three shooting days; scenes cut together for the festival trailer"
+        ]
+      },
+      {
+        "project": "Riverside Medical | Co-star, television pilot",
+        "date": "2024",
+        "descriptions": [
+          "Two scenes opposite the series lead"
+        ]
+      },
+      {
+        "project": "Lakefront Credit Union | Principal, regional television commercial",
+        "date": "2024",
+        "descriptions": [
+          "Two-day shoot; spot ran in the Chicago market for six months"
+        ]
+      },
+      {
+        "project": "A Doll's House | Nora Helmer, Prairie State University Theatre",
+        "date": "2022",
+        "descriptions": [
+          "Senior showcase production"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Languages: Spanish (fluent), Italian (basic)",
+        "Accents: Standard British, Southern US, Irish",
+        "Music: Mezzo-soprano, jazz and tap dance",
+        "Other: Stage combat, horseback riding, driver's license"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "educations[0].location",
+      "value": "Chicago, IL",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Lena Castillo",
+    "Chicago, IL",
+    "(312) 555-0119",
+    "lena.castillo@email.com",
+    "lenacastillo.com/reel",
+    "STAGE AND SCREEN PROJECTS",
+    {
+      "anyOrder": [
+        "Our Town",
+        "Emily Webb, Northlake Repertory Theatre",
+        "2025"
+      ]
+    },
+    "Lead role in a 32-performance run; directed by Anna Feld",
+    {
+      "anyOrder": [
+        "Twelfth Night",
+        "Viola, Lakeside Shakespeare Festival",
+        "2024"
+      ]
+    },
+    "Outdoor production for audiences of up to 600; also understudied Olivia",
+    {
+      "anyOrder": [
+        "The Glass Garden",
+        "Ensemble, Steppingstone Theatre Company",
+        "2023"
+      ]
+    },
+    "New play workshop; developed the role with the playwright over six weeks of rehearsals",
+    {
+      "anyOrder": [
+        "Second Shift",
+        "Nurse Ana (supporting), independent feature film",
+        "2025"
+      ]
+    },
+    "Three shooting days; scenes cut together for the festival trailer",
+    {
+      "anyOrder": [
+        "Riverside Medical",
+        "Co-star, television pilot",
+        "2024"
+      ]
+    },
+    "Two scenes opposite the series lead",
+    {
+      "anyOrder": [
+        "Lakefront Credit Union",
+        "Principal, regional television commercial",
+        "2024"
+      ]
+    },
+    "Two-day shoot; spot ran in the Chicago market for six months",
+    {
+      "anyOrder": [
+        "A Doll's House",
+        "Nora Helmer, Prairie State University Theatre",
+        "2022"
+      ]
+    },
+    "Senior showcase production",
+    "EDUCATION AND TRAINING",
+    {
+      "anyOrder": [
+        "Prairie State University",
+        "Chicago, IL",
+        "Bachelor of Fine Arts in Acting",
+        "May 2023"
+      ]
+    },
+    "Voice and speech: Linklater technique; movement: Viewpoints and stage combat (SAFD certified)",
+    "SPECIAL SKILLS",
+    "Languages: Spanish (fluent), Italian (basic)",
+    "Accents: Standard British, Southern US, Irish",
+    "Music: Mezzo-soprano, jazz and tap dance",
+    "Other: Stage combat, horseback riding, driver's license"
+  ],
+  "template": "example-acting",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Lead role in a 32-performance run; directed by Anna Feld",
+    "Outdoor production for audiences of up to 600; also understudied Olivia",
+    "New play workshop; developed the role with the playwright over six weeks of rehearsals",
+    "Three shooting days; scenes cut together for the festival trailer",
+    "Two scenes opposite the series lead",
+    "Two-day shoot; spot ran in the Chicago market for six months",
+    "Senior showcase production",
+    "Voice and speech: Linklater technique; movement: Viewpoints and stage combat (SAFD certified)"
+  ]
+}

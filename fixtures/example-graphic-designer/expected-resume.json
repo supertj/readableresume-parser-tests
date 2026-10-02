@@ -1,0 +1,145 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Sofia Marquez",
+      "email": "sofia.marquez@email.com",
+      "phone": "(512) 555-0153",
+      "location": "Austin, TX",
+      "url": "sofiamarquez.design/work",
+      "summary": "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters."
+    },
+    "workExperiences": [
+      {
+        "company": "Juniper & Vale Creative",
+        "jobTitle": "Senior Graphic Designer",
+        "date": "Feb 2023 – Present",
+        "descriptions": [
+          "Led the packaging redesign for a regional coffee roaster across 18 products; retail sales rose 22% in the first two quarters",
+          "Built a brand system in Figma with type, color and layout rules that cut new campaign setup from a week to two days",
+          "Present concepts to clients and art direct two junior designers and one freelance illustrator",
+          "Designed the agency's pitch template, used in 12 new business presentations last year"
+        ]
+      },
+      {
+        "company": "Lone Oak Brewing Company",
+        "jobTitle": "Graphic Designer",
+        "date": "Jun 2020 – Jan 2023",
+        "descriptions": [
+          "Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
+          "Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000 labels",
+          "Made social graphics and short motion pieces in After Effects that doubled average engagement on new release posts"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Hill Country University",
+        "degree": "Bachelor of Fine Arts in Graphic Design",
+        "date": "May 2020",
+        "gpa": "",
+        "descriptions": [
+          "Senior show: identity system for a fictional public library, chosen for the department's annual exhibition"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Design: Brand identity, packaging, layout, typography, art direction",
+        "Software: Illustrator, Photoshop, InDesign, Figma, After Effects",
+        "Print: Prepress, color management, dielines, vendor proofs",
+        "Motion: After Effects, Premiere Pro, simple 2D animation"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Austin, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "San Antonio, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "San Marcos, TX",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Sofia Marquez",
+    "Austin, TX",
+    "(512) 555-0153",
+    "sofia.marquez@email.com",
+    "sofiamarquez.design/work",
+    "SUMMARY",
+    "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Juniper & Vale Creative",
+        "Senior Graphic Designer",
+        "Feb 2023 – Present",
+        "Austin, TX"
+      ]
+    },
+    "Led the packaging redesign for a regional coffee roaster across 18 products; retail sales rose 22% in the first two quarters",
+    "Built a brand system in Figma with type, color and layout rules that cut new campaign setup from a week to two days",
+    "Present concepts to clients and art direct two junior designers and one freelance illustrator",
+    "Designed the agency's pitch template, used in 12 new business presentations last year",
+    {
+      "anyOrder": [
+        "Lone Oak Brewing Company",
+        "Graphic Designer",
+        "Jun 2020 – Jan 2023",
+        "San Antonio, TX"
+      ]
+    },
+    "Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
+    "Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000 labels",
+    "Made social graphics and short motion pieces in After Effects that doubled average engagement on new release posts",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Hill Country University",
+        "San Marcos, TX",
+        "Bachelor of Fine Arts in Graphic Design",
+        "May 2020"
+      ]
+    },
+    "Senior show: identity system for a fictional public library, chosen for the department's annual exhibition",
+    "SKILLS",
+    "Design: Brand identity, packaging, layout, typography, art direction",
+    "Software: Illustrator, Photoshop, InDesign, Figma, After Effects",
+    "Print: Prepress, color management, dielines, vendor proofs",
+    "Motion: After Effects, Premiere Pro, simple 2D animation"
+  ],
+  "template": "example-graphic-designer",
+  "doc": "resume",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Led the packaging redesign for a regional coffee roaster across 18 products; retail sales rose 22% in the first two quarters",
+    "Built a brand system in Figma with type, color and layout rules that cut new campaign setup from a week to two days",
+    "Present concepts to clients and art direct two junior designers and one freelance illustrator",
+    "Designed the agency's pitch template, used in 12 new business presentations last year",
+    "Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
+    "Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000 labels",
+    "Made social graphics and short motion pieces in After Effects that doubled average engagement on new release posts",
+    "Senior show: identity system for a fictional public library, chosen for the department's annual exhibition"
+  ]
+}

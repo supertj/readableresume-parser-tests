@@ -1,0 +1,454 @@
+{
+  "file": "example-computer-science-resume-letter",
+  "template": "example-computer-science",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1aXjT-bCftZlv1VYFFGSc8p8AC5VQNgSQ1JqZqGSzzG0/export?format=pdf",
+  "pdfSha256": "f88ed1f29905c212ae3d0f50c9659c2c0d3321a1c8246bb94cb5533b4e25131f",
+  "docxSha256": "474887c4dc5d9009ec23fe0ceec324a83b1d3a4fee3d65dd14d9ab4564c78587",
+  "runAt": "2026-10-02T03:25:55+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.649,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 20,
+      "TimesNewRomanPSMT": 215,
+      "TimesNewRomanPS-ItalicMT": 23
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Kevin Tran",
+      "(408) 555-0126 | kevin.tran@email.com | linkedin.com/in/kevintran | github.com/kevintran",
+      "EDUCATION",
+      "Santa Clara Valley University San Jose, CA",
+      "Bachelor of Science in Computer Science Aug 2022 – May 2026",
+      "• GPA: 3.6/4.0",
+      "• Coursework: Distributed Systems, Compilers, Machine Learning, Computer Security",
+      "EXPERIENCE",
+      "Software Engineer Intern Jun 2025 – Sep 2025",
+      "Brightline Payments San Francisco, CA",
+      "• Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
+      "• Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
+      "• Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts",
+      "Backend Developer Intern Jun 2024 – Aug 2024",
+      "Orchard Health Software San Jose, CA",
+      "• Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
+      "• Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests",
+      "PROJECTS",
+      "Quorum | Go, Raft, Docker 2025",
+      "• Key-value store with Raft consensus across five nodes; survives two node failures in chaos tests",
+      "Shelfie | TypeScript, React Native, Firebase 2024",
+      "• Book swap app for campus dorms with about 900 sign-ups in its first semester",
+      "Hackathon Judge Bot | Python, Slack API 2023",
+      "• Slack bot that assigns judges and tallies scores; used at three campus hackathons",
+      "TECHNICAL SKILLS",
+      "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
+      "Frameworks: React, Spring Boot, FastAPI, gRPC",
+      "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
+      "Awards: Dean's List; SCVU Hacks winner"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 10,
+      "actual": 10,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 36,
+    "total": 36,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Kevin Tran",
+        "actual": "Kevin Tran",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "kevin.tran@email.com",
+        "actual": "kevin.tran@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(408) 555-0126",
+        "actual": "(408) 555-0126",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/kevintran",
+        "actual": "linkedin.com/in/kevintran",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Brightline Payments",
+        "actual": "Brightline Payments",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Software Engineer Intern",
+        "actual": "Software Engineer Intern",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jun 2025 – Sep 2025",
+        "actual": "Jun 2025 – Sep 2025",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
+        "actual": "Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
+        "actual": "Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts",
+        "actual": "Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Orchard Health Software",
+        "actual": "Orchard Health Software",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Backend Developer Intern",
+        "actual": "Backend Developer Intern",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2024 – Aug 2024",
+        "actual": "Jun 2024 – Aug 2024",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
+        "actual": "Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests",
+        "actual": "Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Santa Clara Valley University",
+        "actual": "Santa Clara Valley University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Science in Computer Science",
+        "actual": "Bachelor of Science in Computer Science",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Aug 2022 – May 2026",
+        "actual": "Aug 2022 – May 2026",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "3.6",
+        "actual": "3.6",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "GPA: 3.6/4.0",
+        "actual": "GPA: 3.6/4.0",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[1]",
+        "expected": "Coursework: Distributed Systems, Compilers, Machine Learning, Computer Security",
+        "actual": "Coursework: Distributed Systems, Compilers, Machine Learning, Computer Security",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Quorum | Go, Raft, Docker",
+        "actual": "Quorum | Go, Raft, Docker",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "2025",
+        "actual": "2025",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Key-value store with Raft consensus across five nodes; survives two node failures in chaos tests",
+        "actual": "Key-value store with Raft consensus across five nodes; survives two node failures in chaos tests",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Shelfie | TypeScript, React Native, Firebase",
+        "actual": "Shelfie | TypeScript, React Native, Firebase",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "2024",
+        "actual": "2024",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "Book swap app for campus dorms with about 900 sign-ups in its first semester",
+        "actual": "Book swap app for campus dorms with about 900 sign-ups in its first semester",
+        "ok": true
+      },
+      {
+        "path": "projects[2].project",
+        "expected": "Hackathon Judge Bot | Python, Slack API",
+        "actual": "Hackathon Judge Bot | Python, Slack API",
+        "ok": true
+      },
+      {
+        "path": "projects[2].date",
+        "expected": "2023",
+        "actual": "2023",
+        "ok": true
+      },
+      {
+        "path": "projects[2].descriptions[0]",
+        "expected": "Slack bot that assigns judges and tallies scores; used at three campus hackathons",
+        "actual": "Slack bot that assigns judges and tallies scores; used at three campus hackathons",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
+        "actual": "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Frameworks: React, Spring Boot, FastAPI, gRPC",
+        "actual": "Frameworks: React, Spring Boot, FastAPI, gRPC",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
+        "actual": "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Awards: Dean's List; SCVU Hacks winner",
+        "actual": "Awards: Dean's List; SCVU Hacks winner",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "profile.url (second link)",
+        "value": "github.com/kevintran",
+        "reason": "parser keeps one URL",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "San Jose, CA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "San Francisco, CA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "San Jose, CA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Kevin Tran",
+      "(408) 555-0126 | kevin.tran@email.com | linkedin.com/in/kevintran | github.com/kevintran",
+      "EDUCATION",
+      "Santa Clara Valley University ‖ San Jose, CA",
+      "Bachelor of Science in Computer Science ‖ Aug 2022 – May 2026",
+      "• ‖ GPA: 3.6/4.0",
+      "• ‖ Coursework: Distributed Systems, Compilers, Machine Learning, Computer Security",
+      "EXPERIENCE",
+      "Software Engineer Intern ‖ Jun 2025 – Sep 2025",
+      "Brightline Payments ‖ San Francisco, CA",
+      "• ‖ Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
+      "• ‖ Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
+      "• ‖ Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts",
+      "Backend Developer Intern ‖ Jun 2024 – Aug 2024",
+      "Orchard Health Software ‖ San Jose, CA",
+      "• ‖ Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
+      "• ‖ Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests",
+      "PROJECTS",
+      "Quorum | Go, Raft, Docker ‖ 2025",
+      "• ‖ Key-value store with Raft consensus across five nodes; survives two node failures in chaos tests",
+      "Shelfie | TypeScript, React Native, Firebase ‖ 2024",
+      "• ‖ Book swap app for campus dorms with about 900 sign-ups in its first semester",
+      "Hackathon Judge Bot | Python, Slack API ‖ 2023",
+      "• ‖ Slack bot that assigns judges and tallies scores; used at three campus hackathons",
+      "TECHNICAL SKILLS",
+      "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
+      "Frameworks: React, Spring Boot, FastAPI, gRPC",
+      "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
+      "Awards: Dean's List; SCVU Hacks winner"
+    ]
+  },
+  "pass": true
+}

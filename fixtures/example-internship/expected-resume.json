@@ -1,0 +1,185 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Aaliyah Johnson",
+      "email": "aaliyah.johnson@email.com",
+      "phone": "(404) 555-0168",
+      "location": "Atlanta, GA",
+      "url": "linkedin.com/in/aaliyahjohnson",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Peachtree State University Recreation Center",
+        "jobTitle": "Front Desk Assistant",
+        "date": "Sep 2024 – Present",
+        "descriptions": [
+          "Check in about 300 students a shift and answer questions about classes, rentals and memberships",
+          "Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose about 15%"
+        ]
+      },
+      {
+        "company": "Sweet Magnolia Bakery",
+        "jobTitle": "Sales Associate",
+        "date": "Jun 2023 – Aug 2024",
+        "descriptions": [
+          "Handled the register and online pickup orders on weekends, often 150 orders a day",
+          "Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Peachtree State University",
+        "degree": "Bachelor of Business Administration, Marketing",
+        "date": "Expected May 2028",
+        "gpa": "3.5",
+        "descriptions": [
+          "GPA: 3.5/4.0",
+          "Coursework: Principles of Marketing, Consumer Behavior, Business Statistics, Microeconomics"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Marketing Association | Social Media Chair",
+        "date": "Aug 2024 – Present",
+        "descriptions": [
+          "Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students"
+        ]
+      },
+      {
+        "project": "Consumer Behavior class project | Team of four",
+        "date": "Spring 2025",
+        "descriptions": [
+          "Surveyed 210 students about meal plan choices and presented findings to campus dining managers"
+        ]
+      },
+      {
+        "project": "Hosea Community Kitchen | Volunteer",
+        "date": "Jan 2024 – Present",
+        "descriptions": [
+          "Serve meals twice a month and made the flyer for the kitchen's holiday food drive"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",
+        "Certifications: Google Analytics, HubSpot Inbound Marketing",
+        "Languages: English (native), French (intermediate)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "educations[0].location",
+      "value": "Atlanta, GA",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Atlanta, GA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Decatur, GA",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Aaliyah Johnson",
+    "Atlanta, GA",
+    "(404) 555-0168",
+    "aaliyah.johnson@email.com",
+    "linkedin.com/in/aaliyahjohnson",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Peachtree State University",
+        "Atlanta, GA",
+        "Bachelor of Business Administration, Marketing",
+        "Expected May 2028"
+      ]
+    },
+    "GPA: 3.5/4.0",
+    "Coursework: Principles of Marketing, Consumer Behavior, Business Statistics, Microeconomics",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Peachtree State University Recreation Center",
+        "Front Desk Assistant",
+        "Sep 2024 – Present",
+        "Atlanta, GA"
+      ]
+    },
+    "Check in about 300 students a shift and answer questions about classes, rentals and memberships",
+    "Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose about 15%",
+    {
+      "anyOrder": [
+        "Sweet Magnolia Bakery",
+        "Sales Associate",
+        "Jun 2023 – Aug 2024",
+        "Decatur, GA"
+      ]
+    },
+    "Handled the register and online pickup orders on weekends, often 150 orders a day",
+    "Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
+    "PROJECTS AND ACTIVITIES",
+    {
+      "anyOrder": [
+        "Marketing Association",
+        "Social Media Chair",
+        "Aug 2024 – Present"
+      ]
+    },
+    "Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
+    {
+      "anyOrder": [
+        "Consumer Behavior class project",
+        "Team of four",
+        "Spring 2025"
+      ]
+    },
+    "Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
+    {
+      "anyOrder": [
+        "Hosea Community Kitchen",
+        "Volunteer",
+        "Jan 2024 – Present"
+      ]
+    },
+    "Serve meals twice a month and made the flyer for the kitchen's holiday food drive",
+    "SKILLS",
+    "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",
+    "Certifications: Google Analytics, HubSpot Inbound Marketing",
+    "Languages: English (native), French (intermediate)"
+  ],
+  "template": "example-internship",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "GPA: 3.5/4.0",
+    "Coursework: Principles of Marketing, Consumer Behavior, Business Statistics, Microeconomics",
+    "Check in about 300 students a shift and answer questions about classes, rentals and memberships",
+    "Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose about 15%",
+    "Handled the register and online pickup orders on weekends, often 150 orders a day",
+    "Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
+    "Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
+    "Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
+    "Serve meals twice a month and made the flyer for the kitchen's holiday food drive"
+  ]
+}

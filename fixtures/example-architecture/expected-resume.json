@@ -1,0 +1,167 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Elena Petrov",
+      "email": "elena.petrov@email.com",
+      "phone": "(206) 555-0189",
+      "location": "Seattle, WA",
+      "url": "elenapetrov.com/portfolio",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Fenwick Hale Studio",
+        "jobTitle": "Architectural Designer",
+        "date": "Jul 2023 – Present",
+        "descriptions": [
+          "Produced construction documents in Revit for a 64-unit affordable housing building, from design development through permit",
+          "Coordinated drawings with structural and mechanical consultants and tracked 140 RFIs during construction administration",
+          "Built the daylight and energy models that helped the project reach its Passive House target",
+          "Join site visits every two weeks and write the field reports sent to the contractor and owner"
+        ]
+      },
+      {
+        "company": "Cascade Line Design",
+        "jobTitle": "Intern Architect",
+        "date": "Jun 2022 – Jun 2023",
+        "descriptions": [
+          "Drew schematic options and renderings for three school renovations, two of which went on to construction",
+          "Set up the office's Revit family library, which cut setup time on new projects by about a day",
+          "Built physical and digital models for client meetings and the firm's competition entries"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Puget Coast University",
+        "degree": "Master of Architecture",
+        "date": "Jun 2022",
+        "gpa": "",
+        "descriptions": [
+          "Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition"
+        ]
+      },
+      {
+        "school": "Willamette Crest University",
+        "degree": "Bachelor of Arts in Architectural Studies",
+        "date": "May 2020",
+        "gpa": "",
+        "descriptions": [
+          "Study abroad: urban design studio in Copenhagen"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Licensure: AXP hours complete; ARE 4 of 6 divisions passed",
+        "Software: Revit, AutoCAD, Rhino, Enscape, Adobe InDesign",
+        "Design: Construction documents, code review, energy modeling",
+        "Sustainability: Passive House Designer (CPHD), LEED Green Associate"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Seattle, WA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Tacoma, WA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Seattle, WA",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Salem, OR",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Elena Petrov",
+    "Seattle, WA",
+    "(206) 555-0189",
+    "elena.petrov@email.com",
+    "elenapetrov.com/portfolio",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Fenwick Hale Studio",
+        "Architectural Designer",
+        "Jul 2023 – Present",
+        "Seattle, WA"
+      ]
+    },
+    "Produced construction documents in Revit for a 64-unit affordable housing building, from design development through permit",
+    "Coordinated drawings with structural and mechanical consultants and tracked 140 RFIs during construction administration",
+    "Built the daylight and energy models that helped the project reach its Passive House target",
+    "Join site visits every two weeks and write the field reports sent to the contractor and owner",
+    {
+      "anyOrder": [
+        "Cascade Line Design",
+        "Intern Architect",
+        "Jun 2022 – Jun 2023",
+        "Tacoma, WA"
+      ]
+    },
+    "Drew schematic options and renderings for three school renovations, two of which went on to construction",
+    "Set up the office's Revit family library, which cut setup time on new projects by about a day",
+    "Built physical and digital models for client meetings and the firm's competition entries",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Puget Coast University",
+        "Seattle, WA",
+        "Master of Architecture",
+        "Jun 2022"
+      ]
+    },
+    "Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
+    {
+      "anyOrder": [
+        "Willamette Crest University",
+        "Salem, OR",
+        "Bachelor of Arts in Architectural Studies",
+        "May 2020"
+      ]
+    },
+    "Study abroad: urban design studio in Copenhagen",
+    "SKILLS AND LICENSURE",
+    "Licensure: AXP hours complete; ARE 4 of 6 divisions passed",
+    "Software: Revit, AutoCAD, Rhino, Enscape, Adobe InDesign",
+    "Design: Construction documents, code review, energy modeling",
+    "Sustainability: Passive House Designer (CPHD), LEED Green Associate"
+  ],
+  "template": "example-architecture",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Produced construction documents in Revit for a 64-unit affordable housing building, from design development through permit",
+    "Coordinated drawings with structural and mechanical consultants and tracked 140 RFIs during construction administration",
+    "Built the daylight and energy models that helped the project reach its Passive House target",
+    "Join site visits every two weeks and write the field reports sent to the contractor and owner",
+    "Drew schematic options and renderings for three school renovations, two of which went on to construction",
+    "Set up the office's Revit family library, which cut setup time on new projects by about a day",
+    "Built physical and digital models for client meetings and the firm's competition entries",
+    "Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
+    "Study abroad: urban design studio in Copenhagen"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Chris Avery",
+      "email": "chris.avery@email.com",
+      "phone": "(512) 555-0186",
+      "location": "Austin, TX",
+      "url": "linkedin.com/in/chrisavery",
+      "summary": "B2B marketing manager with seven years in software, focused on demand generation and product launches. I manage budgets, run small teams and report pipeline numbers to sales leadership every week."
+    },
+    "workExperiences": [
+      {
+        "company": "Ledgerline Software",
+        "jobTitle": "Marketing Manager",
+        "date": "Jan 2023 – Present",
+        "descriptions": [
+          "Own a $1.4M annual demand generation budget across paid search, events and webinars; marketing-sourced pipeline grew 46% in 2025",
+          "Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first two quarters",
+          "Manage two marketing specialists and an agency, and set the quarterly plan with the VP of Sales"
+        ]
+      },
+      {
+        "company": "Parkway Analytics",
+        "jobTitle": "Marketing Specialist",
+        "date": "Jun 2019 – Dec 2022",
+        "descriptions": [
+          "Ran email nurture programs in Marketo for 60,000 contacts; lead-to-meeting conversion rose from 3.1% to 5.4%",
+          "Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
+          "Wrote 30 customer case studies by interviewing users and their account managers"
+        ]
+      },
+      {
+        "company": "Bayou City Events",
+        "jobTitle": "Marketing Coordinator",
+        "date": "Aug 2017 – May 2019",
+        "descriptions": [
+          "Coordinated logistics and email invitations for about 40 corporate events a year"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Gulf Coast University",
+        "degree": "Bachelor of Business Administration, Marketing",
+        "date": "May 2019",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Marketing: Demand generation, product launches, email, paid search, events",
+        "Tools: HubSpot, Marketo, Salesforce, Google Ads, Google Analytics",
+        "Certifications: Google Ads Search, HubSpot Marketing Software"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Austin, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Dallas, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Houston, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Houston, TX",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Chris Avery",
+    "Austin, TX",
+    "(512) 555-0186",
+    "chris.avery@email.com",
+    "linkedin.com/in/chrisavery",
+    "SUMMARY",
+    "B2B marketing manager with seven years in software, focused on demand generation and product launches. I manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Ledgerline Software",
+        "Marketing Manager",
+        "Jan 2023 – Present",
+        "Austin, TX"
+      ]
+    },
+    "Own a $1.4M annual demand generation budget across paid search, events and webinars; marketing-sourced pipeline grew 46% in 2025",
+    "Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first two quarters",
+    "Manage two marketing specialists and an agency, and set the quarterly plan with the VP of Sales",
+    {
+      "anyOrder": [
+        "Parkway Analytics",
+        "Marketing Specialist",
+        "Jun 2019 – Dec 2022",
+        "Dallas, TX"
+      ]
+    },
+    "Ran email nurture programs in Marketo for 60,000 contacts; lead-to-meeting conversion rose from 3.1% to 5.4%",
+    "Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
+    "Wrote 30 customer case studies by interviewing users and their account managers",
+    {
+      "anyOrder": [
+        "Bayou City Events",
+        "Marketing Coordinator",
+        "Aug 2017 – May 2019",
+        "Houston, TX"
+      ]
+    },
+    "Coordinated logistics and email invitations for about 40 corporate events a year",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Gulf Coast University",
+        "Houston, TX",
+        "Bachelor of Business Administration, Marketing",
+        "May 2019"
+      ]
+    },
+    "SKILLS",
+    "Marketing: Demand generation, product launches, email, paid search, events",
+    "Tools: HubSpot, Marketo, Salesforce, Google Ads, Google Analytics",
+    "Certifications: Google Ads Search, HubSpot Marketing Software"
+  ],
+  "template": "example-marketing",
+  "doc": "resume",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Own a $1.4M annual demand generation budget across paid search, events and webinars; marketing-sourced pipeline grew 46% in 2025",
+    "Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first two quarters",
+    "Manage two marketing specialists and an agency, and set the quarterly plan with the VP of Sales",
+    "Ran email nurture programs in Marketo for 60,000 contacts; lead-to-meeting conversion rose from 3.1% to 5.4%",
+    "Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
+    "Wrote 30 customer case studies by interviewing users and their account managers",
+    "Coordinated logistics and email invitations for about 40 corporate events a year"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Kevin Tran",
+      "email": "kevin.tran@email.com",
+      "phone": "(408) 555-0126",
+      "location": "",
+      "url": "linkedin.com/in/kevintran",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Brightline Payments",
+        "jobTitle": "Software Engineer Intern",
+        "date": "Jun 2025 – Sep 2025",
+        "descriptions": [
+          "Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
+          "Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
+          "Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts"
+        ]
+      },
+      {
+        "company": "Orchard Health Software",
+        "jobTitle": "Backend Developer Intern",
+        "date": "Jun 2024 – Aug 2024",
+        "descriptions": [
+          "Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
+          "Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Santa Clara Valley University",
+        "degree": "Bachelor of Science in Computer Science",
+        "date": "Aug 2022 – May 2026",
+        "gpa": "3.6",
+        "descriptions": [
+          "GPA: 3.6/4.0",
+          "Coursework: Distributed Systems, Compilers, Machine Learning, Computer Security"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Quorum | Go, Raft, Docker",
+        "date": "2025",
+        "descriptions": [
+          "Key-value store with Raft consensus across five nodes; survives two node failures in chaos tests"
+        ]
+      },
+      {
+        "project": "Shelfie | TypeScript, React Native, Firebase",
+        "date": "2024",
+        "descriptions": [
+          "Book swap app for campus dorms with about 900 sign-ups in its first semester"
+        ]
+      },
+      {
+        "project": "Hackathon Judge Bot | Python, Slack API",
+        "date": "2023",
+        "descriptions": [
+          "Slack bot that assigns judges and tallies scores; used at three campus hackathons"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
+        "Frameworks: React, Spring Boot, FastAPI, gRPC",
+        "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
+        "Awards: Dean's List; SCVU Hacks winner"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "profile.url (second link)",
+      "value": "github.com/kevintran",
+      "reason": "parser keeps one URL"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "San Jose, CA",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "San Francisco, CA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "San Jose, CA",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Kevin Tran",
+    "(408) 555-0126",
+    "kevin.tran@email.com",
+    "linkedin.com/in/kevintran",
+    "github.com/kevintran",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Santa Clara Valley University",
+        "San Jose, CA",
+        "Bachelor of Science in Computer Science",
+        "Aug 2022 – May 2026"
+      ]
+    },
+    "GPA: 3.6/4.0",
+    "Coursework: Distributed Systems, Compilers, Machine Learning, Computer Security",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Brightline Payments",
+        "Software Engineer Intern",
+        "Jun 2025 – Sep 2025",
+        "San Francisco, CA"
+      ]
+    },
+    "Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
+    "Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
+    "Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts",
+    {
+      "anyOrder": [
+        "Orchard Health Software",
+        "Backend Developer Intern",
+        "Jun 2024 – Aug 2024",
+        "San Jose, CA"
+      ]
+    },
+    "Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
+    "Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests",
+    "PROJECTS",
+    {
+      "anyOrder": [
+        "Quorum",
+        "Go, Raft, Docker",
+        "2025"
+      ]
+    },
+    "Key-value store with Raft consensus across five nodes; survives two node failures in chaos tests",
+    {
+      "anyOrder": [
+        "Shelfie",
+        "TypeScript, React Native, Firebase",
+        "2024"
+      ]
+    },
+    "Book swap app for campus dorms with about 900 sign-ups in its first semester",
+    {
+      "anyOrder": [
+        "Hackathon Judge Bot",
+        "Python, Slack API",
+        "2023"
+      ]
+    },
+    "Slack bot that assigns judges and tallies scores; used at three campus hackathons",
+    "TECHNICAL SKILLS",
+    "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
+    "Frameworks: React, Spring Boot, FastAPI, gRPC",
+    "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
+    "Awards: Dean's List; SCVU Hacks winner"
+  ],
+  "template": "example-computer-science",
+  "doc": "resume",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "GPA: 3.6/4.0",
+    "Coursework: Distributed Systems, Compilers, Machine Learning, Computer Security",
+    "Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
+    "Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
+    "Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts",
+    "Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
+    "Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests",
+    "Key-value store with Raft consensus across five nodes; survives two node failures in chaos tests",
+    "Book swap app for campus dorms with about 900 sign-ups in its first semester",
+    "Slack bot that assigns judges and tallies scores; used at three campus hackathons"
+  ]
+}

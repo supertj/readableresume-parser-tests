@@ -1,0 +1,167 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Michelle Osei",
+      "email": "michelle.osei@email.com",
+      "phone": "(919) 555-0124",
+      "location": "Raleigh, NC",
+      "url": "linkedin.com/in/michelleosei",
+      "summary": "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist."
+    },
+    "workExperiences": [
+      {
+        "company": "Oak City Health Partners",
+        "jobTitle": "Ambulatory Care Pharmacy Specialist",
+        "date": "Jan 2024 – Present",
+        "descriptions": [
+          "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+          "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
+          "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours"
+        ]
+      },
+      {
+        "company": "Carolina Corner Drug",
+        "jobTitle": "Pharmacy Manager",
+        "date": "Jun 2021 – Dec 2023",
+        "descriptions": [
+          "Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
+          "Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
+          "Passed every state board inspection and cut controlled substance count discrepancies to zero for two years"
+        ]
+      },
+      {
+        "company": "Pitt County Medical Center",
+        "jobTitle": "Pharmacy Intern",
+        "date": "Jun 2019 – May 2021",
+        "descriptions": [
+          "Took medication histories in the emergency department and flagged dosing problems for the clinical pharmacist"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Tar River University School of Pharmacy",
+        "date": "May 2021",
+        "gpa": "",
+        "descriptions": [
+          "Rotations: internal medicine, ambulatory care, oncology, community pharmacy"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "License: Pharmacist, North Carolina; immunization certified",
+        "Certifications: BCACP, BLS",
+        "Systems: Epic Willow, PioneerRx, Pyxis"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Raleigh, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Durham, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Greenville, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Greenville, NC",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[0].degree",
+      "value": "Doctor of Pharmacy (PharmD)",
+      "reason": "not in the parser's degree list"
+    }
+  ],
+  "textSequence": [
+    "Michelle Osei",
+    "Raleigh, NC",
+    "(919) 555-0124",
+    "michelle.osei@email.com",
+    "linkedin.com/in/michelleosei",
+    "SUMMARY",
+    "Licensed pharmacist with five years in community and ambulatory care, focused on diabetes and anticoagulation. Board Certified Ambulatory Care Pharmacist.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Oak City Health Partners",
+        "Ambulatory Care Pharmacy Specialist",
+        "Jan 2024 – Present",
+        "Raleigh, NC"
+      ]
+    },
+    "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+    "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
+    "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
+    {
+      "anyOrder": [
+        "Carolina Corner Drug",
+        "Pharmacy Manager",
+        "Jun 2021 – Dec 2023",
+        "Durham, NC"
+      ]
+    },
+    "Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
+    "Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
+    "Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
+    {
+      "anyOrder": [
+        "Pitt County Medical Center",
+        "Pharmacy Intern",
+        "Jun 2019 – May 2021",
+        "Greenville, NC"
+      ]
+    },
+    "Took medication histories in the emergency department and flagged dosing problems for the clinical pharmacist",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Tar River University School of Pharmacy",
+        "Greenville, NC",
+        "Doctor of Pharmacy (PharmD)",
+        "May 2021"
+      ]
+    },
+    "Rotations: internal medicine, ambulatory care, oncology, community pharmacy",
+    "LICENSES AND SKILLS",
+    "License: Pharmacist, North Carolina; immunization certified",
+    "Certifications: BCACP, BLS",
+    "Systems: Epic Willow, PioneerRx, Pyxis"
+  ],
+  "template": "example-pharmacist",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Manage about 180 patients on warfarin and DOACs under a collaborative practice agreement with four physicians",
+    "Started a diabetes visit for patients with an A1c over 9; average A1c in the group fell from 10.2 to 8.1 in six months",
+    "Review high-risk medication lists for patients leaving the hospital and call each one within 72 hours",
+    "Ran a store filling about 1,600 prescriptions a week with three pharmacists and eight technicians",
+    "Gave about 4,000 vaccines a season and set up walk-in clinic hours that doubled flu shot volume",
+    "Passed every state board inspection and cut controlled substance count discrepancies to zero for two years",
+    "Took medication histories in the emergency department and flagged dosing problems for the clinical pharmacist",
+    "Rotations: internal medicine, ambulatory care, oncology, community pharmacy"
+  ]
+}

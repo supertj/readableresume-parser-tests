@@ -51,7 +51,10 @@ def _entries(path: str, fields: list[str], expected: list[dict], actual: list[di
     for i, exp in enumerate(expected):
         act = actual[i] if i < len(actual) else {}
         for field in fields:
-            items.append(_item(f"{path}[{i}].{field}", exp[field], act.get(field, "")))
+            # A field the expected file lists under outOfScope (e.g. a PharmD, which the parser's
+            # degree list can't represent) is reported there instead of being scored
+            if field in exp:
+                items.append(_item(f"{path}[{i}].{field}", exp[field], act.get(field, "")))
         exp_desc = exp["descriptions"]
         act_desc = act.get("descriptions", [])
         items.append(_count_item(f"{path}[{i}].descriptions", exp_desc, act_desc))

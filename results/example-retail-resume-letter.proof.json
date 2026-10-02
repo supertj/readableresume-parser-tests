@@ -1,0 +1,419 @@
+{
+  "file": "example-retail-resume-letter",
+  "template": "example-retail",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/13HJ4Iyqbfon1wcjUYjaBVap6-1E_4YMgm46iwYfPYjQ/export?format=pdf",
+  "pdfSha256": "6fe0e5abf6074c75063041bd53a491312d00339dca312b5a193daf7b26dcc72a",
+  "docxSha256": "009d50b749f9d7fec0649728f23bb20e16030f79099e8e62cd405b45cab6714b",
+  "runAt": "2026-10-02T03:26:00+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.642,
+  "fonts": {
+    "expected": "Verdana",
+    "found": [
+      "Verdana",
+      "Verdana-Bold",
+      "Verdana-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Verdana-Bold": 15,
+      "Verdana": 193,
+      "ArialMT": 21,
+      "Verdana-Italic": 9
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Jasmine Carter",
+      "Phoenix, AZ | (602) 555-0157 | jasmine.carter@email.com | linkedin.com/in/jasminecarter",
+      "SKILLS",
+      "• Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
+      "• People: Training new hires, shift scheduling, handling escalated complaints",
+      "• Systems: Square POS, Shopify POS, UKG scheduling, Excel",
+      "• Languages: English and Spanish (fluent)",
+      "EXPERIENCE",
+      "Desert Bloom Home Goods Phoenix, AZ",
+      "Lead Sales Associate Apr 2023 – Present",
+      "• Run opening or closing for a store doing about $2.4M a year, including cash counts and the",
+      "end-of-day report",
+      "• Trained 14 new associates on the register, returns and our loyalty program; nine stayed past six",
+      "months",
+      "• Set up the holiday floor plan and window displays; November and December sales beat the prior",
+      "year by 11%",
+      "• Took over weekly scheduling for 18 staff and kept labor within budget for 40 of 52 weeks",
+      "Saguaro Sporting Goods Tempe, AZ",
+      "Sales Associate Aug 2021 – Mar 2023",
+      "• Led the store in loyalty sign-ups for seven straight months",
+      "• Helped run quarterly inventory counts and found a receiving error worth about $8,000",
+      "• Answered phone and online orders and kept the stockroom organized by department",
+      "Copper State Grocery Mesa, AZ",
+      "Cashier Jun 2019 – Jul 2021",
+      "• Handled a register averaging 300 transactions a shift and balanced the drawer every night",
+      "EDUCATION",
+      "Rio Grande Community College Albuquerque, NM",
+      "Associate of Applied Science, Business Management May 2023",
+      "• Completed while working 30 hours a week"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 13,
+      "actual": 13,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 32,
+    "total": 32,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Jasmine Carter",
+        "actual": "Jasmine Carter",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "jasmine.carter@email.com",
+        "actual": "jasmine.carter@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(602) 555-0157",
+        "actual": "(602) 555-0157",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Phoenix, AZ",
+        "actual": "Phoenix, AZ",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/jasminecarter",
+        "actual": "linkedin.com/in/jasminecarter",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Desert Bloom Home Goods",
+        "actual": "Desert Bloom Home Goods",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Lead Sales Associate",
+        "actual": "Lead Sales Associate",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Apr 2023 – Present",
+        "actual": "Apr 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Run opening or closing for a store doing about $2.4M a year, including cash counts and the end-of-day report",
+        "actual": "Run opening or closing for a store doing about $2.4M a year, including cash counts and the end-of-day report",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Trained 14 new associates on the register, returns and our loyalty program; nine stayed past six months",
+        "actual": "Trained 14 new associates on the register, returns and our loyalty program; nine stayed past six months",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Set up the holiday floor plan and window displays; November and December sales beat the prior year by 11%",
+        "actual": "Set up the holiday floor plan and window displays; November and December sales beat the prior year by 11%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Took over weekly scheduling for 18 staff and kept labor within budget for 40 of 52 weeks",
+        "actual": "Took over weekly scheduling for 18 staff and kept labor within budget for 40 of 52 weeks",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Saguaro Sporting Goods",
+        "actual": "Saguaro Sporting Goods",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Sales Associate",
+        "actual": "Sales Associate",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Aug 2021 – Mar 2023",
+        "actual": "Aug 2021 – Mar 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Led the store in loyalty sign-ups for seven straight months",
+        "actual": "Led the store in loyalty sign-ups for seven straight months",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Helped run quarterly inventory counts and found a receiving error worth about $8,000",
+        "actual": "Helped run quarterly inventory counts and found a receiving error worth about $8,000",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Answered phone and online orders and kept the stockroom organized by department",
+        "actual": "Answered phone and online orders and kept the stockroom organized by department",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Copper State Grocery",
+        "actual": "Copper State Grocery",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Cashier",
+        "actual": "Cashier",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2019 – Jul 2021",
+        "actual": "Jun 2019 – Jul 2021",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Handled a register averaging 300 transactions a shift and balanced the drawer every night",
+        "actual": "Handled a register averaging 300 transactions a shift and balanced the drawer every night",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Rio Grande Community College",
+        "actual": "Rio Grande Community College",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Associate of Applied Science, Business Management",
+        "actual": "Associate of Applied Science, Business Management",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2023",
+        "actual": "May 2023",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Completed while working 30 hours a week",
+        "actual": "Completed while working 30 hours a week",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
+        "actual": "Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "People: Training new hires, shift scheduling, handling escalated complaints",
+        "actual": "People: Training new hires, shift scheduling, handling escalated complaints",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Systems: Square POS, Shopify POS, UKG scheduling, Excel",
+        "actual": "Systems: Square POS, Shopify POS, UKG scheduling, Excel",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Languages: English and Spanish (fluent)",
+        "actual": "Languages: English and Spanish (fluent)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Phoenix, AZ",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Tempe, AZ",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Mesa, AZ",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Albuquerque, NM",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Jasmine Carter",
+      "Phoenix, AZ | (602) 555-0157 | jasmine.carter@email.com | linkedin.com/in/jasminecarter",
+      "SKILLS",
+      "• Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
+      "• People: Training new hires, shift scheduling, handling escalated complaints",
+      "• Systems: Square POS, Shopify POS, UKG scheduling, Excel",
+      "• Languages: English and Spanish (fluent)",
+      "EXPERIENCE",
+      "Desert Bloom Home Goods ‖ Phoenix, AZ",
+      "Lead Sales Associate ‖ Apr 2023 – Present",
+      "• Run opening or closing for a store doing about $2.4M a year, including cash counts and the",
+      "end-of-day report",
+      "• Trained 14 new associates on the register, returns and our loyalty program; nine stayed past six",
+      "months",
+      "• Set up the holiday floor plan and window displays; November and December sales beat the prior",
+      "year by 11%",
+      "• Took over weekly scheduling for 18 staff and kept labor within budget for 40 of 52 weeks",
+      "Saguaro Sporting Goods ‖ Tempe, AZ",
+      "Sales Associate ‖ Aug 2021 – Mar 2023",
+      "• Led the store in loyalty sign-ups for seven straight months",
+      "• Helped run quarterly inventory counts and found a receiving error worth about $8,000",
+      "• Answered phone and online orders and kept the stockroom organized by department",
+      "Copper State Grocery ‖ Mesa, AZ",
+      "Cashier ‖ Jun 2019 – Jul 2021",
+      "• Handled a register averaging 300 transactions a shift and balanced the drawer every night",
+      "EDUCATION",
+      "Rio Grande Community College ‖ Albuquerque, NM",
+      "Associate of Applied Science, Business Management ‖ May 2023",
+      "• Completed while working 30 hours a week"
+    ]
+  },
+  "pass": true
+}

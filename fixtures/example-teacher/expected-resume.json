@@ -1,0 +1,146 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Rachel Nguyen",
+      "email": "rachel.nguyen@email.com",
+      "phone": "(503) 555-0175",
+      "location": "Portland, OR",
+      "url": "linkedin.com/in/rachelnguyen",
+      "summary": "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL endorsement. Known for small-group reading work and steady communication with families."
+    },
+    "workExperiences": [
+      {
+        "company": "Cedar Hills Elementary School",
+        "jobTitle": "Third Grade Teacher",
+        "date": "Aug 2022 – Present",
+        "descriptions": [
+          "Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in one year",
+          "Run daily small-group reading blocks using running records to regroup students every three weeks",
+          "Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100% attendance",
+          "Mentor two student teachers from Willamette Crest University each spring"
+        ]
+      },
+      {
+        "company": "Riverbend Elementary School",
+        "jobTitle": "Second Grade Teacher",
+        "date": "Aug 2019 – Jun 2022",
+        "descriptions": [
+          "Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above 90%",
+          "Built a math station rotation that the grade-level team used across all four second grade classes",
+          "Served on the school's behavior support team and helped write the first schoolwide reward system",
+          "Coached the after-school running club for 40 students in grades 2 to 5"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Willamette Crest University",
+        "degree": "Master of Arts in Teaching, Elementary Education",
+        "date": "Jun 2019",
+        "gpa": "",
+        "descriptions": [
+          "Student teaching: second grade, Riverbend Elementary School"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "License: Oregon Preliminary Teaching License, ESOL endorsement",
+        "Classroom: Guided reading, running records, IEPs, 504 plans",
+        "Tools: Google Classroom, Seesaw, Lexia, i-Ready"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Portland, OR",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Salem, OR",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Salem, OR",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Rachel Nguyen",
+    "Portland, OR",
+    "(503) 555-0175",
+    "rachel.nguyen@email.com",
+    "linkedin.com/in/rachelnguyen",
+    "SUMMARY",
+    "Elementary teacher with six years in grades 2 to 4 and an Oregon Preliminary Teaching License with an ESOL endorsement. Known for small-group reading work and steady communication with families.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Cedar Hills Elementary School",
+        "Third Grade Teacher",
+        "Aug 2022 – Present",
+        "Portland, OR"
+      ]
+    },
+    "Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in one year",
+    "Run daily small-group reading blocks using running records to regroup students every three weeks",
+    "Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100% attendance",
+    "Mentor two student teachers from Willamette Crest University each spring",
+    {
+      "anyOrder": [
+        "Riverbend Elementary School",
+        "Second Grade Teacher",
+        "Aug 2019 – Jun 2022",
+        "Salem, OR"
+      ]
+    },
+    "Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above 90%",
+    "Built a math station rotation that the grade-level team used across all four second grade classes",
+    "Served on the school's behavior support team and helped write the first schoolwide reward system",
+    "Coached the after-school running club for 40 students in grades 2 to 5",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Willamette Crest University",
+        "Salem, OR",
+        "Master of Arts in Teaching, Elementary Education",
+        "Jun 2019"
+      ]
+    },
+    "Student teaching: second grade, Riverbend Elementary School",
+    "CERTIFICATIONS AND SKILLS",
+    "License: Oregon Preliminary Teaching License, ESOL endorsement",
+    "Classroom: Guided reading, running records, IEPs, 504 plans",
+    "Tools: Google Classroom, Seesaw, Lexia, i-Ready"
+  ],
+  "template": "example-teacher",
+  "doc": "resume",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Teach 26 students, nine of them English learners; the share reading at grade level rose from 58% to 77% in one year",
+    "Run daily small-group reading blocks using running records to regroup students every three weeks",
+    "Send a short weekly update to families in English and Spanish and hold conferences twice a year with 100% attendance",
+    "Mentor two student teachers from Willamette Crest University each spring",
+    "Moved the class to Google Classroom in two weeks during remote learning and kept daily attendance above 90%",
+    "Built a math station rotation that the grade-level team used across all four second grade classes",
+    "Served on the school's behavior support team and helped write the first schoolwide reward system",
+    "Coached the after-school running club for 40 students in grades 2 to 5",
+    "Student teaching: second grade, Riverbend Elementary School"
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "file": "example-sales-resume-letter",
+  "template": "example-sales",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1Ta4ZunYkWDu7n0qzB4S3Wo536km7nYGS4jgp7MIM8nk/export?format=pdf",
+  "pdfSha256": "3b228cd9230eeecd3aeae9d8a1d14788594b44001f52a107194be26fde7ed792",
+  "docxSha256": "04636279b1efa78d49de4e293c101b847a811ca76abae40a44a16520a7ac05e0",
+  "runAt": "2026-10-02T03:26:00+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.713,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 18,
+      "ArialMT": 220,
+      "Arial-ItalicMT": 9
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Tyler Brennan",
+      "Nashville, TN | (615) 555-0144 | tyler.brennan@email.com | linkedin.com/in/tylerbrennan",
+      "SUMMARY",
+      "Sales representative with five years selling packaging supplies to food and beverage distributors across the",
+      "Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+      "EXPERIENCE",
+      "Tri-State Packaging Supply Nashville, TN",
+      "Territory Sales Representative Mar 2022 – Present",
+      "• Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in",
+      "2023",
+      "• Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
+      "• Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of",
+      "target margin",
+      "• Log every call and opportunity in Salesforce; forecast accuracy for my territory stays within 5%",
+      "Smoky Ridge Office Products Knoxville, TN",
+      "Inside Sales Representative Jun 2020 – Feb 2022",
+      "• Made about 60 calls a day to small businesses and booked 25 to 30 qualified meetings a month for field",
+      "reps",
+      "• Ranked first of eight inside reps for closed revenue in 2021",
+      "• Trained three new inside reps on our call scripts and CRM process",
+      "The Copper Kettle Knoxville, TN",
+      "Server Aug 2016 – May 2020",
+      "• Worked weekend shifts through college and was regularly asked to train new staff",
+      "EDUCATION",
+      "Cumberland Ridge University Knoxville, TN",
+      "Bachelor of Business Administration, Marketing May 2020",
+      "SKILLS",
+      "Sales: Prospecting, negotiation, account planning, pricing",
+      "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel",
+      "Training: Sandler Selling System, Challenger Sale workshop"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 8,
+      "actual": 8,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 30,
+    "total": 30,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Tyler Brennan",
+        "actual": "Tyler Brennan",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "tyler.brennan@email.com",
+        "actual": "tyler.brennan@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(615) 555-0144",
+        "actual": "(615) 555-0144",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Nashville, TN",
+        "actual": "Nashville, TN",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/tylerbrennan",
+        "actual": "linkedin.com/in/tylerbrennan",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Sales representative with five years selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+        "actual": "Sales representative with five years selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Tri-State Packaging Supply",
+        "actual": "Tri-State Packaging Supply",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Territory Sales Representative",
+        "actual": "Territory Sales Representative",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2022 – Present",
+        "actual": "Mar 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in 2023",
+        "actual": "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
+        "actual": "Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of target margin",
+        "actual": "Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of target margin",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Log every call and opportunity in Salesforce; forecast accuracy for my territory stays within 5%",
+        "actual": "Log every call and opportunity in Salesforce; forecast accuracy for my territory stays within 5%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Smoky Ridge Office Products",
+        "actual": "Smoky Ridge Office Products",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Inside Sales Representative",
+        "actual": "Inside Sales Representative",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2020 – Feb 2022",
+        "actual": "Jun 2020 – Feb 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Made about 60 calls a day to small businesses and booked 25 to 30 qualified meetings a month for field reps",
+        "actual": "Made about 60 calls a day to small businesses and booked 25 to 30 qualified meetings a month for field reps",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Ranked first of eight inside reps for closed revenue in 2021",
+        "actual": "Ranked first of eight inside reps for closed revenue in 2021",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Trained three new inside reps on our call scripts and CRM process",
+        "actual": "Trained three new inside reps on our call scripts and CRM process",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "The Copper Kettle",
+        "actual": "The Copper Kettle",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Server",
+        "actual": "Server",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Aug 2016 – May 2020",
+        "actual": "Aug 2016 – May 2020",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Worked weekend shifts through college and was regularly asked to train new staff",
+        "actual": "Worked weekend shifts through college and was regularly asked to train new staff",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Cumberland Ridge University",
+        "actual": "Cumberland Ridge University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Business Administration, Marketing",
+        "actual": "Bachelor of Business Administration, Marketing",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2020",
+        "actual": "May 2020",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Sales: Prospecting, negotiation, account planning, pricing",
+        "actual": "Sales: Prospecting, negotiation, account planning, pricing",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel",
+        "actual": "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Training: Sandler Selling System, Challenger Sale workshop",
+        "actual": "Training: Sandler Selling System, Challenger Sale workshop",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Nashville, TN",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Knoxville, TN",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Knoxville, TN",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Knoxville, TN",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Tyler Brennan",
+      "Nashville, TN | (615) 555-0144 | tyler.brennan@email.com | linkedin.com/in/tylerbrennan",
+      "SUMMARY",
+      "Sales representative with five years selling packaging supplies to food and beverage distributors across the",
+      "Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+      "EXPERIENCE",
+      "Tri-State Packaging Supply ‖ Nashville, TN",
+      "Territory Sales Representative ‖ Mar 2022 – Present",
+      "• ‖ Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in",
+      "2023",
+      "• ‖ Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
+      "• ‖ Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of",
+      "target margin",
+      "• ‖ Log every call and opportunity in Salesforce; forecast accuracy for my territory stays within 5%",
+      "Smoky Ridge Office Products ‖ Knoxville, TN",
+      "Inside Sales Representative ‖ Jun 2020 – Feb 2022",
+      "• ‖ Made about 60 calls a day to small businesses and booked 25 to 30 qualified meetings a month for field",
+      "reps",
+      "• ‖ Ranked first of eight inside reps for closed revenue in 2021",
+      "• ‖ Trained three new inside reps on our call scripts and CRM process",
+      "The Copper Kettle ‖ Knoxville, TN",
+      "Server ‖ Aug 2016 – May 2020",
+      "• ‖ Worked weekend shifts through college and was regularly asked to train new staff",
+      "EDUCATION",
+      "Cumberland Ridge University ‖ Knoxville, TN",
+      "Bachelor of Business Administration, Marketing ‖ May 2020",
+      "SKILLS",
+      "Sales: Prospecting, negotiation, account planning, pricing",
+      "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel",
+      "Training: Sandler Selling System, Challenger Sale workshop"
+    ]
+  },
+  "pass": true
+}
