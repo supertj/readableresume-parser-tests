@@ -73,9 +73,9 @@
   },
   "example-acting-resume-letter": {
     "pass": true,
-    "c1": "36/36",
+    "c1": "37/37",
     "pages": 1,
-    "fill": 0.667
+    "fill": 0.688
   },
   "example-architecture-resume-letter": {
     "pass": true,
@@ -147,25 +147,25 @@
     "pass": true,
     "c1": "36/36",
     "pages": 1,
-    "fill": 0.64
+    "fill": 0.658
   },
   "example-nursing-resume-letter": {
     "pass": true,
-    "c1": "29/29",
+    "c1": "28/28",
     "pages": 1,
-    "fill": 0.679
+    "fill": 0.658
   },
   "example-pharmacist-resume-letter": {
     "pass": true,
     "c1": "29/29",
     "pages": 1,
-    "fill": 0.664
+    "fill": 0.645
   },
   "example-pilot-resume-letter": {
     "pass": true,
-    "c1": "31/31",
+    "c1": "32/32",
     "pages": 1,
-    "fill": 0.637
+    "fill": 0.657
   },
   "example-project-manager-resume-letter": {
     "pass": true,
@@ -183,13 +183,13 @@
     "pass": true,
     "c1": "30/30",
     "pages": 1,
-    "fill": 0.713
+    "fill": 0.734
   },
   "example-teacher-resume-letter": {
     "pass": true,
     "c1": "28/28",
     "pages": 1,
-    "fill": 0.653
+    "fill": 0.672
   },
   "international-cv-cover-letter-a4": {
     "pass": true,
@@ -303,7 +303,7 @@
     "pass": true,
     "c1": "text only",
     "pages": 1,
-    "fill": 0.547
+    "fill": 0.527
   },
   "plain-cover-letter-letter": {
     "pass": true,
@@ -345,7 +345,7 @@
     "pass": true,
     "c1": "text only",
     "pages": 1,
-    "fill": 0.537
+    "fill": 0.556
   },
   "skills-first-references-a4": {
     "pass": true,

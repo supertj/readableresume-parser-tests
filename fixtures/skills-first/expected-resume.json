@@ -10,7 +10,7 @@
     },
     "workExperiences": [
       {
-        "company": "Cascade Credit Union (contract)",
+        "company": "Mossgate Credit Union (contract)",
         "jobTitle": "Instructional Designer",
         "date": "Jan 2024 – Present",
         "descriptions": [
@@ -20,7 +20,7 @@
         ]
       },
       {
-        "company": "Lincoln Park Middle School",
+        "company": "Salmonberry Middle School",
         "jobTitle": "Science Teacher",
         "date": "Aug 2016 – Jun 2024",
         "descriptions": [
@@ -39,7 +39,7 @@
         "descriptions": []
       },
       {
-        "school": "Columbia Gorge College",
+        "school": "Basalt Bluff College",
         "degree": "Bachelor of Science in Biology",
         "date": "Jun 2016",
         "gpa": "",
@@ -48,7 +48,7 @@
     ],
     "projects": [
       {
-        "project": "Volunteer onboarding course | Articulate Rise, Portland Food Share",
+        "project": "Volunteer onboarding course | Articulate Rise, Rosehip Food Share",
         "date": "Sep 2023",
         "descriptions": [
           "Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person orientation"
@@ -113,7 +113,7 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Cascade Credit Union (contract)",
+        "Mossgate Credit Union (contract)",
         "Instructional Designer",
         "Jan 2024 – Present",
         "Portland, OR"
@@ -124,7 +124,7 @@
     "Interview branch managers each quarter to decide which courses to update next",
     {
       "anyOrder": [
-        "Lincoln Park Middle School",
+        "Salmonberry Middle School",
         "Science Teacher",
         "Aug 2016 – Jun 2024",
         "Portland, OR"
@@ -137,7 +137,7 @@
     {
       "anyOrder": [
         "Volunteer onboarding course",
-        "Articulate Rise, Portland Food Share",
+        "Articulate Rise, Rosehip Food Share",
         "Sep 2023"
       ]
     },
@@ -153,7 +153,7 @@
     },
     {
       "anyOrder": [
-        "Columbia Gorge College",
+        "Basalt Bluff College",
         "Hood River, OR",
         "Bachelor of Science in Biology",
         "Jun 2016"

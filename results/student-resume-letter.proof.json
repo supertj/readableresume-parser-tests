@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1dLARuh3Aw8CGZDw9d-50WydnIysvQv0PCxwabY29Nfc/export?format=pdf",
-  "pdfSha256": "7f2e81cd2774ebca203b903a75a7b1085318a642f25861d569054b64164d9bd1",
-  "docxSha256": "9ebd4c258f3eb5c2012e1f9d748de70edaecd57326c57e144c6c1c9d51c04d17",
-  "runAt": "2026-10-01T12:01:50+00:00",
+  "source": "https://docs.google.com/document/d/1WHwIlbR2MmIKvj2knfyBJK7FvRaG-fQdWomOc25edtE/export?format=pdf",
+  "pdfSha256": "af09ee04e96ecf4367ed66ea75c7ce7db0eb11363650548fd534ccb8b46f487d",
+  "docxSha256": "3f564ffc8698dae0f256f718d83ef2ccc9626ec4beddf977cb0468ec8c71889d",
+  "runAt": "2026-10-02T15:58:31+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,7 +30,7 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Georgia-Bold": 24,
+      "Georgia-Bold": 25,
       "Georgia": 216,
       "TimesNewRomanPSMT": 19,
       "Georgia-Italic": 17
@@ -70,7 +70,7 @@
       "Soil Microbe Survey | Lab project, Intro Biology Mar 2025 – Apr 2025",
       "• Collected and cultured soil samples from 12 campus sites with a team of three and presented the results at the",
       "class poster session",
-      "Riverbend Community Garden | Volunteer Jun 2022 – Present",
+      "Thimble Row Community Garden | Volunteer Jun 2022 – Present",
       "• Help run Saturday harvests that send about 150 pounds of produce a month to a local food pantry",
       "SKILLS",
       "Lab: Pipetting, gel electrophoresis, microscopy, aseptic technique",
@@ -279,8 +279,8 @@
       },
       {
         "path": "projects[2].project",
-        "expected": "Riverbend Community Garden | Volunteer",
-        "actual": "Riverbend Community Garden | Volunteer",
+        "expected": "Thimble Row Community Garden | Volunteer",
+        "actual": "Thimble Row Community Garden | Volunteer",
         "ok": true
       },
       {
@@ -433,7 +433,7 @@
       "Soil Microbe Survey | Lab project, Intro Biology ‖ Mar 2025 – Apr 2025",
       "• ‖ Collected and cultured soil samples from 12 campus sites with a team of three and presented the results at the",
       "class poster session",
-      "Riverbend Community Garden | Volunteer ‖ Jun 2022 – Present",
+      "Thimble Row Community Garden | Volunteer ‖ Jun 2022 – Present",
       "• ‖ Help run Saturday harvests that send about 150 pounds of produce a month to a local food pantry",
       "SKILLS",
       "Lab: Pipetting, gel electrophoresis, microscopy, aseptic technique",

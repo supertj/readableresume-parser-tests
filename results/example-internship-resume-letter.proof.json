@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1Btg6Tb-NYY6rX90B08g-NtDeIaXic8FVlhrqnslgk50/export?format=pdf",
-  "pdfSha256": "a965cb7609df18f35521a983c8b3b25c05c72a6b0fb31aac274ccd146cc2239d",
-  "docxSha256": "368a5a0e9125f45ac6fb5e9ec9dde119eb0041f908a31d22d0bce70523f91351",
-  "runAt": "2026-10-02T03:25:57+00:00",
+  "source": "https://docs.google.com/document/d/1tcqoIvCXhTb2XsiE1GmvS3gWWCvvGwdP8wD-BSa_Y88/export?format=pdf",
+  "pdfSha256": "7d6160562a9bd51856ce6b06a0648c51b7e4d5caf4df2b8d36651fa57867a6f8",
+  "docxSha256": "d22266842040a561f6f7c27e225badd65c0e705f20e6a8ac5d83120593b5a656",
+  "runAt": "2026-10-02T16:13:48+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,7 +30,7 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Georgia-Bold": 25,
+      "Georgia-Bold": 28,
       "Georgia": 176,
       "TimesNewRomanPSMT": 18,
       "Georgia-Italic": 13
@@ -59,7 +59,7 @@
       "• Check in about 300 students a shift and answer questions about classes, rentals and memberships",
       "• Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose",
       "about 15%",
-      "Sweet Magnolia Bakery Decatur, GA",
+      "Sorghum & Sugar Bakery Decatur, GA",
       "Sales Associate Jun 2023 – Aug 2024",
       "• Handled the register and online pickup orders on weekends, often 150 orders a day",
       "• Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
@@ -68,7 +68,7 @@
       "• Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
       "Consumer Behavior class project | Team of four Spring 2025",
       "• Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
-      "Hosea Community Kitchen | Volunteer Jan 2024 – Present",
+      "Ladle & Lamp Community Kitchen | Volunteer Jan 2024 – Present",
       "• Serve meals twice a month and made the flyer for the kitchen's holiday food drive",
       "SKILLS",
       "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",
@@ -169,8 +169,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Sweet Magnolia Bakery",
-        "actual": "Sweet Magnolia Bakery",
+        "expected": "Sorghum & Sugar Bakery",
+        "actual": "Sorghum & Sugar Bakery",
         "ok": true
       },
       {
@@ -271,8 +271,8 @@
       },
       {
         "path": "projects[2].project",
-        "expected": "Hosea Community Kitchen | Volunteer",
-        "actual": "Hosea Community Kitchen | Volunteer",
+        "expected": "Ladle & Lamp Community Kitchen | Volunteer",
+        "actual": "Ladle & Lamp Community Kitchen | Volunteer",
         "ok": true
       },
       {
@@ -414,7 +414,7 @@
       "• ‖ Check in about 300 students a shift and answer questions about classes, rentals and memberships",
       "• ‖ Suggested posting class schedules on the center's Instagram story each morning; drop-in attendance rose",
       "about 15%",
-      "Sweet Magnolia Bakery ‖ Decatur, GA",
+      "Sorghum & Sugar Bakery ‖ Decatur, GA",
       "Sales Associate ‖ Jun 2023 – Aug 2024",
       "• ‖ Handled the register and online pickup orders on weekends, often 150 orders a day",
       "• ‖ Wrote the bakery's first email newsletter in Mailchimp and grew the list from 0 to 640 subscribers",
@@ -423,7 +423,7 @@
       "• ‖ Plan posts for a 1,100-follower chapter account; event turnout grew from about 40 to 90 students",
       "Consumer Behavior class project | Team of four ‖ Spring 2025",
       "• ‖ Surveyed 210 students about meal plan choices and presented findings to campus dining managers",
-      "Hosea Community Kitchen | Volunteer ‖ Jan 2024 – Present",
+      "Ladle & Lamp Community Kitchen | Volunteer ‖ Jan 2024 – Present",
       "• ‖ Serve meals twice a month and made the flyer for the kitchen's holiday food drive",
       "SKILLS",
       "Tools: Canva, Mailchimp, Google Sheets, Instagram and TikTok analytics",

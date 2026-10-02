@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/11rxbx-HQ4caNDHxnB5uGOwN1Tm55Pwb5HsFwPrOkzHw/export?format=pdf",
-  "pdfSha256": "ae8a22dc9d68f6e7af8b83cb714aaf97cc0fb79d151817da281a86f686e5ed4c",
-  "docxSha256": "5a67146900e349d4270f0f1b0a6d8ccd9729d2f06424fa363bc97a1a05345efb",
-  "runAt": "2026-10-02T03:25:56+00:00",
+  "source": "https://docs.google.com/document/d/1h8om6u88v6K-yD-iMtK7j5DXJhQkELKhf6en9sqNfRU/export?format=pdf",
+  "pdfSha256": "d783425e0015bcf1ffbf3f2687400b0fa1b26421408caad6cf42dcf8c75c5eb7",
+  "docxSha256": "973b2ce56b538b0985ce46e2904f31ed1a07e959bbc916b5db7336c6e186df5b",
+  "runAt": "2026-10-02T16:13:47+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,8 +30,8 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Georgia-Bold": 19,
-      "Georgia": 247,
+      "Georgia-Bold": 18,
+      "Georgia": 253,
       "TimesNewRomanPSMT": 17,
       "Georgia-Italic": 9
     },
@@ -49,11 +49,11 @@
       "Priya Raman",
       "Charlotte, NC | (704) 555-0137 | priya.raman@email.com | linkedin.com/in/priyaraman",
       "SUMMARY",
-      "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and",
+      "Financial analyst with five years in FP&A at logistics and manufacturing companies. I build the forecasts and",
       "models that pricing, budget and capital decisions are made on, and explain them to people who don't live in",
       "Excel.",
       "EXPERIENCE",
-      "Bluewater Logistics Charlotte, NC",
+      "Tarnhollow Logistics Charlotte, NC",
       "Financial Analyst Jul 2023 – Present",
       "• Own the monthly forecast for a $240M freight division; operating income forecast error fell from 9% to 3%",
       "over four quarters",
@@ -73,7 +73,7 @@
       "Finance Intern Jun 2020 – Aug 2020",
       "• Reconciled loan fee accounts each week and wrote up the three largest variances for the accounting manager",
       "EDUCATION",
-      "Piedmont State University Raleigh, NC",
+      "Larkbriar University Raleigh, NC",
       "Bachelor of Science in Finance May 2021",
       "• Coursework: Corporate Finance, Financial Modeling, Managerial Accounting, Econometrics"
     ]
@@ -135,14 +135,14 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel.",
-        "actual": "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel.",
+        "expected": "Financial analyst with five years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel.",
+        "actual": "Financial analyst with five years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel.",
         "ok": true
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Bluewater Logistics",
-        "actual": "Bluewater Logistics",
+        "expected": "Tarnhollow Logistics",
+        "actual": "Tarnhollow Logistics",
         "ok": true
       },
       {
@@ -243,8 +243,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Piedmont State University",
-        "actual": "Piedmont State University",
+        "expected": "Larkbriar University",
+        "actual": "Larkbriar University",
         "ok": true
       },
       {
@@ -285,8 +285,8 @@
       },
       {
         "path": "skills.descriptions[2]",
-        "expected": "Certifications: CFA Level II candidate",
-        "actual": "Certifications: CFA Level II candidate",
+        "expected": "CFA: Passed Level I; Level II Candidate in the CFA Program",
+        "actual": "CFA: Passed Level I; Level II Candidate in the CFA Program",
         "ok": true
       },
       {
@@ -388,11 +388,11 @@
       "Priya Raman",
       "Charlotte, NC | (704) 555-0137 | priya.raman@email.com | linkedin.com/in/priyaraman",
       "SUMMARY",
-      "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and",
+      "Financial analyst with five years in FP&A at logistics and manufacturing companies. I build the forecasts and",
       "models that pricing, budget and capital decisions are made on, and explain them to people who don't live in",
       "Excel.",
       "EXPERIENCE",
-      "Bluewater Logistics ‖ Charlotte, NC",
+      "Tarnhollow Logistics ‖ Charlotte, NC",
       "Financial Analyst ‖ Jul 2023 – Present",
       "• ‖ Own the monthly forecast for a $240M freight division; operating income forecast error fell from 9% to 3%",
       "over four quarters",
@@ -412,13 +412,13 @@
       "Finance Intern ‖ Jun 2020 – Aug 2020",
       "• ‖ Reconciled loan fee accounts each week and wrote up the three largest variances for the accounting manager",
       "EDUCATION",
-      "Piedmont State University ‖ Raleigh, NC",
+      "Larkbriar University ‖ Raleigh, NC",
       "Bachelor of Science in Finance ‖ May 2021",
       "• ‖ Coursework: Corporate Finance, Financial Modeling, Managerial Accounting, Econometrics",
       "SKILLS",
       "Modeling: Three-statement models, DCF, budgeting and forecasting, scenario analysis",
       "Tools: Excel (Power Query, VBA), Power BI, NetSuite, Adaptive Planning",
-      "Certifications: CFA Level II candidate",
+      "CFA: Passed Level I; Level II Candidate in the CFA Program",
       "Languages: English (native), Tamil (fluent)"
     ]
   },

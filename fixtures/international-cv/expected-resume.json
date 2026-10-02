@@ -21,7 +21,7 @@
         ]
       },
       {
-        "company": "Pennine Energy",
+        "company": "Thornholme Energy",
         "jobTitle": "Data Analyst",
         "date": "Jun 2020 – Feb 2023",
         "descriptions": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "company": "University of Sheffield Department of Economics",
+        "company": "Brindlecroft University Department of Economics",
         "jobTitle": "Research Assistant",
         "date": "Jul 2017 – Aug 2018",
         "descriptions": [
@@ -68,7 +68,7 @@
     ],
     "educations": [
       {
-        "school": "University of Manchester",
+        "school": "Northmoor University",
         "degree": "MSc Data Science, Distinction",
         "date": "Sep 2019 – Sep 2021",
         "gpa": "",
@@ -77,7 +77,7 @@
         ]
       },
       {
-        "school": "University of Sheffield",
+        "school": "Brindlecroft University",
         "degree": "BSc (Hons) Economics, First Class",
         "date": "Sep 2014 – Jun 2017",
         "gpa": "",
@@ -194,7 +194,7 @@
     "Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season clearance by about 9% across clothing and homeware",
     {
       "anyOrder": [
-        "Pennine Energy",
+        "Thornholme Energy",
         "Data Analyst",
         "Jun 2020 – Feb 2023",
         "Leeds, UK"
@@ -219,7 +219,7 @@
     "Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote up the findings for the client steering group",
     {
       "anyOrder": [
-        "University of Sheffield Department of Economics",
+        "Brindlecroft University Department of Economics",
         "Research Assistant",
         "Jul 2017 – Aug 2018",
         "Sheffield, UK"
@@ -262,7 +262,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "University of Manchester",
+        "Northmoor University",
         "Manchester, UK",
         "MSc Data Science, Distinction",
         "Sep 2019 – Sep 2021"
@@ -271,7 +271,7 @@
     "Part-time while working; dissertation on forecasting store footfall with weather and calendar data",
     {
       "anyOrder": [
-        "University of Sheffield",
+        "Brindlecroft University",
         "Sheffield, UK",
         "BSc (Hons) Economics, First Class",
         "Sep 2014 – Jun 2017"

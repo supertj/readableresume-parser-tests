@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1mjO0BFvmPnB6H8-TOTKO_xJTQaqDB94fYavmHAb0chU/export?format=pdf",
-  "pdfSha256": "c564049f179fccc7cb37d6344371460a97d4d5fedf14fb439e330bfebaa022c3",
-  "docxSha256": "7b49cd998ce43d3f0f74e5c99742ac17e697d77d938aa6ad7a14bebf81d42f60",
-  "runAt": "2026-10-02T03:25:58+00:00",
+  "source": "https://docs.google.com/document/d/1gjFlaz5G-Hef7rEMaS7jobl4eIHyxsBXO-I-xkPaeWU/export?format=pdf",
+  "pdfSha256": "328d3a326b2fd6b49692ad25629174e8d34e1c2fb7a56589f008d8829bb1aeca",
+  "docxSha256": "40c85d54a570f328fb978121803d314395f03e6f9e086dd039ef6b41f8568e9f",
+  "runAt": "2026-10-02T16:13:49+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,10 +30,10 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "TrebuchetMS-Bold": 14,
+      "TrebuchetMS-Bold": 13,
       "TrebuchetMS": 192,
       "ArialMT": 15,
-      "TrebuchetMS-Italic": 12
+      "TrebuchetMS-Italic": 11
     },
     "notEmbedded": [],
     "ok": true
@@ -53,7 +53,7 @@
       "manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
       "EXPERIENCE",
       "Marketing Manager Jan 2023 – Present",
-      "Ledgerline Software Austin, TX",
+      "Tarrowfield Software Austin, TX",
       "• Own a $1.4M annual demand generation budget across paid search, events and webinars;",
       "marketing-sourced pipeline grew 46% in 2025",
       "• Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first",
@@ -66,10 +66,10 @@
       "• Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
       "• Wrote 30 customer case studies by interviewing users and their account managers",
       "Marketing Coordinator Aug 2017 – May 2019",
-      "Bayou City Events Houston, TX",
+      "Tallowbird Events Houston, TX",
       "• Coordinated logistics and email invitations for about 40 corporate events a year",
       "EDUCATION",
-      "Gulf Coast University Houston, TX",
+      "Cypresswick University Houston, TX",
       "Bachelor of Business Administration, Marketing May 2019",
       "SKILLS",
       "Marketing: Demand generation, product launches, email, paid search, events",
@@ -140,8 +140,8 @@
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Ledgerline Software",
-        "actual": "Ledgerline Software",
+        "expected": "Tarrowfield Software",
+        "actual": "Tarrowfield Software",
         "ok": true
       },
       {
@@ -212,8 +212,8 @@
       },
       {
         "path": "workExperiences[2].company",
-        "expected": "Bayou City Events",
-        "actual": "Bayou City Events",
+        "expected": "Tallowbird Events",
+        "actual": "Tallowbird Events",
         "ok": true
       },
       {
@@ -236,8 +236,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Gulf Coast University",
-        "actual": "Gulf Coast University",
+        "expected": "Cypresswick University",
+        "actual": "Cypresswick University",
         "ok": true
       },
       {
@@ -373,7 +373,7 @@
       "manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
       "EXPERIENCE",
       "Marketing Manager ‖ Jan 2023 – Present",
-      "Ledgerline Software ‖ Austin, TX",
+      "Tarrowfield Software ‖ Austin, TX",
       "• ‖ Own a $1.4M annual demand generation budget across paid search, events and webinars;",
       "marketing-sourced pipeline grew 46% in 2025",
       "• ‖ Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first",
@@ -386,10 +386,10 @@
       "• ‖ Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
       "• ‖ Wrote 30 customer case studies by interviewing users and their account managers",
       "Marketing Coordinator ‖ Aug 2017 – May 2019",
-      "Bayou City Events ‖ Houston, TX",
+      "Tallowbird Events ‖ Houston, TX",
       "• ‖ Coordinated logistics and email invitations for about 40 corporate events a year",
       "EDUCATION",
-      "Gulf Coast University ‖ Houston, TX",
+      "Cypresswick University ‖ Houston, TX",
       "Bachelor of Business Administration, Marketing ‖ May 2019",
       "SKILLS",
       "Marketing: Demand generation, product launches, email, paid search, events",

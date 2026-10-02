@@ -33,7 +33,7 @@
     ],
     "educations": [
       {
-        "school": "Puget Coast University",
+        "school": "Alderhaven University",
         "degree": "Master of Architecture",
         "date": "Jun 2022",
         "gpa": "",
@@ -42,7 +42,7 @@
         ]
       },
       {
-        "school": "Willamette Crest University",
+        "school": "Filbert Hill University",
         "degree": "Bachelor of Arts in Architectural Studies",
         "date": "May 2020",
         "gpa": "",
@@ -127,7 +127,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Puget Coast University",
+        "Alderhaven University",
         "Seattle, WA",
         "Master of Architecture",
         "Jun 2022"
@@ -136,7 +136,7 @@
     "Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
     {
       "anyOrder": [
-        "Willamette Crest University",
+        "Filbert Hill University",
         "Salem, OR",
         "Bachelor of Arts in Architectural Studies",
         "May 2020"

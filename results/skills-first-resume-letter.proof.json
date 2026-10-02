@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1RtnL66ttPUrNFJjT4mB9iop3XfKgYFvnlkRFBC9Dn5g/export?format=pdf",
-  "pdfSha256": "01e5ede2fa7d2c1d5f9ce46fe64c6263fed228faf93750fded1811c12bdda0b1",
-  "docxSha256": "b421974b5d0fb3b532cd73b0948effa8ec193e5df6c4bb8685001408f1183608",
-  "runAt": "2026-10-01T12:01:49+00:00",
+  "source": "https://docs.google.com/document/d/1gfmfEJjGLHWE_QSLzlkWBqcWWB_ImdSGglkvI8raFFE/export?format=pdf",
+  "pdfSha256": "4f51ff4a794c9bc739487b643f6a1811c790b7f151057986ad13fdcbfed65360",
+  "docxSha256": "055edb58b51b3f5acfb31b1240d3f5dcb0876e4645bbf4395d41b43dfa8a6459",
+  "runAt": "2026-10-02T15:58:30+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,7 +30,7 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Verdana-Bold": 19,
+      "Verdana-Bold": 18,
       "Verdana": 213,
       "ArialMT": 20,
       "Verdana-Italic": 18
@@ -58,19 +58,19 @@
       "• Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
       "• Results: course completion up 30% and onboarding time down two weeks (see Experience)",
       "EXPERIENCE",
-      "Cascade Credit Union (contract) Portland, OR",
+      "Mossgate Credit Union (contract) Portland, OR",
       "Instructional Designer Jan 2024 – Present",
       "• Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to",
       "four",
       "• Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
       "• Interview branch managers each quarter to decide which courses to update next",
-      "Lincoln Park Middle School Portland, OR",
+      "Salmonberry Middle School Portland, OR",
       "Science Teacher Aug 2016 – Jun 2024",
       "• Planned and taught 7th and 8th grade science for about 140 students a year",
       "• Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
       "• Coached five new teachers on lesson planning and classroom routines",
       "PROJECTS",
-      "Volunteer onboarding course | Articulate Rise, Portland Food Share Sep 2023",
+      "Volunteer onboarding course | Articulate Rise, Rosehip Food Share Sep 2023",
       "• Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person",
       "orientation",
       "EDUCATION",
@@ -141,8 +141,8 @@
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Cascade Credit Union (contract)",
-        "actual": "Cascade Credit Union (contract)",
+        "expected": "Mossgate Credit Union (contract)",
+        "actual": "Mossgate Credit Union (contract)",
         "ok": true
       },
       {
@@ -177,8 +177,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Lincoln Park Middle School",
-        "actual": "Lincoln Park Middle School",
+        "expected": "Salmonberry Middle School",
+        "actual": "Salmonberry Middle School",
         "ok": true
       },
       {
@@ -237,8 +237,8 @@
       },
       {
         "path": "educations[1].school",
-        "expected": "Columbia Gorge College",
-        "actual": "Columbia Gorge College",
+        "expected": "Basalt Bluff College",
+        "actual": "Basalt Bluff College",
         "ok": true
       },
       {
@@ -261,8 +261,8 @@
       },
       {
         "path": "projects[0].project",
-        "expected": "Volunteer onboarding course | Articulate Rise, Portland Food Share",
-        "actual": "Volunteer onboarding course | Articulate Rise, Portland Food Share",
+        "expected": "Volunteer onboarding course | Articulate Rise, Rosehip Food Share",
+        "actual": "Volunteer onboarding course | Articulate Rise, Rosehip Food Share",
         "ok": true
       },
       {
@@ -409,25 +409,25 @@
       "• Facilitation: live workshops for groups of 10 to 120, virtual sessions on Zoom",
       "• Results: course completion up 30% and onboarding time down two weeks (see Experience)",
       "EXPERIENCE",
-      "Cascade Credit Union (contract) ‖ Portland, OR",
+      "Mossgate Credit Union (contract) ‖ Portland, OR",
       "Instructional Designer ‖ Jan 2024 – Present",
       "• Rebuilt the teller onboarding course in Rise, cutting time to independent work from six weeks to",
       "four",
       "• Wrote scenario-based compliance modules that raised first-try quiz pass rates from 64% to 88%",
       "• Interview branch managers each quarter to decide which courses to update next",
-      "Lincoln Park Middle School ‖ Portland, OR",
+      "Salmonberry Middle School ‖ Portland, OR",
       "Science Teacher ‖ Aug 2016 – Jun 2024",
       "• Planned and taught 7th and 8th grade science for about 140 students a year",
       "• Moved the department's labs to Canvas, raising on-time lab report completion by 30%",
       "• Coached five new teachers on lesson planning and classroom routines",
       "PROJECTS",
-      "Volunteer onboarding course | Articulate Rise, Portland Food Share ‖ Sep 2023",
+      "Volunteer onboarding course | Articulate Rise, Rosehip Food Share ‖ Sep 2023",
       "• Built a 20-minute self-paced course for warehouse volunteers that replaced a weekly in-person",
       "orientation",
       "EDUCATION",
       "Willamette Valley University ‖ Salem, OR",
       "Master of Education in Curriculum and Instruction ‖ Jun 2019",
-      "Columbia Gorge College ‖ Hood River, OR",
+      "Basalt Bluff College ‖ Hood River, OR",
       "Bachelor of Science in Biology ‖ Jun 2016"
     ]
   },

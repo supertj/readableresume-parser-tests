@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1fj5_-zl1EdhhiVex7Mm5yeiP8rwWw0DPNOrPB-gv2eo/export?format=pdf",
-  "pdfSha256": "9f0c9431cdd8aa7ed618736400743c047d25d6edf8b9d776731f7eff1cc98b80",
-  "docxSha256": "bdabfb5faddcd2f78e25f6c937df3097614dc0e043d7f1c62ca4f8708b891fe8",
-  "runAt": "2026-10-02T03:25:54+00:00",
+  "source": "https://docs.google.com/document/d/17BR1FTz-P89I3b8grvz1chXdQ9YYZl5Ryhg6jsDaw9A/export?format=pdf",
+  "pdfSha256": "adc779b25644c8afdbaf3b22824f6d32d345191dd9700db81859473676ea7a16",
+  "docxSha256": "ebbaa73c3e056a5d1ed21b332fd0e464ae65229cae60d2c9729ab40551372990",
+  "runAt": "2026-10-02T16:13:46+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,7 +30,7 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Georgia-Bold": 19,
+      "Georgia-Bold": 18,
       "Georgia": 186,
       "TimesNewRomanPSMT": 17,
       "Georgia-Italic": 11
@@ -63,10 +63,10 @@
       "• Set up the office's Revit family library, which cut setup time on new projects by about a day",
       "• Built physical and digital models for client meetings and the firm's competition entries",
       "EDUCATION",
-      "Puget Coast University Seattle, WA",
+      "Alderhaven University Seattle, WA",
       "Master of Architecture Jun 2022",
       "• Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
-      "Willamette Crest University Salem, OR",
+      "Filbert Hill University Salem, OR",
       "Bachelor of Arts in Architectural Studies May 2020",
       "• Study abroad: urban design studio in Copenhagen",
       "SKILLS AND LICENSURE",
@@ -217,8 +217,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Puget Coast University",
-        "actual": "Puget Coast University",
+        "expected": "Alderhaven University",
+        "actual": "Alderhaven University",
         "ok": true
       },
       {
@@ -247,8 +247,8 @@
       },
       {
         "path": "educations[1].school",
-        "expected": "Willamette Crest University",
-        "actual": "Willamette Crest University",
+        "expected": "Filbert Hill University",
+        "actual": "Filbert Hill University",
         "ok": true
       },
       {
@@ -406,10 +406,10 @@
       "• ‖ Set up the office's Revit family library, which cut setup time on new projects by about a day",
       "• ‖ Built physical and digital models for client meetings and the firm's competition entries",
       "EDUCATION",
-      "Puget Coast University ‖ Seattle, WA",
+      "Alderhaven University ‖ Seattle, WA",
       "Master of Architecture ‖ Jun 2022",
       "• ‖ Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
-      "Willamette Crest University ‖ Salem, OR",
+      "Filbert Hill University ‖ Salem, OR",
       "Bachelor of Arts in Architectural Studies ‖ May 2020",
       "• ‖ Study abroad: urban design studio in Copenhagen",
       "SKILLS AND LICENSURE",

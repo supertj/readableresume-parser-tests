@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1mC2leO3LkW7zTTJiNJKkoWxDuN2XAs7qpShSCzfjz8U/export?format=pdf",
-  "pdfSha256": "d413a2b5b19d22af5eac64e2d4351415cbd7a8f53fbd7946fcc652469306b3e3",
-  "docxSha256": "e9b91dec0135464b88ec37eb4d064e79124d1a344232dbb256c173f08a505f33",
-  "runAt": "2026-10-02T03:25:56+00:00",
+  "source": "https://docs.google.com/document/d/1ItJomfBt18TiyzmVD0yzVTfDfwhbAwjdP0D5So-fqL8/export?format=pdf",
+  "pdfSha256": "e7f51c87a8200f2e1c54b84db3e42d30a657fe343f769ea29bb23db2adc1ee24",
+  "docxSha256": "212cef42dfcb7995f745d09f4a5e7b2d1faae5bf874fd391d6c8973a541db065",
+  "runAt": "2026-10-02T16:13:47+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,8 +30,8 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Arial-BoldMT": 18,
-      "ArialMT": 255,
+      "Arial-BoldMT": 16,
+      "ArialMT": 258,
       "Arial-ItalicMT": 9
     },
     "notEmbedded": [],
@@ -48,10 +48,10 @@
       "Daniel Okafor",
       "Columbus, OH | (614) 555-0182 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
       "SUMMARY",
-      "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from",
-      "first CAD model through production. Licensed Engineer in Training.",
+      "Mechanical engineer with six years of experience designing pumps and enclosures for industrial customers, from",
+      "first CAD model through production. Ohio Engineer Intern (EI) certificate.",
       "EXPERIENCE",
-      "Ridgeline Fluid Systems Columbus, OH",
+      "Harrowfield Pump Company Columbus, OH",
       "Mechanical Engineer Mar 2022 – Present",
       "• Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit",
       "cost by $310",
@@ -59,16 +59,16 @@
       "returns",
       "• Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
       "• Review drawings and tolerance stacks with two suppliers before each production release",
-      "Cardinal Equipment Works Dayton, OH",
+      "Ironbriar Equipment Works Dayton, OH",
       "Associate Engineer Jun 2020 – Feb 2022",
       "• Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
       "• Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
       "• Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
-      "Miami Valley Tooling Dayton, OH",
+      "Brassfork Tooling Dayton, OH",
       "Engineering Co-op Jan 2019 – Aug 2019",
       "• Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
       "EDUCATION",
-      "Buckeye Valley University Columbus, OH",
+      "Larchgrove University Columbus, OH",
       "Bachelor of Science in Mechanical Engineering May 2020",
       "• Senior design: low-cost irrigation pump, first place among 22 capstone teams",
       "SKILLS",
@@ -134,14 +134,14 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training.",
-        "actual": "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training.",
+        "expected": "Mechanical engineer with six years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Ohio Engineer Intern (EI) certificate.",
+        "actual": "Mechanical engineer with six years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Ohio Engineer Intern (EI) certificate.",
         "ok": true
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Ridgeline Fluid Systems",
-        "actual": "Ridgeline Fluid Systems",
+        "expected": "Harrowfield Pump Company",
+        "actual": "Harrowfield Pump Company",
         "ok": true
       },
       {
@@ -182,8 +182,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Cardinal Equipment Works",
-        "actual": "Cardinal Equipment Works",
+        "expected": "Ironbriar Equipment Works",
+        "actual": "Ironbriar Equipment Works",
         "ok": true
       },
       {
@@ -218,8 +218,8 @@
       },
       {
         "path": "workExperiences[2].company",
-        "expected": "Miami Valley Tooling",
-        "actual": "Miami Valley Tooling",
+        "expected": "Brassfork Tooling",
+        "actual": "Brassfork Tooling",
         "ok": true
       },
       {
@@ -242,8 +242,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Buckeye Valley University",
-        "actual": "Buckeye Valley University",
+        "expected": "Larchgrove University",
+        "actual": "Larchgrove University",
         "ok": true
       },
       {
@@ -290,8 +290,8 @@
       },
       {
         "path": "skills.descriptions[3]",
-        "expected": "Licenses: Engineer in Training (EIT), Ohio",
-        "actual": "Licenses: Engineer in Training (EIT), Ohio",
+        "expected": "Certification: Engineer Intern (EI), Ohio; PE exam planned",
+        "actual": "Certification: Engineer Intern (EI), Ohio; PE exam planned",
         "ok": true
       }
     ],
@@ -387,10 +387,10 @@
       "Daniel Okafor",
       "Columbus, OH | (614) 555-0182 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
       "SUMMARY",
-      "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from",
-      "first CAD model through production. Licensed Engineer in Training.",
+      "Mechanical engineer with six years of experience designing pumps and enclosures for industrial customers, from",
+      "first CAD model through production. Ohio Engineer Intern (EI) certificate.",
       "EXPERIENCE",
-      "Ridgeline Fluid Systems ‖ Columbus, OH",
+      "Harrowfield Pump Company ‖ Columbus, OH",
       "Mechanical Engineer ‖ Mar 2022 – Present",
       "• ‖ Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit",
       "cost by $310",
@@ -398,23 +398,23 @@
       "returns",
       "• ‖ Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
       "• ‖ Review drawings and tolerance stacks with two suppliers before each production release",
-      "Cardinal Equipment Works ‖ Dayton, OH",
+      "Ironbriar Equipment Works ‖ Dayton, OH",
       "Associate Engineer ‖ Jun 2020 – Feb 2022",
       "• ‖ Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
       "• ‖ Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
       "• ‖ Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
-      "Miami Valley Tooling ‖ Dayton, OH",
+      "Brassfork Tooling ‖ Dayton, OH",
       "Engineering Co-op ‖ Jan 2019 – Aug 2019",
       "• ‖ Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
       "EDUCATION",
-      "Buckeye Valley University ‖ Columbus, OH",
+      "Larchgrove University ‖ Columbus, OH",
       "Bachelor of Science in Mechanical Engineering ‖ May 2020",
       "• ‖ Senior design: low-cost irrigation pump, first place among 22 capstone teams",
       "SKILLS",
       "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
       "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
       "Manufacturing: Sheet metal, CNC machining, injection molding",
-      "Licenses: Engineer in Training (EIT), Ohio"
+      "Certification: Engineer Intern (EI), Ohio; PE exam planned"
     ]
   },
   "pass": true

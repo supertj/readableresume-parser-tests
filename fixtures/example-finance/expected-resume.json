@@ -6,11 +6,11 @@
       "phone": "(704) 555-0137",
       "location": "Charlotte, NC",
       "url": "linkedin.com/in/priyaraman",
-      "summary": "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel."
+      "summary": "Financial analyst with five years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel."
     },
     "workExperiences": [
       {
-        "company": "Bluewater Logistics",
+        "company": "Tarnhollow Logistics",
         "jobTitle": "Financial Analyst",
         "date": "Jul 2023 – Present",
         "descriptions": [
@@ -41,7 +41,7 @@
     ],
     "educations": [
       {
-        "school": "Piedmont State University",
+        "school": "Larkbriar University",
         "degree": "Bachelor of Science in Finance",
         "date": "May 2021",
         "gpa": "",
@@ -63,7 +63,7 @@
       "descriptions": [
         "Modeling: Three-statement models, DCF, budgeting and forecasting, scenario analysis",
         "Tools: Excel (Power Query, VBA), Power BI, NetSuite, Adaptive Planning",
-        "Certifications: CFA Level II candidate",
+        "CFA: Passed Level I; Level II Candidate in the CFA Program",
         "Languages: English (native), Tamil (fluent)"
       ]
     },
@@ -100,11 +100,11 @@
     "priya.raman@email.com",
     "linkedin.com/in/priyaraman",
     "SUMMARY",
-    "Financial analyst with four years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel.",
+    "Financial analyst with five years in FP&A at logistics and manufacturing companies. I build the forecasts and models that pricing, budget and capital decisions are made on, and explain them to people who don't live in Excel.",
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Bluewater Logistics",
+        "Tarnhollow Logistics",
         "Financial Analyst",
         "Jul 2023 – Present",
         "Charlotte, NC"
@@ -137,7 +137,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Piedmont State University",
+        "Larkbriar University",
         "Raleigh, NC",
         "Bachelor of Science in Finance",
         "May 2021"
@@ -147,7 +147,7 @@
     "SKILLS",
     "Modeling: Three-statement models, DCF, budgeting and forecasting, scenario analysis",
     "Tools: Excel (Power Query, VBA), Power BI, NetSuite, Adaptive Planning",
-    "Certifications: CFA Level II candidate",
+    "CFA: Passed Level I; Level II Candidate in the CFA Program",
     "Languages: English (native), Tamil (fluent)"
   ],
   "template": "example-finance",

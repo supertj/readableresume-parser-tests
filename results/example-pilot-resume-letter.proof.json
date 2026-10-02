@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1jH-Ql0z14Wsr4pin4F0dzjnt2srCnwAHMT4cDcOj8pM/export?format=pdf",
-  "pdfSha256": "7a74bd52e1f964804edaa0f2048e4a07d6ddaef7b0eefbcaafb8def11c5db5b1",
-  "docxSha256": "65b52b714cdd85b87fce5321527aa827cac3a4ec14321b8439d935f443e81aef",
-  "runAt": "2026-10-02T03:25:59+00:00",
+  "source": "https://docs.google.com/document/d/1Tt0RPvOYf9h7Z62I4ks-BYy-8CRx4SI7b82pi50tRSo/export?format=pdf",
+  "pdfSha256": "0385d2abfa9bd7b70e11748f9a9c2edfc0dafd8655af342d28942d2bf2b655d9",
+  "docxSha256": "8cca451b5ff74f88a081e344d03adc38725d166dfd877fdc24e1dcc5fb3bdaeb",
+  "runAt": "2026-10-02T16:13:50+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -20,7 +20,7 @@
     "actual": 1,
     "ok": true
   },
-  "pageFill": 0.637,
+  "pageFill": 0.657,
   "fonts": {
     "expected": "Arial",
     "found": [
@@ -30,8 +30,8 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Arial-BoldMT": 22,
-      "ArialMT": 187,
+      "Arial-BoldMT": 25,
+      "ArialMT": 191,
       "Arial-ItalicMT": 11
     },
     "notEmbedded": [],
@@ -51,16 +51,17 @@
       "Certificates: ATP, airplane multi-engine land; CFI, CFII, MEI",
       "Type rating: ERJ-170/190",
       "Medical: FAA first class",
-      "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
+      "Flight time (Sep 2026): 3,450 total; 2,000 turbine; 2,120 multi-engine",
+      "Command: 1,330 PIC; 2,000 SIC; 410 instrument",
       "EXPERIENCE",
       "Wasatch Regional Airlines Salt Lake City, UT",
-      "First Officer Mar 2023 – Present",
-      "• Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
+      "First Officer Mar 2024 – Present",
+      "• Fly 76-seat Embraer 175 routes across the Mountain West, about 65 block hours a month",
       "• Completed initial operating experience in 25 hours with no extra training events",
       "• Serve on the airline's safety action program review team, reading crew reports and suggesting",
       "procedure changes",
-      "Red Rock Flight Academy Provo, UT",
-      "Lead Flight Instructor May 2021 – Feb 2023",
+      "Kestrel Mesa Flight Academy Provo, UT",
+      "Lead Flight Instructor May 2021 – Feb 2024",
       "• Logged about 1,200 hours of dual instruction and recommended 31 students for checkrides with a 94%",
       "first-time pass rate",
       "• Wrote the school's instrument ground school syllabus and taught it to classes of 10",
@@ -69,7 +70,7 @@
       "Line Service Technician Jun 2018 – Apr 2021",
       "• Fueled and towed business jets and turboprops, and kept fuel quality records for daily inspections",
       "EDUCATION",
-      "Great Basin University Logan, UT",
+      "Sego Hollow University Logan, UT",
       "Bachelor of Science in Aviation Science May 2021",
       "• Flight team captain; regional precision flight competition, second place"
     ]
@@ -96,8 +97,8 @@
   },
   "c1Parser": {
     "parser": "OpenResume @4f8255a",
-    "passed": 31,
-    "total": 31,
+    "passed": 32,
+    "total": 32,
     "items": [
       {
         "path": "profile.name",
@@ -149,14 +150,14 @@
       },
       {
         "path": "workExperiences[0].date",
-        "expected": "Mar 2023 – Present",
-        "actual": "Mar 2023 – Present",
+        "expected": "Mar 2024 – Present",
+        "actual": "Mar 2024 – Present",
         "ok": true
       },
       {
         "path": "workExperiences[0].descriptions[0]",
-        "expected": "Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
-        "actual": "Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
+        "expected": "Fly 76-seat Embraer 175 routes across the Mountain West, about 65 block hours a month",
+        "actual": "Fly 76-seat Embraer 175 routes across the Mountain West, about 65 block hours a month",
         "ok": true
       },
       {
@@ -173,8 +174,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Red Rock Flight Academy",
-        "actual": "Red Rock Flight Academy",
+        "expected": "Kestrel Mesa Flight Academy",
+        "actual": "Kestrel Mesa Flight Academy",
         "ok": true
       },
       {
@@ -185,8 +186,8 @@
       },
       {
         "path": "workExperiences[1].date",
-        "expected": "May 2021 – Feb 2023",
-        "actual": "May 2021 – Feb 2023",
+        "expected": "May 2021 – Feb 2024",
+        "actual": "May 2021 – Feb 2024",
         "ok": true
       },
       {
@@ -233,8 +234,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Great Basin University",
-        "actual": "Great Basin University",
+        "expected": "Sego Hollow University",
+        "actual": "Sego Hollow University",
         "ok": true
       },
       {
@@ -281,8 +282,14 @@
       },
       {
         "path": "skills.descriptions[3]",
-        "expected": "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
-        "actual": "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
+        "expected": "Flight time (Sep 2026): 3,450 total; 2,000 turbine; 2,120 multi-engine",
+        "actual": "Flight time (Sep 2026): 3,450 total; 2,000 turbine; 2,120 multi-engine",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[4]",
+        "expected": "Command: 1,330 PIC; 2,000 SIC; 410 instrument",
+        "actual": "Command: 1,330 PIC; 2,000 SIC; 410 instrument",
         "ok": true
       }
     ],
@@ -331,8 +338,8 @@
       },
       {
         "path": "skills.descriptions (count)",
-        "expected": 4,
-        "actual": 4,
+        "expected": 5,
+        "actual": 5,
         "ok": true
       },
       {
@@ -381,16 +388,17 @@
       "Certificates: ATP, airplane multi-engine land; CFI, CFII, MEI",
       "Type rating: ERJ-170/190",
       "Medical: FAA first class",
-      "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
+      "Flight time (Sep 2026): 3,450 total; 2,000 turbine; 2,120 multi-engine",
+      "Command: 1,330 PIC; 2,000 SIC; 410 instrument",
       "EXPERIENCE",
       "Wasatch Regional Airlines ‖ Salt Lake City, UT",
-      "First Officer ‖ Mar 2023 – Present",
-      "• ‖ Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
+      "First Officer ‖ Mar 2024 – Present",
+      "• ‖ Fly 76-seat Embraer 175 routes across the Mountain West, about 65 block hours a month",
       "• ‖ Completed initial operating experience in 25 hours with no extra training events",
       "• ‖ Serve on the airline's safety action program review team, reading crew reports and suggesting",
       "procedure changes",
-      "Red Rock Flight Academy ‖ Provo, UT",
-      "Lead Flight Instructor ‖ May 2021 – Feb 2023",
+      "Kestrel Mesa Flight Academy ‖ Provo, UT",
+      "Lead Flight Instructor ‖ May 2021 – Feb 2024",
       "• ‖ Logged about 1,200 hours of dual instruction and recommended 31 students for checkrides with a 94%",
       "first-time pass rate",
       "• ‖ Wrote the school's instrument ground school syllabus and taught it to classes of 10",
@@ -399,7 +407,7 @@
       "Line Service Technician ‖ Jun 2018 – Apr 2021",
       "• ‖ Fueled and towed business jets and turboprops, and kept fuel quality records for daily inspections",
       "EDUCATION",
-      "Great Basin University ‖ Logan, UT",
+      "Sego Hollow University ‖ Logan, UT",
       "Bachelor of Science in Aviation Science ‖ May 2021",
       "• ‖ Flight team captain; regional precision flight competition, second place"
     ]

@@ -10,9 +10,9 @@
     },
     "workExperiences": [
       {
-        "company": "Brightline Payments",
+        "company": "Ferncastle Payments",
         "jobTitle": "Software Engineer Intern",
-        "date": "Jun 2025 – Sep 2025",
+        "date": "Jun 2026 – Sep 2026",
         "descriptions": [
           "Added idempotency keys to the refunds API in Kotlin, ending duplicate refunds that had cost about $4,000 a month",
           "Cut the payout reconciliation job from 40 minutes to 6 by batching database reads and adding two indexes",
@@ -20,9 +20,9 @@
         ]
       },
       {
-        "company": "Orchard Health Software",
+        "company": "Brambleway Health Software",
         "jobTitle": "Backend Developer Intern",
-        "date": "Jun 2024 – Aug 2024",
+        "date": "Jun 2025 – Aug 2025",
         "descriptions": [
           "Built a FHIR import tool in Python that loaded 1.3M patient records for a hospital pilot without manual fixes",
           "Raised test coverage of the scheduling service from 61% to 85% with pytest and contract tests"
@@ -31,9 +31,9 @@
     ],
     "educations": [
       {
-        "school": "Santa Clara Valley University",
+        "school": "Mirabel Heights University",
         "degree": "Bachelor of Science in Computer Science",
-        "date": "Aug 2022 – May 2026",
+        "date": "Aug 2023 – May 2027",
         "gpa": "3.6",
         "descriptions": [
           "GPA: 3.6/4.0",
@@ -77,7 +77,7 @@
         "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
         "Frameworks: React, Spring Boot, FastAPI, gRPC",
         "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
-        "Awards: Dean's List; SCVU Hacks winner"
+        "Awards: Dean's List; MHU Hacks winner"
       ]
     },
     "custom": {
@@ -115,10 +115,10 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Santa Clara Valley University",
+        "Mirabel Heights University",
         "San Jose, CA",
         "Bachelor of Science in Computer Science",
-        "Aug 2022 – May 2026"
+        "Aug 2023 – May 2027"
       ]
     },
     "GPA: 3.6/4.0",
@@ -126,9 +126,9 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Brightline Payments",
+        "Ferncastle Payments",
         "Software Engineer Intern",
-        "Jun 2025 – Sep 2025",
+        "Jun 2026 – Sep 2026",
         "San Francisco, CA"
       ]
     },
@@ -137,9 +137,9 @@
     "Wrote the runbook and alerts for the new service and took two weeks of on-call shadow shifts",
     {
       "anyOrder": [
-        "Orchard Health Software",
+        "Brambleway Health Software",
         "Backend Developer Intern",
-        "Jun 2024 – Aug 2024",
+        "Jun 2025 – Aug 2025",
         "San Jose, CA"
       ]
     },
@@ -174,7 +174,7 @@
     "Languages: Python, Go, Kotlin, TypeScript, SQL, C",
     "Frameworks: React, Spring Boot, FastAPI, gRPC",
     "Tools: Git, Docker, Kubernetes, PostgreSQL, AWS, Linux",
-    "Awards: Dean's List; SCVU Hacks winner"
+    "Awards: Dean's List; MHU Hacks winner"
   ],
   "template": "example-computer-science",
   "doc": "resume",

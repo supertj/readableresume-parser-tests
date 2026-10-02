@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/13HJ4Iyqbfon1wcjUYjaBVap6-1E_4YMgm46iwYfPYjQ/export?format=pdf",
-  "pdfSha256": "6fe0e5abf6074c75063041bd53a491312d00339dca312b5a193daf7b26dcc72a",
-  "docxSha256": "009d50b749f9d7fec0649728f23bb20e16030f79099e8e62cd405b45cab6714b",
-  "runAt": "2026-10-02T03:26:00+00:00",
+  "source": "https://docs.google.com/document/d/1djbCaCkQstMUSpRy8lpqy-S1-ccrxjabDFyfqq4HE78/export?format=pdf",
+  "pdfSha256": "6233c2af9e68781d2721a828ff414b5b0644875f1e2944050195212469a75235",
+  "docxSha256": "49e4b442db1d8722dc97e60dca6742cc926840415be835e836dedaf22f3ab136",
+  "runAt": "2026-10-02T16:13:51+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -54,7 +54,7 @@
       "• Systems: Square POS, Shopify POS, UKG scheduling, Excel",
       "• Languages: English and Spanish (fluent)",
       "EXPERIENCE",
-      "Desert Bloom Home Goods Phoenix, AZ",
+      "Cholla & Clay Home Goods Phoenix, AZ",
       "Lead Sales Associate Apr 2023 – Present",
       "• Run opening or closing for a store doing about $2.4M a year, including cash counts and the",
       "end-of-day report",
@@ -72,7 +72,7 @@
       "Cashier Jun 2019 – Jul 2021",
       "• Handled a register averaging 300 transactions a shift and balanced the drawer every night",
       "EDUCATION",
-      "Rio Grande Community College Albuquerque, NM",
+      "Bosquelind Community College Albuquerque, NM",
       "Associate of Applied Science, Business Management May 2023",
       "• Completed while working 30 hours a week"
     ]
@@ -140,8 +140,8 @@
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "Desert Bloom Home Goods",
-        "actual": "Desert Bloom Home Goods",
+        "expected": "Cholla & Clay Home Goods",
+        "actual": "Cholla & Clay Home Goods",
         "ok": true
       },
       {
@@ -242,8 +242,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Rio Grande Community College",
-        "actual": "Rio Grande Community College",
+        "expected": "Bosquelind Community College",
+        "actual": "Bosquelind Community College",
         "ok": true
       },
       {
@@ -392,7 +392,7 @@
       "• Systems: Square POS, Shopify POS, UKG scheduling, Excel",
       "• Languages: English and Spanish (fluent)",
       "EXPERIENCE",
-      "Desert Bloom Home Goods ‖ Phoenix, AZ",
+      "Cholla & Clay Home Goods ‖ Phoenix, AZ",
       "Lead Sales Associate ‖ Apr 2023 – Present",
       "• Run opening or closing for a store doing about $2.4M a year, including cash counts and the",
       "end-of-day report",
@@ -410,7 +410,7 @@
       "Cashier ‖ Jun 2019 – Jul 2021",
       "• Handled a register averaging 300 transactions a shift and balanced the drawer every night",
       "EDUCATION",
-      "Rio Grande Community College ‖ Albuquerque, NM",
+      "Bosquelind Community College ‖ Albuquerque, NM",
       "Associate of Applied Science, Business Management ‖ May 2023",
       "• Completed while working 30 hours a week"
     ]

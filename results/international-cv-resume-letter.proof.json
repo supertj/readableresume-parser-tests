@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1XlKXNuLtxiOlcbcXnJrxxRQsY-z9x48Vz-kgUBmizMs/export?format=pdf",
-  "pdfSha256": "68698d1012da8ab455c67446df01db5e8c7bacce2e1533d27791122161746128",
-  "docxSha256": "8fe9d9c821f4c3c9f4acb38b026b9310db3e0884b68d056390f932e22a87a35e",
-  "runAt": "2026-10-01T12:01:45+00:00",
+  "source": "https://docs.google.com/document/d/1KiSgN-Z72s1Hd3xRaR2SXqydVFxX__IYjqQO0r8figQ/export?format=pdf",
+  "pdfSha256": "2064db1141db1296d2797aa31c44c587d918f9ef66bb958899777c2d8fa2d12d",
+  "docxSha256": "395b0193c11b006d2a9de2140dddef02a4b575b855eeb9eac45957a08f9503ca",
+  "runAt": "2026-10-02T15:58:26+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -30,7 +30,7 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Arial-BoldMT": 39,
+      "Arial-BoldMT": 36,
       "ArialMT": 645,
       "Arial-ItalicMT": 26
     },
@@ -67,7 +67,7 @@
       "their first report",
       "• Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season",
       "clearance by about 9% across clothing and homeware",
-      "Pennine Energy Leeds, UK",
+      "Thornholme Energy Leeds, UK",
       "Data Analyst Jun 2020 – Feb 2023",
       "• Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention",
       "team",
@@ -182,8 +182,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Pennine Energy",
-        "actual": "Pennine Energy",
+        "expected": "Thornholme Energy",
+        "actual": "Thornholme Energy",
         "ok": true
       },
       {
@@ -272,8 +272,8 @@
       },
       {
         "path": "workExperiences[3].company",
-        "expected": "University of Sheffield Department of Economics",
-        "actual": "University of Sheffield Department of Economics",
+        "expected": "Brindlecroft University Department of Economics",
+        "actual": "Brindlecroft University Department of Economics",
         "ok": true
       },
       {
@@ -356,8 +356,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "University of Manchester",
-        "actual": "University of Manchester",
+        "expected": "Northmoor University",
+        "actual": "Northmoor University",
         "ok": true
       },
       {
@@ -386,8 +386,8 @@
       },
       {
         "path": "educations[1].school",
-        "expected": "University of Sheffield",
-        "actual": "University of Sheffield",
+        "expected": "Brindlecroft University",
+        "actual": "Brindlecroft University",
         "ok": true
       },
       {
@@ -652,7 +652,7 @@
       "their first report",
       "• ‖ Worked with the supply chain team on a markdown model for seasonal stock, reducing end-of-season",
       "clearance by about 9% across clothing and homeware",
-      "Pennine Energy ‖ Leeds, UK",
+      "Thornholme Energy ‖ Leeds, UK",
       "Data Analyst ‖ Jun 2020 – Feb 2023",
       "• ‖ Forecast monthly churn for 250,000 household customers and flagged at-risk accounts for the retention",
       "team",
@@ -670,7 +670,7 @@
       "• ‖ Prepared charts and short summaries for partner presentations, often on tight overnight deadlines",
       "• ‖ Interviewed purchasing managers at eight food manufacturers to check our cost assumptions, and wrote",
       "up the findings for the client steering group",
-      "University of Sheffield Department of Economics ‖ Sheffield, UK",
+      "Brindlecroft University Department of Economics ‖ Sheffield, UK",
       "Research Assistant ‖ Jul 2017 – Aug 2018",
       "• ‖ Collected Land Registry and census data for a study on regional house prices",
       "• ‖ Cleaned and matched 1.2 million sale records to local authority areas • ‖ Wrote Stata scripts for the regression analysis and documented each step",
@@ -692,10 +692,10 @@
       "• ‖ Built a public dashboard from open bus timing data that a local transport campaign group used in its",
       "submission to the council",
       "EDUCATION",
-      "University of Manchester ‖ Manchester, UK",
+      "Northmoor University ‖ Manchester, UK",
       "MSc Data Science, Distinction ‖ Sep 2019 – Sep 2021",
       "• ‖ Part-time while working; dissertation on forecasting store footfall with weather and calendar data",
-      "University of Sheffield ‖ Sheffield, UK",
+      "Brindlecroft University ‖ Sheffield, UK",
       "BSc (Hons) Economics, First Class ‖ Sep 2014 – Jun 2017",
       "SKILLS",
       "Analysis: SQL, Python (pandas, scikit-learn), R, Excel",

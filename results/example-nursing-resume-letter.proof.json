@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1UO6xryxkQtXsE7oQDih-0WjpXxCkPx5kOjfAwC2nZnA/export?format=pdf",
-  "pdfSha256": "f66ca000997601cf1f5d5a6e1e684576bf08cad11580f1eb982bdbadb46d68c6",
-  "docxSha256": "dd61e5208c40ecff739621e82551481eeda8f9dde1546581898cb5fa8fe15b0e",
-  "runAt": "2026-10-02T03:25:58+00:00",
+  "source": "https://docs.google.com/document/d/1MXpKvsl2b-wKPqLcevOMAANprjm2LxHAtxOt7wStsyQ/export?format=pdf",
+  "pdfSha256": "16ed747a95c25a192874b01e48641076074d6fe130bb4350fe77d46d7a77cb16",
+  "docxSha256": "95c05f6c6fcd896b773b5c6c2f21e42e4a05bc0d0175bcd034ed768aa4f6fc06",
+  "runAt": "2026-10-02T16:13:50+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -20,7 +20,7 @@
     "actual": 1,
     "ok": true
   },
-  "pageFill": 0.679,
+  "pageFill": 0.658,
   "fonts": {
     "expected": "Arial",
     "found": [
@@ -30,8 +30,8 @@
     ],
     "unexpected": [],
     "whitespaceFonts": {
-      "Arial-BoldMT": 20,
-      "ArialMT": 212,
+      "Arial-BoldMT": 19,
+      "ArialMT": 202,
       "Arial-ItalicMT": 8
     },
     "notEmbedded": [],
@@ -51,23 +51,22 @@
       "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge",
       "nurse. BSN, Colorado RN license, BLS and ACLS.",
       "EXPERIENCE",
-      "St. Brendan Medical Center Denver, CO",
+      "St. Odile Medical Center Denver, CO",
       "Registered Nurse (Med-Surg) Aug 2022 – Present",
       "• Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
       "• Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling",
       "admissions",
       "• Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
       "• Precept new graduate nurses and have oriented seven through their first 12 weeks",
-      "Front Range Rehabilitation Hospital Aurora, CO",
+      "Elkmeadow Rehabilitation Hospital Aurora, CO",
       "Registered Nurse Jun 2021 – Jul 2022",
       "• Managed medications and wound care for 12 rehab patients on day shift and documented every",
       "assessment in Epic",
       "• Taught patients and families how to manage new insulin and blood thinner routines before discharge",
       "• Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
       "EDUCATION",
-      "Rocky Ridge University Fort Collins, CO",
+      "Pinyon Draw University Fort Collins, CO",
       "Bachelor of Science in Nursing May 2021",
-      "• Capstone: 160 hours in a cardiac intensive care unit",
       "• Sigma Theta Tau International Honor Society of Nursing",
       "LICENSES AND SKILLS",
       "License: Registered Nurse, Colorado (multistate compact)",
@@ -78,8 +77,8 @@
   },
   "c3Docx": {
     "bullets": {
-      "expected": 9,
-      "actual": 9,
+      "expected": 8,
+      "actual": 8,
       "ok": true,
       "missing": [],
       "unexpected": []
@@ -98,8 +97,8 @@
   },
   "c1Parser": {
     "parser": "OpenResume @4f8255a",
-    "passed": 29,
-    "total": 29,
+    "passed": 28,
+    "total": 28,
     "items": [
       {
         "path": "profile.name",
@@ -139,8 +138,8 @@
       },
       {
         "path": "workExperiences[0].company",
-        "expected": "St. Brendan Medical Center",
-        "actual": "St. Brendan Medical Center",
+        "expected": "St. Odile Medical Center",
+        "actual": "St. Odile Medical Center",
         "ok": true
       },
       {
@@ -181,8 +180,8 @@
       },
       {
         "path": "workExperiences[1].company",
-        "expected": "Front Range Rehabilitation Hospital",
-        "actual": "Front Range Rehabilitation Hospital",
+        "expected": "Elkmeadow Rehabilitation Hospital",
+        "actual": "Elkmeadow Rehabilitation Hospital",
         "ok": true
       },
       {
@@ -217,8 +216,8 @@
       },
       {
         "path": "educations[0].school",
-        "expected": "Rocky Ridge University",
-        "actual": "Rocky Ridge University",
+        "expected": "Pinyon Draw University",
+        "actual": "Pinyon Draw University",
         "ok": true
       },
       {
@@ -241,12 +240,6 @@
       },
       {
         "path": "educations[0].descriptions[0]",
-        "expected": "Capstone: 160 hours in a cardiac intensive care unit",
-        "actual": "Capstone: 160 hours in a cardiac intensive care unit",
-        "ok": true
-      },
-      {
-        "path": "educations[0].descriptions[1]",
         "expected": "Sigma Theta Tau International Honor Society of Nursing",
         "actual": "Sigma Theta Tau International Honor Society of Nursing",
         "ok": true
@@ -303,8 +296,8 @@
       },
       {
         "path": "educations[0].descriptions (count)",
-        "expected": 2,
-        "actual": 2,
+        "expected": 1,
+        "actual": 1,
         "ok": true
       },
       {
@@ -359,23 +352,22 @@
       "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge",
       "nurse. BSN, Colorado RN license, BLS and ACLS.",
       "EXPERIENCE",
-      "St. Brendan Medical Center ‖ Denver, CO",
+      "St. Odile Medical Center ‖ Denver, CO",
       "Registered Nurse (Med-Surg) ‖ Aug 2022 – Present",
       "• ‖ Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
       "• ‖ Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling",
       "admissions",
       "• ‖ Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
       "• ‖ Precept new graduate nurses and have oriented seven through their first 12 weeks",
-      "Front Range Rehabilitation Hospital ‖ Aurora, CO",
+      "Elkmeadow Rehabilitation Hospital ‖ Aurora, CO",
       "Registered Nurse ‖ Jun 2021 – Jul 2022",
       "• ‖ Managed medications and wound care for 12 rehab patients on day shift and documented every",
       "assessment in Epic",
       "• ‖ Taught patients and families how to manage new insulin and blood thinner routines before discharge",
       "• ‖ Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
       "EDUCATION",
-      "Rocky Ridge University ‖ Fort Collins, CO",
+      "Pinyon Draw University ‖ Fort Collins, CO",
       "Bachelor of Science in Nursing ‖ May 2021",
-      "• ‖ Capstone: 160 hours in a cardiac intensive care unit",
       "• ‖ Sigma Theta Tau International Honor Society of Nursing",
       "LICENSES AND SKILLS",
       "License: Registered Nurse, Colorado (multistate compact)",

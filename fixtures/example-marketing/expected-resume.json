@@ -10,7 +10,7 @@
     },
     "workExperiences": [
       {
-        "company": "Ledgerline Software",
+        "company": "Tarrowfield Software",
         "jobTitle": "Marketing Manager",
         "date": "Jan 2023 – Present",
         "descriptions": [
@@ -30,7 +30,7 @@
         ]
       },
       {
-        "company": "Bayou City Events",
+        "company": "Tallowbird Events",
         "jobTitle": "Marketing Coordinator",
         "date": "Aug 2017 – May 2019",
         "descriptions": [
@@ -40,7 +40,7 @@
     ],
     "educations": [
       {
-        "school": "Gulf Coast University",
+        "school": "Cypresswick University",
         "degree": "Bachelor of Business Administration, Marketing",
         "date": "May 2019",
         "gpa": "",
@@ -100,7 +100,7 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Ledgerline Software",
+        "Tarrowfield Software",
         "Marketing Manager",
         "Jan 2023 – Present",
         "Austin, TX"
@@ -122,7 +122,7 @@
     "Wrote 30 customer case studies by interviewing users and their account managers",
     {
       "anyOrder": [
-        "Bayou City Events",
+        "Tallowbird Events",
         "Marketing Coordinator",
         "Aug 2017 – May 2019",
         "Houston, TX"
@@ -132,7 +132,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Gulf Coast University",
+        "Cypresswick University",
         "Houston, TX",
         "Bachelor of Business Administration, Marketing",
         "May 2019"

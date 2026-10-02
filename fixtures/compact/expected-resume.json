@@ -10,7 +10,7 @@
     },
     "workExperiences": [
       {
-        "company": "Peachtree Home Goods",
+        "company": "Red Clay Hearth Home Goods",
         "jobTitle": "Supply Chain Manager",
         "date": "Feb 2022 – Present",
         "descriptions": [
@@ -21,7 +21,7 @@
         ]
       },
       {
-        "company": "Corridor Freight Systems",
+        "company": "Brassmoor Freight Systems",
         "jobTitle": "Senior Logistics Analyst",
         "date": "Apr 2020 – Jan 2022",
         "descriptions": [
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "company": "Corridor Freight Systems",
+        "company": "Brassmoor Freight Systems",
         "jobTitle": "Logistics Analyst",
         "date": "Jun 2018 – Mar 2020",
         "descriptions": [
@@ -40,7 +40,7 @@
         ]
       },
       {
-        "company": "Southline Distribution",
+        "company": "Gorseholt Distribution",
         "jobTitle": "Operations Coordinator",
         "date": "Jul 2017 – May 2018",
         "descriptions": [
@@ -51,7 +51,7 @@
     ],
     "educations": [
       {
-        "school": "Chattahoochee State University",
+        "school": "Pinemoor University",
         "degree": "Bachelor of Business Administration in Supply Chain Management",
         "date": "May 2017",
         "gpa": "",
@@ -116,7 +116,7 @@
     "EXPERIENCE",
     {
       "anyOrder": [
-        "Peachtree Home Goods",
+        "Red Clay Hearth Home Goods",
         "Supply Chain Manager",
         "Feb 2022 – Present",
         "Atlanta, GA"
@@ -128,7 +128,7 @@
     "Led the move from spreadsheets to a cloud TMS with no missed shipments during the two-week cutover",
     {
       "anyOrder": [
-        "Corridor Freight Systems",
+        "Brassmoor Freight Systems",
         "Senior Logistics Analyst",
         "Apr 2020 – Jan 2022",
         "Atlanta, GA"
@@ -139,7 +139,7 @@
     "Trained four analysts on the costing model and wrote the handbook the team still uses",
     {
       "anyOrder": [
-        "Corridor Freight Systems",
+        "Brassmoor Freight Systems",
         "Logistics Analyst",
         "Jun 2018 – Mar 2020",
         "Atlanta, GA"
@@ -149,7 +149,7 @@
     "Automated the weekly fuel surcharge report in Excel VBA, saving about 5 hours each week",
     {
       "anyOrder": [
-        "Southline Distribution",
+        "Gorseholt Distribution",
         "Operations Coordinator",
         "Jul 2017 – May 2018",
         "Macon, GA"
@@ -160,7 +160,7 @@
     "EDUCATION",
     {
       "anyOrder": [
-        "Chattahoochee State University",
+        "Pinemoor University",
         "Columbus, GA",
         "Bachelor of Business Administration in Supply Chain Management",
         "May 2017"
