@@ -1,0 +1,401 @@
+{
+  "file": "example-marketing-resume-letter",
+  "template": "example-marketing",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1mjO0BFvmPnB6H8-TOTKO_xJTQaqDB94fYavmHAb0chU/export?format=pdf",
+  "pdfSha256": "c564049f179fccc7cb37d6344371460a97d4d5fedf14fb439e330bfebaa022c3",
+  "docxSha256": "7b49cd998ce43d3f0f74e5c99742ac17e697d77d938aa6ad7a14bebf81d42f60",
+  "runAt": "2026-10-02T03:25:58+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.664,
+  "fonts": {
+    "expected": "Trebuchet MS",
+    "found": [
+      "TrebuchetMS",
+      "TrebuchetMS-Bold",
+      "TrebuchetMS-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TrebuchetMS-Bold": 14,
+      "TrebuchetMS": 192,
+      "ArialMT": 15,
+      "TrebuchetMS-Italic": 12
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Chris Avery",
+      "Austin, TX | (512) 555-0186 | chris.avery@email.com | linkedin.com/in/chrisavery",
+      "SUMMARY",
+      "B2B marketing manager with seven years in software, focused on demand generation and product launches. I",
+      "manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
+      "EXPERIENCE",
+      "Marketing Manager Jan 2023 – Present",
+      "Ledgerline Software Austin, TX",
+      "• Own a $1.4M annual demand generation budget across paid search, events and webinars;",
+      "marketing-sourced pipeline grew 46% in 2025",
+      "• Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first",
+      "two quarters",
+      "• Manage two marketing specialists and an agency, and set the quarterly plan with the VP of Sales",
+      "Marketing Specialist Jun 2019 – Dec 2022",
+      "Parkway Analytics Dallas, TX",
+      "• Ran email nurture programs in Marketo for 60,000 contacts; lead-to-meeting conversion rose from 3.1% to",
+      "5.4%",
+      "• Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
+      "• Wrote 30 customer case studies by interviewing users and their account managers",
+      "Marketing Coordinator Aug 2017 – May 2019",
+      "Bayou City Events Houston, TX",
+      "• Coordinated logistics and email invitations for about 40 corporate events a year",
+      "EDUCATION",
+      "Gulf Coast University Houston, TX",
+      "Bachelor of Business Administration, Marketing May 2019",
+      "SKILLS",
+      "Marketing: Demand generation, product launches, email, paid search, events",
+      "Tools: HubSpot, Marketo, Salesforce, Google Ads, Google Analytics",
+      "Certifications: Google Ads Search, HubSpot Marketing Software"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 7,
+      "actual": 7,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 29,
+    "total": 29,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Chris Avery",
+        "actual": "Chris Avery",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "chris.avery@email.com",
+        "actual": "chris.avery@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(512) 555-0186",
+        "actual": "(512) 555-0186",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Austin, TX",
+        "actual": "Austin, TX",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/chrisavery",
+        "actual": "linkedin.com/in/chrisavery",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "B2B marketing manager with seven years in software, focused on demand generation and product launches. I manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
+        "actual": "B2B marketing manager with seven years in software, focused on demand generation and product launches. I manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Ledgerline Software",
+        "actual": "Ledgerline Software",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Marketing Manager",
+        "actual": "Marketing Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jan 2023 – Present",
+        "actual": "Jan 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Own a $1.4M annual demand generation budget across paid search, events and webinars; marketing-sourced pipeline grew 46% in 2025",
+        "actual": "Own a $1.4M annual demand generation budget across paid search, events and webinars; marketing-sourced pipeline grew 46% in 2025",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first two quarters",
+        "actual": "Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first two quarters",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Manage two marketing specialists and an agency, and set the quarterly plan with the VP of Sales",
+        "actual": "Manage two marketing specialists and an agency, and set the quarterly plan with the VP of Sales",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Parkway Analytics",
+        "actual": "Parkway Analytics",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Marketing Specialist",
+        "actual": "Marketing Specialist",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2019 – Dec 2022",
+        "actual": "Jun 2019 – Dec 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Ran email nurture programs in Marketo for 60,000 contacts; lead-to-meeting conversion rose from 3.1% to 5.4%",
+        "actual": "Ran email nurture programs in Marketo for 60,000 contacts; lead-to-meeting conversion rose from 3.1% to 5.4%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
+        "actual": "Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Wrote 30 customer case studies by interviewing users and their account managers",
+        "actual": "Wrote 30 customer case studies by interviewing users and their account managers",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Bayou City Events",
+        "actual": "Bayou City Events",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Marketing Coordinator",
+        "actual": "Marketing Coordinator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Aug 2017 – May 2019",
+        "actual": "Aug 2017 – May 2019",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Coordinated logistics and email invitations for about 40 corporate events a year",
+        "actual": "Coordinated logistics and email invitations for about 40 corporate events a year",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Gulf Coast University",
+        "actual": "Gulf Coast University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Business Administration, Marketing",
+        "actual": "Bachelor of Business Administration, Marketing",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2019",
+        "actual": "May 2019",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Marketing: Demand generation, product launches, email, paid search, events",
+        "actual": "Marketing: Demand generation, product launches, email, paid search, events",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Tools: HubSpot, Marketo, Salesforce, Google Ads, Google Analytics",
+        "actual": "Tools: HubSpot, Marketo, Salesforce, Google Ads, Google Analytics",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Certifications: Google Ads Search, HubSpot Marketing Software",
+        "actual": "Certifications: Google Ads Search, HubSpot Marketing Software",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Austin, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Dallas, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Houston, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Houston, TX",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Chris Avery",
+      "Austin, TX | (512) 555-0186 | chris.avery@email.com | linkedin.com/in/chrisavery",
+      "SUMMARY",
+      "B2B marketing manager with seven years in software, focused on demand generation and product launches. I",
+      "manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
+      "EXPERIENCE",
+      "Marketing Manager ‖ Jan 2023 – Present",
+      "Ledgerline Software ‖ Austin, TX",
+      "• ‖ Own a $1.4M annual demand generation budget across paid search, events and webinars;",
+      "marketing-sourced pipeline grew 46% in 2025",
+      "• ‖ Led the launch of the company's mid-market product with sales and product; it closed $2.2M in its first",
+      "two quarters",
+      "• ‖ Manage two marketing specialists and an agency, and set the quarterly plan with the VP of Sales",
+      "Marketing Specialist ‖ Jun 2019 – Dec 2022",
+      "Parkway Analytics ‖ Dallas, TX",
+      "• ‖ Ran email nurture programs in Marketo for 60,000 contacts; lead-to-meeting conversion rose from 3.1% to",
+      "5.4%",
+      "• ‖ Rebuilt the website's pricing and demo pages with the design team, raising demo requests by 38%",
+      "• ‖ Wrote 30 customer case studies by interviewing users and their account managers",
+      "Marketing Coordinator ‖ Aug 2017 – May 2019",
+      "Bayou City Events ‖ Houston, TX",
+      "• ‖ Coordinated logistics and email invitations for about 40 corporate events a year",
+      "EDUCATION",
+      "Gulf Coast University ‖ Houston, TX",
+      "Bachelor of Business Administration, Marketing ‖ May 2019",
+      "SKILLS",
+      "Marketing: Demand generation, product launches, email, paid search, events",
+      "Tools: HubSpot, Marketo, Salesforce, Google Ads, Google Analytics",
+      "Certifications: Google Ads Search, HubSpot Marketing Software"
+    ]
+  },
+  "pass": true
+}

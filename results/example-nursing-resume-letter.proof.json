@@ -1,0 +1,388 @@
+{
+  "file": "example-nursing-resume-letter",
+  "template": "example-nursing",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1UO6xryxkQtXsE7oQDih-0WjpXxCkPx5kOjfAwC2nZnA/export?format=pdf",
+  "pdfSha256": "f66ca000997601cf1f5d5a6e1e684576bf08cad11580f1eb982bdbadb46d68c6",
+  "docxSha256": "dd61e5208c40ecff739621e82551481eeda8f9dde1546581898cb5fa8fe15b0e",
+  "runAt": "2026-10-02T03:25:58+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.679,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 20,
+      "ArialMT": 212,
+      "Arial-ItalicMT": 8
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Hannah Brooks",
+      "Denver, CO | (303) 555-0148 | hannah.brooks@email.com | linkedin.com/in/hannahbrooksrn",
+      "SUMMARY",
+      "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge",
+      "nurse. BSN, Colorado RN license, BLS and ACLS.",
+      "EXPERIENCE",
+      "St. Brendan Medical Center Denver, CO",
+      "Registered Nurse (Med-Surg) Aug 2022 – Present",
+      "• Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
+      "• Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling",
+      "admissions",
+      "• Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
+      "• Precept new graduate nurses and have oriented seven through their first 12 weeks",
+      "Front Range Rehabilitation Hospital Aurora, CO",
+      "Registered Nurse Jun 2021 – Jul 2022",
+      "• Managed medications and wound care for 12 rehab patients on day shift and documented every",
+      "assessment in Epic",
+      "• Taught patients and families how to manage new insulin and blood thinner routines before discharge",
+      "• Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
+      "EDUCATION",
+      "Rocky Ridge University Fort Collins, CO",
+      "Bachelor of Science in Nursing May 2021",
+      "• Capstone: 160 hours in a cardiac intensive care unit",
+      "• Sigma Theta Tau International Honor Society of Nursing",
+      "LICENSES AND SKILLS",
+      "License: Registered Nurse, Colorado (multistate compact)",
+      "Certifications: BLS, ACLS, NIH Stroke Scale",
+      "Clinical: Telemetry, wound care, IV therapy",
+      "Systems: Epic, Pyxis, Omnicell"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 29,
+    "total": 29,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Hannah Brooks",
+        "actual": "Hannah Brooks",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "hannah.brooks@email.com",
+        "actual": "hannah.brooks@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(303) 555-0148",
+        "actual": "(303) 555-0148",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Denver, CO",
+        "actual": "Denver, CO",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/hannahbrooksrn",
+        "actual": "linkedin.com/in/hannahbrooksrn",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge nurse. BSN, Colorado RN license, BLS and ACLS.",
+        "actual": "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge nurse. BSN, Colorado RN license, BLS and ACLS.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "St. Brendan Medical Center",
+        "actual": "St. Brendan Medical Center",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Registered Nurse (Med-Surg)",
+        "actual": "Registered Nurse (Med-Surg)",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Aug 2022 – Present",
+        "actual": "Aug 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
+        "actual": "Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling admissions",
+        "actual": "Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling admissions",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
+        "actual": "Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Precept new graduate nurses and have oriented seven through their first 12 weeks",
+        "actual": "Precept new graduate nurses and have oriented seven through their first 12 weeks",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Front Range Rehabilitation Hospital",
+        "actual": "Front Range Rehabilitation Hospital",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Registered Nurse",
+        "actual": "Registered Nurse",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2021 – Jul 2022",
+        "actual": "Jun 2021 – Jul 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Managed medications and wound care for 12 rehab patients on day shift and documented every assessment in Epic",
+        "actual": "Managed medications and wound care for 12 rehab patients on day shift and documented every assessment in Epic",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Taught patients and families how to manage new insulin and blood thinner routines before discharge",
+        "actual": "Taught patients and families how to manage new insulin and blood thinner routines before discharge",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
+        "actual": "Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Rocky Ridge University",
+        "actual": "Rocky Ridge University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Science in Nursing",
+        "actual": "Bachelor of Science in Nursing",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2021",
+        "actual": "May 2021",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Capstone: 160 hours in a cardiac intensive care unit",
+        "actual": "Capstone: 160 hours in a cardiac intensive care unit",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[1]",
+        "expected": "Sigma Theta Tau International Honor Society of Nursing",
+        "actual": "Sigma Theta Tau International Honor Society of Nursing",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "License: Registered Nurse, Colorado (multistate compact)",
+        "actual": "License: Registered Nurse, Colorado (multistate compact)",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Certifications: BLS, ACLS, NIH Stroke Scale",
+        "actual": "Certifications: BLS, ACLS, NIH Stroke Scale",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Clinical: Telemetry, wound care, IV therapy",
+        "actual": "Clinical: Telemetry, wound care, IV therapy",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Systems: Epic, Pyxis, Omnicell",
+        "actual": "Systems: Epic, Pyxis, Omnicell",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Denver, CO",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Aurora, CO",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Fort Collins, CO",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Hannah Brooks",
+      "Denver, CO | (303) 555-0148 | hannah.brooks@email.com | linkedin.com/in/hannahbrooksrn",
+      "SUMMARY",
+      "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge",
+      "nurse. BSN, Colorado RN license, BLS and ACLS.",
+      "EXPERIENCE",
+      "St. Brendan Medical Center ‖ Denver, CO",
+      "Registered Nurse (Med-Surg) ‖ Aug 2022 – Present",
+      "• ‖ Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
+      "• ‖ Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling",
+      "admissions",
+      "• ‖ Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
+      "• ‖ Precept new graduate nurses and have oriented seven through their first 12 weeks",
+      "Front Range Rehabilitation Hospital ‖ Aurora, CO",
+      "Registered Nurse ‖ Jun 2021 – Jul 2022",
+      "• ‖ Managed medications and wound care for 12 rehab patients on day shift and documented every",
+      "assessment in Epic",
+      "• ‖ Taught patients and families how to manage new insulin and blood thinner routines before discharge",
+      "• ‖ Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
+      "EDUCATION",
+      "Rocky Ridge University ‖ Fort Collins, CO",
+      "Bachelor of Science in Nursing ‖ May 2021",
+      "• ‖ Capstone: 160 hours in a cardiac intensive care unit",
+      "• ‖ Sigma Theta Tau International Honor Society of Nursing",
+      "LICENSES AND SKILLS",
+      "License: Registered Nurse, Colorado (multistate compact)",
+      "Certifications: BLS, ACLS, NIH Stroke Scale",
+      "Clinical: Telemetry, wound care, IV therapy",
+      "Systems: Epic, Pyxis, Omnicell"
+    ]
+  },
+  "pass": true
+}

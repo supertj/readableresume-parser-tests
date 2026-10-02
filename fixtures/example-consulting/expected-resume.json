@@ -1,0 +1,161 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Grace Liu",
+      "email": "grace.liu@email.com",
+      "phone": "(617) 555-0172",
+      "location": "Boston, MA",
+      "url": "linkedin.com/in/graceliu",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Halvorsen Advisory Group",
+        "jobTitle": "Business Analyst",
+        "date": "Aug 2024 – Present",
+        "descriptions": [
+          "Mapped order-to-cash for a $900M distributor through 30 interviews and two site visits; the fixes we proposed freed $14M of working capital",
+          "Built the cost model for a hospital network's outpatient consolidation and presented scenarios to its CFO and COO",
+          "Wrote the training guide and ran six sessions when a client switched 200 staff to a new scheduling process",
+          "Lead the weekly status deck for a five-person team and keep the issues log the partner reviews before client calls"
+        ]
+      },
+      {
+        "company": "Narragansett Bay Health",
+        "jobTitle": "Strategy Intern",
+        "date": "Jun 2023 – Aug 2023",
+        "descriptions": [
+          "Benchmarked emergency department wait times against 12 peer hospitals and presented the gaps to the COO",
+          "Built a staffing model in Excel that the nursing director used to plan weekend shifts"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Commonwealth Harbor University",
+        "degree": "Bachelor of Arts in Economics",
+        "date": "May 2024",
+        "gpa": "3.7",
+        "descriptions": [
+          "GPA: 3.7/4.0",
+          "Consulting Club: Project Lead for two pro bono engagements with local nonprofits"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Neighborhood Food Bank | Pro bono consulting",
+        "date": "2023",
+        "descriptions": [
+          "Redesigned volunteer shifts with the director; the Saturday wait for families dropped from 50 minutes to 20"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Analysis: Excel modeling, process mapping, survey design, interviews",
+        "Tools: PowerPoint, Tableau, Alteryx, SQL",
+        "Certifications: Lean Six Sigma Green Belt",
+        "Languages: Mandarin (native), English (native)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Boston, MA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Providence, RI",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Providence, RI",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Grace Liu",
+    "Boston, MA",
+    "(617) 555-0172",
+    "grace.liu@email.com",
+    "linkedin.com/in/graceliu",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Halvorsen Advisory Group",
+        "Business Analyst",
+        "Aug 2024 – Present",
+        "Boston, MA"
+      ]
+    },
+    "Mapped order-to-cash for a $900M distributor through 30 interviews and two site visits; the fixes we proposed freed $14M of working capital",
+    "Built the cost model for a hospital network's outpatient consolidation and presented scenarios to its CFO and COO",
+    "Wrote the training guide and ran six sessions when a client switched 200 staff to a new scheduling process",
+    "Lead the weekly status deck for a five-person team and keep the issues log the partner reviews before client calls",
+    {
+      "anyOrder": [
+        "Narragansett Bay Health",
+        "Strategy Intern",
+        "Jun 2023 – Aug 2023",
+        "Providence, RI"
+      ]
+    },
+    "Benchmarked emergency department wait times against 12 peer hospitals and presented the gaps to the COO",
+    "Built a staffing model in Excel that the nursing director used to plan weekend shifts",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Commonwealth Harbor University",
+        "Providence, RI",
+        "Bachelor of Arts in Economics",
+        "May 2024"
+      ]
+    },
+    "GPA: 3.7/4.0",
+    "Consulting Club: Project Lead for two pro bono engagements with local nonprofits",
+    "SELECTED PROJECTS",
+    {
+      "anyOrder": [
+        "Neighborhood Food Bank",
+        "Pro bono consulting",
+        "2023"
+      ]
+    },
+    "Redesigned volunteer shifts with the director; the Saturday wait for families dropped from 50 minutes to 20",
+    "SKILLS",
+    "Analysis: Excel modeling, process mapping, survey design, interviews",
+    "Tools: PowerPoint, Tableau, Alteryx, SQL",
+    "Certifications: Lean Six Sigma Green Belt",
+    "Languages: Mandarin (native), English (native)"
+  ],
+  "template": "example-consulting",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Mapped order-to-cash for a $900M distributor through 30 interviews and two site visits; the fixes we proposed freed $14M of working capital",
+    "Built the cost model for a hospital network's outpatient consolidation and presented scenarios to its CFO and COO",
+    "Wrote the training guide and ran six sessions when a client switched 200 staff to a new scheduling process",
+    "Lead the weekly status deck for a five-person team and keep the issues log the partner reviews before client calls",
+    "Benchmarked emergency department wait times against 12 peer hospitals and presented the gaps to the COO",
+    "Built a staffing model in Excel that the nursing director used to plan weekend shifts",
+    "GPA: 3.7/4.0",
+    "Consulting Club: Project Lead for two pro bono engagements with local nonprofits",
+    "Redesigned volunteer shifts with the director; the Saturday wait for families dropped from 50 minutes to 20"
+  ]
+}

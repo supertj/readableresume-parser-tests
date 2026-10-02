@@ -71,6 +71,126 @@
     "pages": 1,
     "fill": 0.673
   },
+  "example-acting-resume-letter": {
+    "pass": true,
+    "c1": "36/36",
+    "pages": 1,
+    "fill": 0.667
+  },
+  "example-architecture-resume-letter": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.61
+  },
+  "example-computer-science-resume-letter": {
+    "pass": true,
+    "c1": "36/36",
+    "pages": 1,
+    "fill": 0.649
+  },
+  "example-consulting-resume-letter": {
+    "pass": true,
+    "c1": "31/31",
+    "pages": 1,
+    "fill": 0.634
+  },
+  "example-data-analyst-resume-letter": {
+    "pass": true,
+    "c1": "30/30",
+    "pages": 1,
+    "fill": 0.604
+  },
+  "example-engineering-resume-letter": {
+    "pass": true,
+    "c1": "32/32",
+    "pages": 1,
+    "fill": 0.614
+  },
+  "example-finance-resume-letter": {
+    "pass": true,
+    "c1": "32/32",
+    "pages": 1,
+    "fill": 0.758
+  },
+  "example-graphic-designer-resume-letter": {
+    "pass": true,
+    "c1": "28/28",
+    "pages": 1,
+    "fill": 0.672
+  },
+  "example-hr-resume-letter": {
+    "pass": true,
+    "c1": "28/28",
+    "pages": 1,
+    "fill": 0.634
+  },
+  "example-internship-resume-letter": {
+    "pass": true,
+    "c1": "34/34",
+    "pages": 1,
+    "fill": 0.661
+  },
+  "example-investment-banking-resume-letter": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.701
+  },
+  "example-marketing-resume-letter": {
+    "pass": true,
+    "c1": "29/29",
+    "pages": 1,
+    "fill": 0.664
+  },
+  "example-medical-resume-letter": {
+    "pass": true,
+    "c1": "36/36",
+    "pages": 1,
+    "fill": 0.64
+  },
+  "example-nursing-resume-letter": {
+    "pass": true,
+    "c1": "29/29",
+    "pages": 1,
+    "fill": 0.679
+  },
+  "example-pharmacist-resume-letter": {
+    "pass": true,
+    "c1": "29/29",
+    "pages": 1,
+    "fill": 0.664
+  },
+  "example-pilot-resume-letter": {
+    "pass": true,
+    "c1": "31/31",
+    "pages": 1,
+    "fill": 0.637
+  },
+  "example-project-manager-resume-letter": {
+    "pass": true,
+    "c1": "31/31",
+    "pages": 1,
+    "fill": 0.597
+  },
+  "example-retail-resume-letter": {
+    "pass": true,
+    "c1": "32/32",
+    "pages": 1,
+    "fill": 0.642
+  },
+  "example-sales-resume-letter": {
+    "pass": true,
+    "c1": "30/30",
+    "pages": 1,
+    "fill": 0.713
+  },
+  "example-teacher-resume-letter": {
+    "pass": true,
+    "c1": "28/28",
+    "pages": 1,
+    "fill": 0.653
+  },
   "international-cv-cover-letter-a4": {
     "pass": true,
     "c1": "text only",

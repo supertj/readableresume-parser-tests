@@ -1,0 +1,145 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Lauren Fischer",
+      "email": "lauren.fischer@email.com",
+      "phone": "(414) 555-0133",
+      "location": "Milwaukee, WI",
+      "url": "linkedin.com/in/laurenfischer",
+      "summary": "HR specialist with five years supporting 300 to 600 employees in manufacturing and health care. Most of my work is recruiting, onboarding and employee relations. SHRM-CP."
+    },
+    "workExperiences": [
+      {
+        "company": "Lakeport Components",
+        "jobTitle": "Human Resources Specialist",
+        "date": "May 2022 – Present",
+        "descriptions": [
+          "Handle full-cycle hiring for about 90 roles a year across two plants; time to fill dropped from 41 days to 27",
+          "Rebuilt onboarding into a two-week plan with checklists for managers; first-90-day turnover fell from 24% to 13%",
+          "Investigate and document employee relations cases and advise supervisors on leave, accommodation and discipline",
+          "Moved personnel files and time-off requests into BambooHR for 480 employees"
+        ]
+      },
+      {
+        "company": "Brightwater Home Health",
+        "jobTitle": "Recruiting Coordinator",
+        "date": "Jul 2020 – Apr 2022",
+        "descriptions": [
+          "Scheduled about 60 interviews a week for nursing and caregiver roles and ran Saturday hiring events",
+          "Set up text reminders for candidates, which cut interview no-shows by about a third",
+          "Kept the applicant tracking system clean and sent weekly pipeline reports to hiring managers"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Badger Lake University",
+        "degree": "Bachelor of Business Administration, Human Resource Management",
+        "date": "May 2020",
+        "gpa": "",
+        "descriptions": [
+          "Society for Human Resource Management student chapter, treasurer"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "HR: Recruiting, onboarding, employee relations, FMLA, ADA",
+        "Systems: BambooHR, Workday, Greenhouse, ADP, Excel",
+        "Certifications: SHRM-CP",
+        "Languages: English (native), German (conversational)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Milwaukee, WI",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Madison, WI",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Madison, WI",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Lauren Fischer",
+    "Milwaukee, WI",
+    "(414) 555-0133",
+    "lauren.fischer@email.com",
+    "linkedin.com/in/laurenfischer",
+    "SUMMARY",
+    "HR specialist with five years supporting 300 to 600 employees in manufacturing and health care. Most of my work is recruiting, onboarding and employee relations. SHRM-CP.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Lakeport Components",
+        "Human Resources Specialist",
+        "May 2022 – Present",
+        "Milwaukee, WI"
+      ]
+    },
+    "Handle full-cycle hiring for about 90 roles a year across two plants; time to fill dropped from 41 days to 27",
+    "Rebuilt onboarding into a two-week plan with checklists for managers; first-90-day turnover fell from 24% to 13%",
+    "Investigate and document employee relations cases and advise supervisors on leave, accommodation and discipline",
+    "Moved personnel files and time-off requests into BambooHR for 480 employees",
+    {
+      "anyOrder": [
+        "Brightwater Home Health",
+        "Recruiting Coordinator",
+        "Jul 2020 – Apr 2022",
+        "Madison, WI"
+      ]
+    },
+    "Scheduled about 60 interviews a week for nursing and caregiver roles and ran Saturday hiring events",
+    "Set up text reminders for candidates, which cut interview no-shows by about a third",
+    "Kept the applicant tracking system clean and sent weekly pipeline reports to hiring managers",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Badger Lake University",
+        "Madison, WI",
+        "Bachelor of Business Administration, Human Resource Management",
+        "May 2020"
+      ]
+    },
+    "Society for Human Resource Management student chapter, treasurer",
+    "SKILLS",
+    "HR: Recruiting, onboarding, employee relations, FMLA, ADA",
+    "Systems: BambooHR, Workday, Greenhouse, ADP, Excel",
+    "Certifications: SHRM-CP",
+    "Languages: English (native), German (conversational)"
+  ],
+  "template": "example-hr",
+  "doc": "resume",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Handle full-cycle hiring for about 90 roles a year across two plants; time to fill dropped from 41 days to 27",
+    "Rebuilt onboarding into a two-week plan with checklists for managers; first-90-day turnover fell from 24% to 13%",
+    "Investigate and document employee relations cases and advise supervisors on leave, accommodation and discipline",
+    "Moved personnel files and time-off requests into BambooHR for 480 employees",
+    "Scheduled about 60 interviews a week for nursing and caregiver roles and ran Saturday hiring events",
+    "Set up text reminders for candidates, which cut interview no-shows by about a third",
+    "Kept the applicant tracking system clean and sent weekly pipeline reports to hiring managers",
+    "Society for Human Resource Management student chapter, treasurer"
+  ]
+}

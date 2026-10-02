@@ -1,0 +1,148 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Hannah Brooks",
+      "email": "hannah.brooks@email.com",
+      "phone": "(303) 555-0148",
+      "location": "Denver, CO",
+      "url": "linkedin.com/in/hannahbrooksrn",
+      "summary": "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge nurse. BSN, Colorado RN license, BLS and ACLS."
+    },
+    "workExperiences": [
+      {
+        "company": "St. Brendan Medical Center",
+        "jobTitle": "Registered Nurse (Med-Surg)",
+        "date": "Aug 2022 – Present",
+        "descriptions": [
+          "Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
+          "Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling admissions",
+          "Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
+          "Precept new graduate nurses and have oriented seven through their first 12 weeks"
+        ]
+      },
+      {
+        "company": "Front Range Rehabilitation Hospital",
+        "jobTitle": "Registered Nurse",
+        "date": "Jun 2021 – Jul 2022",
+        "descriptions": [
+          "Managed medications and wound care for 12 rehab patients on day shift and documented every assessment in Epic",
+          "Taught patients and families how to manage new insulin and blood thinner routines before discharge",
+          "Worked with physical therapists to plan safe discharges for stroke and joint replacement patients"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Rocky Ridge University",
+        "degree": "Bachelor of Science in Nursing",
+        "date": "May 2021",
+        "gpa": "",
+        "descriptions": [
+          "Capstone: 160 hours in a cardiac intensive care unit",
+          "Sigma Theta Tau International Honor Society of Nursing"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "License: Registered Nurse, Colorado (multistate compact)",
+        "Certifications: BLS, ACLS, NIH Stroke Scale",
+        "Clinical: Telemetry, wound care, IV therapy",
+        "Systems: Epic, Pyxis, Omnicell"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Denver, CO",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Aurora, CO",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Fort Collins, CO",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Hannah Brooks",
+    "Denver, CO",
+    "(303) 555-0148",
+    "hannah.brooks@email.com",
+    "linkedin.com/in/hannahbrooksrn",
+    "SUMMARY",
+    "Registered nurse with four years on a 32-bed medical-surgical unit, including two years as relief charge nurse. BSN, Colorado RN license, BLS and ACLS.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "St. Brendan Medical Center",
+        "Registered Nurse (Med-Surg)",
+        "Aug 2022 – Present",
+        "Denver, CO"
+      ]
+    },
+    "Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
+    "Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling admissions",
+    "Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
+    "Precept new graduate nurses and have oriented seven through their first 12 weeks",
+    {
+      "anyOrder": [
+        "Front Range Rehabilitation Hospital",
+        "Registered Nurse",
+        "Jun 2021 – Jul 2022",
+        "Aurora, CO"
+      ]
+    },
+    "Managed medications and wound care for 12 rehab patients on day shift and documented every assessment in Epic",
+    "Taught patients and families how to manage new insulin and blood thinner routines before discharge",
+    "Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Rocky Ridge University",
+        "Fort Collins, CO",
+        "Bachelor of Science in Nursing",
+        "May 2021"
+      ]
+    },
+    "Capstone: 160 hours in a cardiac intensive care unit",
+    "Sigma Theta Tau International Honor Society of Nursing",
+    "LICENSES AND SKILLS",
+    "License: Registered Nurse, Colorado (multistate compact)",
+    "Certifications: BLS, ACLS, NIH Stroke Scale",
+    "Clinical: Telemetry, wound care, IV therapy",
+    "Systems: Epic, Pyxis, Omnicell"
+  ],
+  "template": "example-nursing",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Care for five to six adult patients per shift, including post-op, sepsis and diabetic patients",
+    "Serve as relief charge nurse about six shifts a month, making assignments for nine nurses and handling admissions",
+    "Joined the unit's falls committee; hourly rounding changes we introduced cut falls from 11 to 4 in a year",
+    "Precept new graduate nurses and have oriented seven through their first 12 weeks",
+    "Managed medications and wound care for 12 rehab patients on day shift and documented every assessment in Epic",
+    "Taught patients and families how to manage new insulin and blood thinner routines before discharge",
+    "Worked with physical therapists to plan safe discharges for stroke and joint replacement patients",
+    "Capstone: 160 hours in a cardiac intensive care unit",
+    "Sigma Theta Tau International Honor Society of Nursing"
+  ]
+}

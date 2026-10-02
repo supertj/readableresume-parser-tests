@@ -1,0 +1,184 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Marcus Whitfield",
+      "email": "marcus.whitfield@email.com",
+      "phone": "(212) 555-0164",
+      "location": "New York, NY",
+      "url": "linkedin.com/in/marcuswhitfield",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Calloway Brothers & Co.",
+        "jobTitle": "Investment Banking Intern",
+        "date": "Jun 2025 – Aug 2025",
+        "descriptions": [
+          "In the M&A group, built the merger model for a $1.2B sell-side process in consumer packaging, covering accretion, synergies and financing cases",
+          "Prepared trading comparables and precedent transactions for three pitch books sent to industrial clients",
+          "Drafted 14 pages of the confidential information memorandum and checked every figure against the data room",
+          "Tracked buyer contacts and NDA status for 60 parties in the process log the deal team reviewed each morning"
+        ]
+      },
+      {
+        "company": "Fairmount Capital Partners",
+        "jobTitle": "Private Equity Analyst Intern",
+        "date": "Jan 2025 – Apr 2025",
+        "descriptions": [
+          "Screened about 40 lower middle market companies a month and wrote one-page summaries for the investment committee",
+          "Built an LBO model for a $85M specialty distribution add-on showing returns under three leverage cases"
+        ]
+      },
+      {
+        "company": "Hudson Valley University",
+        "jobTitle": "Teaching Assistant",
+        "date": "Aug 2024 – Dec 2024",
+        "descriptions": [
+          "Held weekly corporate finance review sessions on valuation and capital structure for about 45 students"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Hudson Valley University",
+        "degree": "Bachelor of Science in Economics, Minor in Accounting",
+        "date": "May 2026",
+        "gpa": "3.8",
+        "descriptions": [
+          "GPA: 3.8/4.0; Dean's List every semester",
+          "Investment Club: Head of Valuation, leads a 12-person team covering industrials"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Intercollegiate Stock Pitch Competition | Team captain",
+        "date": "Mar 2025",
+        "descriptions": [
+          "Pitched a long position in a rail equipment maker; placed second of 28 teams"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Technical: Merger and LBO models, DCF, comparable companies, precedent transactions",
+        "Software: Excel, PowerPoint, Capital IQ, PitchBook, Bloomberg",
+        "Certifications: BIWS Financial Modeling, Bloomberg Market Concepts",
+        "Languages: Portuguese (fluent)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "educations[0].location",
+      "value": "Albany, NY",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "New York, NY",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Albany, NY",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Albany, NY",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Marcus Whitfield",
+    "New York, NY",
+    "(212) 555-0164",
+    "marcus.whitfield@email.com",
+    "linkedin.com/in/marcuswhitfield",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Hudson Valley University",
+        "Albany, NY",
+        "Bachelor of Science in Economics, Minor in Accounting",
+        "May 2026"
+      ]
+    },
+    "GPA: 3.8/4.0; Dean's List every semester",
+    "Investment Club: Head of Valuation, leads a 12-person team covering industrials",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Calloway Brothers & Co.",
+        "Investment Banking Intern",
+        "Jun 2025 – Aug 2025",
+        "New York, NY"
+      ]
+    },
+    "In the M&A group, built the merger model for a $1.2B sell-side process in consumer packaging, covering accretion, synergies and financing cases",
+    "Prepared trading comparables and precedent transactions for three pitch books sent to industrial clients",
+    "Drafted 14 pages of the confidential information memorandum and checked every figure against the data room",
+    "Tracked buyer contacts and NDA status for 60 parties in the process log the deal team reviewed each morning",
+    {
+      "anyOrder": [
+        "Fairmount Capital Partners",
+        "Private Equity Analyst Intern",
+        "Jan 2025 – Apr 2025",
+        "Albany, NY"
+      ]
+    },
+    "Screened about 40 lower middle market companies a month and wrote one-page summaries for the investment committee",
+    "Built an LBO model for a $85M specialty distribution add-on showing returns under three leverage cases",
+    {
+      "anyOrder": [
+        "Hudson Valley University",
+        "Teaching Assistant",
+        "Aug 2024 – Dec 2024",
+        "Albany, NY"
+      ]
+    },
+    "Held weekly corporate finance review sessions on valuation and capital structure for about 45 students",
+    "LEADERSHIP AND PROJECTS",
+    {
+      "anyOrder": [
+        "Intercollegiate Stock Pitch Competition",
+        "Team captain",
+        "Mar 2025"
+      ]
+    },
+    "Pitched a long position in a rail equipment maker; placed second of 28 teams",
+    "SKILLS",
+    "Technical: Merger and LBO models, DCF, comparable companies, precedent transactions",
+    "Software: Excel, PowerPoint, Capital IQ, PitchBook, Bloomberg",
+    "Certifications: BIWS Financial Modeling, Bloomberg Market Concepts",
+    "Languages: Portuguese (fluent)"
+  ],
+  "template": "example-investment-banking",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "GPA: 3.8/4.0; Dean's List every semester",
+    "Investment Club: Head of Valuation, leads a 12-person team covering industrials",
+    "In the M&A group, built the merger model for a $1.2B sell-side process in consumer packaging, covering accretion, synergies and financing cases",
+    "Prepared trading comparables and precedent transactions for three pitch books sent to industrial clients",
+    "Drafted 14 pages of the confidential information memorandum and checked every figure against the data room",
+    "Tracked buyer contacts and NDA status for 60 parties in the process log the deal team reviewed each morning",
+    "Screened about 40 lower middle market companies a month and wrote one-page summaries for the investment committee",
+    "Built an LBO model for a $85M specialty distribution add-on showing returns under three leverage cases",
+    "Held weekly corporate finance review sessions on valuation and capital structure for about 45 students",
+    "Pitched a long position in a rail equipment maker; placed second of 28 teams"
+  ]
+}

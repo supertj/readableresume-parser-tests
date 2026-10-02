@@ -6,7 +6,7 @@ Every template on [ReadableResume](https://readableresume.com) is checked with t
 
 ## What is tested
 
-For each template file (resume, cover letter, references page × US Letter and A4):
+For each template file (resume, cover letter, references page × US Letter and A4), and for each filled-in resume on the site's job example pages (`fixtures/example-<job>/`, US Letter only):
 
 1. **Export.** The PDF and .docx are downloaded from the Google Doc's public export URL, the same files Google Docs gives you under *File > Download*. No Google credentials are used.
 2. **Fields (resumes only).** The PDF is parsed with [OpenResume](https://github.com/xitanggg/open-resume), pinned as a git submodule. Every field and every bullet is compared with `fixtures/<template>/expected-resume.json`. All items must match.
@@ -14,7 +14,7 @@ For each template file (resume, cover letter, references page × US Letter and A
 4. **Fonts and pages.** Every visible character uses the template font, every font is embedded, and the page count is as expected.
 5. **Word.** python-docx reads the exported .docx: text in order, bullets still list items, no bullet on a symbol font.
 
-Values the parser cannot represent (a location on a job line, a second link, a UK phone number) are listed under `outOfScope` in the expected file. They are reported but not counted.
+Values the parser cannot represent (a location on a job line, a second link, a UK phone number, a degree outside its list such as PharmD) are listed under `outOfScope` in the expected file. They are reported but not counted.
 
 ## Run it
 

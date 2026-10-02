@@ -1,0 +1,168 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Daniel Okafor",
+      "email": "daniel.okafor@email.com",
+      "phone": "(614) 555-0182",
+      "location": "Columbus, OH",
+      "url": "linkedin.com/in/danielokafor",
+      "summary": "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training."
+    },
+    "workExperiences": [
+      {
+        "company": "Ridgeline Fluid Systems",
+        "jobTitle": "Mechanical Engineer",
+        "date": "Mar 2022 – Present",
+        "descriptions": [
+          "Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit cost by $310",
+          "Led root-cause analysis on seal failures at two customer sites; the fixture change I proposed ended the repeat returns",
+          "Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
+          "Review drawings and tolerance stacks with two suppliers before each production release"
+        ]
+      },
+      {
+        "company": "Cardinal Equipment Works",
+        "jobTitle": "Associate Engineer",
+        "date": "Jun 2020 – Feb 2022",
+        "descriptions": [
+          "Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
+          "Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
+          "Supported installation of a new press brake line and trained six operators on the setup sheets I wrote"
+        ]
+      },
+      {
+        "company": "Miami Valley Tooling",
+        "jobTitle": "Engineering Co-op",
+        "date": "Jan 2019 – Aug 2019",
+        "descriptions": [
+          "Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Buckeye Valley University",
+        "degree": "Bachelor of Science in Mechanical Engineering",
+        "date": "May 2020",
+        "gpa": "",
+        "descriptions": [
+          "Senior design: low-cost irrigation pump, first place among 22 capstone teams"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
+        "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
+        "Manufacturing: Sheet metal, CNC machining, injection molding",
+        "Licenses: Engineer in Training (EIT), Ohio"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Columbus, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Dayton, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Dayton, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Columbus, OH",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Daniel Okafor",
+    "Columbus, OH",
+    "(614) 555-0182",
+    "daniel.okafor@email.com",
+    "linkedin.com/in/danielokafor",
+    "SUMMARY",
+    "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Ridgeline Fluid Systems",
+        "Mechanical Engineer",
+        "Mar 2022 – Present",
+        "Columbus, OH"
+      ]
+    },
+    "Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit cost by $310",
+    "Led root-cause analysis on seal failures at two customer sites; the fixture change I proposed ended the repeat returns",
+    "Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
+    "Review drawings and tolerance stacks with two suppliers before each production release",
+    {
+      "anyOrder": [
+        "Cardinal Equipment Works",
+        "Associate Engineer",
+        "Jun 2020 – Feb 2022",
+        "Dayton, OH"
+      ]
+    },
+    "Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
+    "Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
+    "Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
+    {
+      "anyOrder": [
+        "Miami Valley Tooling",
+        "Engineering Co-op",
+        "Jan 2019 – Aug 2019",
+        "Dayton, OH"
+      ]
+    },
+    "Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Buckeye Valley University",
+        "Columbus, OH",
+        "Bachelor of Science in Mechanical Engineering",
+        "May 2020"
+      ]
+    },
+    "Senior design: low-cost irrigation pump, first place among 22 capstone teams",
+    "SKILLS",
+    "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
+    "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
+    "Manufacturing: Sheet metal, CNC machining, injection molding",
+    "Licenses: Engineer in Training (EIT), Ohio"
+  ],
+  "template": "example-engineering",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit cost by $310",
+    "Led root-cause analysis on seal failures at two customer sites; the fixture change I proposed ended the repeat returns",
+    "Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
+    "Review drawings and tolerance stacks with two suppliers before each production release",
+    "Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
+    "Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
+    "Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
+    "Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
+    "Senior design: low-cost irrigation pump, first place among 22 capstone teams"
+  ]
+}

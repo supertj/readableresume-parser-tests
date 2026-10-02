@@ -1,0 +1,170 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Jasmine Carter",
+      "email": "jasmine.carter@email.com",
+      "phone": "(602) 555-0157",
+      "location": "Phoenix, AZ",
+      "url": "linkedin.com/in/jasminecarter",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Desert Bloom Home Goods",
+        "jobTitle": "Lead Sales Associate",
+        "date": "Apr 2023 – Present",
+        "descriptions": [
+          "Run opening or closing for a store doing about $2.4M a year, including cash counts and the end-of-day report",
+          "Trained 14 new associates on the register, returns and our loyalty program; nine stayed past six months",
+          "Set up the holiday floor plan and window displays; November and December sales beat the prior year by 11%",
+          "Took over weekly scheduling for 18 staff and kept labor within budget for 40 of 52 weeks"
+        ]
+      },
+      {
+        "company": "Saguaro Sporting Goods",
+        "jobTitle": "Sales Associate",
+        "date": "Aug 2021 – Mar 2023",
+        "descriptions": [
+          "Led the store in loyalty sign-ups for seven straight months",
+          "Helped run quarterly inventory counts and found a receiving error worth about $8,000",
+          "Answered phone and online orders and kept the stockroom organized by department"
+        ]
+      },
+      {
+        "company": "Copper State Grocery",
+        "jobTitle": "Cashier",
+        "date": "Jun 2019 – Jul 2021",
+        "descriptions": [
+          "Handled a register averaging 300 transactions a shift and balanced the drawer every night"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Rio Grande Community College",
+        "degree": "Associate of Applied Science, Business Management",
+        "date": "May 2023",
+        "gpa": "",
+        "descriptions": [
+          "Completed while working 30 hours a week"
+        ]
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
+        "People: Training new hires, shift scheduling, handling escalated complaints",
+        "Systems: Square POS, Shopify POS, UKG scheduling, Excel",
+        "Languages: English and Spanish (fluent)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Phoenix, AZ",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Tempe, AZ",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Mesa, AZ",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Albuquerque, NM",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Jasmine Carter",
+    "Phoenix, AZ",
+    "(602) 555-0157",
+    "jasmine.carter@email.com",
+    "linkedin.com/in/jasminecarter",
+    "SKILLS",
+    "Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
+    "People: Training new hires, shift scheduling, handling escalated complaints",
+    "Systems: Square POS, Shopify POS, UKG scheduling, Excel",
+    "Languages: English and Spanish (fluent)",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Desert Bloom Home Goods",
+        "Lead Sales Associate",
+        "Apr 2023 – Present",
+        "Phoenix, AZ"
+      ]
+    },
+    "Run opening or closing for a store doing about $2.4M a year, including cash counts and the end-of-day report",
+    "Trained 14 new associates on the register, returns and our loyalty program; nine stayed past six months",
+    "Set up the holiday floor plan and window displays; November and December sales beat the prior year by 11%",
+    "Took over weekly scheduling for 18 staff and kept labor within budget for 40 of 52 weeks",
+    {
+      "anyOrder": [
+        "Saguaro Sporting Goods",
+        "Sales Associate",
+        "Aug 2021 – Mar 2023",
+        "Tempe, AZ"
+      ]
+    },
+    "Led the store in loyalty sign-ups for seven straight months",
+    "Helped run quarterly inventory counts and found a receiving error worth about $8,000",
+    "Answered phone and online orders and kept the stockroom organized by department",
+    {
+      "anyOrder": [
+        "Copper State Grocery",
+        "Cashier",
+        "Jun 2019 – Jul 2021",
+        "Mesa, AZ"
+      ]
+    },
+    "Handled a register averaging 300 transactions a shift and balanced the drawer every night",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Rio Grande Community College",
+        "Albuquerque, NM",
+        "Associate of Applied Science, Business Management",
+        "May 2023"
+      ]
+    },
+    "Completed while working 30 hours a week"
+  ],
+  "template": "example-retail",
+  "doc": "resume",
+  "font": "Verdana",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
+    "People: Training new hires, shift scheduling, handling escalated complaints",
+    "Systems: Square POS, Shopify POS, UKG scheduling, Excel",
+    "Languages: English and Spanish (fluent)",
+    "Run opening or closing for a store doing about $2.4M a year, including cash counts and the end-of-day report",
+    "Trained 14 new associates on the register, returns and our loyalty program; nine stayed past six months",
+    "Set up the holiday floor plan and window displays; November and December sales beat the prior year by 11%",
+    "Took over weekly scheduling for 18 staff and kept labor within budget for 40 of 52 weeks",
+    "Led the store in loyalty sign-ups for seven straight months",
+    "Helped run quarterly inventory counts and found a receiving error worth about $8,000",
+    "Answered phone and online orders and kept the stockroom organized by department",
+    "Handled a register averaging 300 transactions a shift and balanced the drawer every night",
+    "Completed while working 30 hours a week"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Nathan Kim",
+      "email": "nathan.kim@email.com",
+      "phone": "(720) 555-0115",
+      "location": "Denver, CO",
+      "url": "linkedin.com/in/nathankim",
+      "summary": "Data analyst with three years in e-commerce, working mostly in SQL, dbt and Looker. I like turning a messy question from marketing or operations into one clear chart and a recommendation."
+    },
+    "workExperiences": [
+      {
+        "company": "Trailhead Outdoor Supply",
+        "jobTitle": "Data Analyst",
+        "date": "Apr 2023 – Present",
+        "descriptions": [
+          "Built the Looker dashboard for weekly sales and returns that 40 managers use; it replaced six emailed spreadsheets",
+          "Found through a cohort analysis that free-shipping customers returned 2x more often; the threshold change saved $380K a year",
+          "Moved 25 reporting queries into dbt models with tests, cutting broken-report tickets from about 10 a month to 2",
+          "Designed the A/B test readout template the marketing team now uses for every email and site test"
+        ]
+      },
+      {
+        "company": "Foothill Credit Union",
+        "jobTitle": "Junior Data Analyst",
+        "date": "Jul 2021 – Mar 2023",
+        "descriptions": [
+          "Wrote SQL and Excel reports on loan applications for the lending team and automated three of them in Python",
+          "Cleaned five years of member data before a core system migration and documented every field mapping",
+          "Answered ad hoc questions from branch managers, usually the same day"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Front Range State University",
+        "degree": "Bachelor of Science in Statistics",
+        "date": "May 2021",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [
+      {
+        "project": "Colorado Trail Usage | Python, BigQuery, Streamlit",
+        "date": "2024",
+        "descriptions": [
+          "Public dashboard of trailhead counts from state open data; featured in a local outdoor newsletter"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Languages: SQL, Python (pandas), R",
+        "Tools: Looker, Tableau, dbt, Snowflake, BigQuery, Excel",
+        "Methods: A/B testing, cohort analysis, forecasting",
+        "Certifications: dbt Analytics Engineering, Tableau Desktop Specialist"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "profile.url (second link)",
+      "value": "github.com/nathankim",
+      "reason": "parser keeps one URL"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Denver, CO",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Boulder, CO",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Fort Collins, CO",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Nathan Kim",
+    "Denver, CO",
+    "(720) 555-0115",
+    "nathan.kim@email.com",
+    "linkedin.com/in/nathankim",
+    "github.com/nathankim",
+    "SUMMARY",
+    "Data analyst with three years in e-commerce, working mostly in SQL, dbt and Looker. I like turning a messy question from marketing or operations into one clear chart and a recommendation.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Trailhead Outdoor Supply",
+        "Data Analyst",
+        "Apr 2023 – Present",
+        "Denver, CO"
+      ]
+    },
+    "Built the Looker dashboard for weekly sales and returns that 40 managers use; it replaced six emailed spreadsheets",
+    "Found through a cohort analysis that free-shipping customers returned 2x more often; the threshold change saved $380K a year",
+    "Moved 25 reporting queries into dbt models with tests, cutting broken-report tickets from about 10 a month to 2",
+    "Designed the A/B test readout template the marketing team now uses for every email and site test",
+    {
+      "anyOrder": [
+        "Foothill Credit Union",
+        "Junior Data Analyst",
+        "Jul 2021 – Mar 2023",
+        "Boulder, CO"
+      ]
+    },
+    "Wrote SQL and Excel reports on loan applications for the lending team and automated three of them in Python",
+    "Cleaned five years of member data before a core system migration and documented every field mapping",
+    "Answered ad hoc questions from branch managers, usually the same day",
+    "PROJECTS",
+    {
+      "anyOrder": [
+        "Colorado Trail Usage",
+        "Python, BigQuery, Streamlit",
+        "2024"
+      ]
+    },
+    "Public dashboard of trailhead counts from state open data; featured in a local outdoor newsletter",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Front Range State University",
+        "Fort Collins, CO",
+        "Bachelor of Science in Statistics",
+        "May 2021"
+      ]
+    },
+    "SKILLS",
+    "Languages: SQL, Python (pandas), R",
+    "Tools: Looker, Tableau, dbt, Snowflake, BigQuery, Excel",
+    "Methods: A/B testing, cohort analysis, forecasting",
+    "Certifications: dbt Analytics Engineering, Tableau Desktop Specialist"
+  ],
+  "template": "example-data-analyst",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Built the Looker dashboard for weekly sales and returns that 40 managers use; it replaced six emailed spreadsheets",
+    "Found through a cohort analysis that free-shipping customers returned 2x more often; the threshold change saved $380K a year",
+    "Moved 25 reporting queries into dbt models with tests, cutting broken-report tickets from about 10 a month to 2",
+    "Designed the A/B test readout template the marketing team now uses for every email and site test",
+    "Wrote SQL and Excel reports on loan applications for the lending team and automated three of them in Python",
+    "Cleaned five years of member data before a core system migration and documented every field mapping",
+    "Answered ad hoc questions from branch managers, usually the same day",
+    "Public dashboard of trailhead counts from state open data; featured in a local outdoor newsletter"
+  ]
+}

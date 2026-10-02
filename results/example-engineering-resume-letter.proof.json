@@ -1,0 +1,421 @@
+{
+  "file": "example-engineering-resume-letter",
+  "template": "example-engineering",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1mC2leO3LkW7zTTJiNJKkoWxDuN2XAs7qpShSCzfjz8U/export?format=pdf",
+  "pdfSha256": "d413a2b5b19d22af5eac64e2d4351415cbd7a8f53fbd7946fcc652469306b3e3",
+  "docxSha256": "e9b91dec0135464b88ec37eb4d064e79124d1a344232dbb256c173f08a505f33",
+  "runAt": "2026-10-02T03:25:56+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.614,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 18,
+      "ArialMT": 255,
+      "Arial-ItalicMT": 9
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Daniel Okafor",
+      "Columbus, OH | (614) 555-0182 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "SUMMARY",
+      "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from",
+      "first CAD model through production. Licensed Engineer in Training.",
+      "EXPERIENCE",
+      "Ridgeline Fluid Systems Columbus, OH",
+      "Mechanical Engineer Mar 2022 – Present",
+      "• Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit",
+      "cost by $310",
+      "• Led root-cause analysis on seal failures at two customer sites; the fixture change I proposed ended the repeat",
+      "returns",
+      "• Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
+      "• Review drawings and tolerance stacks with two suppliers before each production release",
+      "Cardinal Equipment Works Dayton, OH",
+      "Associate Engineer Jun 2020 – Feb 2022",
+      "• Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
+      "• Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
+      "• Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
+      "Miami Valley Tooling Dayton, OH",
+      "Engineering Co-op Jan 2019 – Aug 2019",
+      "• Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
+      "EDUCATION",
+      "Buckeye Valley University Columbus, OH",
+      "Bachelor of Science in Mechanical Engineering May 2020",
+      "• Senior design: low-cost irrigation pump, first place among 22 capstone teams",
+      "SKILLS",
+      "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
+      "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
+      "Manufacturing: Sheet metal, CNC machining, injection molding"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 32,
+    "total": 32,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Daniel Okafor",
+        "actual": "Daniel Okafor",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "daniel.okafor@email.com",
+        "actual": "daniel.okafor@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(614) 555-0182",
+        "actual": "(614) 555-0182",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Columbus, OH",
+        "actual": "Columbus, OH",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/danielokafor",
+        "actual": "linkedin.com/in/danielokafor",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training.",
+        "actual": "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from first CAD model through production. Licensed Engineer in Training.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Ridgeline Fluid Systems",
+        "actual": "Ridgeline Fluid Systems",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Mechanical Engineer",
+        "actual": "Mechanical Engineer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2022 – Present",
+        "actual": "Mar 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit cost by $310",
+        "actual": "Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit cost by $310",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Led root-cause analysis on seal failures at two customer sites; the fixture change I proposed ended the repeat returns",
+        "actual": "Led root-cause analysis on seal failures at two customer sites; the fixture change I proposed ended the repeat returns",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
+        "actual": "Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Review drawings and tolerance stacks with two suppliers before each production release",
+        "actual": "Review drawings and tolerance stacks with two suppliers before each production release",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Cardinal Equipment Works",
+        "actual": "Cardinal Equipment Works",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Associate Engineer",
+        "actual": "Associate Engineer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2020 – Feb 2022",
+        "actual": "Jun 2020 – Feb 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
+        "actual": "Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
+        "actual": "Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
+        "actual": "Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Miami Valley Tooling",
+        "actual": "Miami Valley Tooling",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Engineering Co-op",
+        "actual": "Engineering Co-op",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jan 2019 – Aug 2019",
+        "actual": "Jan 2019 – Aug 2019",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
+        "actual": "Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Buckeye Valley University",
+        "actual": "Buckeye Valley University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Science in Mechanical Engineering",
+        "actual": "Bachelor of Science in Mechanical Engineering",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2020",
+        "actual": "May 2020",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Senior design: low-cost irrigation pump, first place among 22 capstone teams",
+        "actual": "Senior design: low-cost irrigation pump, first place among 22 capstone teams",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
+        "actual": "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
+        "actual": "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Manufacturing: Sheet metal, CNC machining, injection molding",
+        "actual": "Manufacturing: Sheet metal, CNC machining, injection molding",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Licenses: Engineer in Training (EIT), Ohio",
+        "actual": "Licenses: Engineer in Training (EIT), Ohio",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Columbus, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Dayton, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Dayton, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Columbus, OH",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Daniel Okafor",
+      "Columbus, OH | (614) 555-0182 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "SUMMARY",
+      "Mechanical engineer with five years of experience designing pumps and enclosures for industrial customers, from",
+      "first CAD model through production. Licensed Engineer in Training.",
+      "EXPERIENCE",
+      "Ridgeline Fluid Systems ‖ Columbus, OH",
+      "Mechanical Engineer ‖ Mar 2022 – Present",
+      "• ‖ Redesigned the impeller housing on a 50 HP pump line in SolidWorks, cutting part count from 14 to 9 and unit",
+      "cost by $310",
+      "• ‖ Led root-cause analysis on seal failures at two customer sites; the fixture change I proposed ended the repeat",
+      "returns",
+      "• ‖ Wrote test procedures for flow and vibration testing that the quality team adopted for all new pump models",
+      "• ‖ Review drawings and tolerance stacks with two suppliers before each production release",
+      "Cardinal Equipment Works ‖ Dayton, OH",
+      "Associate Engineer ‖ Jun 2020 – Feb 2022",
+      "• ‖ Designed sheet metal enclosures for control panels and released 120 drawings with GD&T to the shop floor",
+      "• ‖ Ran FEA on lifting brackets in ANSYS and reduced wall thickness by 20% while keeping a 3:1 safety factor",
+      "• ‖ Supported installation of a new press brake line and trained six operators on the setup sheets I wrote",
+      "Miami Valley Tooling ‖ Dayton, OH",
+      "Engineering Co-op ‖ Jan 2019 – Aug 2019",
+      "• ‖ Designed and machined a drill fixture that cut setup time on a high-volume bracket from 25 minutes to 8",
+      "EDUCATION",
+      "Buckeye Valley University ‖ Columbus, OH",
+      "Bachelor of Science in Mechanical Engineering ‖ May 2020",
+      "• ‖ Senior design: low-cost irrigation pump, first place among 22 capstone teams",
+      "SKILLS",
+      "Design: SolidWorks, AutoCAD, GD&T, tolerance analysis, design for manufacturing",
+      "Analysis: ANSYS, MATLAB, root-cause analysis, test planning",
+      "Manufacturing: Sheet metal, CNC machining, injection molding",
+      "Licenses: Engineer in Training (EIT), Ohio"
+    ]
+  },
+  "pass": true
+}

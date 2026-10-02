@@ -1,0 +1,164 @@
+{
+  "resume": {
+    "profile": {
+      "name": "David Mensah",
+      "email": "david.mensah@email.com",
+      "phone": "(469) 555-0152",
+      "location": "Dallas, TX",
+      "url": "linkedin.com/in/davidmensah",
+      "summary": "PMP-certified project manager with eight years leading IT and operations projects of up to $4M for health care and logistics companies. Comfortable with both Agile and waterfall teams."
+    },
+    "workExperiences": [
+      {
+        "company": "Lone Star Health System",
+        "jobTitle": "Senior Project Manager",
+        "date": "Feb 2022 – Present",
+        "descriptions": [
+          "Led a $4M patient scheduling system rollout across 14 clinics with a 22-person team; went live on schedule and 6% under budget",
+          "Set up the project intake process and status reporting that the PMO now uses for about 30 projects a year",
+          "Run weekly risk reviews with IT, clinical and finance leads and report status to the executive steering committee",
+          "Coach three junior project managers on scheduling, vendor contracts and stakeholder updates"
+        ]
+      },
+      {
+        "company": "Redbird Freight Systems",
+        "jobTitle": "Project Manager",
+        "date": "Aug 2018 – Jan 2022",
+        "descriptions": [
+          "Managed the move of two warehouses to a new management system with no missed shipments during cutover",
+          "Delivered 11 Agile releases of the carrier portal with a team of eight developers in two-week sprints",
+          "Negotiated the scope and payment schedule with the software vendor and kept change orders under 5% of contract value"
+        ]
+      },
+      {
+        "company": "Redbird Freight Systems",
+        "jobTitle": "Operations Analyst",
+        "date": "Jun 2016 – Jul 2018",
+        "descriptions": [
+          "Tracked on-time delivery for 120 carriers and built the weekly scorecard used in carrier reviews"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Trinity Plains University",
+        "degree": "Bachelor of Science in Information Systems",
+        "date": "May 2016",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Certifications: PMP, Certified ScrumMaster",
+        "Methods: Agile, waterfall, risk management, budgeting",
+        "Tools: Jira, Confluence, Smartsheet, MS Project",
+        "Industries: Health care, logistics, software"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Dallas, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Fort Worth, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Fort Worth, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Denton, TX",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "David Mensah",
+    "Dallas, TX",
+    "(469) 555-0152",
+    "david.mensah@email.com",
+    "linkedin.com/in/davidmensah",
+    "SUMMARY",
+    "PMP-certified project manager with eight years leading IT and operations projects of up to $4M for health care and logistics companies. Comfortable with both Agile and waterfall teams.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Lone Star Health System",
+        "Senior Project Manager",
+        "Feb 2022 – Present",
+        "Dallas, TX"
+      ]
+    },
+    "Led a $4M patient scheduling system rollout across 14 clinics with a 22-person team; went live on schedule and 6% under budget",
+    "Set up the project intake process and status reporting that the PMO now uses for about 30 projects a year",
+    "Run weekly risk reviews with IT, clinical and finance leads and report status to the executive steering committee",
+    "Coach three junior project managers on scheduling, vendor contracts and stakeholder updates",
+    {
+      "anyOrder": [
+        "Redbird Freight Systems",
+        "Project Manager",
+        "Aug 2018 – Jan 2022",
+        "Fort Worth, TX"
+      ]
+    },
+    "Managed the move of two warehouses to a new management system with no missed shipments during cutover",
+    "Delivered 11 Agile releases of the carrier portal with a team of eight developers in two-week sprints",
+    "Negotiated the scope and payment schedule with the software vendor and kept change orders under 5% of contract value",
+    {
+      "anyOrder": [
+        "Redbird Freight Systems",
+        "Operations Analyst",
+        "Jun 2016 – Jul 2018",
+        "Fort Worth, TX"
+      ]
+    },
+    "Tracked on-time delivery for 120 carriers and built the weekly scorecard used in carrier reviews",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Trinity Plains University",
+        "Denton, TX",
+        "Bachelor of Science in Information Systems",
+        "May 2016"
+      ]
+    },
+    "SKILLS",
+    "Certifications: PMP, Certified ScrumMaster",
+    "Methods: Agile, waterfall, risk management, budgeting",
+    "Tools: Jira, Confluence, Smartsheet, MS Project",
+    "Industries: Health care, logistics, software"
+  ],
+  "template": "example-project-manager",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Led a $4M patient scheduling system rollout across 14 clinics with a 22-person team; went live on schedule and 6% under budget",
+    "Set up the project intake process and status reporting that the PMO now uses for about 30 projects a year",
+    "Run weekly risk reviews with IT, clinical and finance leads and report status to the executive steering committee",
+    "Coach three junior project managers on scheduling, vendor contracts and stakeholder updates",
+    "Managed the move of two warehouses to a new management system with no missed shipments during cutover",
+    "Delivered 11 Agile releases of the carrier portal with a team of eight developers in two-week sprints",
+    "Negotiated the scope and payment schedule with the software vendor and kept change orders under 5% of contract value",
+    "Tracked on-time delivery for 120 carriers and built the weekly scorecard used in carrier reviews"
+  ]
+}

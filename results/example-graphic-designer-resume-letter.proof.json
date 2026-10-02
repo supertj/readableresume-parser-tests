@@ -1,0 +1,385 @@
+{
+  "file": "example-graphic-designer-resume-letter",
+  "template": "example-graphic-designer",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1Hdc-6Iy6foCtJwKwDjvoh14h1D8_XQ3lQI6iTbPSmZw/export?format=pdf",
+  "pdfSha256": "ff99f82b5aa49eed18e9c2108f4d263bc38690f24cee7735b70360a1462448fd",
+  "docxSha256": "1e627ee1ab44d6cd53efc3d948be2d64824fab8cd5737926a0898bd42e5d3555",
+  "runAt": "2026-10-02T03:25:56+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.672,
+  "fonts": {
+    "expected": "Trebuchet MS",
+    "found": [
+      "TrebuchetMS",
+      "TrebuchetMS-Bold",
+      "TrebuchetMS-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TrebuchetMS-Bold": 15,
+      "TrebuchetMS": 218,
+      "ArialMT": 14,
+      "TrebuchetMS-Italic": 16
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Sofia Marquez",
+      "Austin, TX | (512) 555-0153 | sofia.marquez@email.com | sofiamarquez.design/work",
+      "SUMMARY",
+      "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients.",
+      "Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
+      "EXPERIENCE",
+      "Senior Graphic Designer Feb 2023 – Present",
+      "Juniper & Vale Creative Austin, TX",
+      "• Led the packaging redesign for a regional coffee roaster across 18 products; retail sales rose 22% in the",
+      "first two quarters",
+      "• Built a brand system in Figma with type, color and layout rules that cut new campaign setup from a week",
+      "to two days",
+      "• Present concepts to clients and art direct two junior designers and one freelance illustrator",
+      "• Designed the agency's pitch template, used in 12 new business presentations last year",
+      "Graphic Designer Jun 2020 – Jan 2023",
+      "Lone Oak Brewing Company San Antonio, TX",
+      "• Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
+      "• Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000",
+      "labels",
+      "• Made social graphics and short motion pieces in After Effects that doubled average engagement on new",
+      "release posts",
+      "EDUCATION",
+      "Hill Country University San Marcos, TX",
+      "Bachelor of Fine Arts in Graphic Design May 2020",
+      "• Senior show: identity system for a fictional public library, chosen for the department's annual exhibition",
+      "SKILLS",
+      "Design: Brand identity, packaging, layout, typography, art direction",
+      "Software: Illustrator, Photoshop, InDesign, Figma, After Effects",
+      "Print: Prepress, color management, dielines, vendor proofs",
+      "Motion: After Effects, Premiere Pro, simple 2D animation"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 8,
+      "actual": 8,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 28,
+    "total": 28,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Sofia Marquez",
+        "actual": "Sofia Marquez",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "sofia.marquez@email.com",
+        "actual": "sofia.marquez@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(512) 555-0153",
+        "actual": "(512) 555-0153",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Austin, TX",
+        "actual": "Austin, TX",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "sofiamarquez.design/work",
+        "actual": "sofiamarquez.design/work",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
+        "actual": "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients. Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Juniper & Vale Creative",
+        "actual": "Juniper & Vale Creative",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Senior Graphic Designer",
+        "actual": "Senior Graphic Designer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Feb 2023 – Present",
+        "actual": "Feb 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Led the packaging redesign for a regional coffee roaster across 18 products; retail sales rose 22% in the first two quarters",
+        "actual": "Led the packaging redesign for a regional coffee roaster across 18 products; retail sales rose 22% in the first two quarters",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Built a brand system in Figma with type, color and layout rules that cut new campaign setup from a week to two days",
+        "actual": "Built a brand system in Figma with type, color and layout rules that cut new campaign setup from a week to two days",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Present concepts to clients and art direct two junior designers and one freelance illustrator",
+        "actual": "Present concepts to clients and art direct two junior designers and one freelance illustrator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Designed the agency's pitch template, used in 12 new business presentations last year",
+        "actual": "Designed the agency's pitch template, used in 12 new business presentations last year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Lone Oak Brewing Company",
+        "actual": "Lone Oak Brewing Company",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Graphic Designer",
+        "actual": "Graphic Designer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2020 – Jan 2023",
+        "actual": "Jun 2020 – Jan 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
+        "actual": "Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000 labels",
+        "actual": "Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000 labels",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Made social graphics and short motion pieces in After Effects that doubled average engagement on new release posts",
+        "actual": "Made social graphics and short motion pieces in After Effects that doubled average engagement on new release posts",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Hill Country University",
+        "actual": "Hill Country University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Fine Arts in Graphic Design",
+        "actual": "Bachelor of Fine Arts in Graphic Design",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2020",
+        "actual": "May 2020",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Senior show: identity system for a fictional public library, chosen for the department's annual exhibition",
+        "actual": "Senior show: identity system for a fictional public library, chosen for the department's annual exhibition",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Design: Brand identity, packaging, layout, typography, art direction",
+        "actual": "Design: Brand identity, packaging, layout, typography, art direction",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Software: Illustrator, Photoshop, InDesign, Figma, After Effects",
+        "actual": "Software: Illustrator, Photoshop, InDesign, Figma, After Effects",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Print: Prepress, color management, dielines, vendor proofs",
+        "actual": "Print: Prepress, color management, dielines, vendor proofs",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Motion: After Effects, Premiere Pro, simple 2D animation",
+        "actual": "Motion: After Effects, Premiere Pro, simple 2D animation",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Austin, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "San Antonio, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "San Marcos, TX",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Sofia Marquez",
+      "Austin, TX | (512) 555-0153 | sofia.marquez@email.com | sofiamarquez.design/work",
+      "SUMMARY",
+      "Graphic designer with five years of brand, packaging and campaign work for food and beverage clients.",
+      "Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
+      "EXPERIENCE",
+      "Senior Graphic Designer ‖ Feb 2023 – Present",
+      "Juniper & Vale Creative ‖ Austin, TX",
+      "• ‖ Led the packaging redesign for a regional coffee roaster across 18 products; retail sales rose 22% in the",
+      "first two quarters",
+      "• ‖ Built a brand system in Figma with type, color and layout rules that cut new campaign setup from a week",
+      "to two days",
+      "• ‖ Present concepts to clients and art direct two junior designers and one freelance illustrator",
+      "• ‖ Designed the agency's pitch template, used in 12 new business presentations last year",
+      "Graphic Designer ‖ Jun 2020 – Jan 2023",
+      "Lone Oak Brewing Company ‖ San Antonio, TX",
+      "• ‖ Designed labels, tap handles and point-of-sale displays for 30 seasonal releases, all printed on schedule",
+      "• ‖ Prepared print files for three vendors and caught a color profile error that would have reprinted 40,000",
+      "labels",
+      "• ‖ Made social graphics and short motion pieces in After Effects that doubled average engagement on new",
+      "release posts",
+      "EDUCATION",
+      "Hill Country University ‖ San Marcos, TX",
+      "Bachelor of Fine Arts in Graphic Design ‖ May 2020",
+      "• ‖ Senior show: identity system for a fictional public library, chosen for the department's annual exhibition",
+      "SKILLS",
+      "Design: Brand identity, packaging, layout, typography, art direction",
+      "Software: Illustrator, Photoshop, InDesign, Figma, After Effects",
+      "Print: Prepress, color management, dielines, vendor proofs",
+      "Motion: After Effects, Premiere Pro, simple 2D animation"
+    ]
+  },
+  "pass": true
+}

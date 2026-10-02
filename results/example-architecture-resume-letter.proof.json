@@ -1,0 +1,423 @@
+{
+  "file": "example-architecture-resume-letter",
+  "template": "example-architecture",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1fj5_-zl1EdhhiVex7Mm5yeiP8rwWw0DPNOrPB-gv2eo/export?format=pdf",
+  "pdfSha256": "9f0c9431cdd8aa7ed618736400743c047d25d6edf8b9d776731f7eff1cc98b80",
+  "docxSha256": "bdabfb5faddcd2f78e25f6c937df3097614dc0e043d7f1c62ca4f8708b891fe8",
+  "runAt": "2026-10-02T03:25:54+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.61,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold",
+      "Georgia-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 19,
+      "Georgia": 186,
+      "TimesNewRomanPSMT": 17,
+      "Georgia-Italic": 11
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Elena Petrov",
+      "Seattle, WA | (206) 555-0189 | elena.petrov@email.com | elenapetrov.com/portfolio",
+      "EXPERIENCE",
+      "Fenwick Hale Studio Seattle, WA",
+      "Architectural Designer Jul 2023 – Present",
+      "• Produced construction documents in Revit for a 64-unit affordable housing building, from design",
+      "development through permit",
+      "• Coordinated drawings with structural and mechanical consultants and tracked 140 RFIs during construction",
+      "administration",
+      "• Built the daylight and energy models that helped the project reach its Passive House target",
+      "• Join site visits every two weeks and write the field reports sent to the contractor and owner",
+      "Cascade Line Design Tacoma, WA",
+      "Intern Architect Jun 2022 – Jun 2023",
+      "• Drew schematic options and renderings for three school renovations, two of which went on to construction",
+      "• Set up the office's Revit family library, which cut setup time on new projects by about a day",
+      "• Built physical and digital models for client meetings and the firm's competition entries",
+      "EDUCATION",
+      "Puget Coast University Seattle, WA",
+      "Master of Architecture Jun 2022",
+      "• Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
+      "Willamette Crest University Salem, OR",
+      "Bachelor of Arts in Architectural Studies May 2020",
+      "• Study abroad: urban design studio in Copenhagen",
+      "SKILLS AND LICENSURE",
+      "Licensure: AXP hours complete; ARE 4 of 6 divisions passed",
+      "Software: Revit, AutoCAD, Rhino, Enscape, Adobe InDesign",
+      "Design: Construction documents, code review, energy modeling",
+      "Sustainability: Passive House Designer (CPHD), LEED Green Associate"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 33,
+    "total": 33,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Elena Petrov",
+        "actual": "Elena Petrov",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "elena.petrov@email.com",
+        "actual": "elena.petrov@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(206) 555-0189",
+        "actual": "(206) 555-0189",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Seattle, WA",
+        "actual": "Seattle, WA",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "elenapetrov.com/portfolio",
+        "actual": "elenapetrov.com/portfolio",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Fenwick Hale Studio",
+        "actual": "Fenwick Hale Studio",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Architectural Designer",
+        "actual": "Architectural Designer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jul 2023 – Present",
+        "actual": "Jul 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Produced construction documents in Revit for a 64-unit affordable housing building, from design development through permit",
+        "actual": "Produced construction documents in Revit for a 64-unit affordable housing building, from design development through permit",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Coordinated drawings with structural and mechanical consultants and tracked 140 RFIs during construction administration",
+        "actual": "Coordinated drawings with structural and mechanical consultants and tracked 140 RFIs during construction administration",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Built the daylight and energy models that helped the project reach its Passive House target",
+        "actual": "Built the daylight and energy models that helped the project reach its Passive House target",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Join site visits every two weeks and write the field reports sent to the contractor and owner",
+        "actual": "Join site visits every two weeks and write the field reports sent to the contractor and owner",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Cascade Line Design",
+        "actual": "Cascade Line Design",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Intern Architect",
+        "actual": "Intern Architect",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2022 – Jun 2023",
+        "actual": "Jun 2022 – Jun 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Drew schematic options and renderings for three school renovations, two of which went on to construction",
+        "actual": "Drew schematic options and renderings for three school renovations, two of which went on to construction",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Set up the office's Revit family library, which cut setup time on new projects by about a day",
+        "actual": "Set up the office's Revit family library, which cut setup time on new projects by about a day",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Built physical and digital models for client meetings and the firm's competition entries",
+        "actual": "Built physical and digital models for client meetings and the firm's competition entries",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Puget Coast University",
+        "actual": "Puget Coast University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Master of Architecture",
+        "actual": "Master of Architecture",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Jun 2022",
+        "actual": "Jun 2022",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
+        "actual": "Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
+        "ok": true
+      },
+      {
+        "path": "educations[1].school",
+        "expected": "Willamette Crest University",
+        "actual": "Willamette Crest University",
+        "ok": true
+      },
+      {
+        "path": "educations[1].degree",
+        "expected": "Bachelor of Arts in Architectural Studies",
+        "actual": "Bachelor of Arts in Architectural Studies",
+        "ok": true
+      },
+      {
+        "path": "educations[1].date",
+        "expected": "May 2020",
+        "actual": "May 2020",
+        "ok": true
+      },
+      {
+        "path": "educations[1].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions[0]",
+        "expected": "Study abroad: urban design studio in Copenhagen",
+        "actual": "Study abroad: urban design studio in Copenhagen",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Licensure: AXP hours complete; ARE 4 of 6 divisions passed",
+        "actual": "Licensure: AXP hours complete; ARE 4 of 6 divisions passed",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Software: Revit, AutoCAD, Rhino, Enscape, Adobe InDesign",
+        "actual": "Software: Revit, AutoCAD, Rhino, Enscape, Adobe InDesign",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Design: Construction documents, code review, energy modeling",
+        "actual": "Design: Construction documents, code review, energy modeling",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Sustainability: Passive House Designer (CPHD), LEED Green Associate",
+        "actual": "Sustainability: Passive House Designer (CPHD), LEED Green Associate",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Seattle, WA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Tacoma, WA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Seattle, WA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[1].location",
+        "value": "Salem, OR",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Elena Petrov",
+      "Seattle, WA | (206) 555-0189 | elena.petrov@email.com | elenapetrov.com/portfolio",
+      "EXPERIENCE",
+      "Fenwick Hale Studio ‖ Seattle, WA",
+      "Architectural Designer ‖ Jul 2023 – Present",
+      "• ‖ Produced construction documents in Revit for a 64-unit affordable housing building, from design",
+      "development through permit",
+      "• ‖ Coordinated drawings with structural and mechanical consultants and tracked 140 RFIs during construction",
+      "administration",
+      "• ‖ Built the daylight and energy models that helped the project reach its Passive House target",
+      "• ‖ Join site visits every two weeks and write the field reports sent to the contractor and owner",
+      "Cascade Line Design ‖ Tacoma, WA",
+      "Intern Architect ‖ Jun 2022 – Jun 2023",
+      "• ‖ Drew schematic options and renderings for three school renovations, two of which went on to construction",
+      "• ‖ Set up the office's Revit family library, which cut setup time on new projects by about a day",
+      "• ‖ Built physical and digital models for client meetings and the firm's competition entries",
+      "EDUCATION",
+      "Puget Coast University ‖ Seattle, WA",
+      "Master of Architecture ‖ Jun 2022",
+      "• ‖ Thesis: mass timber housing for steep urban lots, selected for the school's annual exhibition",
+      "Willamette Crest University ‖ Salem, OR",
+      "Bachelor of Arts in Architectural Studies ‖ May 2020",
+      "• ‖ Study abroad: urban design studio in Copenhagen",
+      "SKILLS AND LICENSURE",
+      "Licensure: AXP hours complete; ARE 4 of 6 divisions passed",
+      "Software: Revit, AutoCAD, Rhino, Enscape, Adobe InDesign",
+      "Design: Construction documents, code review, energy modeling",
+      "Sustainability: Passive House Designer (CPHD), LEED Green Associate"
+    ]
+  },
+  "pass": true
+}

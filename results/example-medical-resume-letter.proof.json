@@ -1,0 +1,455 @@
+{
+  "file": "example-medical-resume-letter",
+  "template": "example-medical",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1Vb4KA-WOrGwgJjuTbvEQDWK0cl37h1qi2bSFGMddgPQ/export?format=pdf",
+  "pdfSha256": "0e8666a03a3980d22095d8e9dc08aa142e2c7817f343b7b382b976090132daf6",
+  "docxSha256": "29b485dc8a88c370ec6af520e2fcdabd2da5336527b96b18cc885a592ce4858e",
+  "runAt": "2026-10-02T03:25:58+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.64,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold",
+      "Georgia-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 28,
+      "Georgia": 183,
+      "TimesNewRomanPSMT": 20,
+      "Georgia-Italic": 16
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Omar Haddad",
+      "Cleveland, OH | (216) 555-0131 | omar.haddad@email.com | linkedin.com/in/omarhaddad",
+      "EDUCATION",
+      "Lake Erie College of Medicine Cleveland, OH",
+      "Doctor of Medicine (MD) Candidate May 2027",
+      "• USMLE Step 1: Pass; Step 2 CK: 251",
+      "• Alpha Omega Alpha Honor Medical Society",
+      "Ohio Riverside University Cincinnati, OH",
+      "Bachelor of Science in Biochemistry May 2023",
+      "• GPA: 3.9/4.0, summa cum laude",
+      "CLINICAL AND RESEARCH EXPERIENCE",
+      "Lake Erie College of Medicine Cleveland, OH",
+      "Student Researcher Jun 2024 – Present",
+      "• In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge;",
+      "abstract accepted at a national cardiology meeting",
+      "• Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
+      "• Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+      "Westshore Free Clinic Cleveland, OH",
+      "Student Volunteer, Clinic Coordinator Aug 2023 – Present",
+      "• Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
+      "• Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
+      "Queen City Ambulance Service Cincinnati, OH",
+      "Emergency Medical Technician Jan 2021 – May 2023",
+      "• Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
+      "• Trained four new EMTs on the stretcher, radio and patient care report system",
+      "SKILLS AND CERTIFICATIONS",
+      "Certifications: BLS, ACLS, Ohio EMT (inactive)",
+      "Research: REDCap, R, chart review, abstract writing",
+      "Languages: Arabic (fluent), Spanish (medical)"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 10,
+      "actual": 10,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 36,
+    "total": 36,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Omar Haddad",
+        "actual": "Omar Haddad",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "omar.haddad@email.com",
+        "actual": "omar.haddad@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(216) 555-0131",
+        "actual": "(216) 555-0131",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Cleveland, OH",
+        "actual": "Cleveland, OH",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/omarhaddad",
+        "actual": "linkedin.com/in/omarhaddad",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Lake Erie College of Medicine",
+        "actual": "Lake Erie College of Medicine",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Student Researcher",
+        "actual": "Student Researcher",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jun 2024 – Present",
+        "actual": "Jun 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+        "actual": "In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge; abstract accepted at a national cardiology meeting",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
+        "actual": "Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+        "actual": "Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Westshore Free Clinic",
+        "actual": "Westshore Free Clinic",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Student Volunteer, Clinic Coordinator",
+        "actual": "Student Volunteer, Clinic Coordinator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Aug 2023 – Present",
+        "actual": "Aug 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
+        "actual": "Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
+        "actual": "Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Queen City Ambulance Service",
+        "actual": "Queen City Ambulance Service",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Emergency Medical Technician",
+        "actual": "Emergency Medical Technician",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jan 2021 – May 2023",
+        "actual": "Jan 2021 – May 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
+        "actual": "Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Trained four new EMTs on the stretcher, radio and patient care report system",
+        "actual": "Trained four new EMTs on the stretcher, radio and patient care report system",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Lake Erie College of Medicine",
+        "actual": "Lake Erie College of Medicine",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Doctor of Medicine (MD) Candidate",
+        "actual": "Doctor of Medicine (MD) Candidate",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2027",
+        "actual": "May 2027",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "USMLE Step 1: Pass; Step 2 CK: 251",
+        "actual": "USMLE Step 1: Pass; Step 2 CK: 251",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[1]",
+        "expected": "Alpha Omega Alpha Honor Medical Society",
+        "actual": "Alpha Omega Alpha Honor Medical Society",
+        "ok": true
+      },
+      {
+        "path": "educations[1].school",
+        "expected": "Ohio Riverside University",
+        "actual": "Ohio Riverside University",
+        "ok": true
+      },
+      {
+        "path": "educations[1].degree",
+        "expected": "Bachelor of Science in Biochemistry",
+        "actual": "Bachelor of Science in Biochemistry",
+        "ok": true
+      },
+      {
+        "path": "educations[1].date",
+        "expected": "May 2023",
+        "actual": "May 2023",
+        "ok": true
+      },
+      {
+        "path": "educations[1].gpa",
+        "expected": "3.9",
+        "actual": "3.9",
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions[0]",
+        "expected": "GPA: 3.9/4.0, summa cum laude",
+        "actual": "GPA: 3.9/4.0, summa cum laude",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Certifications: BLS, ACLS, Ohio EMT (inactive)",
+        "actual": "Certifications: BLS, ACLS, Ohio EMT (inactive)",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Research: REDCap, R, chart review, abstract writing",
+        "actual": "Research: REDCap, R, chart review, abstract writing",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Languages: Arabic (fluent), Spanish (medical)",
+        "actual": "Languages: Arabic (fluent), Spanish (medical)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "educations[0].location",
+        "value": "Cleveland, OH",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[1].location",
+        "value": "Cincinnati, OH",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "Cleveland, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Cleveland, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Cincinnati, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Omar Haddad",
+      "Cleveland, OH | (216) 555-0131 | omar.haddad@email.com | linkedin.com/in/omarhaddad",
+      "EDUCATION",
+      "Lake Erie College of Medicine ‖ Cleveland, OH",
+      "Doctor of Medicine (MD) Candidate ‖ May 2027",
+      "• ‖ USMLE Step 1: Pass; Step 2 CK: 251",
+      "• ‖ Alpha Omega Alpha Honor Medical Society",
+      "Ohio Riverside University ‖ Cincinnati, OH",
+      "Bachelor of Science in Biochemistry ‖ May 2023",
+      "• ‖ GPA: 3.9/4.0, summa cum laude",
+      "CLINICAL AND RESEARCH EXPERIENCE",
+      "Lake Erie College of Medicine ‖ Cleveland, OH",
+      "Student Researcher ‖ Jun 2024 – Present",
+      "• ‖ In the cardiology division, reviewed 410 charts for a study of readmissions after heart failure discharge;",
+      "abstract accepted at a national cardiology meeting",
+      "• ‖ Built the REDCap database and data dictionary the study team now uses for two follow-up projects",
+      "• ‖ Ran the statistical analysis in R and drafted the methods section of the manuscript, now under review",
+      "Westshore Free Clinic ‖ Cleveland, OH",
+      "Student Volunteer, Clinic Coordinator ‖ Aug 2023 – Present",
+      "• ‖ Run Saturday intake for about 35 uninsured patients and coordinate eight student volunteers per shift",
+      "• ‖ Started a blood pressure follow-up list that brought 60% of hypertensive patients back within a month",
+      "Queen City Ambulance Service ‖ Cincinnati, OH",
+      "Emergency Medical Technician ‖ Jan 2021 – May 2023",
+      "• ‖ Responded to about 20 calls per 24-hour shift on a two-person basic life support crew",
+      "• ‖ Trained four new EMTs on the stretcher, radio and patient care report system",
+      "SKILLS AND CERTIFICATIONS",
+      "Certifications: BLS, ACLS, Ohio EMT (inactive)",
+      "Research: REDCap, R, chart review, abstract writing",
+      "Languages: Arabic (fluent), Spanish (medical)"
+    ]
+  },
+  "pass": true
+}

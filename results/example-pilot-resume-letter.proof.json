@@ -1,0 +1,408 @@
+{
+  "file": "example-pilot-resume-letter",
+  "template": "example-pilot",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1jH-Ql0z14Wsr4pin4F0dzjnt2srCnwAHMT4cDcOj8pM/export?format=pdf",
+  "pdfSha256": "7a74bd52e1f964804edaa0f2048e4a07d6ddaef7b0eefbcaafb8def11c5db5b1",
+  "docxSha256": "65b52b714cdd85b87fce5321527aa827cac3a4ec14321b8439d935f443e81aef",
+  "runAt": "2026-10-02T03:25:59+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.637,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 22,
+      "ArialMT": 187,
+      "Arial-ItalicMT": 11
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Ryan Delgado",
+      "Salt Lake City, UT | (801) 555-0161 | ryan.delgado@email.com | linkedin.com/in/ryandelgado",
+      "CERTIFICATES AND SKILLS",
+      "Certificates: ATP, airplane multi-engine land; CFI, CFII, MEI",
+      "Type rating: ERJ-170/190",
+      "Medical: FAA first class",
+      "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
+      "EXPERIENCE",
+      "Wasatch Regional Airlines Salt Lake City, UT",
+      "First Officer Mar 2023 – Present",
+      "• Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
+      "• Completed initial operating experience in 25 hours with no extra training events",
+      "• Serve on the airline's safety action program review team, reading crew reports and suggesting",
+      "procedure changes",
+      "Red Rock Flight Academy Provo, UT",
+      "Lead Flight Instructor May 2021 – Feb 2023",
+      "• Logged about 1,200 hours of dual instruction and recommended 31 students for checkrides with a 94%",
+      "first-time pass rate",
+      "• Wrote the school's instrument ground school syllabus and taught it to classes of 10",
+      "• Checked new instructors on standardization flights and kept the training records for FAA audits",
+      "Bonneville Jet Center Salt Lake City, UT",
+      "Line Service Technician Jun 2018 – Apr 2021",
+      "• Fueled and towed business jets and turboprops, and kept fuel quality records for daily inspections",
+      "EDUCATION",
+      "Great Basin University Logan, UT",
+      "Bachelor of Science in Aviation Science May 2021",
+      "• Flight team captain; regional precision flight competition, second place"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 8,
+      "actual": 8,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 31,
+    "total": 31,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Ryan Delgado",
+        "actual": "Ryan Delgado",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "ryan.delgado@email.com",
+        "actual": "ryan.delgado@email.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(801) 555-0161",
+        "actual": "(801) 555-0161",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Salt Lake City, UT",
+        "actual": "Salt Lake City, UT",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/ryandelgado",
+        "actual": "linkedin.com/in/ryandelgado",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Wasatch Regional Airlines",
+        "actual": "Wasatch Regional Airlines",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "First Officer",
+        "actual": "First Officer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2023 – Present",
+        "actual": "Mar 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
+        "actual": "Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Completed initial operating experience in 25 hours with no extra training events",
+        "actual": "Completed initial operating experience in 25 hours with no extra training events",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Serve on the airline's safety action program review team, reading crew reports and suggesting procedure changes",
+        "actual": "Serve on the airline's safety action program review team, reading crew reports and suggesting procedure changes",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Red Rock Flight Academy",
+        "actual": "Red Rock Flight Academy",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Lead Flight Instructor",
+        "actual": "Lead Flight Instructor",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "May 2021 – Feb 2023",
+        "actual": "May 2021 – Feb 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Logged about 1,200 hours of dual instruction and recommended 31 students for checkrides with a 94% first-time pass rate",
+        "actual": "Logged about 1,200 hours of dual instruction and recommended 31 students for checkrides with a 94% first-time pass rate",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Wrote the school's instrument ground school syllabus and taught it to classes of 10",
+        "actual": "Wrote the school's instrument ground school syllabus and taught it to classes of 10",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Checked new instructors on standardization flights and kept the training records for FAA audits",
+        "actual": "Checked new instructors on standardization flights and kept the training records for FAA audits",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Bonneville Jet Center",
+        "actual": "Bonneville Jet Center",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Line Service Technician",
+        "actual": "Line Service Technician",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2018 – Apr 2021",
+        "actual": "Jun 2018 – Apr 2021",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Fueled and towed business jets and turboprops, and kept fuel quality records for daily inspections",
+        "actual": "Fueled and towed business jets and turboprops, and kept fuel quality records for daily inspections",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Great Basin University",
+        "actual": "Great Basin University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Science in Aviation Science",
+        "actual": "Bachelor of Science in Aviation Science",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2021",
+        "actual": "May 2021",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Flight team captain; regional precision flight competition, second place",
+        "actual": "Flight team captain; regional precision flight competition, second place",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Certificates: ATP, airplane multi-engine land; CFI, CFII, MEI",
+        "actual": "Certificates: ATP, airplane multi-engine land; CFI, CFII, MEI",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Type rating: ERJ-170/190",
+        "actual": "Type rating: ERJ-170/190",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Medical: FAA first class",
+        "actual": "Medical: FAA first class",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
+        "actual": "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Salt Lake City, UT",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Provo, UT",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Salt Lake City, UT",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Logan, UT",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Ryan Delgado",
+      "Salt Lake City, UT | (801) 555-0161 | ryan.delgado@email.com | linkedin.com/in/ryandelgado",
+      "CERTIFICATES AND SKILLS",
+      "Certificates: ATP, airplane multi-engine land; CFI, CFII, MEI",
+      "Type rating: ERJ-170/190",
+      "Medical: FAA first class",
+      "Flight time: 3,450 total; 2,100 turbine; 1,900 multi-engine; 410 instrument",
+      "EXPERIENCE",
+      "Wasatch Regional Airlines ‖ Salt Lake City, UT",
+      "First Officer ‖ Mar 2023 – Present",
+      "• ‖ Fly 76-seat Embraer 175 routes across the Mountain West, about 80 block hours a month",
+      "• ‖ Completed initial operating experience in 25 hours with no extra training events",
+      "• ‖ Serve on the airline's safety action program review team, reading crew reports and suggesting",
+      "procedure changes",
+      "Red Rock Flight Academy ‖ Provo, UT",
+      "Lead Flight Instructor ‖ May 2021 – Feb 2023",
+      "• ‖ Logged about 1,200 hours of dual instruction and recommended 31 students for checkrides with a 94%",
+      "first-time pass rate",
+      "• ‖ Wrote the school's instrument ground school syllabus and taught it to classes of 10",
+      "• ‖ Checked new instructors on standardization flights and kept the training records for FAA audits",
+      "Bonneville Jet Center ‖ Salt Lake City, UT",
+      "Line Service Technician ‖ Jun 2018 – Apr 2021",
+      "• ‖ Fueled and towed business jets and turboprops, and kept fuel quality records for daily inspections",
+      "EDUCATION",
+      "Great Basin University ‖ Logan, UT",
+      "Bachelor of Science in Aviation Science ‖ May 2021",
+      "• ‖ Flight team captain; regional precision flight competition, second place"
+    ]
+  },
+  "pass": true
+}

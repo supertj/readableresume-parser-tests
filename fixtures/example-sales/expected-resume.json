@@ -1,0 +1,162 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Tyler Brennan",
+      "email": "tyler.brennan@email.com",
+      "phone": "(615) 555-0144",
+      "location": "Nashville, TN",
+      "url": "linkedin.com/in/tylerbrennan",
+      "summary": "Sales representative with five years selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles."
+    },
+    "workExperiences": [
+      {
+        "company": "Tri-State Packaging Supply",
+        "jobTitle": "Territory Sales Representative",
+        "date": "Mar 2022 – Present",
+        "descriptions": [
+          "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in 2023",
+          "Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
+          "Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of target margin",
+          "Log every call and opportunity in Salesforce; forecast accuracy for my territory stays within 5%"
+        ]
+      },
+      {
+        "company": "Smoky Ridge Office Products",
+        "jobTitle": "Inside Sales Representative",
+        "date": "Jun 2020 – Feb 2022",
+        "descriptions": [
+          "Made about 60 calls a day to small businesses and booked 25 to 30 qualified meetings a month for field reps",
+          "Ranked first of eight inside reps for closed revenue in 2021",
+          "Trained three new inside reps on our call scripts and CRM process"
+        ]
+      },
+      {
+        "company": "The Copper Kettle",
+        "jobTitle": "Server",
+        "date": "Aug 2016 – May 2020",
+        "descriptions": [
+          "Worked weekend shifts through college and was regularly asked to train new staff"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Cumberland Ridge University",
+        "degree": "Bachelor of Business Administration, Marketing",
+        "date": "May 2020",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Sales: Prospecting, negotiation, account planning, pricing",
+        "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel",
+        "Training: Sandler Selling System, Challenger Sale workshop"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Nashville, TN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Knoxville, TN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Knoxville, TN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Knoxville, TN",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Tyler Brennan",
+    "Nashville, TN",
+    "(615) 555-0144",
+    "tyler.brennan@email.com",
+    "linkedin.com/in/tylerbrennan",
+    "SUMMARY",
+    "Sales representative with five years selling packaging supplies to food and beverage distributors across the Southeast. Hit or beat quota in every full year, and comfortable with long sales cycles.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Tri-State Packaging Supply",
+        "Territory Sales Representative",
+        "Mar 2022 – Present",
+        "Nashville, TN"
+      ]
+    },
+    "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in 2023",
+    "Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
+    "Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of target margin",
+    "Log every call and opportunity in Salesforce; forecast accuracy for my territory stays within 5%",
+    {
+      "anyOrder": [
+        "Smoky Ridge Office Products",
+        "Inside Sales Representative",
+        "Jun 2020 – Feb 2022",
+        "Knoxville, TN"
+      ]
+    },
+    "Made about 60 calls a day to small businesses and booked 25 to 30 qualified meetings a month for field reps",
+    "Ranked first of eight inside reps for closed revenue in 2021",
+    "Trained three new inside reps on our call scripts and CRM process",
+    {
+      "anyOrder": [
+        "The Copper Kettle",
+        "Server",
+        "Aug 2016 – May 2020",
+        "Knoxville, TN"
+      ]
+    },
+    "Worked weekend shifts through college and was regularly asked to train new staff",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Cumberland Ridge University",
+        "Knoxville, TN",
+        "Bachelor of Business Administration, Marketing",
+        "May 2020"
+      ]
+    },
+    "SKILLS",
+    "Sales: Prospecting, negotiation, account planning, pricing",
+    "Tools: Salesforce, HubSpot, LinkedIn Sales Navigator, Excel",
+    "Training: Sandler Selling System, Challenger Sale workshop"
+  ],
+  "template": "example-sales",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Grew a five-state territory from $3.1M to $4.6M in annual revenue; 118% of quota in 2024 and 109% in 2023",
+    "Opened 22 new distributor accounts, including a regional grocery supplier now worth $650K a year",
+    "Run quarterly business reviews with the 15 largest accounts and keep renewal pricing within 2% of target margin",
+    "Log every call and opportunity in Salesforce; forecast accuracy for my territory stays within 5%",
+    "Made about 60 calls a day to small businesses and booked 25 to 30 qualified meetings a month for field reps",
+    "Ranked first of eight inside reps for closed revenue in 2021",
+    "Trained three new inside reps on our call scripts and CRM process",
+    "Worked weekend shifts through college and was regularly asked to train new staff"
+  ]
+}
