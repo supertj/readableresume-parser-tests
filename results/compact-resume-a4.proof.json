@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "a4",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1LrSc1h6S8j324gje7Wn-Rc7tB8_TagQ15u6UzMTnYWU/export?format=pdf",
-  "pdfSha256": "0d3312c1249e1a4c1485898439ef694ed719a797201ac9c210ec62ce062abf8c",
-  "docxSha256": "7ec516377c2390d46cefbe751f0382029c5abc8898c9f1f7ed5df76c76ba4ca8",
-  "runAt": "2026-10-02T15:58:25+00:00",
+  "source": "https://docs.google.com/document/d/1n6PwLYV7II5HXkVgEsNUWLe6QTBAdZxOQz7lD0BrEAw/export?format=pdf",
+  "pdfSha256": "c95adc2c88f6b29d9e5fc54ea7297b43dae45fabfc2008580d26433edf4f9bef",
+  "docxSha256": "11be5f0114a1ed1d94a450a3ca446c330c1f530df8af5bd37d191b15a19aaeb3",
+  "runAt": "2026-10-03T05:31:22+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -46,7 +46,7 @@
     "ok": true,
     "firstLines": [
       "Daniel Okafor",
-      "Atlanta, GA | (404) 555-0176 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "Atlanta, GA | (404) 555-0176 | daniel.okafor@example.com | linkedin.com/in/danielokafor",
       "SUMMARY",
       "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known",
       "for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually",
@@ -110,8 +110,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "daniel.okafor@email.com",
-        "actual": "daniel.okafor@email.com",
+        "expected": "daniel.okafor@example.com",
+        "actual": "daniel.okafor@example.com",
         "ok": true
       },
       {
@@ -421,7 +421,7 @@
     ],
     "parserLines": [
       "Daniel Okafor",
-      "Atlanta, GA | (404) 555-0176 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "Atlanta, GA | (404) 555-0176 | daniel.okafor@example.com | linkedin.com/in/danielokafor",
       "SUMMARY",
       "Supply chain manager with seven years in distribution and inbound logistics for home goods and grocery. Known",
       "for fixing carrier performance, cutting freight spend and building simple reports that warehouse teams actually",

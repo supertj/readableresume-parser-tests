@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1swE4NETlVYvSOSE4ZQJ0f3vJeEV5RXj9aQqRdnTdjUE/export?format=pdf",
-  "pdfSha256": "0e4b4b8315a7d03b6ca6ece13448daebd0ea9611530d452091f967fa9abd6100",
-  "docxSha256": "e891e66ac55d188521622b8e0d2348667e5cab9ca9727501580728c39d05d992",
-  "runAt": "2026-10-02T16:13:46+00:00",
+  "source": "https://docs.google.com/document/d/1ys2GlDHhwxJpC4kmBJfrLP-nt-3Mj1Mz5aOe4TRoVFM/export?format=pdf",
+  "pdfSha256": "6fee762662abb328e014f7acf9dafea56bfdf03dbff1c09abeb8fd99ae802406",
+  "docxSha256": "935bea221ad3057385c115c253e62b0af49901da7522ede20817ee7905f9ea49",
+  "runAt": "2026-10-03T05:31:24+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -47,7 +47,7 @@
     "ok": true,
     "firstLines": [
       "Grace Liu",
-      "Boston, MA | (617) 555-0172 | grace.liu@email.com | linkedin.com/in/graceliu",
+      "Boston, MA | (617) 555-0172 | grace.liu@example.com | linkedin.com/in/graceliu",
       "EXPERIENCE",
       "Halvorsen Advisory Group Boston, MA",
       "Business Analyst Aug 2024 – Present",
@@ -110,8 +110,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "grace.liu@email.com",
-        "actual": "grace.liu@email.com",
+        "expected": "grace.liu@example.com",
+        "actual": "grace.liu@example.com",
         "ok": true
       },
       {
@@ -373,7 +373,7 @@
     ],
     "parserLines": [
       "Grace Liu",
-      "Boston, MA | (617) 555-0172 | grace.liu@email.com | linkedin.com/in/graceliu",
+      "Boston, MA | (617) 555-0172 | grace.liu@example.com | linkedin.com/in/graceliu",
       "EXPERIENCE",
       "Halvorsen Advisory Group ‖ Boston, MA",
       "Business Analyst ‖ Aug 2024 – Present",

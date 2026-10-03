@@ -4,10 +4,10 @@
   "doc": "cover-letter",
   "paper": "a4",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1Pt1ajw43vanL55B7MLp_7AFOXg5uVD75gOaGKNSPU-g/export?format=pdf",
-  "pdfSha256": "22128799f8c91615b765490bc1818419d9c417639dcc4341d830613b5826192a",
-  "docxSha256": "0714d1750f0d8f35d3f20b86f8a0095ee98ac931f779419243f043774563f6a8",
-  "runAt": "2026-10-02T15:58:25+00:00",
+  "source": "https://docs.google.com/document/d/1dMDhVJ2mc-H2B3ZT1xNdzi3DIElYYhL3Y89jqcQLRR0/export?format=pdf",
+  "pdfSha256": "979505af3c4e69d071856a4820e044cce7afe18cee6f37e6020d1bcc8d2af1a3",
+  "docxSha256": "8cb8973307a92cf134ec387cff077b7c9522103f1bdb841dafafcdf7d697343a",
+  "runAt": "2026-10-03T05:31:22+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -44,7 +44,7 @@
     "ok": true,
     "firstLines": [
       "Daniel Okafor",
-      "Atlanta, GA | (404) 555-0176 | daniel.okafor@email.com | linkedin.com/in/danielokafor",
+      "Atlanta, GA | (404) 555-0176 | daniel.okafor@example.com | linkedin.com/in/danielokafor",
       "October 5, 2026",
       "Hiring Manager",
       "Magnolia Grocers",

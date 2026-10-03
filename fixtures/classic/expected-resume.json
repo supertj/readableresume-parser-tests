@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Olivia Bennett",
-      "email": "olivia.bennett@email.com",
+      "email": "olivia.bennett@example.com",
       "phone": "(401) 555-0132",
       "location": "Providence, RI",
       "url": "linkedin.com/in/oliviabennett",
@@ -112,7 +112,7 @@
     "Olivia Bennett",
     "Providence, RI",
     "(401) 555-0132",
-    "olivia.bennett@email.com",
+    "olivia.bennett@example.com",
     "linkedin.com/in/oliviabennett",
     "EDUCATION",
     {

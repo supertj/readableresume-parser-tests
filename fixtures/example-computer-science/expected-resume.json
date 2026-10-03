@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Kevin Tran",
-      "email": "kevin.tran@email.com",
+      "email": "kevin.tran@example.com",
       "phone": "(408) 555-0126",
       "location": "",
       "url": "linkedin.com/in/kevintran",
@@ -109,7 +109,7 @@
   "textSequence": [
     "Kevin Tran",
     "(408) 555-0126",
-    "kevin.tran@email.com",
+    "kevin.tran@example.com",
     "linkedin.com/in/kevintran",
     "github.com/kevintran",
     "EDUCATION",

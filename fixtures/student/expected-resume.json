@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Avery Johnson",
-      "email": "avery.johnson@email.com",
+      "email": "avery.johnson@example.com",
       "phone": "(919) 555-0137",
       "location": "Raleigh, NC",
       "url": "linkedin.com/in/averyjohnson",
@@ -104,7 +104,7 @@
     "Avery Johnson",
     "Raleigh, NC",
     "(919) 555-0137",
-    "avery.johnson@email.com",
+    "avery.johnson@example.com",
     "linkedin.com/in/averyjohnson",
     "EDUCATION",
     {

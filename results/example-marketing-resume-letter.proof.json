@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1gjFlaz5G-Hef7rEMaS7jobl4eIHyxsBXO-I-xkPaeWU/export?format=pdf",
-  "pdfSha256": "328d3a326b2fd6b49692ad25629174e8d34e1c2fb7a56589f008d8829bb1aeca",
-  "docxSha256": "40c85d54a570f328fb978121803d314395f03e6f9e086dd039ef6b41f8568e9f",
-  "runAt": "2026-10-02T16:13:49+00:00",
+  "source": "https://docs.google.com/document/d/1NjyJmUo7yjzejLXFSs9HJgDxwNhDXDimpX2-C9a_lLQ/export?format=pdf",
+  "pdfSha256": "d2cbe1567ab13b4f347a04b95d92c1358f1d87c115f95cfec162eba3cea7acab",
+  "docxSha256": "60236ea22de239e289077ea14179525ee344012f0279b937f9fbe537e7792836",
+  "runAt": "2026-10-03T05:31:26+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -47,7 +47,7 @@
     "ok": true,
     "firstLines": [
       "Chris Avery",
-      "Austin, TX | (512) 555-0186 | chris.avery@email.com | linkedin.com/in/chrisavery",
+      "Austin, TX | (512) 555-0186 | chris.avery@example.com | linkedin.com/in/chrisavery",
       "SUMMARY",
       "B2B marketing manager with seven years in software, focused on demand generation and product launches. I",
       "manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
@@ -110,8 +110,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "chris.avery@email.com",
-        "actual": "chris.avery@email.com",
+        "expected": "chris.avery@example.com",
+        "actual": "chris.avery@example.com",
         "ok": true
       },
       {
@@ -367,7 +367,7 @@
     ],
     "parserLines": [
       "Chris Avery",
-      "Austin, TX | (512) 555-0186 | chris.avery@email.com | linkedin.com/in/chrisavery",
+      "Austin, TX | (512) 555-0186 | chris.avery@example.com | linkedin.com/in/chrisavery",
       "SUMMARY",
       "B2B marketing manager with seven years in software, focused on demand generation and product launches. I",
       "manage budgets, run small teams and report pipeline numbers to sales leadership every week.",

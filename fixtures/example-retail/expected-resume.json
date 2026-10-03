@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Jasmine Carter",
-      "email": "jasmine.carter@email.com",
+      "email": "jasmine.carter@example.com",
       "phone": "(602) 555-0157",
       "location": "Phoenix, AZ",
       "url": "linkedin.com/in/jasminecarter",
@@ -97,7 +97,7 @@
     "Jasmine Carter",
     "Phoenix, AZ",
     "(602) 555-0157",
-    "jasmine.carter@email.com",
+    "jasmine.carter@example.com",
     "linkedin.com/in/jasminecarter",
     "SKILLS",
     "Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",

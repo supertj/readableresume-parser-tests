@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1sfUYWeUeTJ46v8nLAYgKeFIbs8wNIwIgakuNQ3Jg2cw/export?format=pdf",
-  "pdfSha256": "a5fd1f734e2f5b9dd185de96ddf9b1954547e0a28aabf9d30865f8a05a558f3b",
-  "docxSha256": "9685eb775722334841567f175cb40a55fb22ac627ebd58043a62f62a522a7a35",
-  "runAt": "2026-10-02T16:13:49+00:00",
+  "source": "https://docs.google.com/document/d/172fPiblcRW2FvnPxk7LRJpQYi90drzWP0PkM5FXbX5E/export?format=pdf",
+  "pdfSha256": "5a15d99530615fd453233f6259b38c3fb5e680e3643fa9efd438bcc7cd539322",
+  "docxSha256": "e2bd7222d61bc2427f29f57062050610488f3c835fa2375ff6f9733064232402",
+  "runAt": "2026-10-03T05:31:26+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -47,7 +47,7 @@
     "ok": true,
     "firstLines": [
       "Marcus Whitfield",
-      "New York, NY | (212) 555-0164 | marcus.whitfield@email.com | linkedin.com/in/marcuswhitfield",
+      "New York, NY | (212) 555-0164 | marcus.whitfield@example.com | linkedin.com/in/marcuswhitfield",
       "EDUCATION",
       "Albemoor University Albany, NY",
       "Bachelor of Science in Economics, Minor in Accounting May 2027",
@@ -111,8 +111,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "marcus.whitfield@email.com",
-        "actual": "marcus.whitfield@email.com",
+        "expected": "marcus.whitfield@example.com",
+        "actual": "marcus.whitfield@example.com",
         "ok": true
       },
       {
@@ -410,7 +410,7 @@
     ],
     "parserLines": [
       "Marcus Whitfield",
-      "New York, NY | (212) 555-0164 | marcus.whitfield@email.com | linkedin.com/in/marcuswhitfield",
+      "New York, NY | (212) 555-0164 | marcus.whitfield@example.com | linkedin.com/in/marcuswhitfield",
       "EDUCATION",
       "Albemoor University ‖ Albany, NY",
       "Bachelor of Science in Economics, Minor in Accounting ‖ May 2027",

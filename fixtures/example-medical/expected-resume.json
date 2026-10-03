@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Omar Haddad",
-      "email": "omar.haddad@email.com",
+      "email": "omar.haddad@example.com",
       "phone": "(216) 555-0131",
       "location": "Cleveland, OH",
       "url": "linkedin.com/in/omarhaddad",
@@ -110,7 +110,7 @@
     "Omar Haddad",
     "Cleveland, OH",
     "(216) 555-0131",
-    "omar.haddad@email.com",
+    "omar.haddad@example.com",
     "linkedin.com/in/omarhaddad",
     "EDUCATION",
     {

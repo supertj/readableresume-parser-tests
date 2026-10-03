@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Elena Petrov",
-      "email": "elena.petrov@email.com",
+      "email": "elena.petrov@example.com",
       "phone": "(206) 555-0189",
       "location": "Seattle, WA",
       "url": "elenapetrov.com/portfolio",
@@ -98,7 +98,7 @@
     "Elena Petrov",
     "Seattle, WA",
     "(206) 555-0189",
-    "elena.petrov@email.com",
+    "elena.petrov@example.com",
     "elenapetrov.com/portfolio",
     "EXPERIENCE",
     {

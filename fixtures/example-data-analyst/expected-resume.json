@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Nathan Kim",
-      "email": "nathan.kim@email.com",
+      "email": "nathan.kim@example.com",
       "phone": "(720) 555-0115",
       "location": "Denver, CO",
       "url": "linkedin.com/in/nathankim",
@@ -95,7 +95,7 @@
     "Nathan Kim",
     "Denver, CO",
     "(720) 555-0115",
-    "nathan.kim@email.com",
+    "nathan.kim@example.com",
     "linkedin.com/in/nathankim",
     "github.com/nathankim",
     "SUMMARY",

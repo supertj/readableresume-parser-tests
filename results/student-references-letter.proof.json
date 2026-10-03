@@ -4,10 +4,10 @@
   "doc": "references",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/16Y2M3wZAAU3hpiOq7eba12xjAgHv57ev7c5HDeFugqc/export?format=pdf",
-  "pdfSha256": "7949dc8b5354896aa8ef671136dac2a912b644f8430fc5f2e8ec73bcb4401146",
-  "docxSha256": "4e4e84f915c27f04289adba900db93f42d15914337e3e3750eef619a2788062c",
-  "runAt": "2026-10-02T16:43:41+00:00",
+  "source": "https://docs.google.com/document/d/1nGQhN9mCLFVhmh1vkZ11YDMSrjzA0x3CcZBbOx5_kac/export?format=pdf",
+  "pdfSha256": "d66b401edb392e6d4fa9baca05254aeae9464229200ac35337646bc595ab8017",
+  "docxSha256": "15aacd099e13acacd29c729c334ceda95ef8b90ca71dff7dc47fafa5721832c0",
+  "runAt": "2026-10-03T05:31:34+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -46,7 +46,7 @@
     "ok": true,
     "firstLines": [
       "Avery Johnson",
-      "Raleigh, NC | (919) 555-0137 | avery.johnson@email.com | linkedin.com/in/averyjohnson",
+      "Raleigh, NC | (919) 555-0137 | avery.johnson@example.com | linkedin.com/in/averyjohnson",
       "REFERENCES",
       "Laura Bennett",
       "Assistant Professor of Biology",
