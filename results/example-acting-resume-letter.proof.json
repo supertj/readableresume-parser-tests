@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1a6GAtmzILcl7ZNOEYXPddnA5dLI5R1xlp1lD_WYbqfQ/export?format=pdf",
-  "pdfSha256": "e80807dfc64820604ce8b4d56d65c94826d01c81022dda0acdf8b4c52de1b866",
-  "docxSha256": "8e760835f92c0faf6706d3420ddef1da01eb68c97bc692a37f3c2aec6ce59f4b",
-  "runAt": "2026-10-02T16:13:45+00:00",
+  "source": "https://docs.google.com/document/d/1GABBMV6Nkl6hOVR3Us94ycsH4xJtiHhEqlAb0-K2twI/export?format=pdf",
+  "pdfSha256": "d3b5b6b6e09d49620aa86a7f95a6ed695fb74aff4fc4da14e46d63ea31943f71",
+  "docxSha256": "76a501f3775a1d3268d4ede6044c54e385680a1f9d3416e69d0c8fc98c2a38ca",
+  "runAt": "2026-10-03T05:31:23+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -46,7 +46,7 @@
     "ok": true,
     "firstLines": [
       "Lena Castillo",
-      "Chicago, IL | (312) 555-0119 | lena.castillo@email.com | lenacastillo.com/reel",
+      "Chicago, IL | (312) 555-0119 | lena.castillo@example.com | lenacastillo.com/reel",
       "STAGE AND SCREEN PROJECTS",
       "Our Town | Emily Webb, Northlake Repertory Theatre 2025",
       "• Lead role in a 32-performance run; directed by Anna Feld",
@@ -107,8 +107,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "lena.castillo@email.com",
-        "actual": "lena.castillo@email.com",
+        "expected": "lena.castillo@example.com",
+        "actual": "lena.castillo@example.com",
         "ok": true
       },
       {
@@ -418,7 +418,7 @@
     ],
     "parserLines": [
       "Lena Castillo",
-      "Chicago, IL | (312) 555-0119 | lena.castillo@email.com | lenacastillo.com/reel",
+      "Chicago, IL | (312) 555-0119 | lena.castillo@example.com | lenacastillo.com/reel",
       "STAGE AND SCREEN PROJECTS",
       "Our Town | Emily Webb, Northlake Repertory Theatre ‖ 2025",
       "• ‖ Lead role in a 32-performance run; directed by Anna Feld",

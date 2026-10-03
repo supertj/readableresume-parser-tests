@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1Fb57sEbJO08Bq4_hjk5EuRGT0iHxNweU_1KZE69POdQ/export?format=pdf",
-  "pdfSha256": "ff150d7ecabbc120edd9f1565cc1d31d979e8d6029eda6c89b7d9c5f6aeb477d",
-  "docxSha256": "3b6a20444dc7439cabbc034b8eaa3e6b55d42e09891b7a05737a865a5ed1bb0e",
-  "runAt": "2026-10-02T16:13:48+00:00",
+  "source": "https://docs.google.com/document/d/1pYMUIY17yx6LnzGEKWSivLjPVMyZOOv-bZLJvVGuGEc/export?format=pdf",
+  "pdfSha256": "af1ce9a336a21dee8ab3615e870a5fe812d1b5db7b135b0522dd7d588ad65b25",
+  "docxSha256": "13c973b3d37c055d1473f7930397c0198f0fb52fa1cffc9d97e7417a04935728",
+  "runAt": "2026-10-03T05:31:25+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -47,7 +47,7 @@
     "ok": true,
     "firstLines": [
       "Sofia Marquez",
-      "Austin, TX | (512) 555-0153 | sofia.marquez@email.com | sofiamarquez.design/work",
+      "Austin, TX | (512) 555-0153 | sofia.marquez@example.com | sofiamarquez.design/work",
       "SUMMARY",
       "Graphic designer with six years of brand, packaging and campaign work for food and beverage clients.",
       "Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",
@@ -111,8 +111,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "sofia.marquez@email.com",
-        "actual": "sofia.marquez@email.com",
+        "expected": "sofia.marquez@example.com",
+        "actual": "sofia.marquez@example.com",
         "ok": true
       },
       {
@@ -350,7 +350,7 @@
     ],
     "parserLines": [
       "Sofia Marquez",
-      "Austin, TX | (512) 555-0153 | sofia.marquez@email.com | sofiamarquez.design/work",
+      "Austin, TX | (512) 555-0153 | sofia.marquez@example.com | sofiamarquez.design/work",
       "SUMMARY",
       "Graphic designer with six years of brand, packaging and campaign work for food and beverage clients.",
       "Comfortable taking a project from first sketch to print-ready files and working closely with copywriters.",

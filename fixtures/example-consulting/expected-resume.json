@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Grace Liu",
-      "email": "grace.liu@email.com",
+      "email": "grace.liu@example.com",
       "phone": "(617) 555-0172",
       "location": "Boston, MA",
       "url": "linkedin.com/in/graceliu",
@@ -92,7 +92,7 @@
     "Grace Liu",
     "Boston, MA",
     "(617) 555-0172",
-    "grace.liu@email.com",
+    "grace.liu@example.com",
     "linkedin.com/in/graceliu",
     "EXPERIENCE",
     {

@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Marcus Whitfield",
-      "email": "marcus.whitfield@email.com",
+      "email": "marcus.whitfield@example.com",
       "phone": "(212) 555-0164",
       "location": "New York, NY",
       "url": "linkedin.com/in/marcuswhitfield",
@@ -105,7 +105,7 @@
     "Marcus Whitfield",
     "New York, NY",
     "(212) 555-0164",
-    "marcus.whitfield@email.com",
+    "marcus.whitfield@example.com",
     "linkedin.com/in/marcuswhitfield",
     "EDUCATION",
     {

@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1djbCaCkQstMUSpRy8lpqy-S1-ccrxjabDFyfqq4HE78/export?format=pdf",
-  "pdfSha256": "6233c2af9e68781d2721a828ff414b5b0644875f1e2944050195212469a75235",
-  "docxSha256": "49e4b442db1d8722dc97e60dca6742cc926840415be835e836dedaf22f3ab136",
-  "runAt": "2026-10-02T16:13:51+00:00",
+  "source": "https://docs.google.com/document/d/1w50cDrYtswZH32QPt3uqNdCJLFn6_cAgD8i9QKKh0g0/export?format=pdf",
+  "pdfSha256": "767225f477ccf03863a5fa7a96ff42789ee830c512c36455dc28a6bb218e1195",
+  "docxSha256": "dff4ebcdb858892f8cbb6ac86d003015cbc61edb15099c47265417c0a9a71699",
+  "runAt": "2026-10-03T05:31:28+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -47,7 +47,7 @@
     "ok": true,
     "firstLines": [
       "Jasmine Carter",
-      "Phoenix, AZ | (602) 555-0157 | jasmine.carter@email.com | linkedin.com/in/jasminecarter",
+      "Phoenix, AZ | (602) 555-0157 | jasmine.carter@example.com | linkedin.com/in/jasminecarter",
       "SKILLS",
       "• Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
       "• People: Training new hires, shift scheduling, handling escalated complaints",
@@ -110,8 +110,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "jasmine.carter@email.com",
-        "actual": "jasmine.carter@email.com",
+        "expected": "jasmine.carter@example.com",
+        "actual": "jasmine.carter@example.com",
         "ok": true
       },
       {
@@ -385,7 +385,7 @@
     ],
     "parserLines": [
       "Jasmine Carter",
-      "Phoenix, AZ | (602) 555-0157 | jasmine.carter@email.com | linkedin.com/in/jasminecarter",
+      "Phoenix, AZ | (602) 555-0157 | jasmine.carter@example.com | linkedin.com/in/jasminecarter",
       "SKILLS",
       "• Store operations: Opening and closing, cash reconciliation, inventory counts, visual merchandising",
       "• People: Training new hires, shift scheduling, handling escalated complaints",

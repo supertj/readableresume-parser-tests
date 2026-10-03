@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Priya Shah",
-      "email": "priya.shah@email.com",
+      "email": "priya.shah@example.com",
       "phone": "(206) 555-0119",
       "location": "Seattle, WA",
       "url": "priyashah.design/work",
@@ -108,7 +108,7 @@
     "Priya Shah",
     "Seattle, WA",
     "(206) 555-0119",
-    "priya.shah@email.com",
+    "priya.shah@example.com",
     "priyashah.design/work",
     "SUMMARY",
     "Product designer with three years of experience in health and consumer apps. I run my own interviews, prototype in Figma, and work closely with engineers until the feature ships. Most proud of work that made complicated forms feel short.",

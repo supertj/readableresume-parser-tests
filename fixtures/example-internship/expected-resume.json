@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Aaliyah Johnson",
-      "email": "aaliyah.johnson@email.com",
+      "email": "aaliyah.johnson@example.com",
       "phone": "(404) 555-0168",
       "location": "Atlanta, GA",
       "url": "linkedin.com/in/aaliyahjohnson",
@@ -103,7 +103,7 @@
     "Aaliyah Johnson",
     "Atlanta, GA",
     "(404) 555-0168",
-    "aaliyah.johnson@email.com",
+    "aaliyah.johnson@example.com",
     "linkedin.com/in/aaliyahjohnson",
     "EDUCATION",
     {

@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1J-z4zvn3a20bWMnUd6LIPGHF8NXFIoonhLrJe6ZFdFc/export?format=pdf",
-  "pdfSha256": "52fe9d315d0b7ffd4ea435e7bec808bec8f1a8e267302612eb02c5ae3e741930",
-  "docxSha256": "8d6a6273b67463a079fafaa1743efdac572ed8b908c988ded14d1ed733a3210e",
-  "runAt": "2026-10-02T16:13:49+00:00",
+  "source": "https://docs.google.com/document/d/1oYc85xOAbXx2L6H77Pen6q4rR-WeT_OjsKEo9UJNVkQ/export?format=pdf",
+  "pdfSha256": "c2ce2a5eafcf17bb985a72209ff8278668209f454cd7cc43bf1e47d21975eb9a",
+  "docxSha256": "25c8bf608399ea6ac9bd73885ea0351cbe56158e7ea4b8bb6b82de6cfe9bfbc3",
+  "runAt": "2026-10-03T05:31:27+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -47,7 +47,7 @@
     "ok": true,
     "firstLines": [
       "Omar Haddad",
-      "Cleveland, OH | (216) 555-0131 | omar.haddad@email.com | linkedin.com/in/omarhaddad",
+      "Cleveland, OH | (216) 555-0131 | omar.haddad@example.com | linkedin.com/in/omarhaddad",
       "EDUCATION",
       "Wendlow College of Medicine Cleveland, OH",
       "Doctor of Medicine (MD) Candidate May 2027",
@@ -111,8 +111,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "omar.haddad@email.com",
-        "actual": "omar.haddad@email.com",
+        "expected": "omar.haddad@example.com",
+        "actual": "omar.haddad@example.com",
         "ok": true
       },
       {
@@ -422,7 +422,7 @@
     ],
     "parserLines": [
       "Omar Haddad",
-      "Cleveland, OH | (216) 555-0131 | omar.haddad@email.com | linkedin.com/in/omarhaddad",
+      "Cleveland, OH | (216) 555-0131 | omar.haddad@example.com | linkedin.com/in/omarhaddad",
       "EDUCATION",
       "Wendlow College of Medicine ‖ Cleveland, OH",
       "Doctor of Medicine (MD) Candidate ‖ May 2027",

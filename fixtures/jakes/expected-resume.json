@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Jordan Ellis",
-      "email": "jordan.ellis@email.com",
+      "email": "jordan.ellis@example.com",
       "phone": "(312) 555-0143",
       "location": "",
       "url": "linkedin.com/in/jordanellis",
@@ -128,7 +128,7 @@
   "textSequence": [
     "Jordan Ellis",
     "(312) 555-0143",
-    "jordan.ellis@email.com",
+    "jordan.ellis@example.com",
     "linkedin.com/in/jordanellis",
     "github.com/jordanellis",
     "EDUCATION",

@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "a4",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/17_jGATqVXPbbM_-2qeUqGzDVv7OTCUpXvSA5d2RHAjM/export?format=pdf",
-  "pdfSha256": "33909e49c15f4de26ca903ce5b0b554942c128741d1306af2e63cd79a9b9db55",
-  "docxSha256": "8423bf25a350cead4e2193392d00e3d77472d0e15e1df336f4f1805db914c190",
-  "runAt": "2026-10-02T15:58:24+00:00",
+  "source": "https://docs.google.com/document/d/1E1O5I044jRIVuE6iSmFmdGHJR-d8VKiVVyWrNJf-uio/export?format=pdf",
+  "pdfSha256": "9dffb09fc3d681ce67475a576accb632ac3826477edef8cf70ff86d164c66f41",
+  "docxSha256": "b0638225c615eed2bef4956a1226a0ba07a3471f14a6e5cf531cddd98164beb3",
+  "runAt": "2026-10-03T05:31:21+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -47,7 +47,7 @@
     "ok": true,
     "firstLines": [
       "Olivia Bennett",
-      "Providence, RI | (401) 555-0132 | olivia.bennett@email.com | linkedin.com/in/oliviabennett",
+      "Providence, RI | (401) 555-0132 | olivia.bennett@example.com | linkedin.com/in/oliviabennett",
       "EDUCATION",
       "Halden College Providence, RI",
       "Bachelor of Arts in Economics, Minor in Statistics Sep 2022 – May 2026",
@@ -111,8 +111,8 @@
       },
       {
         "path": "profile.email",
-        "expected": "olivia.bennett@email.com",
-        "actual": "olivia.bennett@email.com",
+        "expected": "olivia.bennett@example.com",
+        "actual": "olivia.bennett@example.com",
         "ok": true
       },
       {
@@ -434,7 +434,7 @@
     ],
     "parserLines": [
       "Olivia Bennett",
-      "Providence, RI | (401) 555-0132 | olivia.bennett@email.com | linkedin.com/in/oliviabennett",
+      "Providence, RI | (401) 555-0132 | olivia.bennett@example.com | linkedin.com/in/oliviabennett",
       "EDUCATION",
       "Halden College ‖ Providence, RI",
       "Bachelor of Arts in Economics, Minor in Statistics ‖ Sep 2022 – May 2026",

@@ -2,7 +2,7 @@
   "resume": {
     "profile": {
       "name": "Chris Avery",
-      "email": "chris.avery@email.com",
+      "email": "chris.avery@example.com",
       "phone": "(512) 555-0186",
       "location": "Austin, TX",
       "url": "linkedin.com/in/chrisavery",
@@ -93,7 +93,7 @@
     "Chris Avery",
     "Austin, TX",
     "(512) 555-0186",
-    "chris.avery@email.com",
+    "chris.avery@example.com",
     "linkedin.com/in/chrisavery",
     "SUMMARY",
     "B2B marketing manager with seven years in software, focused on demand generation and product launches. I manage budgets, run small teams and report pipeline numbers to sales leadership every week.",
