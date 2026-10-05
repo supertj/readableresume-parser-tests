@@ -4,10 +4,10 @@
   "doc": "cover-letter",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1QMe3kxyrcTz5g_ERTOxqKUYC-Ivq4zEEPORZ_46Gj3Y/export?format=pdf",
+  "source": "https://docs.google.com/document/d/17kCTAfRYghQLl_sGxqfXjx6dLFPxgD70Yg3B6V_IDR4/export?format=pdf",
   "pdfSha256": "014f4a70f55259bd4b11a3c0881f6b494fb399899e408913186918ee4b00e061",
-  "docxSha256": "c77743a41c794f5a75a0aa05468666a018797859e3d673b18b628cfca71e4104",
-  "runAt": "2026-10-05T12:55:24+00:00",
+  "docxSha256": "80d241069b2620275baf126826107b2a0a13afa197554b88bb10df4a167feb04",
+  "runAt": "2026-10-05T18:13:06+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",

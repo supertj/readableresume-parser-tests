@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1oau2LT_WCccFKHv2qfRIuCxGaRY99mRcZhuw404NBBI/export?format=pdf",
+  "source": "https://docs.google.com/document/d/19519r6kIyHZgj-qo8YlB5FbYePd58Oos6NPoZLvzjgA/export?format=pdf",
   "pdfSha256": "37e9b1e12858df547b1f66d67f92fb07de56a8b45a703d02bacab238a8c7fcd7",
-  "docxSha256": "fe369d9b80209eb1446631ce320f2c298373aa3f1cae6e8f0b3245ff3b3292d4",
-  "runAt": "2026-10-05T12:55:19+00:00",
+  "docxSha256": "9d71f7e8e3f70149c9f4f605d32952a78a3abf53f2a4b85d0c772a1f0b71fd18",
+  "runAt": "2026-10-05T18:13:01+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
