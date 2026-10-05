@@ -2,7 +2,7 @@
 # check:    run every check on the PDFs and .docx files already in fixtures/ (no network)
 # fetch:    download each template's PDF and .docx from Google Docs' public export URLs
 # verify:   fetch, then check (in that order, even under make -j)
-.PHONY: selftest check fetch verify docker-verify docker-verify-fresh
+.PHONY: selftest check fetch verify docker-verify docker-verify-fresh font-study
 
 selftest:
 	uv run python checks/selftest.py
@@ -26,3 +26,7 @@ docker-verify:
 docker-verify-fresh:
 	docker build -t readableresume-parser-tests .
 	docker run --rm -v "$(CURDIR)/results:/work/results" readableresume-parser-tests make verify
+
+# One-off finding: rerun the checks on the PDFs stored in findings/2026-10-05-font-export
+font-study:
+	uv run python findings/2026-10-05-font-export/analyze.py
