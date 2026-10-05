@@ -1,0 +1,225 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Ethan Calloway",
+      "email": "ethan.calloway@example.com",
+      "phone": "(212) 555-0173",
+      "location": "New York, NY",
+      "url": "linkedin.com/in/ethancalloway",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Thornholme Energy, Corporate Development",
+        "jobTitle": "Senior Financial Analyst",
+        "date": "Jul 2023 – Present",
+        "descriptions": [
+          "Built the model and valuation for a $220 million acquisition of a solar developer, approved by the board in 2025",
+          "Screen 30 to 40 potential targets a year and write the one-page summaries the CFO uses to decide which to pursue",
+          "Coordinate diligence with outside counsel, accountants and three internal teams on deals of $50 million to $250 million",
+          "Track integration targets for two acquired businesses and report progress to the CFO every quarter"
+        ]
+      },
+      {
+        "company": "Harlan Quay Capital Partners",
+        "jobTitle": "Investment Banking Analyst",
+        "date": "Jul 2021 – Jun 2023",
+        "descriptions": [
+          "Worked on five closed deals worth $1.6 billion, including two sell-side processes for industrial companies",
+          "Built three-statement models, comparable company analyses and merger models for client pitches and live deals",
+          "Drafted sections of offering memoranda and managed data rooms with over 2,000 documents",
+          "Prepared buyer lists and handled first calls with about 60 potential buyers on one sale process"
+        ]
+      },
+      {
+        "company": "Harlan Quay Capital Partners",
+        "jobTitle": "Investment Banking Intern",
+        "date": "Jun 2020 – Aug 2020",
+        "descriptions": [
+          "Prepared industry research and trading comparables for two healthcare services pitches",
+          "Built a database of recent deals in physician practice management for the group's senior bankers"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Kestlemoor University",
+        "degree": "Bachelor of Science in Economics, concentration in Finance",
+        "date": "May 2021",
+        "gpa": "3.8",
+        "descriptions": [
+          "GPA: 3.8/4.0; graduated with honors",
+          "Relevant coursework: Corporate Finance, Financial Accounting, Econometrics, Valuation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Kestlemoor Student Investment Fund | Portfolio Manager, Industrials",
+        "date": "2018 – 2021",
+        "descriptions": [
+          "Managed a $180,000 slice of the university endowment; the industrials sector beat its benchmark by 4% over two years"
+        ]
+      },
+      {
+        "project": "Peer Tutoring Program | Economics Tutor",
+        "date": "2019 – 2021",
+        "descriptions": [
+          "Tutored about 15 students each term in introductory micro- and macroeconomics"
+        ]
+      },
+      {
+        "project": "Kestlemoor Finance Society | Vice President, Education",
+        "date": "2019 – 2021",
+        "descriptions": [
+          "Ran weekly technical training on accounting and valuation for about 40 first- and second-year members"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Technical: Excel, PowerPoint, Capital IQ, FactSet",
+        "Certifications: CFA Level II candidate",
+        "Languages: English (native), Mandarin (professional)",
+        "Interests: Marathon running, chess, cooking"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "educations[0].location",
+      "value": "Philadelphia, PA",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "New York, NY",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "New York, NY",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "New York, NY",
+      "reason": "no location field for jobs"
+    }
+  ],
+  "textSequence": [
+    "Ethan Calloway",
+    "New York, NY",
+    "(212) 555-0173",
+    "ethan.calloway@example.com",
+    "linkedin.com/in/ethancalloway",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Kestlemoor University",
+        "Philadelphia, PA",
+        "Bachelor of Science in Economics, concentration in Finance",
+        "May 2021"
+      ]
+    },
+    "GPA: 3.8/4.0; graduated with honors",
+    "Relevant coursework: Corporate Finance, Financial Accounting, Econometrics, Valuation",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Thornholme Energy, Corporate Development",
+        "Senior Financial Analyst",
+        "Jul 2023 – Present",
+        "New York, NY"
+      ]
+    },
+    "Built the model and valuation for a $220 million acquisition of a solar developer, approved by the board in 2025",
+    "Screen 30 to 40 potential targets a year and write the one-page summaries the CFO uses to decide which to pursue",
+    "Coordinate diligence with outside counsel, accountants and three internal teams on deals of $50 million to $250 million",
+    "Track integration targets for two acquired businesses and report progress to the CFO every quarter",
+    {
+      "anyOrder": [
+        "Harlan Quay Capital Partners",
+        "Investment Banking Analyst",
+        "Jul 2021 – Jun 2023",
+        "New York, NY"
+      ]
+    },
+    "Worked on five closed deals worth $1.6 billion, including two sell-side processes for industrial companies",
+    "Built three-statement models, comparable company analyses and merger models for client pitches and live deals",
+    "Drafted sections of offering memoranda and managed data rooms with over 2,000 documents",
+    "Prepared buyer lists and handled first calls with about 60 potential buyers on one sale process",
+    {
+      "anyOrder": [
+        "Harlan Quay Capital Partners",
+        "Investment Banking Intern",
+        "Jun 2020 – Aug 2020",
+        "New York, NY"
+      ]
+    },
+    "Prepared industry research and trading comparables for two healthcare services pitches",
+    "Built a database of recent deals in physician practice management for the group's senior bankers",
+    "ACTIVITIES AND PROJECTS",
+    {
+      "anyOrder": [
+        "Kestlemoor Student Investment Fund",
+        "Portfolio Manager, Industrials",
+        "2018 – 2021"
+      ]
+    },
+    "Managed a $180,000 slice of the university endowment; the industrials sector beat its benchmark by 4% over two years",
+    {
+      "anyOrder": [
+        "Peer Tutoring Program",
+        "Economics Tutor",
+        "2019 – 2021"
+      ]
+    },
+    "Tutored about 15 students each term in introductory micro- and macroeconomics",
+    {
+      "anyOrder": [
+        "Kestlemoor Finance Society",
+        "Vice President, Education",
+        "2019 – 2021"
+      ]
+    },
+    "Ran weekly technical training on accounting and valuation for about 40 first- and second-year members",
+    "SKILLS AND INTERESTS",
+    "Technical: Excel, PowerPoint, Capital IQ, FactSet",
+    "Certifications: CFA Level II candidate",
+    "Languages: English (native), Mandarin (professional)",
+    "Interests: Marathon running, chess, cooking"
+  ],
+  "template": "finance",
+  "doc": "resume",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "GPA: 3.8/4.0; graduated with honors",
+    "Relevant coursework: Corporate Finance, Financial Accounting, Econometrics, Valuation",
+    "Built the model and valuation for a $220 million acquisition of a solar developer, approved by the board in 2025",
+    "Screen 30 to 40 potential targets a year and write the one-page summaries the CFO uses to decide which to pursue",
+    "Coordinate diligence with outside counsel, accountants and three internal teams on deals of $50 million to $250 million",
+    "Track integration targets for two acquired businesses and report progress to the CFO every quarter",
+    "Worked on five closed deals worth $1.6 billion, including two sell-side processes for industrial companies",
+    "Built three-statement models, comparable company analyses and merger models for client pitches and live deals",
+    "Drafted sections of offering memoranda and managed data rooms with over 2,000 documents",
+    "Prepared buyer lists and handled first calls with about 60 potential buyers on one sale process",
+    "Prepared industry research and trading comparables for two healthcare services pitches",
+    "Built a database of recent deals in physician practice management for the group's senior bankers",
+    "Managed a $180,000 slice of the university endowment; the industrials sector beat its benchmark by 4% over two years",
+    "Tutored about 15 students each term in introductory micro- and macroeconomics",
+    "Ran weekly technical training on accounting and valuation for about 40 first- and second-year members"
+  ]
+}

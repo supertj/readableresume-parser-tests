@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Samantha Cho",
+    "Durham, NC",
+    "(919) 555-0168",
+    "samantha.cho@example.com",
+    "linkedin.com/in/samanthacho",
+    "REFERENCES",
+    "Dr. Michael Brennan",
+    "Medical Director, Emergency Department",
+    "Pecanwood Health System",
+    "mbrennan@example.org",
+    "(919) 555-0185",
+    "Supervising physician since Aug 2022",
+    "Erica Salazar",
+    "Lead Physician Assistant",
+    "Quenmore Health Partners",
+    "esalazar@example.com",
+    "(919) 555-0139",
+    "Lead PA, Jan 2021 – Jul 2022",
+    "Dr. Laura Kim",
+    "Emergency Physician",
+    "Pecanwood Health System",
+    "lkim@example.org",
+    "(919) 555-0146",
+    "Attending physician I work with weekly"
+  ],
+  "template": "healthcare",
+  "doc": "references",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

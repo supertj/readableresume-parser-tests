@@ -1,0 +1,26 @@
+{
+  "textSequence": [
+    "Samantha Cho",
+    "Durham, NC",
+    "(919) 555-0168",
+    "samantha.cho@example.com",
+    "linkedin.com/in/samanthacho",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Department of Emergency Medicine",
+    "St. Odile Medical Center",
+    "Charlotte, NC",
+    "Dear Hiring Manager,",
+    "I'm applying for the Physician Assistant position in your emergency department. I've worked as a PA for four years, the last three in a 48-bed emergency department at Pecanwood Health System that sees about 70,000 visits a year.",
+    "I'm comfortable carrying a full share of patients, usually 25 to 30 a shift, and handling the procedures that come with them. I also care about what happens after the visit. Last year I helped write our department's pathway for low-risk chest pain, which shortened average stays by two hours and gave patients clearer follow-up instructions.",
+    "Your posting mentions a new fast track area opening next spring. I worked in urgent care before the emergency department and know how much a well-run fast track can take the pressure off the main department.",
+    "Thank you for considering my application. I'd be glad to shadow a shift or meet the team.",
+    "Sincerely,",
+    "Samantha Cho"
+  ],
+  "template": "healthcare",
+  "doc": "cover-letter",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

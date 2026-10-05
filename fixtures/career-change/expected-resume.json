@@ -1,0 +1,174 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Marisol Vega",
+      "email": "marisol.vega@example.com",
+      "phone": "(916) 555-0146",
+      "location": "Sacramento, CA",
+      "url": "linkedin.com/in/marisolvega",
+      "summary": "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data."
+    },
+    "workExperiences": [
+      {
+        "company": "Cholla & Clay Home Goods",
+        "jobTitle": "Store Manager",
+        "date": "Mar 2020 – Present",
+        "descriptions": [
+          "Run a store with $6.2 million in yearly sales and a team of 28",
+          "Build the weekly labor plan from sales forecasts; labor cost on budget for 14 straight quarters",
+          "Report weekly results to the district manager and explain the gaps"
+        ]
+      },
+      {
+        "company": "Turnip & Tansy Market",
+        "jobTitle": "Assistant Store Manager",
+        "date": "Jun 2016 – Feb 2020",
+        "descriptions": [
+          "Ordered and tracked inventory for grocery and frozen departments",
+          "Trained 30 new hires on registers, ordering and safety procedures"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Bosquelind Community College",
+        "degree": "Associate of Science in Business Administration",
+        "date": "May 2016",
+        "gpa": "",
+        "descriptions": [
+          "Data analytics certificate: SQL, spreadsheet modeling, Tableau, statistics"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project": "Shrink Analysis | SQL and Excel, my own store's data",
+        "date": "2025",
+        "descriptions": [
+          "Matched two years of inventory counts to sales; three product groups caused 60% of losses",
+          "Changed how those items were shown and counted; shrink fell from 2.4% to 1.6% of sales"
+        ]
+      },
+      {
+        "project": "Regional Sales Dashboard | Tableau, public retail data",
+        "date": "2025",
+        "descriptions": [
+          "Built a dashboard comparing weekly sales by store and category, with notes on what changed and why"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Data: SQL, Excel (pivot tables), Tableau",
+        "Business: Forecasting, inventory, labor planning",
+        "Certifications: Google Data Analytics Certificate"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Sacramento, CA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Sacramento, CA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Sacramento, CA",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Marisol Vega",
+    "Sacramento, CA",
+    "(916) 555-0146",
+    "marisol.vega@example.com",
+    "linkedin.com/in/marisolvega",
+    "SUMMARY",
+    "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data.",
+    "SKILLS",
+    "Data: SQL, Excel (pivot tables), Tableau",
+    "Business: Forecasting, inventory, labor planning",
+    "Certifications: Google Data Analytics Certificate",
+    "RELEVANT PROJECTS",
+    {
+      "anyOrder": [
+        "Shrink Analysis",
+        "SQL and Excel, my own store's data",
+        "2025"
+      ]
+    },
+    "Matched two years of inventory counts to sales; three product groups caused 60% of losses",
+    "Changed how those items were shown and counted; shrink fell from 2.4% to 1.6% of sales",
+    {
+      "anyOrder": [
+        "Regional Sales Dashboard",
+        "Tableau, public retail data",
+        "2025"
+      ]
+    },
+    "Built a dashboard comparing weekly sales by store and category, with notes on what changed and why",
+    "WORK HISTORY",
+    {
+      "anyOrder": [
+        "Cholla & Clay Home Goods",
+        "Store Manager",
+        "Mar 2020 – Present",
+        "Sacramento, CA"
+      ]
+    },
+    "Run a store with $6.2 million in yearly sales and a team of 28",
+    "Build the weekly labor plan from sales forecasts; labor cost on budget for 14 straight quarters",
+    "Report weekly results to the district manager and explain the gaps",
+    {
+      "anyOrder": [
+        "Turnip & Tansy Market",
+        "Assistant Store Manager",
+        "Jun 2016 – Feb 2020",
+        "Sacramento, CA"
+      ]
+    },
+    "Ordered and tracked inventory for grocery and frozen departments",
+    "Trained 30 new hires on registers, ordering and safety procedures",
+    "EDUCATION AND TRAINING",
+    {
+      "anyOrder": [
+        "Bosquelind Community College",
+        "Sacramento, CA",
+        "Associate of Science in Business Administration",
+        "May 2016"
+      ]
+    },
+    "Data analytics certificate: SQL, spreadsheet modeling, Tableau, statistics"
+  ],
+  "template": "career-change",
+  "doc": "resume",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Matched two years of inventory counts to sales; three product groups caused 60% of losses",
+    "Changed how those items were shown and counted; shrink fell from 2.4% to 1.6% of sales",
+    "Built a dashboard comparing weekly sales by store and category, with notes on what changed and why",
+    "Run a store with $6.2 million in yearly sales and a team of 28",
+    "Build the weekly labor plan from sales forecasts; labor cost on budget for 14 straight quarters",
+    "Report weekly results to the district manager and explain the gaps",
+    "Ordered and tracked inventory for grocery and frozen departments",
+    "Trained 30 new hires on registers, ordering and safety procedures",
+    "Data analytics certificate: SQL, spreadsheet modeling, Tableau, statistics"
+  ]
+}

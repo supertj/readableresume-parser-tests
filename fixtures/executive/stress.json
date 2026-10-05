@@ -1,0 +1,18 @@
+{
+  "name": "Catherine Elizabeth Vance Montgomery",
+  "extra_bullets": [
+    "Chaired the company's capital committee and set the review process every project above $250,000 now goes through",
+    "Built a supplier development program with eight key suppliers that cut late material deliveries by 40% in two years",
+    "Started a maintenance apprenticeship with the local community college that has placed 14 technicians so far",
+    "Wrote the plant's first preventive maintenance schedule for the paint line and stamping presses"
+  ],
+  "cover_letter_paragraph": "Outside the plants, I've spent the last five years on the board of a regional manufacturing group, working on apprenticeships and workforce training. It keeps me close to the hiring problems every plant manager in the region shares, and it has given me a network of community colleges and training partners I'd be glad to bring to Tennwick.",
+  "extra_reference": {
+    "name": "James Whitcombe",
+    "role": "Chair, Board of Directors",
+    "organization": "Harrowfield Pump Company",
+    "email": "jwhitcombe@example.com",
+    "phone": "(704) 555-0193",
+    "relationship": "Board chair, works with me on capital planning"
+  }
+}

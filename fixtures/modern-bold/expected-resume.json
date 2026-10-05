@@ -1,0 +1,171 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Andre Whitaker",
+      "email": "andre.whitaker@example.com",
+      "phone": "(512) 555-0154",
+      "location": "Austin, TX",
+      "url": "linkedin.com/in/andrewhitaker",
+      "summary": "Customer success manager with seven years in software for labs and event teams. I manage renewals worth about $4 million a year, and I'm known for catching unhappy accounts early, before they show up in the numbers."
+    },
+    "workExperiences": [
+      {
+        "company": "Quill & Flask Labs",
+        "jobTitle": "Senior Customer Success Manager",
+        "date": "Apr 2022 – Present",
+        "descriptions": [
+          "Manage 45 lab accounts with $4.1 million in yearly renewals and 96% gross retention last year",
+          "Built a health score from support tickets and product usage that flags accounts at risk about two months earlier than before",
+          "Lead quarterly business reviews with lab directors and bring their requests back to the product team",
+          "Onboarded and coached three new managers on the team"
+        ]
+      },
+      {
+        "company": "Tallowbird Events",
+        "jobTitle": "Customer Success Manager",
+        "date": "Jan 2019 – Mar 2022",
+        "descriptions": [
+          "Looked after 120 event agencies through the switch to a new ticketing platform, losing only four",
+          "Wrote the onboarding guide and video series that cut setup calls from three to one",
+          "Turned 22 accounts into paid upgrades by showing them features they already had but didn't use",
+          "Ran the customer advisory group of 12 agencies that tested new features before release"
+        ]
+      },
+      {
+        "company": "Rattlebrush Brewing Company",
+        "jobTitle": "Account Coordinator",
+        "date": "Jun 2017 – Dec 2018",
+        "descriptions": [
+          "Handled orders and delivery problems for 90 bars and restaurants across three cities",
+          "Kept the distributor price list current and caught billing errors before invoices went out",
+          "Set up delivery schedules with three distributors and handled out-of-stock calls"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Mesquite Hollow University",
+        "degree": "Bachelor of Business Administration",
+        "date": "May 2017",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Customer tools: Salesforce, Gainsight, HubSpot, Zendesk",
+        "Data: Excel, Looker, basic SQL",
+        "Languages: English (native), Spanish (fluent)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Austin, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Austin, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "San Antonio, TX",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "San Marcos, TX",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Andre Whitaker",
+    "Austin, TX",
+    "(512) 555-0154",
+    "andre.whitaker@example.com",
+    "linkedin.com/in/andrewhitaker",
+    "SUMMARY",
+    "Customer success manager with seven years in software for labs and event teams. I manage renewals worth about $4 million a year, and I'm known for catching unhappy accounts early, before they show up in the numbers.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Quill & Flask Labs",
+        "Senior Customer Success Manager",
+        "Apr 2022 – Present",
+        "Austin, TX"
+      ]
+    },
+    "Manage 45 lab accounts with $4.1 million in yearly renewals and 96% gross retention last year",
+    "Built a health score from support tickets and product usage that flags accounts at risk about two months earlier than before",
+    "Lead quarterly business reviews with lab directors and bring their requests back to the product team",
+    "Onboarded and coached three new managers on the team",
+    {
+      "anyOrder": [
+        "Tallowbird Events",
+        "Customer Success Manager",
+        "Jan 2019 – Mar 2022",
+        "Austin, TX"
+      ]
+    },
+    "Looked after 120 event agencies through the switch to a new ticketing platform, losing only four",
+    "Wrote the onboarding guide and video series that cut setup calls from three to one",
+    "Turned 22 accounts into paid upgrades by showing them features they already had but didn't use",
+    "Ran the customer advisory group of 12 agencies that tested new features before release",
+    {
+      "anyOrder": [
+        "Rattlebrush Brewing Company",
+        "Account Coordinator",
+        "Jun 2017 – Dec 2018",
+        "San Antonio, TX"
+      ]
+    },
+    "Handled orders and delivery problems for 90 bars and restaurants across three cities",
+    "Kept the distributor price list current and caught billing errors before invoices went out",
+    "Set up delivery schedules with three distributors and handled out-of-stock calls",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Mesquite Hollow University",
+        "San Marcos, TX",
+        "Bachelor of Business Administration",
+        "May 2017"
+      ]
+    },
+    "SKILLS",
+    "Customer tools: Salesforce, Gainsight, HubSpot, Zendesk",
+    "Data: Excel, Looker, basic SQL",
+    "Languages: English (native), Spanish (fluent)"
+  ],
+  "template": "modern-bold",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Manage 45 lab accounts with $4.1 million in yearly renewals and 96% gross retention last year",
+    "Built a health score from support tickets and product usage that flags accounts at risk about two months earlier than before",
+    "Lead quarterly business reviews with lab directors and bring their requests back to the product team",
+    "Onboarded and coached three new managers on the team",
+    "Looked after 120 event agencies through the switch to a new ticketing platform, losing only four",
+    "Wrote the onboarding guide and video series that cut setup calls from three to one",
+    "Turned 22 accounts into paid upgrades by showing them features they already had but didn't use",
+    "Ran the customer advisory group of 12 agencies that tested new features before release",
+    "Handled orders and delivery problems for 90 bars and restaurants across three cities",
+    "Kept the distributor price list current and caught billing errors before invoices went out",
+    "Set up delivery schedules with three distributors and handled out-of-stock calls"
+  ]
+}

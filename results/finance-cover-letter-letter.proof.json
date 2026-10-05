@@ -1,0 +1,87 @@
+{
+  "file": "finance-cover-letter-letter",
+  "template": "finance",
+  "doc": "cover-letter",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1QMe3kxyrcTz5g_ERTOxqKUYC-Ivq4zEEPORZ_46Gj3Y/export?format=pdf",
+  "pdfSha256": "014f4a70f55259bd4b11a3c0881f6b494fb399899e408913186918ee4b00e061",
+  "docxSha256": "c77743a41c794f5a75a0aa05468666a018797859e3d673b18b628cfca71e4104",
+  "runAt": "2026-10-05T12:55:24+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.472,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 2,
+      "TimesNewRomanPSMT": 185
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Ethan Calloway",
+      "New York, NY | (212) 555-0173 | ethan.calloway@example.com | linkedin.com/in/ethancalloway",
+      "October 5, 2026",
+      "Recruiting Team",
+      "Quillfeather Capital Partners",
+      "New York, NY",
+      "Dear Recruiting Team,",
+      "I'm applying for the Private Equity Associate position at Quillfeather Capital Partners. After a summer internship, I spent two",
+      "years as an investment banking analyst at Harlan Quay Capital Partners and the last three in corporate development at",
+      "Thornholme Energy, so I've seen deals from both the adviser's side and the buyer's.",
+      "At Thornholme I built the operating model and valuation for our $220 million acquisition of a solar developer. That meant more",
+      "than the spreadsheet. I worked through diligence with counsel and the accountants, tested the plan with the operating team who",
+      "would run the business, and wrote the investment memo the board approved.",
+      "Your recent investments in energy services are why I'm writing to you now. I know how these businesses make money, where",
+      "the integration risks are, and how management teams think about growth after a sale.",
+      "Thank you for considering my application. I'd welcome the chance to walk through a deal I've worked on.",
+      "Sincerely,",
+      "Ethan Calloway"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

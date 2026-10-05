@@ -1,0 +1,421 @@
+{
+  "file": "career-change-resume-letter",
+  "template": "career-change",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1PW_Fvwx59AJ8OC0GKhaqiOcIukpKVbpSfr4VlGp-v2c/export?format=pdf",
+  "pdfSha256": "b39fe8102ca9b8e680624715c6a69116707effc9c4f107df90447c379d47b457",
+  "docxSha256": "f42f2134c39548afc3facb50fa8e02b589ebc10cca36ce5e94975c8f2c49b10f",
+  "runAt": "2026-10-05T12:55:21+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.701,
+  "fonts": {
+    "expected": "Trebuchet MS",
+    "found": [
+      "TrebuchetMS",
+      "TrebuchetMS-Bold",
+      "TrebuchetMS-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TrebuchetMS-Bold": 26,
+      "TrebuchetMS": 209,
+      "TrebuchetMS-Italic": 18,
+      "ArialMT": 17
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Marisol Vega",
+      "Sacramento, CA | (916) 555-0146 | marisol.vega@example.com | linkedin.com/in/marisolvega",
+      "SUMMARY",
+      "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to",
+      "shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role",
+      "where I can work with sales and operations data.",
+      "SKILLS",
+      "Data: SQL, Excel (pivot tables), Tableau",
+      "Business: Forecasting, inventory, labor planning",
+      "Certifications: Google Data Analytics Certificate",
+      "RELEVANT PROJECTS",
+      "Shrink Analysis | SQL and Excel, my own store's data 2025",
+      "• Matched two years of inventory counts to sales; three product groups caused 60% of losses",
+      "• Changed how those items were shown and counted; shrink fell from 2.4% to 1.6% of sales",
+      "Regional Sales Dashboard | Tableau, public retail data 2025",
+      "• Built a dashboard comparing weekly sales by store and category, with notes on what changed and why",
+      "WORK HISTORY",
+      "Cholla & Clay Home Goods Sacramento, CA",
+      "Store Manager Mar 2020 – Present",
+      "• Run a store with $6.2 million in yearly sales and a team of 28",
+      "• Build the weekly labor plan from sales forecasts; labor cost on budget for 14 straight quarters",
+      "• Report weekly results to the district manager and explain the gaps",
+      "Turnip & Tansy Market Sacramento, CA",
+      "Assistant Store Manager Jun 2016 – Feb 2020",
+      "• Ordered and tracked inventory for grocery and frozen departments",
+      "• Trained 30 new hires on registers, ordering and safety procedures",
+      "EDUCATION AND TRAINING",
+      "Bosquelind Community College Sacramento, CA",
+      "Associate of Science in Business Administration May 2016",
+      "• Data analytics certificate: SQL, spreadsheet modeling, Tableau, statistics"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 32,
+    "total": 32,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Marisol Vega",
+        "actual": "Marisol Vega",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "marisol.vega@example.com",
+        "actual": "marisol.vega@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(916) 555-0146",
+        "actual": "(916) 555-0146",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Sacramento, CA",
+        "actual": "Sacramento, CA",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/marisolvega",
+        "actual": "linkedin.com/in/marisolvega",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data.",
+        "actual": "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Cholla & Clay Home Goods",
+        "actual": "Cholla & Clay Home Goods",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Store Manager",
+        "actual": "Store Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2020 – Present",
+        "actual": "Mar 2020 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Run a store with $6.2 million in yearly sales and a team of 28",
+        "actual": "Run a store with $6.2 million in yearly sales and a team of 28",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Build the weekly labor plan from sales forecasts; labor cost on budget for 14 straight quarters",
+        "actual": "Build the weekly labor plan from sales forecasts; labor cost on budget for 14 straight quarters",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Report weekly results to the district manager and explain the gaps",
+        "actual": "Report weekly results to the district manager and explain the gaps",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Turnip & Tansy Market",
+        "actual": "Turnip & Tansy Market",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Assistant Store Manager",
+        "actual": "Assistant Store Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2016 – Feb 2020",
+        "actual": "Jun 2016 – Feb 2020",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Ordered and tracked inventory for grocery and frozen departments",
+        "actual": "Ordered and tracked inventory for grocery and frozen departments",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Trained 30 new hires on registers, ordering and safety procedures",
+        "actual": "Trained 30 new hires on registers, ordering and safety procedures",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Bosquelind Community College",
+        "actual": "Bosquelind Community College",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Associate of Science in Business Administration",
+        "actual": "Associate of Science in Business Administration",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2016",
+        "actual": "May 2016",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Data analytics certificate: SQL, spreadsheet modeling, Tableau, statistics",
+        "actual": "Data analytics certificate: SQL, spreadsheet modeling, Tableau, statistics",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Shrink Analysis | SQL and Excel, my own store's data",
+        "actual": "Shrink Analysis | SQL and Excel, my own store's data",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "2025",
+        "actual": "2025",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Matched two years of inventory counts to sales; three product groups caused 60% of losses",
+        "actual": "Matched two years of inventory counts to sales; three product groups caused 60% of losses",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[1]",
+        "expected": "Changed how those items were shown and counted; shrink fell from 2.4% to 1.6% of sales",
+        "actual": "Changed how those items were shown and counted; shrink fell from 2.4% to 1.6% of sales",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Regional Sales Dashboard | Tableau, public retail data",
+        "actual": "Regional Sales Dashboard | Tableau, public retail data",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "2025",
+        "actual": "2025",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "Built a dashboard comparing weekly sales by store and category, with notes on what changed and why",
+        "actual": "Built a dashboard comparing weekly sales by store and category, with notes on what changed and why",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Data: SQL, Excel (pivot tables), Tableau",
+        "actual": "Data: SQL, Excel (pivot tables), Tableau",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Business: Forecasting, inventory, labor planning",
+        "actual": "Business: Forecasting, inventory, labor planning",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Certifications: Google Data Analytics Certificate",
+        "actual": "Certifications: Google Data Analytics Certificate",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Sacramento, CA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Sacramento, CA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Sacramento, CA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Marisol Vega",
+      "Sacramento, CA | (916) 555-0146 | marisol.vega@example.com | linkedin.com/in/marisolvega",
+      "SUMMARY",
+      "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to",
+      "shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role",
+      "where I can work with sales and operations data.",
+      "SKILLS",
+      "Data: SQL, Excel (pivot tables), Tableau",
+      "Business: Forecasting, inventory, labor planning",
+      "Certifications: Google Data Analytics Certificate",
+      "RELEVANT PROJECTS",
+      "Shrink Analysis | SQL and Excel, my own store's data ‖ 2025",
+      "• ‖ Matched two years of inventory counts to sales; three product groups caused 60% of losses",
+      "• ‖ Changed how those items were shown and counted; shrink fell from 2.4% to 1.6% of sales",
+      "Regional Sales Dashboard | Tableau, public retail data ‖ 2025",
+      "• ‖ Built a dashboard comparing weekly sales by store and category, with notes on what changed and why",
+      "WORK HISTORY",
+      "Cholla & Clay Home Goods ‖ Sacramento, CA",
+      "Store Manager ‖ Mar 2020 – Present",
+      "• ‖ Run a store with $6.2 million in yearly sales and a team of 28",
+      "• ‖ Build the weekly labor plan from sales forecasts; labor cost on budget for 14 straight quarters",
+      "• ‖ Report weekly results to the district manager and explain the gaps",
+      "Turnip & Tansy Market ‖ Sacramento, CA",
+      "Assistant Store Manager ‖ Jun 2016 – Feb 2020",
+      "• ‖ Ordered and tracked inventory for grocery and frozen departments",
+      "• ‖ Trained 30 new hires on registers, ordering and safety procedures",
+      "EDUCATION AND TRAINING",
+      "Bosquelind Community College ‖ Sacramento, CA",
+      "Associate of Science in Business Administration ‖ May 2016",
+      "• ‖ Data analytics certificate: SQL, spreadsheet modeling, Tableau, statistics"
+    ]
+  },
+  "pass": true
+}

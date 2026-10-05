@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Andre Whitaker",
+    "Austin, TX",
+    "(512) 555-0154",
+    "andre.whitaker@example.com",
+    "linkedin.com/in/andrewhitaker",
+    "REFERENCES",
+    "Leila Haddad",
+    "Vice President of Customer Success",
+    "Quill & Flask Labs",
+    "leila.haddad@example.com",
+    "(512) 555-0188",
+    "Current manager since Apr 2022",
+    "Brian Castillo",
+    "Director of Account Management",
+    "Tallowbird Events",
+    "bcastillo@example.com",
+    "(512) 555-0132",
+    "Manager, Jan 2019 – Mar 2022",
+    "Megan Fischer",
+    "Lab Director",
+    "Pellmont Health",
+    "mfischer@example.com",
+    "(512) 555-0127",
+    "Customer account since Apr 2022"
+  ],
+  "template": "modern-bold",
+  "doc": "references",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

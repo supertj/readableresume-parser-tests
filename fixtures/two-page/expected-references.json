@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Robert Haugland",
+    "Minneapolis, MN",
+    "(612) 555-0134",
+    "robert.haugland@example.com",
+    "linkedin.com/in/roberthaugland",
+    "REFERENCES",
+    "Karen Lindgren",
+    "Chief Operating Officer",
+    "Tennwick Packaging Supply",
+    "klindgren@example.com",
+    "(612) 555-0187",
+    "Current manager since Feb 2021",
+    "David Okonkwo",
+    "Vice President of Operations",
+    "Lakeport Components",
+    "david.okonkwo@example.com",
+    "(651) 555-0159",
+    "Manager, Mar 2017 – Jan 2021",
+    "Steven Brandt",
+    "Vice President of Finance",
+    "Tennwick Packaging Supply",
+    "sbrandt@example.com",
+    "(612) 555-0156",
+    "Finance lead in our monthly planning meeting"
+  ],
+  "template": "two-page",
+  "doc": "references",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

@@ -1,4 +1,112 @@
 {
+  "academic-cv-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.611
+  },
+  "academic-cv-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.661
+  },
+  "academic-cv-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.391
+  },
+  "academic-cv-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.423
+  },
+  "academic-cv-resume-a4": {
+    "pass": true,
+    "c1": "32/32",
+    "pages": 2,
+    "fill": 0.25
+  },
+  "academic-cv-resume-letter": {
+    "pass": true,
+    "c1": "32/32",
+    "pages": 2,
+    "fill": 0.325
+  },
+  "basic-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.518
+  },
+  "basic-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.558
+  },
+  "basic-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.389
+  },
+  "basic-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.419
+  },
+  "basic-resume-a4": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.677
+  },
+  "basic-resume-letter": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.729
+  },
+  "career-change-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.486
+  },
+  "career-change-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.522
+  },
+  "career-change-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.379
+  },
+  "career-change-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.407
+  },
+  "career-change-resume-a4": {
+    "pass": true,
+    "c1": "32/32",
+    "pages": 1,
+    "fill": 0.653
+  },
+  "career-change-resume-letter": {
+    "pass": true,
+    "c1": "32/32",
+    "pages": 1,
+    "fill": 0.701
+  },
   "classic-cover-letter-a4": {
     "pass": true,
     "c1": "text only",
@@ -70,6 +178,42 @@
     "c1": "36/36",
     "pages": 1,
     "fill": 0.673
+  },
+  "creative-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.493
+  },
+  "creative-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.529
+  },
+  "creative-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.388
+  },
+  "creative-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.417
+  },
+  "creative-resume-a4": {
+    "pass": true,
+    "c1": "36/36",
+    "pages": 1,
+    "fill": 0.741
+  },
+  "creative-resume-letter": {
+    "pass": true,
+    "c1": "36/36",
+    "pages": 1,
+    "fill": 0.796
   },
   "example-acting-resume-letter": {
     "pass": true,
@@ -191,6 +335,150 @@
     "pages": 1,
     "fill": 0.672
   },
+  "executive-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.636
+  },
+  "executive-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.604
+  },
+  "executive-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.44
+  },
+  "executive-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.441
+  },
+  "executive-resume-a4": {
+    "pass": true,
+    "c1": "53/53",
+    "pages": 2,
+    "fill": 0.356
+  },
+  "executive-resume-letter": {
+    "pass": true,
+    "c1": "53/53",
+    "pages": 2,
+    "fill": 0.395
+  },
+  "federal-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.542
+  },
+  "federal-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.582
+  },
+  "federal-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.392
+  },
+  "federal-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.421
+  },
+  "federal-resume-a4": {
+    "pass": true,
+    "c1": "47/47",
+    "pages": 2,
+    "fill": 0.343
+  },
+  "federal-resume-letter": {
+    "pass": true,
+    "c1": "47/47",
+    "pages": 2,
+    "fill": 0.43
+  },
+  "finance-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.442
+  },
+  "finance-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.472
+  },
+  "finance-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.334
+  },
+  "finance-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.357
+  },
+  "finance-resume-a4": {
+    "pass": true,
+    "c1": "44/44",
+    "pages": 1,
+    "fill": 0.667
+  },
+  "finance-resume-letter": {
+    "pass": true,
+    "c1": "44/44",
+    "pages": 1,
+    "fill": 0.712
+  },
+  "healthcare-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.533
+  },
+  "healthcare-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.534
+  },
+  "healthcare-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.373
+  },
+  "healthcare-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.4
+  },
+  "healthcare-resume-a4": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.761
+  },
+  "healthcare-resume-letter": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.798
+  },
   "international-cv-cover-letter-a4": {
     "pass": true,
     "c1": "text only",
@@ -299,6 +587,78 @@
     "pages": 1,
     "fill": 0.847
   },
+  "modern-bold-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.493
+  },
+  "modern-bold-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.511
+  },
+  "modern-bold-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.372
+  },
+  "modern-bold-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.4
+  },
+  "modern-bold-resume-a4": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.663
+  },
+  "modern-bold-resume-letter": {
+    "pass": true,
+    "c1": "33/33",
+    "pages": 1,
+    "fill": 0.694
+  },
+  "modern-minimal-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.543
+  },
+  "modern-minimal-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.583
+  },
+  "modern-minimal-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.4
+  },
+  "modern-minimal-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.43
+  },
+  "modern-minimal-resume-a4": {
+    "pass": true,
+    "c1": "31/31",
+    "pages": 1,
+    "fill": 0.704
+  },
+  "modern-minimal-resume-letter": {
+    "pass": true,
+    "c1": "31/31",
+    "pages": 1,
+    "fill": 0.756
+  },
   "plain-cover-letter-a4": {
     "pass": true,
     "c1": "text only",
@@ -406,5 +766,77 @@
     "c1": "35/35",
     "pages": 1,
     "fill": 0.7
+  },
+  "technical-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.474
+  },
+  "technical-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.508
+  },
+  "technical-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.352
+  },
+  "technical-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.378
+  },
+  "technical-resume-a4": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.604
+  },
+  "technical-resume-letter": {
+    "pass": true,
+    "c1": "35/35",
+    "pages": 1,
+    "fill": 0.649
+  },
+  "two-page-cover-letter-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.633
+  },
+  "two-page-cover-letter-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.621
+  },
+  "two-page-references-a4": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.437
+  },
+  "two-page-references-letter": {
+    "pass": true,
+    "c1": "text only",
+    "pages": 1,
+    "fill": 0.437
+  },
+  "two-page-resume-a4": {
+    "pass": true,
+    "c1": "59/59",
+    "pages": 2,
+    "fill": 0.376
+  },
+  "two-page-resume-letter": {
+    "pass": true,
+    "c1": "59/59",
+    "pages": 2,
+    "fill": 0.416
   }
 }

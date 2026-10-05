@@ -1,0 +1,416 @@
+{
+  "file": "modern-minimal-resume-letter",
+  "template": "modern-minimal",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1gT8bP-0lGP07cr8LfJnJ_V5FubPZfAJ7pAFL5TmWnyQ/export?format=pdf",
+  "pdfSha256": "2ef5233083f809a86542713672b01af0e48bf1573e6b0b161a66a0649fadbb96",
+  "docxSha256": "a4382298edf20ed5b8f7a053fc3df6f8e69364352a36fd5bc22fb42babe82f23",
+  "runAt": "2026-10-05T12:55:28+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.756,
+  "fonts": {
+    "expected": "Verdana",
+    "found": [
+      "Verdana",
+      "Verdana-Bold",
+      "Verdana-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Verdana-Bold": 15,
+      "Verdana": 212,
+      "ArialMT": 17,
+      "Verdana-Italic": 12
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Maya Lindqvist",
+      "Denver, CO | (720) 555-0137 | maya.lindqvist@example.com | linkedin.com/in/mayalindqvist",
+      "SUMMARY",
+      "Product manager with four years in scheduling and payments software. I work closely with design",
+      "and engineering, talk to customers every week, and like features that are small enough to ship in a",
+      "month and measure in the next one.",
+      "EXPERIENCE",
+      "Product Manager Mar 2023 – Present",
+      "Tarrowfield Software Denver, CO",
+      "• Own scheduling and shift swaps for about 3,000 hourly teams",
+      "• Cut unfilled shifts by 18% by adding swap requests and reminders after interviewing 40 store",
+      "managers about why shifts went empty",
+      "• Run quarterly planning with two engineering teams and a designer",
+      "• Wrote the team's first product metrics guide, so every launch now ships with a named success",
+      "measure and a review date",
+      "Associate Product Manager Jun 2020 – Feb 2023",
+      "Ferncastle Payments Denver, CO",
+      "• Launched saved cards for repeat customers; checkout time fell by a third",
+      "• Ran 25 A/B tests on the payment page and kept a public log of every result",
+      "• Handled the product side of a card network change on a fixed deadline",
+      "Business Analyst Jul 2018 – May 2020",
+      "Gorseholt Distribution Aurora, CO",
+      "• Built weekly order reports in SQL and Excel for 12 warehouse managers",
+      "• Wrote requirements for a new returns process that reduced manual data entry",
+      "EDUCATION",
+      "Pinyon Draw University Boulder, CO",
+      "Bachelor of Science in Information Systems May 2018",
+      "SKILLS",
+      "Product: Roadmaps, customer interviews, A/B testing",
+      "Tools: Jira, Figma, Amplitude, SQL, Looker"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 9,
+      "actual": 9,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 31,
+    "total": 31,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Maya Lindqvist",
+        "actual": "Maya Lindqvist",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "maya.lindqvist@example.com",
+        "actual": "maya.lindqvist@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(720) 555-0137",
+        "actual": "(720) 555-0137",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Denver, CO",
+        "actual": "Denver, CO",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/mayalindqvist",
+        "actual": "linkedin.com/in/mayalindqvist",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Product manager with four years in scheduling and payments software. I work closely with design and engineering, talk to customers every week, and like features that are small enough to ship in a month and measure in the next one.",
+        "actual": "Product manager with four years in scheduling and payments software. I work closely with design and engineering, talk to customers every week, and like features that are small enough to ship in a month and measure in the next one.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Tarrowfield Software",
+        "actual": "Tarrowfield Software",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Product Manager",
+        "actual": "Product Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2023 – Present",
+        "actual": "Mar 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Own scheduling and shift swaps for about 3,000 hourly teams",
+        "actual": "Own scheduling and shift swaps for about 3,000 hourly teams",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Cut unfilled shifts by 18% by adding swap requests and reminders after interviewing 40 store managers about why shifts went empty",
+        "actual": "Cut unfilled shifts by 18% by adding swap requests and reminders after interviewing 40 store managers about why shifts went empty",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Run quarterly planning with two engineering teams and a designer",
+        "actual": "Run quarterly planning with two engineering teams and a designer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Wrote the team's first product metrics guide, so every launch now ships with a named success measure and a review date",
+        "actual": "Wrote the team's first product metrics guide, so every launch now ships with a named success measure and a review date",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Ferncastle Payments",
+        "actual": "Ferncastle Payments",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Associate Product Manager",
+        "actual": "Associate Product Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2020 – Feb 2023",
+        "actual": "Jun 2020 – Feb 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Launched saved cards for repeat customers; checkout time fell by a third",
+        "actual": "Launched saved cards for repeat customers; checkout time fell by a third",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Ran 25 A/B tests on the payment page and kept a public log of every result",
+        "actual": "Ran 25 A/B tests on the payment page and kept a public log of every result",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Handled the product side of a card network change on a fixed deadline",
+        "actual": "Handled the product side of a card network change on a fixed deadline",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Gorseholt Distribution",
+        "actual": "Gorseholt Distribution",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Business Analyst",
+        "actual": "Business Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jul 2018 – May 2020",
+        "actual": "Jul 2018 – May 2020",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Built weekly order reports in SQL and Excel for 12 warehouse managers",
+        "actual": "Built weekly order reports in SQL and Excel for 12 warehouse managers",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Wrote requirements for a new returns process that reduced manual data entry",
+        "actual": "Wrote requirements for a new returns process that reduced manual data entry",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Pinyon Draw University",
+        "actual": "Pinyon Draw University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Science in Information Systems",
+        "actual": "Bachelor of Science in Information Systems",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2018",
+        "actual": "May 2018",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Product: Roadmaps, customer interviews, A/B testing",
+        "actual": "Product: Roadmaps, customer interviews, A/B testing",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Tools: Jira, Figma, Amplitude, SQL, Looker",
+        "actual": "Tools: Jira, Figma, Amplitude, SQL, Looker",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Methods: Scrum, Kanban, jobs to be done",
+        "actual": "Methods: Scrum, Kanban, jobs to be done",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Denver, CO",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Denver, CO",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Aurora, CO",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Boulder, CO",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Maya Lindqvist",
+      "Denver, CO | (720) 555-0137 | maya.lindqvist@example.com | linkedin.com/in/mayalindqvist",
+      "SUMMARY",
+      "Product manager with four years in scheduling and payments software. I work closely with design",
+      "and engineering, talk to customers every week, and like features that are small enough to ship in a",
+      "month and measure in the next one.",
+      "EXPERIENCE",
+      "Product Manager ‖ Mar 2023 – Present",
+      "Tarrowfield Software ‖ Denver, CO",
+      "• Own scheduling and shift swaps for about 3,000 hourly teams",
+      "• Cut unfilled shifts by 18% by adding swap requests and reminders after interviewing 40 store",
+      "managers about why shifts went empty",
+      "• Run quarterly planning with two engineering teams and a designer",
+      "• Wrote the team's first product metrics guide, so every launch now ships with a named success",
+      "measure and a review date",
+      "Associate Product Manager ‖ Jun 2020 – Feb 2023",
+      "Ferncastle Payments ‖ Denver, CO",
+      "• Launched saved cards for repeat customers; checkout time fell by a third",
+      "• Ran 25 A/B tests on the payment page and kept a public log of every result",
+      "• Handled the product side of a card network change on a fixed deadline",
+      "Business Analyst ‖ Jul 2018 – May 2020",
+      "Gorseholt Distribution ‖ Aurora, CO",
+      "• Built weekly order reports in SQL and Excel for 12 warehouse managers",
+      "• Wrote requirements for a new returns process that reduced manual data entry",
+      "EDUCATION",
+      "Pinyon Draw University ‖ Boulder, CO",
+      "Bachelor of Science in Information Systems ‖ May 2018",
+      "SKILLS",
+      "Product: Roadmaps, customer interviews, A/B testing",
+      "Tools: Jira, Figma, Amplitude, SQL, Looker",
+      "Methods: Scrum, Kanban, jobs to be done"
+    ]
+  },
+  "pass": true
+}

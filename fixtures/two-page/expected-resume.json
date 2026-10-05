@@ -1,0 +1,279 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Robert Haugland",
+      "email": "robert.haugland@example.com",
+      "phone": "(612) 555-0134",
+      "location": "Minneapolis, MN",
+      "url": "linkedin.com/in/roberthaugland",
+      "summary": "Supply chain leader with 15 years in manufacturing and distribution, the last five running planning, purchasing and logistics for a $480 million packaging business. I build planning processes people actually follow, and I've cut inventory without hurting service at three companies. Looking for a senior supply chain role with a growing manufacturer."
+    },
+    "workExperiences": [
+      {
+        "company": "Tennwick Packaging Supply",
+        "jobTitle": "Director of Supply Chain",
+        "date": "Feb 2021 – Present",
+        "descriptions": [
+          "Lead planning, purchasing, warehousing and transportation for four plants, with a team of 46 and $210 million in annual spend",
+          "Cut inventory by $18 million in two years while raising order fill rate from 93% to 98%",
+          "Set up a monthly sales and operations planning meeting that sales, finance and plant leaders run together, with one shared forecast",
+          "Moved 60% of freight to two carriers under new contracts, saving $2.6 million a year",
+          "Led supplier recovery through the 2021 and 2022 resin shortages, with no missed customer shipments and no air freight",
+          "Opened a third-party warehouse in Dallas to serve southern customers, cutting delivery times from four days to two"
+        ]
+      },
+      {
+        "company": "Lakeport Components",
+        "jobTitle": "Senior Supply Chain Manager",
+        "date": "Mar 2017 – Jan 2021",
+        "descriptions": [
+          "Ran demand and supply planning for 4,000 parts sold to equipment makers",
+          "Moved planning from spreadsheets to an advanced planning system; forecast accuracy rose from 61% to 78% in a year",
+          "Built a supplier scorecard for the top 40 suppliers and cut late deliveries by half",
+          "Managed a planning team of nine and promoted three planners into supervisor roles",
+          "Worked with engineering to retire 700 slow-moving parts"
+        ]
+      },
+      {
+        "company": "Gorseholt Distribution",
+        "jobTitle": "Logistics Manager",
+        "date": "May 2014 – Feb 2017",
+        "descriptions": [
+          "Managed inbound and outbound freight for two distribution centers shipping to 1,200 stores",
+          "Introduced a transportation management system and cut freight cost per case by 11%",
+          "Redesigned delivery routes for the northern region, removing two trucks from the fleet",
+          "Handled carrier contracts and claims, recovering about $400,000 a year in damage claims",
+          "Ran the weekly carrier review and replaced two carriers with on-time rates below 90%",
+          "Set delivery windows with store operations that cut overtime in store receiving"
+        ]
+      },
+      {
+        "company": "Harmon & Pike Manufacturing",
+        "jobTitle": "Supply Planning Analyst",
+        "date": "Jun 2011 – Apr 2014",
+        "descriptions": [
+          "Planned materials for two assembly lines and kept stockouts below 1% of orders",
+          "Built the weekly inventory report used by the plant manager and finance team",
+          "Cleaned up lead times and order quantities in the ERP for about 2,500 parts",
+          "Represented the planning team on the ERP upgrade project and wrote the test cases for material planning and purchasing screens",
+          "Kept the plant's material shortage list and chased late parts with suppliers",
+          "Set safety stock levels for the top 300 parts using actual demand variation",
+          "Covered purchasing for two buyers during busy seasons and vacations"
+        ]
+      },
+      {
+        "company": "Ironhaw Freight",
+        "jobTitle": "Operations Coordinator",
+        "date": "Jul 2009 – May 2011",
+        "descriptions": [
+          "Scheduled drivers and tracked about 150 loads a day for a regional carrier",
+          "Answered customer questions about delays and coordinated with dispatch to fix them",
+          "Built an on-time delivery report the operations manager now shares with customers"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Cardinal Ridge University",
+        "degree": "Master of Business Administration",
+        "date": "May 2016",
+        "gpa": "",
+        "descriptions": []
+      },
+      {
+        "school": "Filbert Hill University",
+        "degree": "Bachelor of Science in Business, Operations Management",
+        "date": "Jun 2009",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Planning: S&OP, demand planning, inventory optimization",
+        "Systems: SAP S/4HANA, Oracle NetSuite, Kinaxis",
+        "Certifications: APICS CSCP, Six Sigma Green Belt"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Minneapolis, MN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "St. Paul, MN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Eagan, MN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[3].location",
+      "value": "Plymouth, MN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[4].location",
+      "value": "Chicago, IL",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Madison, WI",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Eugene, OR",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Robert Haugland",
+    "Minneapolis, MN",
+    "(612) 555-0134",
+    "robert.haugland@example.com",
+    "linkedin.com/in/roberthaugland",
+    "SUMMARY",
+    "Supply chain leader with 15 years in manufacturing and distribution, the last five running planning, purchasing and logistics for a $480 million packaging business. I build planning processes people actually follow, and I've cut inventory without hurting service at three companies. Looking for a senior supply chain role with a growing manufacturer.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Tennwick Packaging Supply",
+        "Director of Supply Chain",
+        "Feb 2021 – Present",
+        "Minneapolis, MN"
+      ]
+    },
+    "Lead planning, purchasing, warehousing and transportation for four plants, with a team of 46 and $210 million in annual spend",
+    "Cut inventory by $18 million in two years while raising order fill rate from 93% to 98%",
+    "Set up a monthly sales and operations planning meeting that sales, finance and plant leaders run together, with one shared forecast",
+    "Moved 60% of freight to two carriers under new contracts, saving $2.6 million a year",
+    "Led supplier recovery through the 2021 and 2022 resin shortages, with no missed customer shipments and no air freight",
+    "Opened a third-party warehouse in Dallas to serve southern customers, cutting delivery times from four days to two",
+    {
+      "anyOrder": [
+        "Lakeport Components",
+        "Senior Supply Chain Manager",
+        "Mar 2017 – Jan 2021",
+        "St. Paul, MN"
+      ]
+    },
+    "Ran demand and supply planning for 4,000 parts sold to equipment makers",
+    "Moved planning from spreadsheets to an advanced planning system; forecast accuracy rose from 61% to 78% in a year",
+    "Built a supplier scorecard for the top 40 suppliers and cut late deliveries by half",
+    "Managed a planning team of nine and promoted three planners into supervisor roles",
+    "Worked with engineering to retire 700 slow-moving parts",
+    {
+      "anyOrder": [
+        "Gorseholt Distribution",
+        "Logistics Manager",
+        "May 2014 – Feb 2017",
+        "Eagan, MN"
+      ]
+    },
+    "Managed inbound and outbound freight for two distribution centers shipping to 1,200 stores",
+    "Introduced a transportation management system and cut freight cost per case by 11%",
+    "Redesigned delivery routes for the northern region, removing two trucks from the fleet",
+    "Handled carrier contracts and claims, recovering about $400,000 a year in damage claims",
+    "Ran the weekly carrier review and replaced two carriers with on-time rates below 90%",
+    "Set delivery windows with store operations that cut overtime in store receiving",
+    {
+      "anyOrder": [
+        "Harmon & Pike Manufacturing",
+        "Supply Planning Analyst",
+        "Jun 2011 – Apr 2014",
+        "Plymouth, MN"
+      ]
+    },
+    "Planned materials for two assembly lines and kept stockouts below 1% of orders",
+    "Built the weekly inventory report used by the plant manager and finance team",
+    "Cleaned up lead times and order quantities in the ERP for about 2,500 parts",
+    "Represented the planning team on the ERP upgrade project and wrote the test cases for material planning and purchasing screens",
+    "Kept the plant's material shortage list and chased late parts with suppliers",
+    "Set safety stock levels for the top 300 parts using actual demand variation",
+    "Covered purchasing for two buyers during busy seasons and vacations",
+    {
+      "anyOrder": [
+        "Ironhaw Freight",
+        "Operations Coordinator",
+        "Jul 2009 – May 2011",
+        "Chicago, IL"
+      ]
+    },
+    "Scheduled drivers and tracked about 150 loads a day for a regional carrier",
+    "Answered customer questions about delays and coordinated with dispatch to fix them",
+    "Built an on-time delivery report the operations manager now shares with customers",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Cardinal Ridge University",
+        "Madison, WI",
+        "Master of Business Administration",
+        "May 2016"
+      ]
+    },
+    {
+      "anyOrder": [
+        "Filbert Hill University",
+        "Eugene, OR",
+        "Bachelor of Science in Business, Operations Management",
+        "Jun 2009"
+      ]
+    },
+    "SKILLS",
+    "Planning: S&OP, demand planning, inventory optimization",
+    "Systems: SAP S/4HANA, Oracle NetSuite, Kinaxis",
+    "Certifications: APICS CSCP, Six Sigma Green Belt"
+  ],
+  "template": "two-page",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 2,
+  "bulletTexts": [
+    "Lead planning, purchasing, warehousing and transportation for four plants, with a team of 46 and $210 million in annual spend",
+    "Cut inventory by $18 million in two years while raising order fill rate from 93% to 98%",
+    "Set up a monthly sales and operations planning meeting that sales, finance and plant leaders run together, with one shared forecast",
+    "Moved 60% of freight to two carriers under new contracts, saving $2.6 million a year",
+    "Led supplier recovery through the 2021 and 2022 resin shortages, with no missed customer shipments and no air freight",
+    "Opened a third-party warehouse in Dallas to serve southern customers, cutting delivery times from four days to two",
+    "Ran demand and supply planning for 4,000 parts sold to equipment makers",
+    "Moved planning from spreadsheets to an advanced planning system; forecast accuracy rose from 61% to 78% in a year",
+    "Built a supplier scorecard for the top 40 suppliers and cut late deliveries by half",
+    "Managed a planning team of nine and promoted three planners into supervisor roles",
+    "Worked with engineering to retire 700 slow-moving parts",
+    "Managed inbound and outbound freight for two distribution centers shipping to 1,200 stores",
+    "Introduced a transportation management system and cut freight cost per case by 11%",
+    "Redesigned delivery routes for the northern region, removing two trucks from the fleet",
+    "Handled carrier contracts and claims, recovering about $400,000 a year in damage claims",
+    "Ran the weekly carrier review and replaced two carriers with on-time rates below 90%",
+    "Set delivery windows with store operations that cut overtime in store receiving",
+    "Planned materials for two assembly lines and kept stockouts below 1% of orders",
+    "Built the weekly inventory report used by the plant manager and finance team",
+    "Cleaned up lead times and order quantities in the ERP for about 2,500 parts",
+    "Represented the planning team on the ERP upgrade project and wrote the test cases for material planning and purchasing screens",
+    "Kept the plant's material shortage list and chased late parts with suppliers",
+    "Set safety stock levels for the top 300 parts using actual demand variation",
+    "Covered purchasing for two buyers during busy seasons and vacations",
+    "Scheduled drivers and tracked about 150 loads a day for a regional carrier",
+    "Answered customer questions about delays and coordinated with dispatch to fix them",
+    "Built an on-time delivery report the operations manager now shares with customers"
+  ]
+}

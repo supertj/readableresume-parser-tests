@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Maya Lindqvist",
+    "Denver, CO",
+    "(720) 555-0137",
+    "maya.lindqvist@example.com",
+    "linkedin.com/in/mayalindqvist",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Brambleway Health Software",
+    "Denver, CO",
+    "Dear Hiring Manager,",
+    "I'm applying for the Senior Product Manager role on your patient scheduling team. I've spent the last three years on scheduling at Tarrowfield Software, and the problems your posting describes, empty slots and last-minute changes, are the ones I work on every day.",
+    "At Tarrowfield I own shift swaps and scheduling for about 3,000 hourly teams. Before building anything, I interviewed 40 store managers about why shifts went unfilled. Most of the time, people simply couldn't find someone to swap with in time. We added swap requests and reminders, and unfilled shifts dropped by 18%.",
+    "Clinics have the same problem with different stakes. A missed appointment costs a patient care and costs the practice money. I'd like to bring what I've learned about reminders and timing to a product where that matters even more.",
+    "Thank you for your time. I'd be glad to talk about what your schedulers struggle with most.",
+    "Sincerely,",
+    "Maya Lindqvist"
+  ],
+  "template": "modern-minimal",
+  "doc": "cover-letter",
+  "font": "Verdana",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

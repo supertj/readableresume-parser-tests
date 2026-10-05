@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Robert Haugland",
+    "Minneapolis, MN",
+    "(612) 555-0134",
+    "robert.haugland@example.com",
+    "linkedin.com/in/roberthaugland",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Brassmoor Freight Systems",
+    "Minneapolis, MN",
+    "Dear Hiring Manager,",
+    "I'm applying for the Vice President of Supply Chain position at Brassmoor Freight Systems. I've spent 15 years in supply chain roles, and for the last five I've run planning, purchasing and logistics for Tennwick Packaging Supply, a $480 million packaging manufacturer with four plants.",
+    "The work I'm proudest of at Tennwick is our planning process. When I joined, sales, finance and the plants each had their own forecast. We set up a single monthly planning meeting with one shared number. Within two years we cut inventory by $18 million and raised our order fill rate from 93% to 98%.",
+    "Your posting talks about growing into new regions without adding warehouse space. I've done similar work before. At Gorseholt Distribution I redesigned delivery routes and moved freight to fewer carriers, and at Tennwick our new carrier contracts save $2.6 million a year.",
+    "Thank you for your time. I'd welcome the chance to talk about your growth plans and where supply chain fits in.",
+    "Sincerely,",
+    "Robert Haugland"
+  ],
+  "template": "two-page",
+  "doc": "cover-letter",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

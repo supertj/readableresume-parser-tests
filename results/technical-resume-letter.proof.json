@@ -1,0 +1,445 @@
+{
+  "file": "technical-resume-letter",
+  "template": "technical",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/11mrs1mia1L3eSWdGzAIOrOZ9hKslon8YTDKewDU0x-0/export?format=pdf",
+  "pdfSha256": "ead6d788fb7c7f00793cd99dce7a0ac0792799882cd3cb3a2048e921c99b7618",
+  "docxSha256": "0a4541cc310885a8e1e794c24c1485ef5e2c9bf31c9aef6598971f857b28f883",
+  "runAt": "2026-10-05T12:55:29+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.649,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 17,
+      "ArialMT": 250,
+      "Arial-ItalicMT": 15
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Kevin Osei",
+      "Seattle, WA | (206) 555-0159 | kevin.osei@example.com | linkedin.com/in/kevinosei | github.com/kevinosei",
+      "TECHNICAL SKILLS",
+      "Languages: Go, Python, TypeScript, SQL",
+      "Infrastructure: AWS, Kubernetes, Terraform, Docker",
+      "Data: PostgreSQL, Redis, Kafka",
+      "Practices: Code review, on-call, observability",
+      "EXPERIENCE",
+      "Software Engineer II Mar 2023 – Present",
+      "Tarnhollow Logistics Seattle, WA",
+      "• Lead the shipment events service in Go, handling about 40 million events a day from 300 warehouses",
+      "• Moved the service from a single database to partitioned PostgreSQL tables, cutting p95 write latency from 220 ms",
+      "to 35 ms",
+      "• Wrote the team's on-call runbook and alert rules; pages per week dropped from 14 to 4 after the first quarter",
+      "• Mentor two junior engineers and review about 15 pull requests a week",
+      "• Added tracing to four shipment services, so finding a failing step takes minutes instead of hours",
+      "Software Engineer Jul 2021 – Feb 2023",
+      "Brindlewood Freight Systems Bellevue, WA",
+      "• Built the carrier rate API in Python and FastAPI, used by the pricing team to quote about 9,000 loads a day",
+      "• Set up Terraform for the team's AWS accounts, replacing hand-made resources and shortening new environment",
+      "setup from two days to an hour",
+      "• Added contract tests between four services, catching breaking changes before deploys",
+      "• Took part in the on-call rotation and wrote six incident reviews",
+      "PROJECTS",
+      "Queue Lens | Go, open source 2024",
+      "• A small web tool that shows Kafka consumer lag by team and topic, with about 600 stars on GitHub",
+      "Trailhead Weather | TypeScript, React Native 2022",
+      "• A phone app that combines forecasts and trail reports for hikers; about 2,000 monthly users",
+      "EDUCATION",
+      "Alderhaven University Tacoma, WA"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 11,
+      "actual": 11,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 35,
+    "total": 35,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Kevin Osei",
+        "actual": "Kevin Osei",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "kevin.osei@example.com",
+        "actual": "kevin.osei@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(206) 555-0159",
+        "actual": "(206) 555-0159",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Seattle, WA",
+        "actual": "Seattle, WA",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/kevinosei",
+        "actual": "linkedin.com/in/kevinosei",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Tarnhollow Logistics",
+        "actual": "Tarnhollow Logistics",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Software Engineer II",
+        "actual": "Software Engineer II",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Mar 2023 – Present",
+        "actual": "Mar 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Lead the shipment events service in Go, handling about 40 million events a day from 300 warehouses",
+        "actual": "Lead the shipment events service in Go, handling about 40 million events a day from 300 warehouses",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Moved the service from a single database to partitioned PostgreSQL tables, cutting p95 write latency from 220 ms to 35 ms",
+        "actual": "Moved the service from a single database to partitioned PostgreSQL tables, cutting p95 write latency from 220 ms to 35 ms",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Wrote the team's on-call runbook and alert rules; pages per week dropped from 14 to 4 after the first quarter",
+        "actual": "Wrote the team's on-call runbook and alert rules; pages per week dropped from 14 to 4 after the first quarter",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Mentor two junior engineers and review about 15 pull requests a week",
+        "actual": "Mentor two junior engineers and review about 15 pull requests a week",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[4]",
+        "expected": "Added tracing to four shipment services, so finding a failing step takes minutes instead of hours",
+        "actual": "Added tracing to four shipment services, so finding a failing step takes minutes instead of hours",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Brindlewood Freight Systems",
+        "actual": "Brindlewood Freight Systems",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Software Engineer",
+        "actual": "Software Engineer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jul 2021 – Feb 2023",
+        "actual": "Jul 2021 – Feb 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Built the carrier rate API in Python and FastAPI, used by the pricing team to quote about 9,000 loads a day",
+        "actual": "Built the carrier rate API in Python and FastAPI, used by the pricing team to quote about 9,000 loads a day",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Set up Terraform for the team's AWS accounts, replacing hand-made resources and shortening new environment setup from two days to an hour",
+        "actual": "Set up Terraform for the team's AWS accounts, replacing hand-made resources and shortening new environment setup from two days to an hour",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Added contract tests between four services, catching breaking changes before deploys",
+        "actual": "Added contract tests between four services, catching breaking changes before deploys",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Took part in the on-call rotation and wrote six incident reviews",
+        "actual": "Took part in the on-call rotation and wrote six incident reviews",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Alderhaven University",
+        "actual": "Alderhaven University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Science in Computer Science",
+        "actual": "Bachelor of Science in Computer Science",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Jun 2021",
+        "actual": "Jun 2021",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Queue Lens | Go, open source",
+        "actual": "Queue Lens | Go, open source",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "2024",
+        "actual": "2024",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "A small web tool that shows Kafka consumer lag by team and topic, with about 600 stars on GitHub",
+        "actual": "A small web tool that shows Kafka consumer lag by team and topic, with about 600 stars on GitHub",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Trailhead Weather | TypeScript, React Native",
+        "actual": "Trailhead Weather | TypeScript, React Native",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "2022",
+        "actual": "2022",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "A phone app that combines forecasts and trail reports for hikers; about 2,000 monthly users",
+        "actual": "A phone app that combines forecasts and trail reports for hikers; about 2,000 monthly users",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Languages: Go, Python, TypeScript, SQL",
+        "actual": "Languages: Go, Python, TypeScript, SQL",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Infrastructure: AWS, Kubernetes, Terraform, Docker",
+        "actual": "Infrastructure: AWS, Kubernetes, Terraform, Docker",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Data: PostgreSQL, Redis, Kafka",
+        "actual": "Data: PostgreSQL, Redis, Kafka",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Practices: Code review, on-call, observability",
+        "actual": "Practices: Code review, on-call, observability",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 5,
+        "actual": 5,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "profile.url (second link)",
+        "value": "github.com/kevinosei",
+        "reason": "parser keeps one URL",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "Seattle, WA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Bellevue, WA",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Tacoma, WA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Kevin Osei",
+      "Seattle, WA | (206) 555-0159 | kevin.osei@example.com | linkedin.com/in/kevinosei | github.com/kevinosei",
+      "TECHNICAL SKILLS",
+      "Languages: Go, Python, TypeScript, SQL",
+      "Infrastructure: AWS, Kubernetes, Terraform, Docker",
+      "Data: PostgreSQL, Redis, Kafka",
+      "Practices: Code review, on-call, observability",
+      "EXPERIENCE",
+      "Software Engineer II ‖ Mar 2023 – Present",
+      "Tarnhollow Logistics ‖ Seattle, WA",
+      "• ‖ Lead the shipment events service in Go, handling about 40 million events a day from 300 warehouses",
+      "• ‖ Moved the service from a single database to partitioned PostgreSQL tables, cutting p95 write latency from 220 ms",
+      "to 35 ms",
+      "• ‖ Wrote the team's on-call runbook and alert rules; pages per week dropped from 14 to 4 after the first quarter",
+      "• ‖ Mentor two junior engineers and review about 15 pull requests a week",
+      "• ‖ Added tracing to four shipment services, so finding a failing step takes minutes instead of hours",
+      "Software Engineer ‖ Jul 2021 – Feb 2023",
+      "Brindlewood Freight Systems ‖ Bellevue, WA",
+      "• ‖ Built the carrier rate API in Python and FastAPI, used by the pricing team to quote about 9,000 loads a day",
+      "• ‖ Set up Terraform for the team's AWS accounts, replacing hand-made resources and shortening new environment",
+      "setup from two days to an hour",
+      "• ‖ Added contract tests between four services, catching breaking changes before deploys",
+      "• ‖ Took part in the on-call rotation and wrote six incident reviews",
+      "PROJECTS",
+      "Queue Lens | Go, open source ‖ 2024",
+      "• ‖ A small web tool that shows Kafka consumer lag by team and topic, with about 600 stars on GitHub",
+      "Trailhead Weather | TypeScript, React Native ‖ 2022",
+      "• ‖ A phone app that combines forecasts and trail reports for hikers; about 2,000 monthly users",
+      "EDUCATION",
+      "Alderhaven University ‖ Tacoma, WA",
+      "Bachelor of Science in Computer Science ‖ Jun 2021"
+    ]
+  },
+  "pass": true
+}

@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Catherine Vance",
+    "Charlotte, NC",
+    "(704) 555-0119",
+    "catherine.vance@example.com",
+    "linkedin.com/in/catherinevance",
+    "October 5, 2026",
+    "Members of the Search Committee",
+    "Tennwick Packaging Supply",
+    "Atlanta, GA",
+    "Dear Members of the Search Committee,",
+    "I'm writing about the Chief Operating Officer role at Tennwick Packaging Supply. For the past seven years I've run multi-plant operations at Harrowfield Pump Company, where I lead three plants, two distribution centers and about 1,400 people.",
+    "Your board has said the next three years are about growing capacity without losing the service levels customers rely on. That is close to the work I've just finished. At Harrowfield, I planned and delivered a $40 million modernization across all three plants while keeping production running. On-time delivery rose from 81% to 96%, warranty claims fell by 38%, and we finished $2.3 million under budget.",
+    "The part I'd bring that doesn't show in those numbers is the team. Plant turnarounds only last when the people running the plants stay. Every plant manager I've hired or promoted since 2020 is still in the role, and our injury rate has dropped by more than half.",
+    "I'd welcome a conversation about Tennwick's plans for the next three years. Thank you for your time.",
+    "Sincerely,",
+    "Catherine Vance"
+  ],
+  "template": "executive",
+  "doc": "cover-letter",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

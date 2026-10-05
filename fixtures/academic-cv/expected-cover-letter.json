@@ -1,0 +1,26 @@
+{
+  "textSequence": [
+    "Nadia Petrakis",
+    "Fort Collins, CO",
+    "(970) 555-0162",
+    "nadia.petrakis@example.org",
+    "linkedin.com/in/nadiapetrakis",
+    "October 5, 2026",
+    "Search Committee",
+    "Department of Biology",
+    "Pinemoor University",
+    "Athens, GA",
+    "Dear Members of the Search Committee,",
+    "I'm applying for the Assistant Professor of Forest Ecology position in your Department of Biology. I'm a postdoctoral researcher at Cottonhollow University, where I study how forests recover after severe wildfire, and I'd like to build a field program in the Southeast, where fire plays a very different role.",
+    "My research asks which plants and animals help a burned forest come back, and how fast. My dissertation showed that birds carry seeds much farther into burned areas than current models assume. My postdoc work follows what happens next, on 48 plots across two fire scars. Both projects mix field data with statistical models, and both have produced data sets other labs now use.",
+    "I enjoy teaching most when students collect their own data. As instructor of record for Field Methods in Ecology, I rebuilt the course around two weekend field trips and a final project each student designed. In my lab, undergraduates own a small question from the start; two of them presented their own posters this year.",
+    "At Pinemoor I'd start with longleaf pine sites, where frequent fire is the norm rather than the exception, and I'd look for ways to work with your land management partners. Thank you for considering my application. My research and teaching statements are attached.",
+    "Sincerely,",
+    "Nadia Petrakis"
+  ],
+  "template": "academic-cv",
+  "doc": "cover-letter",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Catherine Vance",
+    "Charlotte, NC",
+    "(704) 555-0119",
+    "catherine.vance@example.com",
+    "linkedin.com/in/catherinevance",
+    "REFERENCES",
+    "Richard Albright",
+    "Chief Executive Officer",
+    "Harrowfield Pump Company",
+    "ralbright@example.com",
+    "(704) 555-0161",
+    "Current manager since Jan 2019",
+    "Monica Ferreira",
+    "Former Chief Operating Officer",
+    "Ironbriar Equipment Works",
+    "monica.ferreira@example.com",
+    "(864) 555-0145",
+    "Manager, Mar 2014 – Dec 2018",
+    "Andrew Nakamura",
+    "Chief Financial Officer",
+    "Harrowfield Pump Company",
+    "anakamura@example.com",
+    "(704) 555-0138",
+    "Finance partner on the modernization program"
+  ],
+  "template": "executive",
+  "doc": "references",
+  "font": "Georgia",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

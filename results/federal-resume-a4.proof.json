@@ -1,0 +1,608 @@
+{
+  "file": "federal-resume-a4",
+  "template": "federal",
+  "doc": "resume",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/172itNX0fJxO6KglKzmZeLAxN-z6fgaloSW-PkEtKNkI/export?format=pdf",
+  "pdfSha256": "0270c8f84d371135ccfa8b0b689586c0606a937d04f4480f86ea09565171afd5",
+  "docxSha256": "3f9e48135f180610f9ce2ba15f073532968a44876f01b875c453935813d35306",
+  "runAt": "2026-10-05T12:55:23+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 2,
+    "actual": 2,
+    "ok": true
+  },
+  "pageFill": 0.343,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 20,
+      "ArialMT": 545,
+      "Arial-ItalicMT": 23
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Jerome Whitley",
+      "Silver Spring, MD | (301) 555-0127 | jerome.whitley@example.com | linkedin.com/in/jeromewhitley",
+      "ELIGIBILITY",
+      "• Citizenship: U.S. citizen",
+      "• Security clearance: Public Trust, current",
+      "• Veterans' preference: none",
+      "PROFESSIONAL SUMMARY",
+      "Program analyst with eight years in public and nonprofit programs, most recently managing",
+      "performance data and grant reporting for a county human services department with a $96 million",
+      "budget. Applying for Management and Program Analyst positions at the GS-11 or GS-12 level.",
+      "WORK EXPERIENCE",
+      "Program Analyst Aug 2021 – Present",
+      "Larkmead County Department of Human Services Rockville, MD",
+      "Hours per week: 40 | Salary: $84,500 per year | Reports to: Lena Ortiz, (301) 555-0142, may contact",
+      "• Track performance for 14 programs serving about 22,000 residents a year, including food assistance,",
+      "housing support and job training",
+      "• Built the department's monthly performance dashboard in Power BI, replacing 30 separate",
+      "spreadsheets; leadership now reviews it at every monthly meeting",
+      "• Prepare quarterly reports for four federal and state grants worth $11 million in total, all submitted on",
+      "time with no findings in two federal monitoring reviews",
+      "• Led a review of the emergency rental program's application process that cut average decision time",
+      "from 34 days to 19 days",
+      "• Write policy briefs and budget justifications for the department director and the county council,",
+      "usually on a two-week turnaround",
+      "• Train program staff on data entry standards and run a quarterly data quality check",
+      "Grants Coordinator Jun 2018 – Jul 2021",
+      "Ladle & Lamp Community Kitchen Baltimore, MD",
+      "Hours per week: 40 | Salary: $52,000 per year | Reports to: Carla Benson, (410) 555-0164, may contact",
+      "• Managed 18 public and private grants worth $2.4 million a year, start to finish",
+      "• Wrote or co-wrote proposals that brought in $3.1 million in new funding over three years, including"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 27,
+      "actual": 27,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 47,
+    "total": 47,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Jerome Whitley",
+        "actual": "Jerome Whitley",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "jerome.whitley@example.com",
+        "actual": "jerome.whitley@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(301) 555-0127",
+        "actual": "(301) 555-0127",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Silver Spring, MD",
+        "actual": "Silver Spring, MD",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/jeromewhitley",
+        "actual": "linkedin.com/in/jeromewhitley",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Program analyst with eight years in public and nonprofit programs, most recently managing performance data and grant reporting for a county human services department with a $96 million budget. Applying for Management and Program Analyst positions at the GS-11 or GS-12 level.",
+        "actual": "Program analyst with eight years in public and nonprofit programs, most recently managing performance data and grant reporting for a county human services department with a $96 million budget. Applying for Management and Program Analyst positions at the GS-11 or GS-12 level.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Larkmead County Department of Human Services",
+        "actual": "Larkmead County Department of Human Services",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Program Analyst",
+        "actual": "Program Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Aug 2021 – Present",
+        "actual": "Aug 2021 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Track performance for 14 programs serving about 22,000 residents a year, including food assistance, housing support and job training",
+        "actual": "Track performance for 14 programs serving about 22,000 residents a year, including food assistance, housing support and job training",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Built the department's monthly performance dashboard in Power BI, replacing 30 separate spreadsheets; leadership now reviews it at every monthly meeting",
+        "actual": "Built the department's monthly performance dashboard in Power BI, replacing 30 separate spreadsheets; leadership now reviews it at every monthly meeting",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Prepare quarterly reports for four federal and state grants worth $11 million in total, all submitted on time with no findings in two federal monitoring reviews",
+        "actual": "Prepare quarterly reports for four federal and state grants worth $11 million in total, all submitted on time with no findings in two federal monitoring reviews",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Led a review of the emergency rental program's application process that cut average decision time from 34 days to 19 days",
+        "actual": "Led a review of the emergency rental program's application process that cut average decision time from 34 days to 19 days",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[4]",
+        "expected": "Write policy briefs and budget justifications for the department director and the county council, usually on a two-week turnaround",
+        "actual": "Write policy briefs and budget justifications for the department director and the county council, usually on a two-week turnaround",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[5]",
+        "expected": "Train program staff on data entry standards and run a quarterly data quality check",
+        "actual": "Train program staff on data entry standards and run a quarterly data quality check",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Ladle & Lamp Community Kitchen",
+        "actual": "Ladle & Lamp Community Kitchen",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Grants Coordinator",
+        "actual": "Grants Coordinator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jun 2018 – Jul 2021",
+        "actual": "Jun 2018 – Jul 2021",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Managed 18 public and private grants worth $2.4 million a year, start to finish",
+        "actual": "Managed 18 public and private grants worth $2.4 million a year, start to finish",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Wrote or co-wrote proposals that brought in $3.1 million in new funding over three years, including the organization's first federal award",
+        "actual": "Wrote or co-wrote proposals that brought in $3.1 million in new funding over three years, including the organization's first federal award",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Set up a grants calendar and tracking system that ended late reports, which had happened four times the year before",
+        "actual": "Set up a grants calendar and tracking system that ended late reports, which had happened four times the year before",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Worked with the finance manager on grant budgets, cost allocation and audit preparation",
+        "actual": "Worked with the finance manager on grant budgets, cost allocation and audit preparation",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[4]",
+        "expected": "Collected and checked outcome data from five program sites for funder reports",
+        "actual": "Collected and checked outcome data from five program sites for funder reports",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[5]",
+        "expected": "Prepared the organization's first single audit with the finance manager and outside auditors; the audit closed with no findings or questioned costs",
+        "actual": "Prepared the organization's first single audit with the finance manager and outside auditors; the audit closed with no findings or questioned costs",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[6]",
+        "expected": "Represented the kitchen at the city's food security coalition and coordinated two joint grant applications with partner groups",
+        "actual": "Represented the kitchen at the city's food security coalition and coordinated two joint grant applications with partner groups",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Rosehip Food Share",
+        "actual": "Rosehip Food Share",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Program Assistant",
+        "actual": "Program Assistant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Sep 2016 – May 2018",
+        "actual": "Sep 2016 – May 2018",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Coordinated weekly food distribution at 12 partner sites serving about 3,000 households",
+        "actual": "Coordinated weekly food distribution at 12 partner sites serving about 3,000 households",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Kept the client database current and produced monthly service reports for the board",
+        "actual": "Kept the client database current and produced monthly service reports for the board",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[2]",
+        "expected": "Recruited and scheduled about 60 volunteers a month",
+        "actual": "Recruited and scheduled about 60 volunteers a month",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[3]",
+        "expected": "Wrote the volunteer handbook and ran monthly orientation sessions for new volunteers",
+        "actual": "Wrote the volunteer handbook and ran monthly orientation sessions for new volunteers",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[4]",
+        "expected": "Tracked donated food by source and category for the annual report to funders and the board",
+        "actual": "Tracked donated food by source and category for the annual report to funders and the board",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[5]",
+        "expected": "Answered client calls and referred families to county and state benefit programs",
+        "actual": "Answered client calls and referred families to county and state benefit programs",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[6]",
+        "expected": "Helped prepare the annual budget for the distribution program",
+        "actual": "Helped prepare the annual budget for the distribution program",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Northmoor University",
+        "actual": "Northmoor University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Master of Public Administration",
+        "actual": "Master of Public Administration",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2021",
+        "actual": "May 2021",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Coursework: Program Evaluation, Public Budgeting, Policy Analysis, Statistics for Public Managers",
+        "actual": "Coursework: Program Evaluation, Public Budgeting, Policy Analysis, Statistics for Public Managers",
+        "ok": true
+      },
+      {
+        "path": "educations[1].school",
+        "expected": "Brindlecroft University",
+        "actual": "Brindlecroft University",
+        "ok": true
+      },
+      {
+        "path": "educations[1].degree",
+        "expected": "Bachelor of Arts in Sociology",
+        "actual": "Bachelor of Arts in Sociology",
+        "ok": true
+      },
+      {
+        "path": "educations[1].date",
+        "expected": "May 2016",
+        "actual": "May 2016",
+        "ok": true
+      },
+      {
+        "path": "educations[1].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Analysis: Excel, Power BI, SQL, Tableau",
+        "actual": "Analysis: Excel, Power BI, SQL, Tableau",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Grants: Federal grant reporting, budget review, monitoring",
+        "actual": "Grants: Federal grant reporting, budget review, monitoring",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Languages: English (native), Spanish (professional)",
+        "actual": "Languages: English (native), Spanish (professional)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 6,
+        "actual": 6,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 7,
+        "actual": 7,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 7,
+        "actual": 7,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "eligibility[0]",
+        "value": "Citizenship: U.S. citizen",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "eligibility[1]",
+        "value": "Security clearance: Public Trust, current",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "eligibility[2]",
+        "value": "Veterans' preference: none",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "Rockville, MD",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].details",
+        "value": "Hours per week: 40 | Salary: $84,500 per year | Reports to: Lena Ortiz, (301) 555-0142, may contact",
+        "reason": "no field for hours, grade or supervisor",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Baltimore, MD",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].details",
+        "value": "Hours per week: 40 | Salary: $52,000 per year | Reports to: Carla Benson, (410) 555-0164, may contact",
+        "reason": "no field for hours, grade or supervisor",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Baltimore, MD",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].details",
+        "value": "Hours per week: 40 | Salary: $36,000 per year | Reports to: Marcus Hale, (410) 555-0138, may contact",
+        "reason": "no field for hours, grade or supervisor",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Washington, DC",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[1].location",
+        "value": "Richmond, VA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "certifications and training[0]",
+        "value": "Lean Six Sigma Green Belt, 2022",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "certifications and training[1]",
+        "value": "Grants Management Certificate, Northmoor University, 2020",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "certifications and training[2]",
+        "value": "Performance Measurement for Public Programs, 24-hour course, 2019",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Jerome Whitley",
+      "Silver Spring, MD | (301) 555-0127 | jerome.whitley@example.com | linkedin.com/in/jeromewhitley",
+      "ELIGIBILITY",
+      "• ‖ Citizenship: U.S. citizen",
+      "• ‖ Security clearance: Public Trust, current",
+      "• ‖ Veterans' preference: none",
+      "PROFESSIONAL SUMMARY",
+      "Program analyst with eight years in public and nonprofit programs, most recently managing",
+      "performance data and grant reporting for a county human services department with a $96 million",
+      "budget. Applying for Management and Program Analyst positions at the GS-11 or GS-12 level.",
+      "WORK EXPERIENCE",
+      "Program Analyst ‖ Aug 2021 – Present",
+      "Larkmead County Department of Human Services ‖ Rockville, MD",
+      "Hours per week: 40 | Salary: $84,500 per year | Reports to: Lena Ortiz, (301) 555-0142, may contact",
+      "• ‖ Track performance for 14 programs serving about 22,000 residents a year, including food assistance,",
+      "housing support and job training",
+      "• ‖ Built the department's monthly performance dashboard in Power BI, replacing 30 separate",
+      "spreadsheets; leadership now reviews it at every monthly meeting",
+      "• ‖ Prepare quarterly reports for four federal and state grants worth $11 million in total, all submitted on",
+      "time with no findings in two federal monitoring reviews",
+      "• ‖ Led a review of the emergency rental program's application process that cut average decision time",
+      "from 34 days to 19 days",
+      "• ‖ Write policy briefs and budget justifications for the department director and the county council,",
+      "usually on a two-week turnaround",
+      "• ‖ Train program staff on data entry standards and run a quarterly data quality check",
+      "Grants Coordinator ‖ Jun 2018 – Jul 2021",
+      "Ladle & Lamp Community Kitchen ‖ Baltimore, MD",
+      "Hours per week: 40 | Salary: $52,000 per year | Reports to: Carla Benson, (410) 555-0164, may contact",
+      "• ‖ Managed 18 public and private grants worth $2.4 million a year, start to finish",
+      "• ‖ Wrote or co-wrote proposals that brought in $3.1 million in new funding over three years, including",
+      "the organization's first federal award",
+      "• ‖ Set up a grants calendar and tracking system that ended late reports, which had happened four",
+      "times the year before",
+      "• ‖ Worked with the finance manager on grant budgets, cost allocation and audit preparation",
+      "• ‖ Collected and checked outcome data from five program sites for funder reports",
+      "• ‖ Prepared the organization's first single audit with the finance manager and outside auditors; the audit",
+      "closed with no findings or questioned costs",
+      "• ‖ Represented the kitchen at the city's food security coalition and coordinated two joint grant",
+      "applications with partner groups",
+      "Program Assistant ‖ Sep 2016 – May 2018",
+      "Rosehip Food Share ‖ Baltimore, MD",
+      "Hours per week: 40 | Salary: $36,000 per year | Reports to: Marcus Hale, (410) 555-0138, may contact",
+      "• ‖ Coordinated weekly food distribution at 12 partner sites serving about 3,000 households",
+      "• ‖ Kept the client database current and produced monthly service reports for the board",
+      "• ‖ Recruited and scheduled about 60 volunteers a month",
+      "• ‖ Wrote the volunteer handbook and ran monthly orientation sessions for new volunteers",
+      "• ‖ Tracked donated food by source and category for the annual report to funders and the board",
+      "• ‖ Answered client calls and referred families to county and state benefit programs • ‖ Helped prepare the annual budget for the distribution program",
+      "EDUCATION",
+      "Northmoor University ‖ Washington, DC",
+      "Master of Public Administration ‖ May 2021",
+      "• ‖ Coursework: Program Evaluation, Public Budgeting, Policy Analysis, Statistics for Public Managers",
+      "Brindlecroft University ‖ Richmond, VA",
+      "Bachelor of Arts in Sociology ‖ May 2016",
+      "SKILLS",
+      "Analysis: Excel, Power BI, SQL, Tableau",
+      "Grants: Federal grant reporting, budget review, monitoring",
+      "Languages: English (native), Spanish (professional)",
+      "CERTIFICATIONS AND TRAINING",
+      "• ‖ Lean Six Sigma Green Belt, 2022",
+      "• ‖ Grants Management Certificate, Northmoor University, 2020",
+      "• ‖ Performance Measurement for Public Programs, 24-hour course, 2019"
+    ]
+  },
+  "pass": true
+}

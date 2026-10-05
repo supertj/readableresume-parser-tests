@@ -1,0 +1,89 @@
+{
+  "file": "federal-cover-letter-letter",
+  "template": "federal",
+  "doc": "cover-letter",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1kAutHbhMRkSf1Sd4IzTCwcoELCftK9lHUMGgWxFo3-o/export?format=pdf",
+  "pdfSha256": "75e53163eefa5a59b8f7ca436f9b15b6ab5d55e54c77d6baa288752d5eea6165",
+  "docxSha256": "a540a4367bf76f5873f1e38ffdfa3d408a8c04a009f83e38776252fe2c27a7bd",
+  "runAt": "2026-10-05T12:55:23+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.582,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 2,
+      "ArialMT": 187
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Jerome Whitley",
+      "Silver Spring, MD | (301) 555-0127 | jerome.whitley@example.com | linkedin.com/in/jeromewhitley",
+      "October 5, 2026",
+      "Hiring Manager",
+      "Washington, DC",
+      "Dear Hiring Manager,",
+      "I'm applying for the Management and Program Analyst position, GS-0343-11, in your office. I've spent",
+      "the last five years managing performance data and grant reporting for a county human services",
+      "department, and before that I ran grants for a nonprofit food program.",
+      "Much of what your announcement describes is work I do now. I track performance for 14 programs,",
+      "built the department's monthly dashboard in Power BI and prepare quarterly reports for four federal and",
+      "state grants worth $11 million. Those grants have been through two federal monitoring reviews with no",
+      "findings.",
+      "I also like the part of the job that changes how programs run. Last year I led a review of our emergency",
+      "rental program's application process. By removing two duplicate steps and changing how documents",
+      "were requested, we cut the average decision time from 34 days to 19.",
+      "Thank you for considering my application. My resume follows the format in the announcement, and I'd",
+      "be glad to provide anything else you need.",
+      "Sincerely,",
+      "Jerome Whitley"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

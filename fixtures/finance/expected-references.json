@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Ethan Calloway",
+    "New York, NY",
+    "(212) 555-0173",
+    "ethan.calloway@example.com",
+    "linkedin.com/in/ethancalloway",
+    "REFERENCES",
+    "Victoria Lang",
+    "Vice President, Corporate Development",
+    "Thornholme Energy",
+    "victoria.lang@example.com",
+    "(212) 555-0115",
+    "Current manager since Jul 2023",
+    "Samuel Okafor",
+    "Director, Industrials Group",
+    "Harlan Quay Capital Partners",
+    "sokafor@example.com",
+    "(212) 555-0198",
+    "Deal team lead, Jul 2021 – Jun 2023",
+    "Rebecca Stein",
+    "Chief Financial Officer",
+    "Thornholme Energy",
+    "rebecca.stein@example.com",
+    "(212) 555-0161",
+    "Reviewed my deal work since Jul 2023"
+  ],
+  "template": "finance",
+  "doc": "references",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Maya Elisabeth Lindqvist Hargreaves",
+  "extra_bullets": [
+    "Set up a monthly customer council of eight store managers who review early designs before anything goes to engineering",
+    "Wrote the help center articles for saved cards and answered support questions during the first two weeks after launch",
+    "Trained two new analysts on the order database and the weekly report process"
+  ],
+  "cover_letter_paragraph": "I also care about the unglamorous parts of product work. I keep a decision log for every feature, write release notes the support team can actually use, and check the numbers again a month after launch, not just the week after. It makes the next planning cycle much easier for everyone.",
+  "extra_reference": {
+    "name": "Tomas Brandt",
+    "role": "Senior Product Designer",
+    "organization": "Tarrowfield Software",
+    "email": "tbrandt@example.com",
+    "phone": "(720) 555-0129",
+    "relationship": "Design partner on scheduling features"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Jules Moreau",
+    "behance.net/julesmoreau",
+    "jules.moreau@example.com",
+    "(503) 555-0177",
+    "Portland, OR",
+    "October 5, 2026",
+    "Creative Director",
+    "Cholla & Clay Home Goods",
+    "Portland, OR",
+    "Dear Creative Director,",
+    "I'm applying for the Senior Brand Designer role on your in-house team. For the past seven years I've designed identities, packaging and campaigns, most recently at Juniper & Vale Creative, where I lead projects for food and outdoor brands.",
+    "The project closest to your posting is a packaging redesign for a regional coffee roaster. We had 30 products, three printers and a tight launch date. I built a system of type, color and layout rules that made each bag easy to produce and easy to spot on a shelf. Within a year the line was in 200 more stores.",
+    "Your products already have a strong voice, and I'd love to help it carry across packaging, stores and your growing online shop. My portfolio link is on my resume, and the coffee case study is on the first page.",
+    "Thank you for your time. I'd be glad to walk you through the work.",
+    "Best regards,",
+    "Jules Moreau"
+  ],
+  "template": "creative",
+  "doc": "cover-letter",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

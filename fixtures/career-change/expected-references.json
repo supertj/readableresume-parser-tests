@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Marisol Vega",
+    "Sacramento, CA",
+    "(916) 555-0146",
+    "marisol.vega@example.com",
+    "linkedin.com/in/marisolvega",
+    "REFERENCES",
+    "Denise Holloway",
+    "District Manager",
+    "Cholla & Clay Home Goods",
+    "dholloway@example.com",
+    "(916) 555-0182",
+    "Current manager since Mar 2020",
+    "Kevin Tran",
+    "Instructor, Business Analytics",
+    "Bosquelind Community College",
+    "ktran@example.org",
+    "(916) 555-0158",
+    "Instructor for the data analytics certificate",
+    "Alicia Moreno",
+    "Regional Operations Analyst",
+    "Cholla & Clay Home Goods",
+    "amoreno@example.com",
+    "(916) 555-0119",
+    "Reviewed my shrink analysis and dashboard"
+  ],
+  "template": "career-change",
+  "doc": "references",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": []
+}
