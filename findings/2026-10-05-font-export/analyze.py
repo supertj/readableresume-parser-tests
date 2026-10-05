@@ -8,6 +8,7 @@ Each PDF is the Jake's sample resume (US Letter) with only the font changed, imp
 and exported with File > Download > PDF. The checks are the ones every template goes through
 (checks/pdf_text.py, checks/compare.py, and OpenResume through checks/verify.py), against
 fixtures/jakes/expected-resume.json. The requested font is read from each .docx title in docx/.
+The rules that decide a result (spacing_only, font_kept, read_cleanly) are tested in test_analyze.py.
 
 SPDX-License-Identifier: AGPL-3.0-only
 """
@@ -27,7 +28,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / "checks"))
 
-from compare import LIGATURES, PRIVATE_USE, check_text, compare_fields  # noqa: E402
+from compare import LIGATURES, PRIVATE_USE, check_text, compare_fields, normalize, normalize_description  # noqa: E402
 from pdf_text import read_pdf  # noqa: E402
 from verify import run_parser, tool_versions  # noqa: E402
 
@@ -43,6 +44,35 @@ def family(postscript_name: str) -> str:
     """'BAAAAA+TimesNewRomanPSMT' -> 'timesnewroman', 'Arial-BoldMT' -> 'arial', 'HelveticaNeue' stays itself."""
     base = postscript_name.split("+")[-1].split("-")[0]
     return squash(re.sub(r"(PSMT|MT|PS)$", "", base))
+
+
+def spacing_only(item: dict) -> bool:
+    """A failed field whose only difference is whitespace, e.g. "checks first" read as "checksfirst".
+
+    Uses the same normalization as the field comparison and removes nothing but whitespace, so a
+    character that changed (a colon exported as a private-use character) is never counted here.
+    """
+    norm = normalize_description if ".descriptions[" in item["path"] else normalize
+    expected, actual = norm(str(item["expected"])), norm(str(item["actual"]))
+    return bool(actual) and expected != actual and re.sub(r"\s+", "", expected) == re.sub(r"\s+", "", actual)
+
+
+def font_kept(visible_char_fonts: dict[str, int], requested: str) -> bool:
+    """True when every visible character in the PDF is drawn in the requested font family."""
+    return all(family(name) == squash(requested) for name in visible_char_fonts)
+
+
+def read_cleanly(report: dict) -> bool:
+    """One page, the requested font kept, the text check passed, and every field and structural check passed."""
+    parser = report["parser"]
+    return (
+        report["fontKept"]
+        and report["text"]["ok"]
+        and parser["passed"] == parser["total"]
+        and not parser["structuralFailed"]
+        and report["pages"] == EXPECTED_PAGES
+        and not report["unmappedGlyphs"]
+    )
 
 
 def requested_font(stem: str) -> str:
@@ -65,10 +95,7 @@ def analyze(pdf: Path) -> dict:
     parsed = run_parser(pdf)
     items, structural = compare_fields(EXPECTED["resume"], parsed["resume"])
     failed = [item for item in items if not item["ok"]]
-    # Fields that only differ in spacing, e.g. "checks first" read as "checksfirst"
-    spacing_only = [
-        item for item in failed if squash(str(item["expected"])) == squash(str(item["actual"])) and item["actual"]
-    ]
+    spacing = [item["path"] for item in failed if spacing_only(item)]
     structural_failed = [check for check in structural if not check["ok"]]
 
     ligatures = Counter(ch for ch in raw if ord(ch) in LIGATURES)
@@ -84,6 +111,7 @@ def analyze(pdf: Path) -> dict:
         "visibleCharFonts": visible,
         "familiesUsed": sorted({re.sub(r"(PSMT|MT|PS)$", "", name.split("+")[-1].split("-")[0]) for name in visible}),
         "shareInRequestedFont": round(in_requested / total, 3),
+        "fontKept": font_kept(visible, requested),
         "ligatures": {f"U+{ord(ch):04X} {ch}": count for ch, count in sorted(ligatures.items())},
         "privateUseChars": dict(private_use),
         "unmappedGlyphs": unmapped,
@@ -91,15 +119,16 @@ def analyze(pdf: Path) -> dict:
         "parser": {
             "passed": len(items) - len(failed),
             "total": len(items),
-            "failed": failed,
-            "spacingOnlyFailures": len(spacing_only),
+            # Every field with its expected and actual value; failedPaths lists the ones that differ
+            "items": items,
+            "failedPaths": [item["path"] for item in failed],
+            "spacingOnlyFailures": len(spacing),
+            "spacingOnlyPaths": spacing,
             "structuralFailed": structural_failed,
             "parserLines": parsed["lines"],
         },
     }
-    report["readCleanly"] = (
-        text["ok"] and not failed and not structural_failed and facts.pages == EXPECTED_PAGES and not unmapped
-    )
+    report["readCleanly"] = read_cleanly(report)
     return report
 
 
@@ -107,7 +136,7 @@ def summary_row(report: dict) -> dict:
     text = report["text"]
     return {
         "font": report["requestedFont"],
-        "font_kept": "yes" if report["shareInRequestedFont"] >= 0.99 else "no",
+        "font_kept": "yes" if report["fontKept"] else "no",
         "fonts_in_pdf": " ".join(report["familiesUsed"]),
         "pages": report["pages"],
         "ligature_chars": sum(report["ligatures"].values()),
@@ -117,7 +146,7 @@ def summary_row(report: dict) -> dict:
         "values_out_of_order": len(text["notFoundInOrder"]),
         "parser_fields": f"{report['parser']['passed']}/{report['parser']['total']}",
         "spacing_only_failures": report["parser"]["spacingOnlyFailures"],
-        "parser_failed_fields": " ".join(item["path"] for item in report["parser"]["failed"]),
+        "parser_failed_fields": " ".join(report["parser"]["failedPaths"]),
         "read_cleanly": "yes" if report["readCleanly"] else "no",
     }
 

@@ -10,7 +10,7 @@ EB Garamond,yes,EBGaramond,1,0,0,0,0,0,46/46,0,,yes
 Garamond,yes,Garamond,1,0,0,0,0,0,46/46,0,,yes
 Georgia,yes,Georgia,1,0,0,0,0,0,46/46,0,,yes
 Helvetica,no,HelveticaNeue,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no
-Inter,yes,Inter,1,0,4,0,0,2,44/46,1,profile.phone educations[0].descriptions[0],no
+Inter,yes,Inter,1,0,4,0,0,2,44/46,0,profile.phone educations[0].descriptions[0],no
 Lato,yes,Lato,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no
 Libre Baskerville,yes,LibreBaskerville,2,6,0,0,0,0,39/46,2,profile.url workExperiences[0].descriptions[3] projects[0].descriptions[2] projects[2].descriptions[1] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
 Lora,yes,Lora,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no

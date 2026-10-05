@@ -17,8 +17,12 @@ File > Download > PDF in a form a resume parser reads correctly? We tested 32 fo
   exported as PDF through Drive's export, which gives the same file as File > Download > PDF. The PDFs are in `pdf/`.
 - **Checks.** The ones every template goes through: pdfminer.six text in the PDF's own order (ligatures U+FB00 to
   U+FB06, private-use characters, order of every value), the fonts that drew the visible text, the page count, and
-  OpenResume (pinned, see `vendor/open-resume`) field by field against the expected values.
-- **Raw results.** `results.json` has every item, expected and actual; `results.csv` has one row per font.
+  OpenResume (pinned, see `vendor/open-resume`) field by field against the expected values. A font counts as kept
+  only if every visible character in the PDF is drawn in it. A font reads cleanly when it is kept, the PDF has one
+  page, the text check passes and all 46 fields match.
+- **Raw results.** `results.json` has every field with its expected and actual value (`parser.items`), the text
+  check details and the fonts in each PDF; `results.csv` has one row per font. `test_analyze.py` tests the rules
+  that classify each font.
 
 ## Results
 
@@ -63,8 +67,8 @@ File > Download > PDF in a form a resume parser reads correctly? We tested 32 fo
 
 - **9 of 32 read cleanly**: Arial, Book Antiqua, Calibri, Cambria, EB Garamond, Garamond, Georgia, Times New Roman and
   Trebuchet MS. One page, the right font, no odd characters, 46 of 46 fields.
-- **Ligatures, 16 fonts.** The PDF stores "fi" and "fl" (in some fonts also "ffi" or "ff") as a single character,
-  so pdfminer reads `ﬁrst` instead of `first`. OpenResume also dropped the space before those words: "checks first"
+- **Ligatures, 16 fonts.** The PDF stores a letter pair as a single character: "fi" and "fl" in 15 fonts
+  (6 of them also "ffi"), and "ff" in Source Sans 3. So pdfminer reads `ﬁrst` instead of `first`. OpenResume also dropped the space before those words: "checks first"
   came out as `checksfirst`. That costs 3 of the 46 fields even when nothing else goes wrong (Lato, Lora, Raleway,
   Roboto).
 - **Substituted fonts.** Google Docs drew Aptos in Arial and Helvetica in Helvetica Neue.
@@ -93,7 +97,7 @@ File > Download > PDF in a form a resume parser reads correctly? We tested 32 fo
 make font-study    # or: uv run python findings/2026-10-05-font-export/analyze.py
 ```
 
-It runs every check on the PDFs in `pdf/` and rewrites `results.json` and `results.csv`, identical apart from
-`runAt`. With Docker: `make docker-verify` builds the pinned image; then
+It runs `test_analyze.py`, then every check on the PDFs in `pdf/`, and rewrites `results.json` and `results.csv`,
+identical apart from `runAt`. With Docker: `make docker-verify` builds the pinned image; then
 `docker run --rm readableresume-parser-tests make font-study`. To redo the export itself, import any file from
 `docx/` into Google Docs and use File > Download > PDF.

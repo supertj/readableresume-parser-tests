@@ -27,6 +27,7 @@ docker-verify-fresh:
 	docker build -t readableresume-parser-tests .
 	docker run --rm -v "$(CURDIR)/results:/work/results" readableresume-parser-tests make verify
 
-# One-off finding: rerun the checks on the PDFs stored in findings/2026-10-05-font-export
+# One-off finding: test the classification rules, then rerun the checks on the PDFs stored in findings/2026-10-05-font-export
 font-study:
+	uv run python findings/2026-10-05-font-export/test_analyze.py
 	uv run python findings/2026-10-05-font-export/analyze.py
