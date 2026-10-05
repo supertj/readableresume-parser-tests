@@ -1,0 +1,33 @@
+font,font_kept,fonts_in_pdf,pages,ligature_chars,private_use_chars,unmapped_glyphs,split_words,values_out_of_order,parser_fields,spacing_only_failures,parser_failed_fields,read_cleanly
+Aptos,no,Arial,1,0,0,0,0,0,36/46,0,workExperiences[0].company workExperiences[0].date workExperiences[1].company workExperiences[1].date workExperiences[2].company workExperiences[2].date educations[0].degree projects[0].project projects[1].project projects[2].project,no
+Arial,yes,Arial,1,0,0,0,0,0,46/46,0,,yes
+Book Antiqua,yes,BookAntiqua,1,0,0,0,0,0,46/46,0,,yes
+Calibri,yes,Calibri,1,0,0,0,0,0,46/46,0,,yes
+Cambria,yes,Cambria,1,0,0,0,0,0,46/46,0,,yes
+Century Gothic,yes,CenturyGothic,2,0,0,0,0,0,41/46,0,projects[1].descriptions[1] projects[2].project projects[2].date projects[2].descriptions[0] projects[2].descriptions[1],no
+Courier New,yes,CourierNew,2,0,0,0,0,0,10/46,18,profile.phone workExperiences[0].company workExperiences[0].date workExperiences[0].descriptions[0] workExperiences[0].descriptions[1] workExperiences[0].descriptions[2] workExperiences[0].descriptions[3] workExperiences[1].company workExperiences[1].date workExperiences[1].descriptions[0] workExperiences[1].descriptions[1] workExperiences[1].descriptions[2] workExperiences[2].company workExperiences[2].date workExperiences[2].descriptions[0] workExperiences[2].descriptions[1] educations[0].degree educations[0].date educations[0].descriptions[0] educations[0].descriptions[1] projects[0].project projects[0].date projects[0].descriptions[0] projects[0].descriptions[1] projects[0].descriptions[2] projects[1].project projects[1].date projects[1].descriptions[0] projects[1].descriptions[1] projects[2].project projects[2].date projects[2].descriptions[0] projects[2].descriptions[1] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+EB Garamond,yes,EBGaramond,1,0,0,0,0,0,46/46,0,,yes
+Garamond,yes,Garamond,1,0,0,0,0,0,46/46,0,,yes
+Georgia,yes,Georgia,1,0,0,0,0,0,46/46,0,,yes
+Helvetica,no,HelveticaNeue,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no
+Inter,yes,Inter,1,0,4,0,0,2,44/46,0,profile.phone educations[0].descriptions[0],no
+Lato,yes,Lato,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no
+Libre Baskerville,yes,LibreBaskerville,2,6,0,0,0,0,39/46,2,profile.url workExperiences[0].descriptions[3] projects[0].descriptions[2] projects[2].descriptions[1] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Lora,yes,Lora,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no
+Merriweather,yes,Merriweather,2,6,0,0,0,0,40/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Montserrat,yes,Montserrat,2,6,0,0,0,0,39/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2] projects[2].descriptions[1] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Nunito,yes,Nunito,2,6,0,0,0,0,40/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Open Sans,yes,OpenSans,2,6,0,0,0,0,39/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2] projects[2].descriptions[1] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Palatino Linotype,yes,PalatinoLinotype,2,6,0,0,0,0,40/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Playfair Display,yes,PlayfairDisplay,2,5,0,0,0,0,40/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Poppins,yes,Poppins,2,0,0,0,0,0,37/46,0,projects[0].descriptions[2] projects[1].project projects[1].date projects[1].descriptions[0] projects[1].descriptions[1] projects[2].project projects[2].date projects[2].descriptions[0] projects[2].descriptions[1],no
+PT Serif,yes,PTSerif,2,6,0,0,0,0,30/46,1,workExperiences[0].descriptions[3] workExperiences[1].company workExperiences[1].jobTitle workExperiences[1].date workExperiences[1].descriptions[0] workExperiences[1].descriptions[1] workExperiences[1].descriptions[2] workExperiences[2].company workExperiences[2].jobTitle workExperiences[2].date workExperiences[2].descriptions[0] workExperiences[2].descriptions[1] projects[0].descriptions[2] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Raleway,yes,Raleway,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no
+Roboto Slab,yes,RobotoSlab,2,6,0,0,0,0,29/46,3,workExperiences[0].company workExperiences[0].date workExperiences[0].descriptions[3] workExperiences[1].company workExperiences[1].date workExperiences[2].company workExperiences[2].date workExperiences[2].descriptions[0] educations[0].degree projects[0].project projects[0].descriptions[2] projects[1].project projects[2].project projects[2].descriptions[1] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Roboto,yes,Roboto,1,6,0,0,0,0,43/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2],no
+Source Sans 3,yes,SourceSans3,2,1,0,0,0,0,43/46,0,skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Tahoma,yes,Tahoma,1,0,0,0,0,0,36/46,0,workExperiences[0].company workExperiences[0].date workExperiences[1].company workExperiences[1].date workExperiences[2].company workExperiences[2].date educations[0].degree projects[0].project projects[1].project projects[2].project,no
+Times New Roman,yes,TimesNewRoman,1,0,0,0,0,0,46/46,0,,yes
+Trebuchet MS,yes,TrebuchetMS,1,0,0,0,0,0,46/46,0,,yes
+Verdana,yes,Verdana,2,0,0,0,0,0,41/46,0,profile.url projects[2].descriptions[1] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no
+Work Sans,yes,WorkSans,2,5,0,0,0,0,40/46,3,workExperiences[0].descriptions[3] workExperiences[2].descriptions[0] projects[0].descriptions[2] skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],no

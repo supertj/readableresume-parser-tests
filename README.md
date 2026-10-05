@@ -41,7 +41,8 @@ files tested are kept as a workflow artifact for 90 days.
 ## Findings
 
 One-off experiments live in `findings/`, each with the PDFs that were tested and the raw results, for
-example how non-Latin names behave (`findings/2026-10-02-non-latin-names/`).
+example how non-Latin names behave (`findings/2026-10-02-non-latin-names/`) and which fonts come through a
+Google Docs PDF export cleanly (`findings/2026-10-05-font-export/`, `make font-study`).
 
 ## Known parser limits
 
