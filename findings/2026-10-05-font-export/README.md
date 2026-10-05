@@ -97,7 +97,8 @@ File > Download > PDF in a form a resume parser reads correctly? We tested 32 fo
 make font-study    # or: uv run python findings/2026-10-05-font-export/analyze.py
 ```
 
-It runs `test_analyze.py`, then every check on the PDFs in `pdf/`, and rewrites `results.json` and `results.csv`,
-identical apart from `runAt`. With Docker: `make docker-verify` builds the pinned image; then
+It runs `test_analyze.py`, then every check on the PDFs in `pdf/`, and rewrites `results.json` and `results.csv`.
+The results come out identical apart from `runAt` and the runtime versions recorded under `tools`: the committed run used
+Node 26.3.0, and the Docker image pins Node 20.18.1. With Docker: `make docker-verify` builds the pinned image; then
 `docker run --rm readableresume-parser-tests make font-study`. To redo the export itself, import any file from
 `docx/` into Google Docs and use File > Download > PDF.

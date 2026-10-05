@@ -66,6 +66,14 @@ def main() -> None:
         case("a report with nothing wrong reads cleanly", read_cleanly(clean_report())),
         case("font substitution alone stops a clean read", not read_cleanly(clean_report(fontKept=False))),
         case("a second page alone stops a clean read", not read_cleanly(clean_report(pages=2))),
+        case("a failed text check alone stops a clean read", not read_cleanly(clean_report(text={"ok": False}))),
+        case(
+            "a failed structural check alone stops a clean read",
+            not read_cleanly(
+                clean_report(parser={"passed": 46, "total": 46, "structuralFailed": [{"name": "entry count", "ok": False}]})
+            ),
+        ),
+        case("unmapped glyphs alone stop a clean read", not read_cleanly(clean_report(unmappedGlyphs=3))),
         case(
             "one wrong field alone stops a clean read",
             not read_cleanly(clean_report(parser={"passed": 45, "total": 46, "structuralFailed": []})),
