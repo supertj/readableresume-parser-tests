@@ -1,0 +1,89 @@
+{
+  "file": "modern-minimal-cover-letter-letter",
+  "template": "modern-minimal",
+  "doc": "cover-letter",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1eQrfM_248ggR1o0AjZ2a3A2oHJ-IFgouk-zBUROJpBY/export?format=pdf",
+  "pdfSha256": "8e02938c7a6db09be16b1d6d89c84dac25d35ad64846bbea41dc87d36408af09",
+  "docxSha256": "c5829d05eea1cedb50bfa6890c61914d0a3b3ec987392c752b3210ba39e74138",
+  "runAt": "2026-10-05T12:55:27+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.583,
+  "fonts": {
+    "expected": "Verdana",
+    "found": [
+      "Verdana",
+      "Verdana-Bold"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Verdana-Bold": 2,
+      "Verdana": 176
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Maya Lindqvist",
+      "Denver, CO | (720) 555-0137 | maya.lindqvist@example.com | linkedin.com/in/mayalindqvist",
+      "October 5, 2026",
+      "Hiring Manager",
+      "Brambleway Health Software",
+      "Denver, CO",
+      "Dear Hiring Manager,",
+      "I'm applying for the Senior Product Manager role on your patient scheduling team. I've spent the",
+      "last three years on scheduling at Tarrowfield Software, and the problems your posting describes,",
+      "empty slots and last-minute changes, are the ones I work on every day.",
+      "At Tarrowfield I own shift swaps and scheduling for about 3,000 hourly teams. Before building",
+      "anything, I interviewed 40 store managers about why shifts went unfilled. Most of the time, people",
+      "simply couldn't find someone to swap with in time. We added swap requests and reminders, and",
+      "unfilled shifts dropped by 18%.",
+      "Clinics have the same problem with different stakes. A missed appointment costs a patient care",
+      "and costs the practice money. I'd like to bring what I've learned about reminders and timing to a",
+      "product where that matters even more.",
+      "Thank you for your time. I'd be glad to talk about what your schedulers struggle with most.",
+      "Sincerely,",
+      "Maya Lindqvist"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

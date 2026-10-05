@@ -1,0 +1,516 @@
+{
+  "file": "finance-resume-a4",
+  "template": "finance",
+  "doc": "resume",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1OopRP4jVrEJJ-8AKTeDw5sgnX5k9rUfXs8a142afU94/export?format=pdf",
+  "pdfSha256": "568bda63c3e4264197805ba7d3ddaf6637f7d92d2b48f5e27a5cb735b24bdbe4",
+  "docxSha256": "85e89d7c23cdcbd771fd242f28e4a08ddf061ae2d85c08117897c0eabfac4686",
+  "runAt": "2026-10-05T12:55:24+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.667,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 31,
+      "TimesNewRomanPSMT": 311,
+      "TimesNewRomanPS-ItalicMT": 19
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Ethan Calloway",
+      "New York, NY | (212) 555-0173 | ethan.calloway@example.com | linkedin.com/in/ethancalloway",
+      "EDUCATION",
+      "Kestlemoor University Philadelphia, PA",
+      "Bachelor of Science in Economics, concentration in Finance May 2021",
+      "• GPA: 3.8/4.0; graduated with honors",
+      "• Relevant coursework: Corporate Finance, Financial Accounting, Econometrics, Valuation",
+      "EXPERIENCE",
+      "Thornholme Energy, Corporate Development New York, NY",
+      "Senior Financial Analyst Jul 2023 – Present",
+      "• Built the model and valuation for a $220 million acquisition of a solar developer, approved by the board in 2025",
+      "• Screen 30 to 40 potential targets a year and write the one-page summaries the CFO uses to decide which to pursue",
+      "• Coordinate diligence with outside counsel, accountants and three internal teams on deals of $50 million to $250 million",
+      "• Track integration targets for two acquired businesses and report progress to the CFO every quarter",
+      "Harlan Quay Capital Partners New York, NY",
+      "Investment Banking Analyst Jul 2021 – Jun 2023",
+      "• Worked on five closed deals worth $1.6 billion, including two sell-side processes for industrial companies",
+      "• Built three-statement models, comparable company analyses and merger models for client pitches and live deals",
+      "• Drafted sections of offering memoranda and managed data rooms with over 2,000 documents",
+      "• Prepared buyer lists and handled first calls with about 60 potential buyers on one sale process",
+      "Harlan Quay Capital Partners New York, NY",
+      "Investment Banking Intern Jun 2020 – Aug 2020",
+      "• Prepared industry research and trading comparables for two healthcare services pitches",
+      "• Built a database of recent deals in physician practice management for the group's senior bankers",
+      "ACTIVITIES AND PROJECTS",
+      "Kestlemoor Student Investment Fund | Portfolio Manager, Industrials 2018 – 2021",
+      "• Managed a $180,000 slice of the university endowment; the industrials sector beat its benchmark by 4% over two years",
+      "Peer Tutoring Program | Economics Tutor 2019 – 2021",
+      "• Tutored about 15 students each term in introductory micro- and macroeconomics",
+      "Kestlemoor Finance Society | Vice President, Education 2019 – 2021"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 15,
+      "actual": 15,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 44,
+    "total": 44,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Ethan Calloway",
+        "actual": "Ethan Calloway",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "ethan.calloway@example.com",
+        "actual": "ethan.calloway@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(212) 555-0173",
+        "actual": "(212) 555-0173",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "New York, NY",
+        "actual": "New York, NY",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/ethancalloway",
+        "actual": "linkedin.com/in/ethancalloway",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Thornholme Energy, Corporate Development",
+        "actual": "Thornholme Energy, Corporate Development",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Senior Financial Analyst",
+        "actual": "Senior Financial Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jul 2023 – Present",
+        "actual": "Jul 2023 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Built the model and valuation for a $220 million acquisition of a solar developer, approved by the board in 2025",
+        "actual": "Built the model and valuation for a $220 million acquisition of a solar developer, approved by the board in 2025",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Screen 30 to 40 potential targets a year and write the one-page summaries the CFO uses to decide which to pursue",
+        "actual": "Screen 30 to 40 potential targets a year and write the one-page summaries the CFO uses to decide which to pursue",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Coordinate diligence with outside counsel, accountants and three internal teams on deals of $50 million to $250 million",
+        "actual": "Coordinate diligence with outside counsel, accountants and three internal teams on deals of $50 million to $250 million",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Track integration targets for two acquired businesses and report progress to the CFO every quarter",
+        "actual": "Track integration targets for two acquired businesses and report progress to the CFO every quarter",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Harlan Quay Capital Partners",
+        "actual": "Harlan Quay Capital Partners",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Investment Banking Analyst",
+        "actual": "Investment Banking Analyst",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jul 2021 – Jun 2023",
+        "actual": "Jul 2021 – Jun 2023",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Worked on five closed deals worth $1.6 billion, including two sell-side processes for industrial companies",
+        "actual": "Worked on five closed deals worth $1.6 billion, including two sell-side processes for industrial companies",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Built three-statement models, comparable company analyses and merger models for client pitches and live deals",
+        "actual": "Built three-statement models, comparable company analyses and merger models for client pitches and live deals",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Drafted sections of offering memoranda and managed data rooms with over 2,000 documents",
+        "actual": "Drafted sections of offering memoranda and managed data rooms with over 2,000 documents",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Prepared buyer lists and handled first calls with about 60 potential buyers on one sale process",
+        "actual": "Prepared buyer lists and handled first calls with about 60 potential buyers on one sale process",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Harlan Quay Capital Partners",
+        "actual": "Harlan Quay Capital Partners",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Investment Banking Intern",
+        "actual": "Investment Banking Intern",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2020 – Aug 2020",
+        "actual": "Jun 2020 – Aug 2020",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Prepared industry research and trading comparables for two healthcare services pitches",
+        "actual": "Prepared industry research and trading comparables for two healthcare services pitches",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Built a database of recent deals in physician practice management for the group's senior bankers",
+        "actual": "Built a database of recent deals in physician practice management for the group's senior bankers",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Kestlemoor University",
+        "actual": "Kestlemoor University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Science in Economics, concentration in Finance",
+        "actual": "Bachelor of Science in Economics, concentration in Finance",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2021",
+        "actual": "May 2021",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "3.8",
+        "actual": "3.8",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "GPA: 3.8/4.0; graduated with honors",
+        "actual": "GPA: 3.8/4.0; graduated with honors",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[1]",
+        "expected": "Relevant coursework: Corporate Finance, Financial Accounting, Econometrics, Valuation",
+        "actual": "Relevant coursework: Corporate Finance, Financial Accounting, Econometrics, Valuation",
+        "ok": true
+      },
+      {
+        "path": "projects[0].project",
+        "expected": "Kestlemoor Student Investment Fund | Portfolio Manager, Industrials",
+        "actual": "Kestlemoor Student Investment Fund | Portfolio Manager, Industrials",
+        "ok": true
+      },
+      {
+        "path": "projects[0].date",
+        "expected": "2018 – 2021",
+        "actual": "2018 – 2021",
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions[0]",
+        "expected": "Managed a $180,000 slice of the university endowment; the industrials sector beat its benchmark by 4% over two years",
+        "actual": "Managed a $180,000 slice of the university endowment; the industrials sector beat its benchmark by 4% over two years",
+        "ok": true
+      },
+      {
+        "path": "projects[1].project",
+        "expected": "Peer Tutoring Program | Economics Tutor",
+        "actual": "Peer Tutoring Program | Economics Tutor",
+        "ok": true
+      },
+      {
+        "path": "projects[1].date",
+        "expected": "2019 – 2021",
+        "actual": "2019 – 2021",
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions[0]",
+        "expected": "Tutored about 15 students each term in introductory micro- and macroeconomics",
+        "actual": "Tutored about 15 students each term in introductory micro- and macroeconomics",
+        "ok": true
+      },
+      {
+        "path": "projects[2].project",
+        "expected": "Kestlemoor Finance Society | Vice President, Education",
+        "actual": "Kestlemoor Finance Society | Vice President, Education",
+        "ok": true
+      },
+      {
+        "path": "projects[2].date",
+        "expected": "2019 – 2021",
+        "actual": "2019 – 2021",
+        "ok": true
+      },
+      {
+        "path": "projects[2].descriptions[0]",
+        "expected": "Ran weekly technical training on accounting and valuation for about 40 first- and second-year members",
+        "actual": "Ran weekly technical training on accounting and valuation for about 40 first- and second-year members",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Technical: Excel, PowerPoint, Capital IQ, FactSet",
+        "actual": "Technical: Excel, PowerPoint, Capital IQ, FactSet",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Certifications: CFA Level II candidate",
+        "actual": "Certifications: CFA Level II candidate",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Languages: English (native), Mandarin (professional)",
+        "actual": "Languages: English (native), Mandarin (professional)",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Interests: Marathon running, chess, cooking",
+        "actual": "Interests: Marathon running, chess, cooking",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "projects[0].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects[2].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "educations[0].location",
+        "value": "Philadelphia, PA",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "New York, NY",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "New York, NY",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "New York, NY",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Ethan Calloway",
+      "New York, NY | (212) 555-0173 | ethan.calloway@example.com | linkedin.com/in/ethancalloway",
+      "EDUCATION",
+      "Kestlemoor University ‖ Philadelphia, PA",
+      "Bachelor of Science in Economics, concentration in Finance ‖ May 2021",
+      "• ‖ GPA: 3.8/4.0; graduated with honors",
+      "• ‖ Relevant coursework: Corporate Finance, Financial Accounting, Econometrics, Valuation",
+      "EXPERIENCE",
+      "Thornholme Energy, Corporate Development ‖ New York, NY",
+      "Senior Financial Analyst ‖ Jul 2023 – Present",
+      "• ‖ Built the model and valuation for a $220 million acquisition of a solar developer, approved by the board in 2025",
+      "• ‖ Screen 30 to 40 potential targets a year and write the one-page summaries the CFO uses to decide which to pursue",
+      "• ‖ Coordinate diligence with outside counsel, accountants and three internal teams on deals of $50 million to $250 million",
+      "• ‖ Track integration targets for two acquired businesses and report progress to the CFO every quarter",
+      "Harlan Quay Capital Partners ‖ New York, NY",
+      "Investment Banking Analyst ‖ Jul 2021 – Jun 2023",
+      "• ‖ Worked on five closed deals worth $1.6 billion, including two sell-side processes for industrial companies",
+      "• ‖ Built three-statement models, comparable company analyses and merger models for client pitches and live deals",
+      "• ‖ Drafted sections of offering memoranda and managed data rooms with over 2,000 documents",
+      "• ‖ Prepared buyer lists and handled first calls with about 60 potential buyers on one sale process",
+      "Harlan Quay Capital Partners ‖ New York, NY",
+      "Investment Banking Intern ‖ Jun 2020 – Aug 2020",
+      "• ‖ Prepared industry research and trading comparables for two healthcare services pitches",
+      "• ‖ Built a database of recent deals in physician practice management for the group's senior bankers",
+      "ACTIVITIES AND PROJECTS",
+      "Kestlemoor Student Investment Fund | Portfolio Manager, Industrials ‖ 2018 – 2021",
+      "• ‖ Managed a $180,000 slice of the university endowment; the industrials sector beat its benchmark by 4% over two years",
+      "Peer Tutoring Program | Economics Tutor ‖ 2019 – 2021",
+      "• ‖ Tutored about 15 students each term in introductory micro- and macroeconomics",
+      "Kestlemoor Finance Society | Vice President, Education ‖ 2019 – 2021",
+      "• ‖ Ran weekly technical training on accounting and valuation for about 40 first- and second-year members",
+      "SKILLS AND INTERESTS",
+      "Technical: Excel, PowerPoint, Capital IQ, FactSet",
+      "Certifications: CFA Level II candidate",
+      "Languages: English (native), Mandarin (professional)",
+      "Interests: Marathon running, chess, cooking"
+    ]
+  },
+  "pass": true
+}

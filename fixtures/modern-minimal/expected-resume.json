@@ -1,0 +1,165 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Maya Lindqvist",
+      "email": "maya.lindqvist@example.com",
+      "phone": "(720) 555-0137",
+      "location": "Denver, CO",
+      "url": "linkedin.com/in/mayalindqvist",
+      "summary": "Product manager with four years in scheduling and payments software. I work closely with design and engineering, talk to customers every week, and like features that are small enough to ship in a month and measure in the next one."
+    },
+    "workExperiences": [
+      {
+        "company": "Tarrowfield Software",
+        "jobTitle": "Product Manager",
+        "date": "Mar 2023 – Present",
+        "descriptions": [
+          "Own scheduling and shift swaps for about 3,000 hourly teams",
+          "Cut unfilled shifts by 18% by adding swap requests and reminders after interviewing 40 store managers about why shifts went empty",
+          "Run quarterly planning with two engineering teams and a designer",
+          "Wrote the team's first product metrics guide, so every launch now ships with a named success measure and a review date"
+        ]
+      },
+      {
+        "company": "Ferncastle Payments",
+        "jobTitle": "Associate Product Manager",
+        "date": "Jun 2020 – Feb 2023",
+        "descriptions": [
+          "Launched saved cards for repeat customers; checkout time fell by a third",
+          "Ran 25 A/B tests on the payment page and kept a public log of every result",
+          "Handled the product side of a card network change on a fixed deadline"
+        ]
+      },
+      {
+        "company": "Gorseholt Distribution",
+        "jobTitle": "Business Analyst",
+        "date": "Jul 2018 – May 2020",
+        "descriptions": [
+          "Built weekly order reports in SQL and Excel for 12 warehouse managers",
+          "Wrote requirements for a new returns process that reduced manual data entry"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Pinyon Draw University",
+        "degree": "Bachelor of Science in Information Systems",
+        "date": "May 2018",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Product: Roadmaps, customer interviews, A/B testing",
+        "Tools: Jira, Figma, Amplitude, SQL, Looker",
+        "Methods: Scrum, Kanban, jobs to be done"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Denver, CO",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Denver, CO",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Aurora, CO",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Boulder, CO",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Maya Lindqvist",
+    "Denver, CO",
+    "(720) 555-0137",
+    "maya.lindqvist@example.com",
+    "linkedin.com/in/mayalindqvist",
+    "SUMMARY",
+    "Product manager with four years in scheduling and payments software. I work closely with design and engineering, talk to customers every week, and like features that are small enough to ship in a month and measure in the next one.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Tarrowfield Software",
+        "Product Manager",
+        "Mar 2023 – Present",
+        "Denver, CO"
+      ]
+    },
+    "Own scheduling and shift swaps for about 3,000 hourly teams",
+    "Cut unfilled shifts by 18% by adding swap requests and reminders after interviewing 40 store managers about why shifts went empty",
+    "Run quarterly planning with two engineering teams and a designer",
+    "Wrote the team's first product metrics guide, so every launch now ships with a named success measure and a review date",
+    {
+      "anyOrder": [
+        "Ferncastle Payments",
+        "Associate Product Manager",
+        "Jun 2020 – Feb 2023",
+        "Denver, CO"
+      ]
+    },
+    "Launched saved cards for repeat customers; checkout time fell by a third",
+    "Ran 25 A/B tests on the payment page and kept a public log of every result",
+    "Handled the product side of a card network change on a fixed deadline",
+    {
+      "anyOrder": [
+        "Gorseholt Distribution",
+        "Business Analyst",
+        "Jul 2018 – May 2020",
+        "Aurora, CO"
+      ]
+    },
+    "Built weekly order reports in SQL and Excel for 12 warehouse managers",
+    "Wrote requirements for a new returns process that reduced manual data entry",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Pinyon Draw University",
+        "Boulder, CO",
+        "Bachelor of Science in Information Systems",
+        "May 2018"
+      ]
+    },
+    "SKILLS",
+    "Product: Roadmaps, customer interviews, A/B testing",
+    "Tools: Jira, Figma, Amplitude, SQL, Looker",
+    "Methods: Scrum, Kanban, jobs to be done"
+  ],
+  "template": "modern-minimal",
+  "doc": "resume",
+  "font": "Verdana",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Own scheduling and shift swaps for about 3,000 hourly teams",
+    "Cut unfilled shifts by 18% by adding swap requests and reminders after interviewing 40 store managers about why shifts went empty",
+    "Run quarterly planning with two engineering teams and a designer",
+    "Wrote the team's first product metrics guide, so every launch now ships with a named success measure and a review date",
+    "Launched saved cards for repeat customers; checkout time fell by a third",
+    "Ran 25 A/B tests on the payment page and kept a public log of every result",
+    "Handled the product side of a card network change on a fixed deadline",
+    "Built weekly order reports in SQL and Excel for 12 warehouse managers",
+    "Wrote requirements for a new returns process that reduced manual data entry"
+  ]
+}

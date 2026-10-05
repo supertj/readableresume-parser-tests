@@ -1,0 +1,89 @@
+{
+  "file": "modern-minimal-references-letter",
+  "template": "modern-minimal",
+  "doc": "references",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1r8ig-9-19hP-UBs9CozMcUHj1WCwTNf1DRg25iZfi_o/export?format=pdf",
+  "pdfSha256": "cb3d1e30ad4f00d13391b751ca49c7076f169b9ee22e7706b7ca5c2cefc0ad98",
+  "docxSha256": "8b1312e42fca1f93807eb2579128fbaccd4019af5890640cc3ccaa010bcbd74e",
+  "runAt": "2026-10-05T12:55:27+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.43,
+  "fonts": {
+    "expected": "Verdana",
+    "found": [
+      "Verdana",
+      "Verdana-Bold",
+      "Verdana-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Verdana-Bold": 6,
+      "Verdana": 42,
+      "Verdana-Italic": 13
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Maya Lindqvist",
+      "Denver, CO | (720) 555-0137 | maya.lindqvist@example.com | linkedin.com/in/mayalindqvist",
+      "REFERENCES",
+      "Owen Gallagher",
+      "Director of Product",
+      "Tarrowfield Software",
+      "ogallagher@example.com | (720) 555-0172",
+      "Current manager since Mar 2023",
+      "Rachel Adeyemi",
+      "Engineering Manager",
+      "Ferncastle Payments",
+      "rachel.adeyemi@example.com | (303) 555-0186",
+      "Engineering partner on the checkout team",
+      "Daniel Ruiz",
+      "Head of Customer Support",
+      "Tarrowfield Software",
+      "daniel.ruiz@example.com | (720) 555-0153",
+      "Support lead on scheduling launches"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

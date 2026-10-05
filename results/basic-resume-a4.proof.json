@@ -1,0 +1,427 @@
+{
+  "file": "basic-resume-a4",
+  "template": "basic",
+  "doc": "resume",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1JkChmt7v8Cd6bBSzuupDAZXr4eHrlYqTpN5YamrRHfo/export?format=pdf",
+  "pdfSha256": "cbecdc43048ebf88e8e1f50f1e0f8957a5a996dbb399b4eeec1873887748c3b2",
+  "docxSha256": "cf873bfc109517421d4f9f7e410516d91add987876e5d0ebee0055bc02a72fd8",
+  "runAt": "2026-10-05T12:55:19+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.677,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 17,
+      "TimesNewRomanPSMT": 223,
+      "TimesNewRomanPS-ItalicMT": 11
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Linda Morales",
+      "Indianapolis, IN | (317) 555-0121 | linda.morales@example.com",
+      "SUMMARY",
+      "Administrative assistant with five years of experience supporting busy offices in finance and health care.",
+      "Organized, calm with a full calendar, and comfortable with Microsoft 365, scheduling systems and basic",
+      "bookkeeping.",
+      "EXPERIENCE",
+      "Halvorsen Advisory Group Indianapolis, IN",
+      "Administrative Assistant Apr 2022 – Present",
+      "• Manage calendars and travel for three partners and a team of 12 advisers",
+      "• Prepare client meeting packets and keep the client file system up to date",
+      "• Process about 80 expense reports a month and reconcile the office credit card",
+      "• Set up a shared request form that replaced most of the team's scheduling emails",
+      "Wickenhay Health Carmel, IN",
+      "Office Coordinator Aug 2019 – Mar 2022",
+      "• Scheduled appointments for four providers and handled insurance checks at check-in",
+      "• Ordered office and clinical supplies, keeping spending within the monthly budget",
+      "• Trained two new front desk staff on scheduling and patient privacy rules",
+      "• Kept the referral log current and followed up on missing paperwork with other offices",
+      "Elkmeadow Rehabilitation Hospital Indianapolis, IN",
+      "Front Desk Associate Jun 2017 – Jul 2019",
+      "• Greeted about 100 patients and visitors a day and answered a busy phone line",
+      "• Kept visitor logs and badges in order for a 90-bed hospital",
+      "EDUCATION",
+      "Basalt Bluff College Indianapolis, IN",
+      "Associate of Applied Science in Office Administration May 2017",
+      "SKILLS",
+      "Software: Microsoft 365, Google Workspace, QuickBooks",
+      "Office: Scheduling, travel booking, expense reports",
+      "Typing: 70 words per minute"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 10,
+      "actual": 10,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 33,
+    "total": 33,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Linda Morales",
+        "actual": "Linda Morales",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "linda.morales@example.com",
+        "actual": "linda.morales@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(317) 555-0121",
+        "actual": "(317) 555-0121",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Indianapolis, IN",
+        "actual": "Indianapolis, IN",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Administrative assistant with five years of experience supporting busy offices in finance and health care. Organized, calm with a full calendar, and comfortable with Microsoft 365, scheduling systems and basic bookkeeping.",
+        "actual": "Administrative assistant with five years of experience supporting busy offices in finance and health care. Organized, calm with a full calendar, and comfortable with Microsoft 365, scheduling systems and basic bookkeeping.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Halvorsen Advisory Group",
+        "actual": "Halvorsen Advisory Group",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Administrative Assistant",
+        "actual": "Administrative Assistant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Apr 2022 – Present",
+        "actual": "Apr 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Manage calendars and travel for three partners and a team of 12 advisers",
+        "actual": "Manage calendars and travel for three partners and a team of 12 advisers",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Prepare client meeting packets and keep the client file system up to date",
+        "actual": "Prepare client meeting packets and keep the client file system up to date",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Process about 80 expense reports a month and reconcile the office credit card",
+        "actual": "Process about 80 expense reports a month and reconcile the office credit card",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Set up a shared request form that replaced most of the team's scheduling emails",
+        "actual": "Set up a shared request form that replaced most of the team's scheduling emails",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Wickenhay Health",
+        "actual": "Wickenhay Health",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Office Coordinator",
+        "actual": "Office Coordinator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Aug 2019 – Mar 2022",
+        "actual": "Aug 2019 – Mar 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Scheduled appointments for four providers and handled insurance checks at check-in",
+        "actual": "Scheduled appointments for four providers and handled insurance checks at check-in",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Ordered office and clinical supplies, keeping spending within the monthly budget",
+        "actual": "Ordered office and clinical supplies, keeping spending within the monthly budget",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Trained two new front desk staff on scheduling and patient privacy rules",
+        "actual": "Trained two new front desk staff on scheduling and patient privacy rules",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Kept the referral log current and followed up on missing paperwork with other offices",
+        "actual": "Kept the referral log current and followed up on missing paperwork with other offices",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Elkmeadow Rehabilitation Hospital",
+        "actual": "Elkmeadow Rehabilitation Hospital",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Front Desk Associate",
+        "actual": "Front Desk Associate",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2017 – Jul 2019",
+        "actual": "Jun 2017 – Jul 2019",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Greeted about 100 patients and visitors a day and answered a busy phone line",
+        "actual": "Greeted about 100 patients and visitors a day and answered a busy phone line",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Kept visitor logs and badges in order for a 90-bed hospital",
+        "actual": "Kept visitor logs and badges in order for a 90-bed hospital",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Basalt Bluff College",
+        "actual": "Basalt Bluff College",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Associate of Applied Science in Office Administration",
+        "actual": "Associate of Applied Science in Office Administration",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2017",
+        "actual": "May 2017",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Software: Microsoft 365, Google Workspace, QuickBooks",
+        "actual": "Software: Microsoft 365, Google Workspace, QuickBooks",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Office: Scheduling, travel booking, expense reports",
+        "actual": "Office: Scheduling, travel booking, expense reports",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Typing: 70 words per minute",
+        "actual": "Typing: 70 words per minute",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Certifications: Microsoft Office Specialist (Excel)",
+        "actual": "Certifications: Microsoft Office Specialist (Excel)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Indianapolis, IN",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Carmel, IN",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Indianapolis, IN",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Indianapolis, IN",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Linda Morales",
+      "Indianapolis, IN | (317) 555-0121 | linda.morales@example.com",
+      "SUMMARY",
+      "Administrative assistant with five years of experience supporting busy offices in finance and health care.",
+      "Organized, calm with a full calendar, and comfortable with Microsoft 365, scheduling systems and basic",
+      "bookkeeping.",
+      "EXPERIENCE",
+      "Halvorsen Advisory Group ‖ Indianapolis, IN",
+      "Administrative Assistant ‖ Apr 2022 – Present",
+      "• ‖ Manage calendars and travel for three partners and a team of 12 advisers",
+      "• ‖ Prepare client meeting packets and keep the client file system up to date",
+      "• ‖ Process about 80 expense reports a month and reconcile the office credit card",
+      "• ‖ Set up a shared request form that replaced most of the team's scheduling emails",
+      "Wickenhay Health ‖ Carmel, IN",
+      "Office Coordinator ‖ Aug 2019 – Mar 2022",
+      "• ‖ Scheduled appointments for four providers and handled insurance checks at check-in",
+      "• ‖ Ordered office and clinical supplies, keeping spending within the monthly budget",
+      "• ‖ Trained two new front desk staff on scheduling and patient privacy rules",
+      "• ‖ Kept the referral log current and followed up on missing paperwork with other offices",
+      "Elkmeadow Rehabilitation Hospital ‖ Indianapolis, IN",
+      "Front Desk Associate ‖ Jun 2017 – Jul 2019",
+      "• ‖ Greeted about 100 patients and visitors a day and answered a busy phone line",
+      "• ‖ Kept visitor logs and badges in order for a 90-bed hospital",
+      "EDUCATION",
+      "Basalt Bluff College ‖ Indianapolis, IN",
+      "Associate of Applied Science in Office Administration ‖ May 2017",
+      "SKILLS",
+      "Software: Microsoft 365, Google Workspace, QuickBooks",
+      "Office: Scheduling, travel booking, expense reports",
+      "Typing: 70 words per minute",
+      "Certifications: Microsoft Office Specialist (Excel)"
+    ]
+  },
+  "pass": true
+}

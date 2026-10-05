@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Jerome Whitley",
+    "Silver Spring, MD",
+    "(301) 555-0127",
+    "jerome.whitley@example.com",
+    "linkedin.com/in/jeromewhitley",
+    "REFERENCES",
+    "Lena Ortiz",
+    "Deputy Director, Planning and Performance",
+    "Larkmead County Department of Human Services",
+    "lena.ortiz@example.org",
+    "(301) 555-0142",
+    "Current manager since Aug 2021",
+    "Carla Benson",
+    "Executive Director",
+    "Ladle & Lamp Community Kitchen",
+    "cbenson@example.org",
+    "(410) 555-0164",
+    "Manager, Jun 2018 – Jul 2021",
+    "Thomas Greer",
+    "Budget Analyst",
+    "Larkmead County Department of Human Services",
+    "thomas.greer@example.org",
+    "(301) 555-0177",
+    "Colleague on grant budgets since Aug 2021"
+  ],
+  "template": "federal",
+  "doc": "references",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

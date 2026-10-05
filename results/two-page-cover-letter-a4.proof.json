@@ -1,0 +1,92 @@
+{
+  "file": "two-page-cover-letter-a4",
+  "template": "two-page",
+  "doc": "cover-letter",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1hqDwLn3rBPMP81XGBnfLLagNkmrIeW5MooyvzacyqtI/export?format=pdf",
+  "pdfSha256": "5c990d9ed314c2541efa3ce237e7406eb8340f58ae052f37310121e27ab33f43",
+  "docxSha256": "5705f4d4f8e3aca168ef49c8d4bf4827977992c66453d0d57f1ae19ce17d309a",
+  "runAt": "2026-10-05T12:55:30+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.633,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 2,
+      "Georgia": 188
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Robert Haugland",
+      "Minneapolis, MN | (612) 555-0134 | robert.haugland@example.com |",
+      "linkedin.com/in/roberthaugland",
+      "October 5, 2026",
+      "Hiring Manager",
+      "Brassmoor Freight Systems",
+      "Minneapolis, MN",
+      "Dear Hiring Manager,",
+      "I'm applying for the Vice President of Supply Chain position at Brassmoor Freight Systems. I've",
+      "spent 15 years in supply chain roles, and for the last five I've run planning, purchasing and",
+      "logistics for Tennwick Packaging Supply, a $480 million packaging manufacturer with four",
+      "plants.",
+      "The work I'm proudest of at Tennwick is our planning process. When I joined, sales, finance and",
+      "the plants each had their own forecast. We set up a single monthly planning meeting with one",
+      "shared number. Within two years we cut inventory by $18 million and raised our order fill rate",
+      "from 93% to 98%.",
+      "Your posting talks about growing into new regions without adding warehouse space. I've done",
+      "similar work before. At Gorseholt Distribution I redesigned delivery routes and moved freight to",
+      "fewer carriers, and at Tennwick our new carrier contracts save $2.6 million a year.",
+      "Thank you for your time. I'd welcome the chance to talk about your growth plans and where",
+      "supply chain fits in.",
+      "Sincerely,",
+      "Robert Haugland"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

@@ -1,0 +1,87 @@
+{
+  "file": "modern-bold-cover-letter-letter",
+  "template": "modern-bold",
+  "doc": "cover-letter",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/13k4h9JfG2BRE-MjT_2eXVRcINho2RHkIRzHPdYHna10/export?format=pdf",
+  "pdfSha256": "7f5a3df24a13b26b8dd18d53c014f7a441c7b66b91484bffae527131f7e1ae48",
+  "docxSha256": "c4edbf18230843736198c23cb70c52656654a056124dabe239f7344898783a2f",
+  "runAt": "2026-10-05T12:55:26+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.511,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 2,
+      "ArialMT": 187
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Andre Whitaker",
+      "Austin, TX | (512) 555-0154 | andre.whitaker@example.com | linkedin.com/in/andrewhitaker",
+      "October 5, 2026",
+      "Hiring Manager",
+      "Wrenfold Health",
+      "Austin, TX",
+      "Dear Hiring Manager,",
+      "I'm writing about the Customer Success Manager role on your enterprise team. For the past seven years I've",
+      "helped software customers get real use out of what they bought, most recently for research labs at Quill & Flask",
+      "Labs, where I manage about $4 million in yearly renewals.",
+      "The part of the job I'm proudest of is catching problems early. At Quill & Flask I built a simple health score from",
+      "support tickets and product usage. It now flags accounts at risk about two months sooner than our old process,",
+      "which gives us time to fix things before a renewal conversation. Last year our gross retention was 96%.",
+      "Your posting mentions a large group of new hospital customers starting next year. I've led a customer base",
+      "through a platform switch before, and I know how much a clear onboarding plan matters in the first 90 days.",
+      "Thank you for considering my application. I'd welcome the chance to talk about your onboarding plans.",
+      "Best regards,",
+      "Andre Whitaker"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

@@ -1,0 +1,89 @@
+{
+  "file": "modern-minimal-references-a4",
+  "template": "modern-minimal",
+  "doc": "references",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1T1GuJbpd0P0iUdSNbDi7nbgZFEn4VINilOMWcDnD-8o/export?format=pdf",
+  "pdfSha256": "c5fa54f6a8e9e7d94b63dad2098bb583a47097c1dcc7f344bfda0ce2b87158ed",
+  "docxSha256": "597950dec60aeb7d307f02bd869ac58113970d996d0a4dfc7aa3eda49804b4a4",
+  "runAt": "2026-10-05T12:55:27+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.4,
+  "fonts": {
+    "expected": "Verdana",
+    "found": [
+      "Verdana",
+      "Verdana-Bold",
+      "Verdana-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Verdana-Bold": 6,
+      "Verdana": 42,
+      "Verdana-Italic": 13
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Maya Lindqvist",
+      "Denver, CO | (720) 555-0137 | maya.lindqvist@example.com | linkedin.com/in/mayalindqvist",
+      "REFERENCES",
+      "Owen Gallagher",
+      "Director of Product",
+      "Tarrowfield Software",
+      "ogallagher@example.com | (720) 555-0172",
+      "Current manager since Mar 2023",
+      "Rachel Adeyemi",
+      "Engineering Manager",
+      "Ferncastle Payments",
+      "rachel.adeyemi@example.com | (303) 555-0186",
+      "Engineering partner on the checkout team",
+      "Daniel Ruiz",
+      "Head of Customer Support",
+      "Tarrowfield Software",
+      "daniel.ruiz@example.com | (720) 555-0153",
+      "Support lead on scheduling launches"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

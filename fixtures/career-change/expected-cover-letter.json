@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Marisol Vega",
+    "Sacramento, CA",
+    "(916) 555-0146",
+    "marisol.vega@example.com",
+    "linkedin.com/in/marisolvega",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Gorseholt Distribution",
+    "Sacramento, CA",
+    "Dear Hiring Manager,",
+    "I'm applying for the Junior Data Analyst position on your sales operations team. I've managed retail stores for eight years, and for the last two I've been doing the analysis behind my own decisions in SQL and Tableau. I'm ready to make that my full-time job.",
+    "The project I'd point to first is a shrink analysis I did for my store. I matched two years of inventory counts to sales data and found that three product groups caused 60% of our losses. We changed how those items were displayed and counted, and shrink fell from 2.4% to 1.6% of sales in six months.",
+    "I know I'd be new to the title. What I bring is eight years of knowing what store and warehouse numbers mean on the ground, and a habit of explaining them to people who don't work with data all day.",
+    "Thank you for your time. I'd be glad to walk you through the dashboard and the shrink analysis.",
+    "Sincerely,",
+    "Marisol Vega"
+  ],
+  "template": "career-change",
+  "doc": "cover-letter",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

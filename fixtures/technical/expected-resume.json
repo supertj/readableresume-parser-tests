@@ -1,0 +1,185 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Kevin Osei",
+      "email": "kevin.osei@example.com",
+      "phone": "(206) 555-0159",
+      "location": "Seattle, WA",
+      "url": "linkedin.com/in/kevinosei",
+      "summary": ""
+    },
+    "workExperiences": [
+      {
+        "company": "Tarnhollow Logistics",
+        "jobTitle": "Software Engineer II",
+        "date": "Mar 2023 – Present",
+        "descriptions": [
+          "Lead the shipment events service in Go, handling about 40 million events a day from 300 warehouses",
+          "Moved the service from a single database to partitioned PostgreSQL tables, cutting p95 write latency from 220 ms to 35 ms",
+          "Wrote the team's on-call runbook and alert rules; pages per week dropped from 14 to 4 after the first quarter",
+          "Mentor two junior engineers and review about 15 pull requests a week",
+          "Added tracing to four shipment services, so finding a failing step takes minutes instead of hours"
+        ]
+      },
+      {
+        "company": "Brindlewood Freight Systems",
+        "jobTitle": "Software Engineer",
+        "date": "Jul 2021 – Feb 2023",
+        "descriptions": [
+          "Built the carrier rate API in Python and FastAPI, used by the pricing team to quote about 9,000 loads a day",
+          "Set up Terraform for the team's AWS accounts, replacing hand-made resources and shortening new environment setup from two days to an hour",
+          "Added contract tests between four services, catching breaking changes before deploys",
+          "Took part in the on-call rotation and wrote six incident reviews"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Alderhaven University",
+        "degree": "Bachelor of Science in Computer Science",
+        "date": "Jun 2021",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [
+      {
+        "project": "Queue Lens | Go, open source",
+        "date": "2024",
+        "descriptions": [
+          "A small web tool that shows Kafka consumer lag by team and topic, with about 600 stars on GitHub"
+        ]
+      },
+      {
+        "project": "Trailhead Weather | TypeScript, React Native",
+        "date": "2022",
+        "descriptions": [
+          "A phone app that combines forecasts and trail reports for hikers; about 2,000 monthly users"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Languages: Go, Python, TypeScript, SQL",
+        "Infrastructure: AWS, Kubernetes, Terraform, Docker",
+        "Data: PostgreSQL, Redis, Kafka",
+        "Practices: Code review, on-call, observability"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "profile.url (second link)",
+      "value": "github.com/kevinosei",
+      "reason": "parser keeps one URL"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Seattle, WA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Bellevue, WA",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Tacoma, WA",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Kevin Osei",
+    "Seattle, WA",
+    "(206) 555-0159",
+    "kevin.osei@example.com",
+    "linkedin.com/in/kevinosei",
+    "github.com/kevinosei",
+    "TECHNICAL SKILLS",
+    "Languages: Go, Python, TypeScript, SQL",
+    "Infrastructure: AWS, Kubernetes, Terraform, Docker",
+    "Data: PostgreSQL, Redis, Kafka",
+    "Practices: Code review, on-call, observability",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Tarnhollow Logistics",
+        "Software Engineer II",
+        "Mar 2023 – Present",
+        "Seattle, WA"
+      ]
+    },
+    "Lead the shipment events service in Go, handling about 40 million events a day from 300 warehouses",
+    "Moved the service from a single database to partitioned PostgreSQL tables, cutting p95 write latency from 220 ms to 35 ms",
+    "Wrote the team's on-call runbook and alert rules; pages per week dropped from 14 to 4 after the first quarter",
+    "Mentor two junior engineers and review about 15 pull requests a week",
+    "Added tracing to four shipment services, so finding a failing step takes minutes instead of hours",
+    {
+      "anyOrder": [
+        "Brindlewood Freight Systems",
+        "Software Engineer",
+        "Jul 2021 – Feb 2023",
+        "Bellevue, WA"
+      ]
+    },
+    "Built the carrier rate API in Python and FastAPI, used by the pricing team to quote about 9,000 loads a day",
+    "Set up Terraform for the team's AWS accounts, replacing hand-made resources and shortening new environment setup from two days to an hour",
+    "Added contract tests between four services, catching breaking changes before deploys",
+    "Took part in the on-call rotation and wrote six incident reviews",
+    "PROJECTS",
+    {
+      "anyOrder": [
+        "Queue Lens",
+        "Go, open source",
+        "2024"
+      ]
+    },
+    "A small web tool that shows Kafka consumer lag by team and topic, with about 600 stars on GitHub",
+    {
+      "anyOrder": [
+        "Trailhead Weather",
+        "TypeScript, React Native",
+        "2022"
+      ]
+    },
+    "A phone app that combines forecasts and trail reports for hikers; about 2,000 monthly users",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Alderhaven University",
+        "Tacoma, WA",
+        "Bachelor of Science in Computer Science",
+        "Jun 2021"
+      ]
+    }
+  ],
+  "template": "technical",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Lead the shipment events service in Go, handling about 40 million events a day from 300 warehouses",
+    "Moved the service from a single database to partitioned PostgreSQL tables, cutting p95 write latency from 220 ms to 35 ms",
+    "Wrote the team's on-call runbook and alert rules; pages per week dropped from 14 to 4 after the first quarter",
+    "Mentor two junior engineers and review about 15 pull requests a week",
+    "Added tracing to four shipment services, so finding a failing step takes minutes instead of hours",
+    "Built the carrier rate API in Python and FastAPI, used by the pricing team to quote about 9,000 loads a day",
+    "Set up Terraform for the team's AWS accounts, replacing hand-made resources and shortening new environment setup from two days to an hour",
+    "Added contract tests between four services, catching breaking changes before deploys",
+    "Took part in the on-call rotation and wrote six incident reviews",
+    "A small web tool that shows Kafka consumer lag by team and topic, with about 600 stars on GitHub",
+    "A phone app that combines forecasts and trail reports for hikers; about 2,000 monthly users"
+  ]
+}

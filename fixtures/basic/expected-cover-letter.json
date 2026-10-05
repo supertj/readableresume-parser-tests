@@ -1,0 +1,24 @@
+{
+  "textSequence": [
+    "Linda Morales",
+    "Indianapolis, IN",
+    "(317) 555-0121",
+    "linda.morales@example.com",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Calder & Wright",
+    "Indianapolis, IN",
+    "Dear Hiring Manager,",
+    "I'm applying for the Executive Assistant position at Calder & Wright. I've worked as an administrative assistant for five years, most recently supporting three partners and a team of 12 advisers at Halvorsen Advisory Group.",
+    "My job is to make sure the people I support never have to think about their calendars, travel or paperwork. At Halvorsen I manage three partners' schedules, prepare client meeting packets and process about 80 expense reports a month. Last year I set up a simple shared request form that replaced most of the scheduling emails, and the partners noticed the difference within a week.",
+    "I'm careful with confidential information and calm when the day changes at the last minute, which I understand happens often at a law firm.",
+    "Thank you for considering my application. I'd be glad to meet at a time that suits you.",
+    "Sincerely,",
+    "Linda Morales"
+  ],
+  "template": "basic",
+  "doc": "cover-letter",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

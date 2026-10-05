@@ -1,0 +1,93 @@
+{
+  "file": "academic-cv-cover-letter-letter",
+  "template": "academic-cv",
+  "doc": "cover-letter",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/10BmuPSS_WYd0aHQzm4BrDBtpakW1-qzqo2g-8FliI4k/export?format=pdf",
+  "pdfSha256": "ac6fc7f602c53c36477c6ec094916b7598b284838d26427e3a73379f1f4a450f",
+  "docxSha256": "194dbacd1cc928ebd671125f45454f52c57701d7fa829603b5d0e622a3d41b21",
+  "runAt": "2026-10-05T12:55:18+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.661,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 2,
+      "TimesNewRomanPSMT": 242
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Nadia Petrakis",
+      "Fort Collins, CO | (970) 555-0162 | nadia.petrakis@example.org | linkedin.com/in/nadiapetrakis",
+      "October 5, 2026",
+      "Search Committee",
+      "Department of Biology",
+      "Pinemoor University",
+      "Athens, GA",
+      "Dear Members of the Search Committee,",
+      "I'm applying for the Assistant Professor of Forest Ecology position in your Department of Biology. I'm a",
+      "postdoctoral researcher at Cottonhollow University, where I study how forests recover after severe",
+      "wildfire, and I'd like to build a field program in the Southeast, where fire plays a very different role.",
+      "My research asks which plants and animals help a burned forest come back, and how fast. My dissertation",
+      "showed that birds carry seeds much farther into burned areas than current models assume. My postdoc",
+      "work follows what happens next, on 48 plots across two fire scars. Both projects mix field data with",
+      "statistical models, and both have produced data sets other labs now use.",
+      "I enjoy teaching most when students collect their own data. As instructor of record for Field Methods in",
+      "Ecology, I rebuilt the course around two weekend field trips and a final project each student designed. In",
+      "my lab, undergraduates own a small question from the start; two of them presented their own posters this",
+      "year.",
+      "At Pinemoor I'd start with longleaf pine sites, where frequent fire is the norm rather than the exception,",
+      "and I'd look for ways to work with your land management partners. Thank you for considering my",
+      "application. My research and teaching statements are attached.",
+      "Sincerely,",
+      "Nadia Petrakis"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

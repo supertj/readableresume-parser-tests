@@ -1,0 +1,88 @@
+{
+  "file": "basic-cover-letter-a4",
+  "template": "basic",
+  "doc": "cover-letter",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1nBA6FoXaTw8X67EXR75hIYx4xapWMwt0hzRoxzBXvLI/export?format=pdf",
+  "pdfSha256": "6a60d4163cb2725150b297a084388a7f5e4aa9b48200552f12edec6e741dc56d",
+  "docxSha256": "42379af464fb3f78f3e8d2bc2d326cc5c25be1039ca34d94b12c59af125ef46b",
+  "runAt": "2026-10-05T12:55:19+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.518,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 2,
+      "TimesNewRomanPSMT": 164
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Linda Morales",
+      "Indianapolis, IN | (317) 555-0121 | linda.morales@example.com",
+      "October 5, 2026",
+      "Hiring Manager",
+      "Calder & Wright",
+      "Indianapolis, IN",
+      "Dear Hiring Manager,",
+      "I'm applying for the Executive Assistant position at Calder & Wright. I've worked as an administrative",
+      "assistant for five years, most recently supporting three partners and a team of 12 advisers at Halvorsen",
+      "Advisory Group.",
+      "My job is to make sure the people I support never have to think about their calendars, travel or",
+      "paperwork. At Halvorsen I manage three partners' schedules, prepare client meeting packets and process",
+      "about 80 expense reports a month. Last year I set up a simple shared request form that replaced most of",
+      "the scheduling emails, and the partners noticed the difference within a week.",
+      "I'm careful with confidential information and calm when the day changes at the last minute, which I",
+      "understand happens often at a law firm.",
+      "Thank you for considering my application. I'd be glad to meet at a time that suits you.",
+      "Sincerely,",
+      "Linda Morales"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

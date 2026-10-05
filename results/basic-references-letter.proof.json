@@ -1,0 +1,89 @@
+{
+  "file": "basic-references-letter",
+  "template": "basic",
+  "doc": "references",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1ztoqCwPll6PPMNoJD-qTuRdRWBILqOIE0y9ovXRAXsg/export?format=pdf",
+  "pdfSha256": "9203208872ccf5064ef56b385ae082c34069e1158c2c8a51a3bcca962d772ecd",
+  "docxSha256": "6723b23a9b55dd8961de32586668de84accdf5173a883d9d876477eccdf1e253",
+  "runAt": "2026-10-05T12:55:19+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.419,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 6,
+      "TimesNewRomanPSMT": 39,
+      "TimesNewRomanPS-ItalicMT": 12
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Linda Morales",
+      "Indianapolis, IN | (317) 555-0121 | linda.morales@example.com",
+      "REFERENCES",
+      "Gregory Halvorsen",
+      "Managing Partner",
+      "Halvorsen Advisory Group",
+      "ghalvorsen@example.com | (317) 555-0166",
+      "Current manager since Apr 2022",
+      "Teresa Quinlan",
+      "Practice Manager",
+      "Wickenhay Health",
+      "tquinlan@example.com | (317) 555-0149",
+      "Manager, Aug 2019 – Mar 2022",
+      "Paula Jennings",
+      "Senior Adviser",
+      "Halvorsen Advisory Group",
+      "pjennings@example.com | (317) 555-0132",
+      "Adviser I support daily"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

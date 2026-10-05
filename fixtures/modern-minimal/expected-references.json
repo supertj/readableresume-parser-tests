@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Maya Lindqvist",
+    "Denver, CO",
+    "(720) 555-0137",
+    "maya.lindqvist@example.com",
+    "linkedin.com/in/mayalindqvist",
+    "REFERENCES",
+    "Owen Gallagher",
+    "Director of Product",
+    "Tarrowfield Software",
+    "ogallagher@example.com",
+    "(720) 555-0172",
+    "Current manager since Mar 2023",
+    "Rachel Adeyemi",
+    "Engineering Manager",
+    "Ferncastle Payments",
+    "rachel.adeyemi@example.com",
+    "(303) 555-0186",
+    "Engineering partner on the checkout team",
+    "Daniel Ruiz",
+    "Head of Customer Support",
+    "Tarrowfield Software",
+    "daniel.ruiz@example.com",
+    "(720) 555-0153",
+    "Support lead on scheduling launches"
+  ],
+  "template": "modern-minimal",
+  "doc": "references",
+  "font": "Verdana",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

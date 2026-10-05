@@ -1,0 +1,215 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Samantha Cho",
+      "email": "samantha.cho@example.com",
+      "phone": "(919) 555-0168",
+      "location": "Durham, NC",
+      "url": "linkedin.com/in/samanthacho",
+      "summary": "Board-certified physician assistant with four years in emergency and urgent care. I see 25 to 30 patients a shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow them."
+    },
+    "workExperiences": [
+      {
+        "company": "Pecanwood Health System, Emergency Department",
+        "jobTitle": "Physician Assistant",
+        "date": "Aug 2022 – Present",
+        "descriptions": [
+          "See 25 to 30 patients a shift in a 48-bed emergency department with about 70,000 visits a year",
+          "Perform procedures including laceration repair, splinting, incision and drainage, and joint reductions",
+          "Helped write the chest pain pathway for low-risk patients, cutting average stays by 2 hours",
+          "Precept PA students from two programs, about six students a year"
+        ]
+      },
+      {
+        "company": "Quenmore Health Partners",
+        "jobTitle": "Physician Assistant",
+        "date": "Jan 2021 – Jul 2022",
+        "descriptions": [
+          "Treated about 35 patients a shift across three urgent care clinics",
+          "Read X-rays with radiology overreads and managed common fractures and sprains",
+          "Started a same-day callback list for abnormal lab results, cutting missed follow-ups"
+        ]
+      },
+      {
+        "company": "Ferrowby Medical Center",
+        "jobTitle": "Emergency Department Technician",
+        "date": "Jun 2016 – Jul 2018",
+        "descriptions": [
+          "Took vitals, drew blood, ran EKGs and helped with procedures for about 40 patients a shift"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Wendlow College of Medicine",
+        "degree": "Master of Physician Assistant Studies",
+        "date": "Dec 2020",
+        "gpa": "",
+        "descriptions": [
+          "Clinical rotations: emergency medicine, family medicine, surgery, pediatrics, psychiatry"
+        ]
+      },
+      {
+        "school": "Marlbrook University",
+        "degree": "Bachelor of Science in Biology",
+        "date": "May 2016",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Clinical: Suturing, splinting, point-of-care ultrasound",
+        "Systems: Epic, Cerner",
+        "Languages: English (native), Korean (conversational)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "licenses and certifications[0]",
+      "value": "Physician Assistant, Certified (PA-C), board certified through 2030",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "licenses and certifications[1]",
+      "value": "North Carolina physician assistant license, active",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "licenses and certifications[2]",
+      "value": "DEA registration, active",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "licenses and certifications[3]",
+      "value": "BLS, ACLS and PALS, current",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Durham, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Raleigh, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Greenville, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Erie, PA",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Greenville, NC",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Samantha Cho",
+    "Durham, NC",
+    "(919) 555-0168",
+    "samantha.cho@example.com",
+    "linkedin.com/in/samanthacho",
+    "SUMMARY",
+    "Board-certified physician assistant with four years in emergency and urgent care. I see 25 to 30 patients a shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow them.",
+    "LICENSES AND CERTIFICATIONS",
+    "Physician Assistant, Certified (PA-C), board certified through 2030",
+    "North Carolina physician assistant license, active",
+    "DEA registration, active",
+    "BLS, ACLS and PALS, current",
+    "CLINICAL EXPERIENCE",
+    {
+      "anyOrder": [
+        "Pecanwood Health System, Emergency Department",
+        "Physician Assistant",
+        "Aug 2022 – Present",
+        "Durham, NC"
+      ]
+    },
+    "See 25 to 30 patients a shift in a 48-bed emergency department with about 70,000 visits a year",
+    "Perform procedures including laceration repair, splinting, incision and drainage, and joint reductions",
+    "Helped write the chest pain pathway for low-risk patients, cutting average stays by 2 hours",
+    "Precept PA students from two programs, about six students a year",
+    {
+      "anyOrder": [
+        "Quenmore Health Partners",
+        "Physician Assistant",
+        "Jan 2021 – Jul 2022",
+        "Raleigh, NC"
+      ]
+    },
+    "Treated about 35 patients a shift across three urgent care clinics",
+    "Read X-rays with radiology overreads and managed common fractures and sprains",
+    "Started a same-day callback list for abnormal lab results, cutting missed follow-ups",
+    {
+      "anyOrder": [
+        "Ferrowby Medical Center",
+        "Emergency Department Technician",
+        "Jun 2016 – Jul 2018",
+        "Greenville, NC"
+      ]
+    },
+    "Took vitals, drew blood, ran EKGs and helped with procedures for about 40 patients a shift",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Wendlow College of Medicine",
+        "Erie, PA",
+        "Master of Physician Assistant Studies",
+        "Dec 2020"
+      ]
+    },
+    "Clinical rotations: emergency medicine, family medicine, surgery, pediatrics, psychiatry",
+    {
+      "anyOrder": [
+        "Marlbrook University",
+        "Greenville, NC",
+        "Bachelor of Science in Biology",
+        "May 2016"
+      ]
+    },
+    "SKILLS",
+    "Clinical: Suturing, splinting, point-of-care ultrasound",
+    "Systems: Epic, Cerner",
+    "Languages: English (native), Korean (conversational)"
+  ],
+  "template": "healthcare",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Physician Assistant, Certified (PA-C), board certified through 2030",
+    "North Carolina physician assistant license, active",
+    "DEA registration, active",
+    "BLS, ACLS and PALS, current",
+    "See 25 to 30 patients a shift in a 48-bed emergency department with about 70,000 visits a year",
+    "Perform procedures including laceration repair, splinting, incision and drainage, and joint reductions",
+    "Helped write the chest pain pathway for low-risk patients, cutting average stays by 2 hours",
+    "Precept PA students from two programs, about six students a year",
+    "Treated about 35 patients a shift across three urgent care clinics",
+    "Read X-rays with radiology overreads and managed common fractures and sprains",
+    "Started a same-day callback list for abnormal lab results, cutting missed follow-ups",
+    "Took vitals, drew blood, ran EKGs and helped with procedures for about 40 patients a shift",
+    "Clinical rotations: emergency medicine, family medicine, surgery, pediatrics, psychiatry"
+  ]
+}

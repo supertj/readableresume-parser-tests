@@ -1,0 +1,612 @@
+{
+  "file": "executive-resume-a4",
+  "template": "executive",
+  "doc": "resume",
+  "paper": "a4",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1w37eLf99qKfzUw45inzWsG677LxIsycZYDHdMSoqaZ8/export?format=pdf",
+  "pdfSha256": "20749a497551a10ad1f51c09bace019f4e8532c4cef84a16b1b4d95e928cf4d1",
+  "docxSha256": "3eb1d43c7b9360ebdc5d90e99f503fe5eec934d3ef976a0b203794f2abf6a97e",
+  "runAt": "2026-10-05T12:55:22+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 2,
+    "actual": 2,
+    "ok": true
+  },
+  "pageFill": 0.356,
+  "fonts": {
+    "expected": "Georgia",
+    "found": [
+      "Georgia",
+      "Georgia-Bold",
+      "Georgia-Italic"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Georgia-Bold": 23,
+      "Georgia": 498,
+      "TimesNewRomanPSMT": 41,
+      "Georgia-Italic": 16
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Catherine Vance",
+      "Charlotte, NC | (704) 555-0119 | catherine.vance@example.com |",
+      "linkedin.com/in/catherinevance",
+      "EXECUTIVE SUMMARY",
+      "Operations executive with 18 years in industrial manufacturing, the last seven running",
+      "multi-plant operations of up to 1,400 people. I turn around underperforming plants, build",
+      "leadership teams that stay, and connect the shop floor to the numbers the board cares about.",
+      "Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
+      "CORE SKILLS",
+      "• Operations: Multi-plant leadership, lean manufacturing, plant turnarounds",
+      "• Finance: P&L ownership to $310 million, capital planning, cost reduction",
+      "• People: Building leadership teams, union relations, safety culture",
+      "• Growth: New product launches, capacity expansion, acquisition integration",
+      "PROFESSIONAL EXPERIENCE",
+      "Harrowfield Pump Company Charlotte, NC",
+      "Vice President of Operations Jan 2019 – Present",
+      "• Lead three plants and two distribution centers with 1,400 employees and a $310 million",
+      "operating budget, reporting to the CEO",
+      "• Planned and delivered a $40 million modernization across all three plants on schedule and",
+      "$2.3 million under budget",
+      "• Raised on-time delivery from 81% to 96% and cut warranty claims by 38% over four years",
+      "• Brought the recordable injury rate from 4.1 to 1.6 by putting safety walks and near-miss",
+      "reporting at the center of every plant meeting",
+      "• Rebuilt the plant leadership team, and every manager hired since 2020 has stayed",
+      "• Integrated an acquired valve business into our operating system in nine months, keeping",
+      "every major customer and all of its 120 employees",
+      "Ironbriar Equipment Works Greenville, SC",
+      "Plant Director Mar 2014 – Dec 2018",
+      "• Ran a 600-person plant making hydraulic components for construction equipment, with",
+      "annual output of about $140 million"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 29,
+      "actual": 29,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 53,
+    "total": 53,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Catherine Vance",
+        "actual": "Catherine Vance",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "catherine.vance@example.com",
+        "actual": "catherine.vance@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(704) 555-0119",
+        "actual": "(704) 555-0119",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Charlotte, NC",
+        "actual": "Charlotte, NC",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/catherinevance",
+        "actual": "linkedin.com/in/catherinevance",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Operations executive with 18 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
+        "actual": "Operations executive with 18 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Harrowfield Pump Company",
+        "actual": "Harrowfield Pump Company",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Vice President of Operations",
+        "actual": "Vice President of Operations",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jan 2019 – Present",
+        "actual": "Jan 2019 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Lead three plants and two distribution centers with 1,400 employees and a $310 million operating budget, reporting to the CEO",
+        "actual": "Lead three plants and two distribution centers with 1,400 employees and a $310 million operating budget, reporting to the CEO",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Planned and delivered a $40 million modernization across all three plants on schedule and $2.3 million under budget",
+        "actual": "Planned and delivered a $40 million modernization across all three plants on schedule and $2.3 million under budget",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Raised on-time delivery from 81% to 96% and cut warranty claims by 38% over four years",
+        "actual": "Raised on-time delivery from 81% to 96% and cut warranty claims by 38% over four years",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Brought the recordable injury rate from 4.1 to 1.6 by putting safety walks and near-miss reporting at the center of every plant meeting",
+        "actual": "Brought the recordable injury rate from 4.1 to 1.6 by putting safety walks and near-miss reporting at the center of every plant meeting",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[4]",
+        "expected": "Rebuilt the plant leadership team, and every manager hired since 2020 has stayed",
+        "actual": "Rebuilt the plant leadership team, and every manager hired since 2020 has stayed",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[5]",
+        "expected": "Integrated an acquired valve business into our operating system in nine months, keeping every major customer and all of its 120 employees",
+        "actual": "Integrated an acquired valve business into our operating system in nine months, keeping every major customer and all of its 120 employees",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Ironbriar Equipment Works",
+        "actual": "Ironbriar Equipment Works",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Plant Director",
+        "actual": "Plant Director",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Mar 2014 – Dec 2018",
+        "actual": "Mar 2014 – Dec 2018",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Ran a 600-person plant making hydraulic components for construction equipment, with annual output of about $140 million",
+        "actual": "Ran a 600-person plant making hydraulic components for construction equipment, with annual output of about $140 million",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Turned the plant from a $6 million loss to a $9 million profit in three years through lean projects, a new shift pattern and better scrap control",
+        "actual": "Turned the plant from a $6 million loss to a $9 million profit in three years through lean projects, a new shift pattern and better scrap control",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Negotiated two labor agreements with no strikes and half the grievances",
+        "actual": "Negotiated two labor agreements with no strikes and half the grievances",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Opened a second assembly line for a new product in 11 months, ahead of plan",
+        "actual": "Opened a second assembly line for a new product in 11 months, ahead of plan",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[4]",
+        "expected": "Introduced tiered daily meetings from the shop floor to the plant staff, so problems reached the right level within a day",
+        "actual": "Introduced tiered daily meetings from the shop floor to the plant staff, so problems reached the right level within a day",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Brassfork Tooling",
+        "actual": "Brassfork Tooling",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Operations Manager",
+        "actual": "Operations Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2010 – Feb 2014",
+        "actual": "Jun 2010 – Feb 2014",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Managed production, maintenance and quality for a 220-person tooling plant",
+        "actual": "Managed production, maintenance and quality for a 220-person tooling plant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Introduced daily production boards and a weekly cost review that cut overtime by 30%",
+        "actual": "Introduced daily production boards and a weekly cost review that cut overtime by 30%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[2]",
+        "expected": "Led the plant's first ISO 9001 certification, passed with no major findings",
+        "actual": "Led the plant's first ISO 9001 certification, passed with no major findings",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[3]",
+        "expected": "Moved maintenance to a planned schedule and cut unplanned downtime by 25%",
+        "actual": "Moved maintenance to a planned schedule and cut unplanned downtime by 25%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[4]",
+        "expected": "Hired and trained the plant's first team of production supervisors drawn from the shop floor",
+        "actual": "Hired and trained the plant's first team of production supervisors drawn from the shop floor",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[5]",
+        "expected": "Set up a cross-trained maintenance crew that covered all three shifts",
+        "actual": "Set up a cross-trained maintenance crew that covered all three shifts",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[6]",
+        "expected": "Cut scrap from 4.8% to 2.1% of material cost with operator-led problem solving",
+        "actual": "Cut scrap from 4.8% to 2.1% of material cost with operator-led problem solving",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[7]",
+        "expected": "Ran the plant's capital budget of about $3 million a year",
+        "actual": "Ran the plant's capital budget of about $3 million a year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[8]",
+        "expected": "Worked with sales on quoting rules that ended money-losing rush orders",
+        "actual": "Worked with sales on quoting rules that ended money-losing rush orders",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].company",
+        "expected": "Harmon & Pike Manufacturing",
+        "actual": "Harmon & Pike Manufacturing",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].jobTitle",
+        "expected": "Industrial Engineer",
+        "actual": "Industrial Engineer",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].date",
+        "expected": "Jul 2006 – May 2010",
+        "actual": "Jul 2006 – May 2010",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[0]",
+        "expected": "Redesigned two assembly cells, raising output per labor hour by 22%",
+        "actual": "Redesigned two assembly cells, raising output per labor hour by 22%",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[1]",
+        "expected": "Built the plant's standard cost model, still in use when I left",
+        "actual": "Built the plant's standard cost model, still in use when I left",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions[2]",
+        "expected": "Ran time studies and line balancing for a new product launch with the engineering team",
+        "actual": "Ran time studies and line balancing for a new product launch with the engineering team",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Larkbriar University",
+        "actual": "Larkbriar University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Master of Business Administration",
+        "actual": "Master of Business Administration",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2013",
+        "actual": "May 2013",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[1].school",
+        "expected": "Cardinal Ridge University",
+        "actual": "Cardinal Ridge University",
+        "ok": true
+      },
+      {
+        "path": "educations[1].degree",
+        "expected": "Bachelor of Science in Industrial Engineering",
+        "actual": "Bachelor of Science in Industrial Engineering",
+        "ok": true
+      },
+      {
+        "path": "educations[1].date",
+        "expected": "May 2006",
+        "actual": "May 2006",
+        "ok": true
+      },
+      {
+        "path": "educations[1].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Operations: Multi-plant leadership, lean manufacturing, plant turnarounds",
+        "actual": "Operations: Multi-plant leadership, lean manufacturing, plant turnarounds",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Finance: P&L ownership to $310 million, capital planning, cost reduction",
+        "actual": "Finance: P&L ownership to $310 million, capital planning, cost reduction",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "People: Building leadership teams, union relations, safety culture",
+        "actual": "People: Building leadership teams, union relations, safety culture",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[3]",
+        "expected": "Growth: New product launches, capacity expansion, acquisition integration",
+        "actual": "Growth: New product launches, capacity expansion, acquisition integration",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 6,
+        "actual": 6,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 5,
+        "actual": 5,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 9,
+        "actual": 9,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[3].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Charlotte, NC",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Greenville, SC",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "Dayton, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[3].location",
+        "value": "Dayton, OH",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "Raleigh, NC",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[1].location",
+        "value": "Columbus, OH",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "board and affiliations[0]",
+        "value": "Board member, Carolinas Manufacturing Roundtable, since 2021",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "board and affiliations[1]",
+        "value": "Advisory board, Larkbriar University Center for Operations Excellence, since 2019",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Catherine Vance",
+      "Charlotte, NC | (704) 555-0119 | catherine.vance@example.com |",
+      "linkedin.com/in/catherinevance",
+      "EXECUTIVE SUMMARY",
+      "Operations executive with 18 years in industrial manufacturing, the last seven running",
+      "multi-plant operations of up to 1,400 people. I turn around underperforming plants, build",
+      "leadership teams that stay, and connect the shop floor to the numbers the board cares about.",
+      "Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
+      "CORE SKILLS",
+      "• ‖ Operations: Multi-plant leadership, lean manufacturing, plant turnarounds",
+      "• ‖ Finance: P&L ownership to $310 million, capital planning, cost reduction",
+      "• ‖ People: Building leadership teams, union relations, safety culture",
+      "• ‖ Growth: New product launches, capacity expansion, acquisition integration",
+      "PROFESSIONAL EXPERIENCE",
+      "Harrowfield Pump Company ‖ Charlotte, NC",
+      "Vice President of Operations ‖ Jan 2019 – Present",
+      "• ‖ Lead three plants and two distribution centers with 1,400 employees and a $310 million",
+      "operating budget, reporting to the CEO",
+      "• ‖ Planned and delivered a $40 million modernization across all three plants on schedule and",
+      "$2.3 million under budget",
+      "• ‖ Raised on-time delivery from 81% to 96% and cut warranty claims by 38% over four years",
+      "• ‖ Brought the recordable injury rate from 4.1 to 1.6 by putting safety walks and near-miss",
+      "reporting at the center of every plant meeting",
+      "• ‖ Rebuilt the plant leadership team, and every manager hired since 2020 has stayed",
+      "• ‖ Integrated an acquired valve business into our operating system in nine months, keeping",
+      "every major customer and all of its 120 employees",
+      "Ironbriar Equipment Works ‖ Greenville, SC",
+      "Plant Director ‖ Mar 2014 – Dec 2018",
+      "• ‖ Ran a 600-person plant making hydraulic components for construction equipment, with",
+      "annual output of about $140 million",
+      "• ‖ Turned the plant from a $6 million loss to a $9 million profit in three years through lean",
+      "projects, a new shift pattern and better scrap control",
+      "• ‖ Negotiated two labor agreements with no strikes and half the grievances",
+      "• ‖ Opened a second assembly line for a new product in 11 months, ahead of plan",
+      "• ‖ Introduced tiered daily meetings from the shop floor to the plant staff, so problems reached",
+      "the right level within a day",
+      "Brassfork Tooling ‖ Dayton, OH",
+      "Operations Manager ‖ Jun 2010 – Feb 2014",
+      "• ‖ Managed production, maintenance and quality for a 220-person tooling plant",
+      "• ‖ Introduced daily production boards and a weekly cost review that cut overtime by 30%",
+      "• ‖ Led the plant's first ISO 9001 certification, passed with no major findings",
+      "• ‖ Moved maintenance to a planned schedule and cut unplanned downtime by 25%",
+      "• ‖ Hired and trained the plant's first team of production supervisors drawn from the shop floor",
+      "• ‖ Set up a cross-trained maintenance crew that covered all three shifts",
+      "• ‖ Cut scrap from 4.8% to 2.1% of material cost with operator-led problem solving • ‖ Ran the plant's capital budget of about $3 million a year",
+      "• ‖ Worked with sales on quoting rules that ended money-losing rush orders",
+      "Harmon & Pike Manufacturing ‖ Dayton, OH",
+      "Industrial Engineer ‖ Jul 2006 – May 2010",
+      "• ‖ Redesigned two assembly cells, raising output per labor hour by 22%",
+      "• ‖ Built the plant's standard cost model, still in use when I left",
+      "• ‖ Ran time studies and line balancing for a new product launch with the engineering team",
+      "EDUCATION",
+      "Larkbriar University ‖ Raleigh, NC",
+      "Master of Business Administration ‖ May 2013",
+      "Cardinal Ridge University ‖ Columbus, OH",
+      "Bachelor of Science in Industrial Engineering ‖ May 2006",
+      "BOARD AND AFFILIATIONS",
+      "• ‖ Board member, Carolinas Manufacturing Roundtable, since 2021",
+      "• ‖ Advisory board, Larkbriar University Center for Operations Excellence, since 2019"
+    ]
+  },
+  "pass": true
+}

@@ -1,0 +1,32 @@
+{
+  "textSequence": [
+    "Linda Morales",
+    "Indianapolis, IN",
+    "(317) 555-0121",
+    "linda.morales@example.com",
+    "REFERENCES",
+    "Gregory Halvorsen",
+    "Managing Partner",
+    "Halvorsen Advisory Group",
+    "ghalvorsen@example.com",
+    "(317) 555-0166",
+    "Current manager since Apr 2022",
+    "Teresa Quinlan",
+    "Practice Manager",
+    "Wickenhay Health",
+    "tquinlan@example.com",
+    "(317) 555-0149",
+    "Manager, Aug 2019 – Mar 2022",
+    "Paula Jennings",
+    "Senior Adviser",
+    "Halvorsen Advisory Group",
+    "pjennings@example.com",
+    "(317) 555-0132",
+    "Adviser I support daily"
+  ],
+  "template": "basic",
+  "doc": "references",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

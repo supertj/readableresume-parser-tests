@@ -1,0 +1,89 @@
+{
+  "file": "healthcare-references-letter",
+  "template": "healthcare",
+  "doc": "references",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1RKRpAuvr4SnI1fxsY353DjQ_gFxbbwIVg7bs1G5GJso/export?format=pdf",
+  "pdfSha256": "f25c8a2cd40e75a49ca09e2fada2d4b128f3fa7d45d4f7a54e8645d0b77a09f2",
+  "docxSha256": "b0cab8daaa90d01dcd0e9e3dd235f5b979c625336dc55d8068b500a51c3763df",
+  "runAt": "2026-10-05T12:55:25+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.4,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 8,
+      "ArialMT": 45,
+      "Arial-ItalicMT": 15
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Samantha Cho",
+      "Durham, NC | (919) 555-0168 | samantha.cho@example.com | linkedin.com/in/samanthacho",
+      "REFERENCES",
+      "Dr. Michael Brennan",
+      "Medical Director, Emergency Department",
+      "Pecanwood Health System",
+      "mbrennan@example.org | (919) 555-0185",
+      "Supervising physician since Aug 2022",
+      "Erica Salazar",
+      "Lead Physician Assistant",
+      "Quenmore Health Partners",
+      "esalazar@example.com | (919) 555-0139",
+      "Lead PA, Jan 2021 – Jul 2022",
+      "Dr. Laura Kim",
+      "Emergency Physician",
+      "Pecanwood Health System",
+      "lkim@example.org | (919) 555-0146",
+      "Attending physician I work with weekly"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

@@ -1,0 +1,558 @@
+{
+  "file": "academic-cv-resume-letter",
+  "template": "academic-cv",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1oau2LT_WCccFKHv2qfRIuCxGaRY99mRcZhuw404NBBI/export?format=pdf",
+  "pdfSha256": "37e9b1e12858df547b1f66d67f92fb07de56a8b45a703d02bacab238a8c7fcd7",
+  "docxSha256": "fe369d9b80209eb1446631ce320f2c298373aa3f1cae6e8f0b3245ff3b3292d4",
+  "runAt": "2026-10-05T12:55:19+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 2,
+    "actual": 2,
+    "ok": true
+  },
+  "pageFill": 0.325,
+  "fonts": {
+    "expected": "Times New Roman",
+    "found": [
+      "TimesNewRomanPS-BoldMT",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "TimesNewRomanPS-BoldMT": 31,
+      "TimesNewRomanPSMT": 422,
+      "TimesNewRomanPS-ItalicMT": 38
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Nadia Petrakis",
+      "Fort Collins, CO | (970) 555-0162 | nadia.petrakis@example.org | linkedin.com/in/nadiapetrakis",
+      "EDUCATION",
+      "Albemoor University Corvallis, OR",
+      "PhD in Ecology Sep 2019 – Jun 2024",
+      "• Dissertation: How birds move seeds into burned forest, and what that means for recovery",
+      "• Advisor: Dr. Helen Marsh",
+      "Larkbriar University Raleigh, NC",
+      "Bachelor of Science in Biology, minor in Statistics May 2017",
+      "• Graduated summa cum laude; honors thesis on pollinator visits to urban meadow plots",
+      "RESEARCH EXPERIENCE",
+      "Postdoctoral Researcher Jul 2024 – Present",
+      "Cottonhollow University, Department of Forest Sciences Fort Collins, CO",
+      "• Lead a three-year study of shrub and tree recovery on 48 plots across two wildfire scars",
+      "• Built the lab's R workflow for cleaning plot data and fitting recovery models, which five other",
+      "projects in the department now use for their own field data",
+      "• Mentor two graduate students and four undergraduates; this year two of the undergraduates designed",
+      "their own small projects and presented posters",
+      "Graduate Research Assistant Sep 2019 – Jun 2024",
+      "Albemoor University, Department of Integrative Biology Corvallis, OR",
+      "• Measured seed removal by birds at 60 burned and unburned sites over four field seasons, about",
+      "14,000 seed trap checks in all, with a crew of two to five people",
+      "• Wrote the field protocol and safety plan for remote burn sites, now the lab's standard",
+      "• Ran camera trap surveys with a state wildlife agency and published the cleaned data set",
+      "PUBLICATIONS",
+      "Petrakis, N., Ruiz, C., & Marsh, H. (2026). Shrub cover predicts tree seedling survival five years after",
+      "high-severity fire. Journal of Western Forest Recovery, 14(2), 88–101.",
+      "Petrakis, N., & Marsh, H. (2025). Birds carry seeds farther into severely burned forest than models",
+      "assume. Fire and Landscape Ecology, 9(1), 23–37.",
+      "Petrakis, N. (2024). Seed dispersal by birds after wildfire in the Cascade Range. Doctoral dissertation,"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 18,
+      "actual": 18,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 32,
+    "total": 32,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Nadia Petrakis",
+        "actual": "Nadia Petrakis",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "nadia.petrakis@example.org",
+        "actual": "nadia.petrakis@example.org",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(970) 555-0162",
+        "actual": "(970) 555-0162",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Fort Collins, CO",
+        "actual": "Fort Collins, CO",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/nadiapetrakis",
+        "actual": "linkedin.com/in/nadiapetrakis",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Cottonhollow University, Department of Forest Sciences",
+        "actual": "Cottonhollow University, Department of Forest Sciences",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Postdoctoral Researcher",
+        "actual": "Postdoctoral Researcher",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Jul 2024 – Present",
+        "actual": "Jul 2024 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Lead a three-year study of shrub and tree recovery on 48 plots across two wildfire scars",
+        "actual": "Lead a three-year study of shrub and tree recovery on 48 plots across two wildfire scars",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Built the lab's R workflow for cleaning plot data and fitting recovery models, which five other projects in the department now use for their own field data",
+        "actual": "Built the lab's R workflow for cleaning plot data and fitting recovery models, which five other projects in the department now use for their own field data",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Mentor two graduate students and four undergraduates; this year two of the undergraduates designed their own small projects and presented posters",
+        "actual": "Mentor two graduate students and four undergraduates; this year two of the undergraduates designed their own small projects and presented posters",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Albemoor University, Department of Integrative Biology",
+        "actual": "Albemoor University, Department of Integrative Biology",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Graduate Research Assistant",
+        "actual": "Graduate Research Assistant",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Sep 2019 – Jun 2024",
+        "actual": "Sep 2019 – Jun 2024",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Measured seed removal by birds at 60 burned and unburned sites over four field seasons, about 14,000 seed trap checks in all, with a crew of two to five people",
+        "actual": "Measured seed removal by birds at 60 burned and unburned sites over four field seasons, about 14,000 seed trap checks in all, with a crew of two to five people",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Wrote the field protocol and safety plan for remote burn sites, now the lab's standard",
+        "actual": "Wrote the field protocol and safety plan for remote burn sites, now the lab's standard",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Ran camera trap surveys with a state wildlife agency and published the cleaned data set",
+        "actual": "Ran camera trap surveys with a state wildlife agency and published the cleaned data set",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Albemoor University",
+        "actual": "Albemoor University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "PhD in Ecology",
+        "actual": "PhD in Ecology",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "Sep 2019 – Jun 2024",
+        "actual": "Sep 2019 – Jun 2024",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[0]",
+        "expected": "Dissertation: How birds move seeds into burned forest, and what that means for recovery",
+        "actual": "Dissertation: How birds move seeds into burned forest, and what that means for recovery",
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions[1]",
+        "expected": "Advisor: Dr. Helen Marsh",
+        "actual": "Advisor: Dr. Helen Marsh",
+        "ok": true
+      },
+      {
+        "path": "educations[1].school",
+        "expected": "Larkbriar University",
+        "actual": "Larkbriar University",
+        "ok": true
+      },
+      {
+        "path": "educations[1].degree",
+        "expected": "Bachelor of Science in Biology, minor in Statistics",
+        "actual": "Bachelor of Science in Biology, minor in Statistics",
+        "ok": true
+      },
+      {
+        "path": "educations[1].date",
+        "expected": "May 2017",
+        "actual": "May 2017",
+        "ok": true
+      },
+      {
+        "path": "educations[1].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions[0]",
+        "expected": "Graduated summa cum laude; honors thesis on pollinator visits to urban meadow plots",
+        "actual": "Graduated summa cum laude; honors thesis on pollinator visits to urban meadow plots",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Analysis: R (lme4, brms), Python, QGIS",
+        "actual": "Analysis: R (lme4, brms), Python, QGIS",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Fieldwork: Seed traps, camera traps, plot surveys",
+        "actual": "Fieldwork: Seed traps, camera traps, plot surveys",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Languages: English (native), Greek (conversational)",
+        "actual": "Languages: English (native), Greek (conversational)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 2,
+        "actual": 2,
+        "ok": true
+      },
+      {
+        "path": "educations[1].descriptions (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "educations[0].location",
+        "value": "Corvallis, OR",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "educations[1].location",
+        "value": "Raleigh, NC",
+        "reason": "no location field for schools",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[0].location",
+        "value": "Fort Collins, CO",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Corvallis, OR",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "publications[0]",
+        "value": "Petrakis, N., Ruiz, C., & Marsh, H. (2026). Shrub cover predicts tree seedling survival five years after high-severity fire. Journal of Western Forest Recovery, 14(2), 88–101.",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "publications[1]",
+        "value": "Petrakis, N., & Marsh, H. (2025). Birds carry seeds farther into severely burned forest than models assume. Fire and Landscape Ecology, 9(1), 23–37.",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "publications[2]",
+        "value": "Petrakis, N. (2024). Seed dispersal by birds after wildfire in the Cascade Range. Doctoral dissertation, Albemoor University.",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "publications[3]",
+        "value": "Ruiz, C., Petrakis, N., & Okonjo, D. (2023). A low-cost seed trap for steep, burned slopes. Methods in Field Ecology, 6(3), 211–219.",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "presentations[0]",
+        "value": "Where do the seeds land? Bird movement after wildfire. Western Forest Ecology Symposium, Bozeman, MT, 2025 (invited talk)",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "presentations[1]",
+        "value": "Shrubs as nurseries for burned forest. Rocky Mountain Fire Science Meeting, Denver, CO, 2024",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "presentations[2]",
+        "value": "Poster: Seed traps for steep slopes. Pacific Northwest Ecology Conference, Portland, OR, 2022",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "teaching[0].heading",
+        "value": "Instructor of Record, Field Methods in Ecology",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "teaching[0].date",
+        "value": "2023",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "teaching[0].subtitle",
+        "value": "Albemoor University, 24 students",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "teaching[0].bullets[0]",
+        "value": "Rebuilt the course around two weekend field trips and a student-designed final project",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "teaching[1].heading",
+        "value": "Teaching Assistant, Introduction to Ecology",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "teaching[1].date",
+        "value": "2019 – 2022",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "teaching[1].subtitle",
+        "value": "Albemoor University, four terms, labs of about 30 students",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "grants and awards[0]",
+        "value": "Thornholme Foundation Early Career Fellowship, $45,000, 2025",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "grants and awards[1]",
+        "value": "Albemoor University Graduate Research Grant, $6,500, 2022",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "grants and awards[2]",
+        "value": "Best Student Poster, Pacific Northwest Ecology Conference, 2022",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "service[0]",
+        "value": "Peer reviewer for Fire and Landscape Ecology and Methods in Field Ecology",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      },
+      {
+        "path": "service[1]",
+        "value": "Graduate student representative on the department hiring committee, 2022 – 2023",
+        "reason": "no field for this section in the parser",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Nadia Petrakis",
+      "Fort Collins, CO | (970) 555-0162 | nadia.petrakis@example.org | linkedin.com/in/nadiapetrakis",
+      "EDUCATION",
+      "Albemoor University ‖ Corvallis, OR",
+      "PhD in Ecology ‖ Sep 2019 – Jun 2024",
+      "• ‖ Dissertation: How birds move seeds into burned forest, and what that means for recovery",
+      "• ‖ Advisor: Dr. Helen Marsh",
+      "Larkbriar University ‖ Raleigh, NC",
+      "Bachelor of Science in Biology, minor in Statistics ‖ May 2017",
+      "• ‖ Graduated summa cum laude; honors thesis on pollinator visits to urban meadow plots",
+      "RESEARCH EXPERIENCE",
+      "Postdoctoral Researcher ‖ Jul 2024 – Present",
+      "Cottonhollow University, Department of Forest Sciences ‖ Fort Collins, CO",
+      "• ‖ Lead a three-year study of shrub and tree recovery on 48 plots across two wildfire scars",
+      "• ‖ Built the lab's R workflow for cleaning plot data and fitting recovery models, which five other",
+      "projects in the department now use for their own field data",
+      "• ‖ Mentor two graduate students and four undergraduates; this year two of the undergraduates designed",
+      "their own small projects and presented posters",
+      "Graduate Research Assistant ‖ Sep 2019 – Jun 2024",
+      "Albemoor University, Department of Integrative Biology ‖ Corvallis, OR",
+      "• ‖ Measured seed removal by birds at 60 burned and unburned sites over four field seasons, about",
+      "14,000 seed trap checks in all, with a crew of two to five people",
+      "• ‖ Wrote the field protocol and safety plan for remote burn sites, now the lab's standard",
+      "• ‖ Ran camera trap surveys with a state wildlife agency and published the cleaned data set",
+      "PUBLICATIONS",
+      "Petrakis, N., Ruiz, C., & Marsh, H. (2026). Shrub cover predicts tree seedling survival five years after",
+      "high-severity fire. Journal of Western Forest Recovery, 14(2), 88–101.",
+      "Petrakis, N., & Marsh, H. (2025). Birds carry seeds farther into severely burned forest than models",
+      "assume. Fire and Landscape Ecology, 9(1), 23–37.",
+      "Petrakis, N. (2024). Seed dispersal by birds after wildfire in the Cascade Range. Doctoral dissertation,",
+      "Albemoor University.",
+      "Ruiz, C., Petrakis, N., & Okonjo, D. (2023). A low-cost seed trap for steep, burned slopes. Methods in",
+      "Field Ecology, 6(3), 211–219.",
+      "PRESENTATIONS",
+      "• ‖ Where do the seeds land? Bird movement after wildfire. Western Forest Ecology Symposium,",
+      "Bozeman, MT, 2025 (invited talk)",
+      "• ‖ Shrubs as nurseries for burned forest. Rocky Mountain Fire Science Meeting, Denver, CO, 2024",
+      "• ‖ Poster: Seed traps for steep slopes. Pacific Northwest Ecology Conference, Portland, OR, 2022",
+      "TEACHING",
+      "Instructor of Record, Field Methods in Ecology ‖ 2023",
+      "Albemoor University, 24 students",
+      "• ‖ Rebuilt the course around two weekend field trips and a student-designed final projectTeaching Assistant, Introduction to Ecology ‖ 2019 – 2022",
+      "Albemoor University, four terms, labs of about 30 students",
+      "GRANTS AND AWARDS",
+      "• ‖ Thornholme Foundation Early Career Fellowship, $45,000, 2025",
+      "• ‖ Albemoor University Graduate Research Grant, $6,500, 2022",
+      "• ‖ Best Student Poster, Pacific Northwest Ecology Conference, 2022",
+      "SERVICE",
+      "• ‖ Peer reviewer for Fire and Landscape Ecology and Methods in Field Ecology",
+      "• ‖ Graduate student representative on the department hiring committee, 2022 – 2023",
+      "SKILLS",
+      "Analysis: R (lme4, brms), Python, QGIS",
+      "Fieldwork: Seed traps, camera traps, plot surveys",
+      "Languages: English (native), Greek (conversational)"
+    ]
+  },
+  "pass": true
+}

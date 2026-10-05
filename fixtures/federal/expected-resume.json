@@ -1,0 +1,284 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Jerome Whitley",
+      "email": "jerome.whitley@example.com",
+      "phone": "(301) 555-0127",
+      "location": "Silver Spring, MD",
+      "url": "linkedin.com/in/jeromewhitley",
+      "summary": "Program analyst with eight years in public and nonprofit programs, most recently managing performance data and grant reporting for a county human services department with a $96 million budget. Applying for Management and Program Analyst positions at the GS-11 or GS-12 level."
+    },
+    "workExperiences": [
+      {
+        "company": "Larkmead County Department of Human Services",
+        "jobTitle": "Program Analyst",
+        "date": "Aug 2021 – Present",
+        "descriptions": [
+          "Track performance for 14 programs serving about 22,000 residents a year, including food assistance, housing support and job training",
+          "Built the department's monthly performance dashboard in Power BI, replacing 30 separate spreadsheets; leadership now reviews it at every monthly meeting",
+          "Prepare quarterly reports for four federal and state grants worth $11 million in total, all submitted on time with no findings in two federal monitoring reviews",
+          "Led a review of the emergency rental program's application process that cut average decision time from 34 days to 19 days",
+          "Write policy briefs and budget justifications for the department director and the county council, usually on a two-week turnaround",
+          "Train program staff on data entry standards and run a quarterly data quality check"
+        ]
+      },
+      {
+        "company": "Ladle & Lamp Community Kitchen",
+        "jobTitle": "Grants Coordinator",
+        "date": "Jun 2018 – Jul 2021",
+        "descriptions": [
+          "Managed 18 public and private grants worth $2.4 million a year, start to finish",
+          "Wrote or co-wrote proposals that brought in $3.1 million in new funding over three years, including the organization's first federal award",
+          "Set up a grants calendar and tracking system that ended late reports, which had happened four times the year before",
+          "Worked with the finance manager on grant budgets, cost allocation and audit preparation",
+          "Collected and checked outcome data from five program sites for funder reports",
+          "Prepared the organization's first single audit with the finance manager and outside auditors; the audit closed with no findings or questioned costs",
+          "Represented the kitchen at the city's food security coalition and coordinated two joint grant applications with partner groups"
+        ]
+      },
+      {
+        "company": "Rosehip Food Share",
+        "jobTitle": "Program Assistant",
+        "date": "Sep 2016 – May 2018",
+        "descriptions": [
+          "Coordinated weekly food distribution at 12 partner sites serving about 3,000 households",
+          "Kept the client database current and produced monthly service reports for the board",
+          "Recruited and scheduled about 60 volunteers a month",
+          "Wrote the volunteer handbook and ran monthly orientation sessions for new volunteers",
+          "Tracked donated food by source and category for the annual report to funders and the board",
+          "Answered client calls and referred families to county and state benefit programs",
+          "Helped prepare the annual budget for the distribution program"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Northmoor University",
+        "degree": "Master of Public Administration",
+        "date": "May 2021",
+        "gpa": "",
+        "descriptions": [
+          "Coursework: Program Evaluation, Public Budgeting, Policy Analysis, Statistics for Public Managers"
+        ]
+      },
+      {
+        "school": "Brindlecroft University",
+        "degree": "Bachelor of Arts in Sociology",
+        "date": "May 2016",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Analysis: Excel, Power BI, SQL, Tableau",
+        "Grants: Federal grant reporting, budget review, monitoring",
+        "Languages: English (native), Spanish (professional)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "eligibility[0]",
+      "value": "Citizenship: U.S. citizen",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "eligibility[1]",
+      "value": "Security clearance: Public Trust, current",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "eligibility[2]",
+      "value": "Veterans' preference: none",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "workExperiences[0].location",
+      "value": "Rockville, MD",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[0].details",
+      "value": "Hours per week: 40 | Salary: $84,500 per year | Reports to: Lena Ortiz, (301) 555-0142, may contact",
+      "reason": "no field for hours, grade or supervisor"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Baltimore, MD",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].details",
+      "value": "Hours per week: 40 | Salary: $52,000 per year | Reports to: Carla Benson, (410) 555-0164, may contact",
+      "reason": "no field for hours, grade or supervisor"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Baltimore, MD",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].details",
+      "value": "Hours per week: 40 | Salary: $36,000 per year | Reports to: Marcus Hale, (410) 555-0138, may contact",
+      "reason": "no field for hours, grade or supervisor"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Washington, DC",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Richmond, VA",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "certifications and training[0]",
+      "value": "Lean Six Sigma Green Belt, 2022",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "certifications and training[1]",
+      "value": "Grants Management Certificate, Northmoor University, 2020",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "certifications and training[2]",
+      "value": "Performance Measurement for Public Programs, 24-hour course, 2019",
+      "reason": "no field for this section in the parser"
+    }
+  ],
+  "textSequence": [
+    "Jerome Whitley",
+    "Silver Spring, MD",
+    "(301) 555-0127",
+    "jerome.whitley@example.com",
+    "linkedin.com/in/jeromewhitley",
+    "ELIGIBILITY",
+    "Citizenship: U.S. citizen",
+    "Security clearance: Public Trust, current",
+    "Veterans' preference: none",
+    "PROFESSIONAL SUMMARY",
+    "Program analyst with eight years in public and nonprofit programs, most recently managing performance data and grant reporting for a county human services department with a $96 million budget. Applying for Management and Program Analyst positions at the GS-11 or GS-12 level.",
+    "WORK EXPERIENCE",
+    {
+      "anyOrder": [
+        "Larkmead County Department of Human Services",
+        "Program Analyst",
+        "Aug 2021 – Present",
+        "Rockville, MD"
+      ]
+    },
+    "Hours per week: 40 | Salary: $84,500 per year | Reports to: Lena Ortiz, (301) 555-0142, may contact",
+    "Track performance for 14 programs serving about 22,000 residents a year, including food assistance, housing support and job training",
+    "Built the department's monthly performance dashboard in Power BI, replacing 30 separate spreadsheets; leadership now reviews it at every monthly meeting",
+    "Prepare quarterly reports for four federal and state grants worth $11 million in total, all submitted on time with no findings in two federal monitoring reviews",
+    "Led a review of the emergency rental program's application process that cut average decision time from 34 days to 19 days",
+    "Write policy briefs and budget justifications for the department director and the county council, usually on a two-week turnaround",
+    "Train program staff on data entry standards and run a quarterly data quality check",
+    {
+      "anyOrder": [
+        "Ladle & Lamp Community Kitchen",
+        "Grants Coordinator",
+        "Jun 2018 – Jul 2021",
+        "Baltimore, MD"
+      ]
+    },
+    "Hours per week: 40 | Salary: $52,000 per year | Reports to: Carla Benson, (410) 555-0164, may contact",
+    "Managed 18 public and private grants worth $2.4 million a year, start to finish",
+    "Wrote or co-wrote proposals that brought in $3.1 million in new funding over three years, including the organization's first federal award",
+    "Set up a grants calendar and tracking system that ended late reports, which had happened four times the year before",
+    "Worked with the finance manager on grant budgets, cost allocation and audit preparation",
+    "Collected and checked outcome data from five program sites for funder reports",
+    "Prepared the organization's first single audit with the finance manager and outside auditors; the audit closed with no findings or questioned costs",
+    "Represented the kitchen at the city's food security coalition and coordinated two joint grant applications with partner groups",
+    {
+      "anyOrder": [
+        "Rosehip Food Share",
+        "Program Assistant",
+        "Sep 2016 – May 2018",
+        "Baltimore, MD"
+      ]
+    },
+    "Hours per week: 40 | Salary: $36,000 per year | Reports to: Marcus Hale, (410) 555-0138, may contact",
+    "Coordinated weekly food distribution at 12 partner sites serving about 3,000 households",
+    "Kept the client database current and produced monthly service reports for the board",
+    "Recruited and scheduled about 60 volunteers a month",
+    "Wrote the volunteer handbook and ran monthly orientation sessions for new volunteers",
+    "Tracked donated food by source and category for the annual report to funders and the board",
+    "Answered client calls and referred families to county and state benefit programs",
+    "Helped prepare the annual budget for the distribution program",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Northmoor University",
+        "Washington, DC",
+        "Master of Public Administration",
+        "May 2021"
+      ]
+    },
+    "Coursework: Program Evaluation, Public Budgeting, Policy Analysis, Statistics for Public Managers",
+    {
+      "anyOrder": [
+        "Brindlecroft University",
+        "Richmond, VA",
+        "Bachelor of Arts in Sociology",
+        "May 2016"
+      ]
+    },
+    "SKILLS",
+    "Analysis: Excel, Power BI, SQL, Tableau",
+    "Grants: Federal grant reporting, budget review, monitoring",
+    "Languages: English (native), Spanish (professional)",
+    "CERTIFICATIONS AND TRAINING",
+    "Lean Six Sigma Green Belt, 2022",
+    "Grants Management Certificate, Northmoor University, 2020",
+    "Performance Measurement for Public Programs, 24-hour course, 2019"
+  ],
+  "template": "federal",
+  "doc": "resume",
+  "font": "Arial",
+  "expectedPages": 2,
+  "bulletTexts": [
+    "Citizenship: U.S. citizen",
+    "Security clearance: Public Trust, current",
+    "Veterans' preference: none",
+    "Track performance for 14 programs serving about 22,000 residents a year, including food assistance, housing support and job training",
+    "Built the department's monthly performance dashboard in Power BI, replacing 30 separate spreadsheets; leadership now reviews it at every monthly meeting",
+    "Prepare quarterly reports for four federal and state grants worth $11 million in total, all submitted on time with no findings in two federal monitoring reviews",
+    "Led a review of the emergency rental program's application process that cut average decision time from 34 days to 19 days",
+    "Write policy briefs and budget justifications for the department director and the county council, usually on a two-week turnaround",
+    "Train program staff on data entry standards and run a quarterly data quality check",
+    "Managed 18 public and private grants worth $2.4 million a year, start to finish",
+    "Wrote or co-wrote proposals that brought in $3.1 million in new funding over three years, including the organization's first federal award",
+    "Set up a grants calendar and tracking system that ended late reports, which had happened four times the year before",
+    "Worked with the finance manager on grant budgets, cost allocation and audit preparation",
+    "Collected and checked outcome data from five program sites for funder reports",
+    "Prepared the organization's first single audit with the finance manager and outside auditors; the audit closed with no findings or questioned costs",
+    "Represented the kitchen at the city's food security coalition and coordinated two joint grant applications with partner groups",
+    "Coordinated weekly food distribution at 12 partner sites serving about 3,000 households",
+    "Kept the client database current and produced monthly service reports for the board",
+    "Recruited and scheduled about 60 volunteers a month",
+    "Wrote the volunteer handbook and ran monthly orientation sessions for new volunteers",
+    "Tracked donated food by source and category for the annual report to funders and the board",
+    "Answered client calls and referred families to county and state benefit programs",
+    "Helped prepare the annual budget for the distribution program",
+    "Coursework: Program Evaluation, Public Budgeting, Policy Analysis, Statistics for Public Managers",
+    "Lean Six Sigma Green Belt, 2022",
+    "Grants Management Certificate, Northmoor University, 2020",
+    "Performance Measurement for Public Programs, 24-hour course, 2019"
+  ]
+}

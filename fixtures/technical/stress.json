@@ -1,0 +1,16 @@
+{
+  "name": "Kevin Kwame Osei Montgomery",
+  "extra_bullets": [
+    "Designed the replay tool that lets support engineers rebuild a shipment's history from raw events when a customer disputes a delivery",
+    "Ran the team's monthly incident review and turned the findings into a backlog that product and engineering agreed to fund"
+  ],
+  "cover_letter_paragraph": "Outside work, I maintain a small open-source tool for watching Kafka consumer lag. Engineers from five companies have contributed to it, and running it has taught me to write clear issues, review code from strangers kindly and say no to features that would make the tool harder to use.",
+  "extra_reference": {
+    "name": "Elena Marquez",
+    "role": "Senior Software Engineer",
+    "organization": "Tarnhollow Logistics",
+    "email": "emarquez@example.com",
+    "phone": "(206) 555-0122",
+    "relationship": "Teammate on the shipment events service"
+  }
+}

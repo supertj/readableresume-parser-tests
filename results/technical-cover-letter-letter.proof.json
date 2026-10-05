@@ -1,0 +1,88 @@
+{
+  "file": "technical-cover-letter-letter",
+  "template": "technical",
+  "doc": "cover-letter",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1ogIW6YkAdGnmyk497swj32GBQy8k5E6R0Qv8qiGa5mg/export?format=pdf",
+  "pdfSha256": "34ad01679dc46860031f928f44274a2644768d3921f604a36eeae3acb839bf20",
+  "docxSha256": "26818be3f202e59ec93b6369b5720a726c45cce134aeca918a6d966c47988695",
+  "runAt": "2026-10-05T12:55:28+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.508,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 2,
+      "ArialMT": 185
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Kevin Osei",
+      "Seattle, WA | (206) 555-0159 | kevin.osei@example.com | linkedin.com/in/kevinosei | github.com/kevinosei",
+      "October 5, 2026",
+      "Hiring Team",
+      "Ferncastle Payments",
+      "Seattle, WA",
+      "Dear Hiring Team,",
+      "I'm applying for the Senior Backend Engineer role on your payments platform team. I've spent four years building",
+      "high-volume services in Go and Python, most recently the shipment events service at Tarnhollow Logistics, which",
+      "handles about 40 million events a day.",
+      "Your posting mentions write latency and on-call load, and both have been my work this past year. I moved our",
+      "service from a single database to partitioned PostgreSQL tables, which cut p95 write latency from 220 ms to 35",
+      "ms. I also rewrote our alerts and runbook, and pages per week dropped from 14 to 4.",
+      "I also enjoy the parts of the job around the code, like design reviews, mentoring and writing things down so the",
+      "next person doesn't have to ask. I currently mentor two junior engineers and review most of the team's pull",
+      "requests.",
+      "Thank you for your time. I'd be glad to talk through the database migration or anything else on my resume.",
+      "Best regards,",
+      "Kevin Osei"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 0,
+      "actual": 0,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "pass": true
+}

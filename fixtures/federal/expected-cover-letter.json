@@ -1,0 +1,24 @@
+{
+  "textSequence": [
+    "Jerome Whitley",
+    "Silver Spring, MD",
+    "(301) 555-0127",
+    "jerome.whitley@example.com",
+    "linkedin.com/in/jeromewhitley",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Washington, DC",
+    "Dear Hiring Manager,",
+    "I'm applying for the Management and Program Analyst position, GS-0343-11, in your office. I've spent the last five years managing performance data and grant reporting for a county human services department, and before that I ran grants for a nonprofit food program.",
+    "Much of what your announcement describes is work I do now. I track performance for 14 programs, built the department's monthly dashboard in Power BI and prepare quarterly reports for four federal and state grants worth $11 million. Those grants have been through two federal monitoring reviews with no findings.",
+    "I also like the part of the job that changes how programs run. Last year I led a review of our emergency rental program's application process. By removing two duplicate steps and changing how documents were requested, we cut the average decision time from 34 days to 19.",
+    "Thank you for considering my application. My resume follows the format in the announcement, and I'd be glad to provide anything else you need.",
+    "Sincerely,",
+    "Jerome Whitley"
+  ],
+  "template": "federal",
+  "doc": "cover-letter",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

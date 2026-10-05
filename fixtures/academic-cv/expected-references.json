@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Nadia Petrakis",
+    "Fort Collins, CO",
+    "(970) 555-0162",
+    "nadia.petrakis@example.org",
+    "linkedin.com/in/nadiapetrakis",
+    "REFERENCES",
+    "Helen Marsh",
+    "Professor of Integrative Biology",
+    "Albemoor University",
+    "hmarsh@example.org",
+    "(541) 555-0118",
+    "PhD advisor",
+    "Carlos Ruiz",
+    "Associate Professor of Forest Sciences",
+    "Cottonhollow University",
+    "carlos.ruiz@example.org",
+    "(970) 555-0147",
+    "Postdoctoral supervisor since Jul 2024",
+    "Priya Desai",
+    "Professor of Ecology",
+    "Larkbriar University",
+    "pdesai@example.org",
+    "(919) 555-0124",
+    "Undergraduate thesis advisor"
+  ],
+  "template": "academic-cv",
+  "doc": "references",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

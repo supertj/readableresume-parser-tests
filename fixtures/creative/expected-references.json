@@ -1,0 +1,33 @@
+{
+  "textSequence": [
+    "Jules Moreau",
+    "behance.net/julesmoreau",
+    "jules.moreau@example.com",
+    "(503) 555-0177",
+    "Portland, OR",
+    "REFERENCES",
+    "Simone Hartley",
+    "Founder and Creative Director",
+    "Juniper & Vale Creative",
+    "simone.hartley@example.com",
+    "(503) 555-0116",
+    "Current manager since May 2022",
+    "Ben Arcaro",
+    "Studio Director",
+    "Larchpenny Studio",
+    "ben.arcaro@example.com",
+    "(503) 555-0148",
+    "Manager, Aug 2019 – Apr 2022",
+    "Owen Pritchard",
+    "Owner",
+    "Rattlebrush Brewing Company",
+    "owen.pritchard@example.com",
+    "(503) 555-0131",
+    "Client for labels and taproom signs"
+  ],
+  "template": "creative",
+  "doc": "references",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

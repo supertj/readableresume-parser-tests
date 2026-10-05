@@ -1,0 +1,268 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Catherine Vance",
+      "email": "catherine.vance@example.com",
+      "phone": "(704) 555-0119",
+      "location": "Charlotte, NC",
+      "url": "linkedin.com/in/catherinevance",
+      "summary": "Operations executive with 18 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%."
+    },
+    "workExperiences": [
+      {
+        "company": "Harrowfield Pump Company",
+        "jobTitle": "Vice President of Operations",
+        "date": "Jan 2019 – Present",
+        "descriptions": [
+          "Lead three plants and two distribution centers with 1,400 employees and a $310 million operating budget, reporting to the CEO",
+          "Planned and delivered a $40 million modernization across all three plants on schedule and $2.3 million under budget",
+          "Raised on-time delivery from 81% to 96% and cut warranty claims by 38% over four years",
+          "Brought the recordable injury rate from 4.1 to 1.6 by putting safety walks and near-miss reporting at the center of every plant meeting",
+          "Rebuilt the plant leadership team, and every manager hired since 2020 has stayed",
+          "Integrated an acquired valve business into our operating system in nine months, keeping every major customer and all of its 120 employees"
+        ]
+      },
+      {
+        "company": "Ironbriar Equipment Works",
+        "jobTitle": "Plant Director",
+        "date": "Mar 2014 – Dec 2018",
+        "descriptions": [
+          "Ran a 600-person plant making hydraulic components for construction equipment, with annual output of about $140 million",
+          "Turned the plant from a $6 million loss to a $9 million profit in three years through lean projects, a new shift pattern and better scrap control",
+          "Negotiated two labor agreements with no strikes and half the grievances",
+          "Opened a second assembly line for a new product in 11 months, ahead of plan",
+          "Introduced tiered daily meetings from the shop floor to the plant staff, so problems reached the right level within a day"
+        ]
+      },
+      {
+        "company": "Brassfork Tooling",
+        "jobTitle": "Operations Manager",
+        "date": "Jun 2010 – Feb 2014",
+        "descriptions": [
+          "Managed production, maintenance and quality for a 220-person tooling plant",
+          "Introduced daily production boards and a weekly cost review that cut overtime by 30%",
+          "Led the plant's first ISO 9001 certification, passed with no major findings",
+          "Moved maintenance to a planned schedule and cut unplanned downtime by 25%",
+          "Hired and trained the plant's first team of production supervisors drawn from the shop floor",
+          "Set up a cross-trained maintenance crew that covered all three shifts",
+          "Cut scrap from 4.8% to 2.1% of material cost with operator-led problem solving",
+          "Ran the plant's capital budget of about $3 million a year",
+          "Worked with sales on quoting rules that ended money-losing rush orders"
+        ]
+      },
+      {
+        "company": "Harmon & Pike Manufacturing",
+        "jobTitle": "Industrial Engineer",
+        "date": "Jul 2006 – May 2010",
+        "descriptions": [
+          "Redesigned two assembly cells, raising output per labor hour by 22%",
+          "Built the plant's standard cost model, still in use when I left",
+          "Ran time studies and line balancing for a new product launch with the engineering team"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Larkbriar University",
+        "degree": "Master of Business Administration",
+        "date": "May 2013",
+        "gpa": "",
+        "descriptions": []
+      },
+      {
+        "school": "Cardinal Ridge University",
+        "degree": "Bachelor of Science in Industrial Engineering",
+        "date": "May 2006",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Operations: Multi-plant leadership, lean manufacturing, plant turnarounds",
+        "Finance: P&L ownership to $310 million, capital planning, cost reduction",
+        "People: Building leadership teams, union relations, safety culture",
+        "Growth: New product launches, capacity expansion, acquisition integration"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Charlotte, NC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Greenville, SC",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Dayton, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[3].location",
+      "value": "Dayton, OH",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Raleigh, NC",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "educations[1].location",
+      "value": "Columbus, OH",
+      "reason": "no location field for schools"
+    },
+    {
+      "path": "board and affiliations[0]",
+      "value": "Board member, Carolinas Manufacturing Roundtable, since 2021",
+      "reason": "no field for this section in the parser"
+    },
+    {
+      "path": "board and affiliations[1]",
+      "value": "Advisory board, Larkbriar University Center for Operations Excellence, since 2019",
+      "reason": "no field for this section in the parser"
+    }
+  ],
+  "textSequence": [
+    "Catherine Vance",
+    "Charlotte, NC",
+    "(704) 555-0119",
+    "catherine.vance@example.com",
+    "linkedin.com/in/catherinevance",
+    "EXECUTIVE SUMMARY",
+    "Operations executive with 18 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
+    "CORE SKILLS",
+    "Operations: Multi-plant leadership, lean manufacturing, plant turnarounds",
+    "Finance: P&L ownership to $310 million, capital planning, cost reduction",
+    "People: Building leadership teams, union relations, safety culture",
+    "Growth: New product launches, capacity expansion, acquisition integration",
+    "PROFESSIONAL EXPERIENCE",
+    {
+      "anyOrder": [
+        "Harrowfield Pump Company",
+        "Vice President of Operations",
+        "Jan 2019 – Present",
+        "Charlotte, NC"
+      ]
+    },
+    "Lead three plants and two distribution centers with 1,400 employees and a $310 million operating budget, reporting to the CEO",
+    "Planned and delivered a $40 million modernization across all three plants on schedule and $2.3 million under budget",
+    "Raised on-time delivery from 81% to 96% and cut warranty claims by 38% over four years",
+    "Brought the recordable injury rate from 4.1 to 1.6 by putting safety walks and near-miss reporting at the center of every plant meeting",
+    "Rebuilt the plant leadership team, and every manager hired since 2020 has stayed",
+    "Integrated an acquired valve business into our operating system in nine months, keeping every major customer and all of its 120 employees",
+    {
+      "anyOrder": [
+        "Ironbriar Equipment Works",
+        "Plant Director",
+        "Mar 2014 – Dec 2018",
+        "Greenville, SC"
+      ]
+    },
+    "Ran a 600-person plant making hydraulic components for construction equipment, with annual output of about $140 million",
+    "Turned the plant from a $6 million loss to a $9 million profit in three years through lean projects, a new shift pattern and better scrap control",
+    "Negotiated two labor agreements with no strikes and half the grievances",
+    "Opened a second assembly line for a new product in 11 months, ahead of plan",
+    "Introduced tiered daily meetings from the shop floor to the plant staff, so problems reached the right level within a day",
+    {
+      "anyOrder": [
+        "Brassfork Tooling",
+        "Operations Manager",
+        "Jun 2010 – Feb 2014",
+        "Dayton, OH"
+      ]
+    },
+    "Managed production, maintenance and quality for a 220-person tooling plant",
+    "Introduced daily production boards and a weekly cost review that cut overtime by 30%",
+    "Led the plant's first ISO 9001 certification, passed with no major findings",
+    "Moved maintenance to a planned schedule and cut unplanned downtime by 25%",
+    "Hired and trained the plant's first team of production supervisors drawn from the shop floor",
+    "Set up a cross-trained maintenance crew that covered all three shifts",
+    "Cut scrap from 4.8% to 2.1% of material cost with operator-led problem solving",
+    "Ran the plant's capital budget of about $3 million a year",
+    "Worked with sales on quoting rules that ended money-losing rush orders",
+    {
+      "anyOrder": [
+        "Harmon & Pike Manufacturing",
+        "Industrial Engineer",
+        "Jul 2006 – May 2010",
+        "Dayton, OH"
+      ]
+    },
+    "Redesigned two assembly cells, raising output per labor hour by 22%",
+    "Built the plant's standard cost model, still in use when I left",
+    "Ran time studies and line balancing for a new product launch with the engineering team",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Larkbriar University",
+        "Raleigh, NC",
+        "Master of Business Administration",
+        "May 2013"
+      ]
+    },
+    {
+      "anyOrder": [
+        "Cardinal Ridge University",
+        "Columbus, OH",
+        "Bachelor of Science in Industrial Engineering",
+        "May 2006"
+      ]
+    },
+    "BOARD AND AFFILIATIONS",
+    "Board member, Carolinas Manufacturing Roundtable, since 2021",
+    "Advisory board, Larkbriar University Center for Operations Excellence, since 2019"
+  ],
+  "template": "executive",
+  "doc": "resume",
+  "font": "Georgia",
+  "expectedPages": 2,
+  "bulletTexts": [
+    "Operations: Multi-plant leadership, lean manufacturing, plant turnarounds",
+    "Finance: P&L ownership to $310 million, capital planning, cost reduction",
+    "People: Building leadership teams, union relations, safety culture",
+    "Growth: New product launches, capacity expansion, acquisition integration",
+    "Lead three plants and two distribution centers with 1,400 employees and a $310 million operating budget, reporting to the CEO",
+    "Planned and delivered a $40 million modernization across all three plants on schedule and $2.3 million under budget",
+    "Raised on-time delivery from 81% to 96% and cut warranty claims by 38% over four years",
+    "Brought the recordable injury rate from 4.1 to 1.6 by putting safety walks and near-miss reporting at the center of every plant meeting",
+    "Rebuilt the plant leadership team, and every manager hired since 2020 has stayed",
+    "Integrated an acquired valve business into our operating system in nine months, keeping every major customer and all of its 120 employees",
+    "Ran a 600-person plant making hydraulic components for construction equipment, with annual output of about $140 million",
+    "Turned the plant from a $6 million loss to a $9 million profit in three years through lean projects, a new shift pattern and better scrap control",
+    "Negotiated two labor agreements with no strikes and half the grievances",
+    "Opened a second assembly line for a new product in 11 months, ahead of plan",
+    "Introduced tiered daily meetings from the shop floor to the plant staff, so problems reached the right level within a day",
+    "Managed production, maintenance and quality for a 220-person tooling plant",
+    "Introduced daily production boards and a weekly cost review that cut overtime by 30%",
+    "Led the plant's first ISO 9001 certification, passed with no major findings",
+    "Moved maintenance to a planned schedule and cut unplanned downtime by 25%",
+    "Hired and trained the plant's first team of production supervisors drawn from the shop floor",
+    "Set up a cross-trained maintenance crew that covered all three shifts",
+    "Cut scrap from 4.8% to 2.1% of material cost with operator-led problem solving",
+    "Ran the plant's capital budget of about $3 million a year",
+    "Worked with sales on quoting rules that ended money-losing rush orders",
+    "Redesigned two assembly cells, raising output per labor hour by 22%",
+    "Built the plant's standard cost model, still in use when I left",
+    "Ran time studies and line balancing for a new product launch with the engineering team",
+    "Board member, Carolinas Manufacturing Roundtable, since 2021",
+    "Advisory board, Larkbriar University Center for Operations Excellence, since 2019"
+  ]
+}

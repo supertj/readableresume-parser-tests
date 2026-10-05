@@ -1,0 +1,17 @@
+{
+  "name": "Jerome Alexander Whitley Brennan",
+  "extra_bullets": [
+    "Represented the department on the county's data governance working group and helped write its first data sharing agreement",
+    "Organized the annual funder site visit day, including tours, data summaries and meetings with program participants",
+    "Answered the client phone line two afternoons a week and referred callers to other county services"
+  ],
+  "cover_letter_paragraph": "I've also learned that good reporting depends on the people entering the data. I run a short training for program staff every quarter and check data quality across all programs, and our error rate on federal reports has dropped steadily since I started. I'd bring the same attention to your office's reporting.",
+  "extra_reference": {
+    "name": "Marcus Hale",
+    "role": "Operations Manager",
+    "organization": "Rosehip Food Share",
+    "email": "mhale@example.org",
+    "phone": "(410) 555-0138",
+    "relationship": "Manager, Sep 2016 – May 2018"
+  }
+}

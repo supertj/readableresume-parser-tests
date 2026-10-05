@@ -1,0 +1,169 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Linda Morales",
+      "email": "linda.morales@example.com",
+      "phone": "(317) 555-0121",
+      "location": "Indianapolis, IN",
+      "url": "",
+      "summary": "Administrative assistant with five years of experience supporting busy offices in finance and health care. Organized, calm with a full calendar, and comfortable with Microsoft 365, scheduling systems and basic bookkeeping."
+    },
+    "workExperiences": [
+      {
+        "company": "Halvorsen Advisory Group",
+        "jobTitle": "Administrative Assistant",
+        "date": "Apr 2022 – Present",
+        "descriptions": [
+          "Manage calendars and travel for three partners and a team of 12 advisers",
+          "Prepare client meeting packets and keep the client file system up to date",
+          "Process about 80 expense reports a month and reconcile the office credit card",
+          "Set up a shared request form that replaced most of the team's scheduling emails"
+        ]
+      },
+      {
+        "company": "Wickenhay Health",
+        "jobTitle": "Office Coordinator",
+        "date": "Aug 2019 – Mar 2022",
+        "descriptions": [
+          "Scheduled appointments for four providers and handled insurance checks at check-in",
+          "Ordered office and clinical supplies, keeping spending within the monthly budget",
+          "Trained two new front desk staff on scheduling and patient privacy rules",
+          "Kept the referral log current and followed up on missing paperwork with other offices"
+        ]
+      },
+      {
+        "company": "Elkmeadow Rehabilitation Hospital",
+        "jobTitle": "Front Desk Associate",
+        "date": "Jun 2017 – Jul 2019",
+        "descriptions": [
+          "Greeted about 100 patients and visitors a day and answered a busy phone line",
+          "Kept visitor logs and badges in order for a 90-bed hospital"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Basalt Bluff College",
+        "degree": "Associate of Applied Science in Office Administration",
+        "date": "May 2017",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Software: Microsoft 365, Google Workspace, QuickBooks",
+        "Office: Scheduling, travel booking, expense reports",
+        "Typing: 70 words per minute",
+        "Certifications: Microsoft Office Specialist (Excel)"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Indianapolis, IN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Carmel, IN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Indianapolis, IN",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Indianapolis, IN",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Linda Morales",
+    "Indianapolis, IN",
+    "(317) 555-0121",
+    "linda.morales@example.com",
+    "SUMMARY",
+    "Administrative assistant with five years of experience supporting busy offices in finance and health care. Organized, calm with a full calendar, and comfortable with Microsoft 365, scheduling systems and basic bookkeeping.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Halvorsen Advisory Group",
+        "Administrative Assistant",
+        "Apr 2022 – Present",
+        "Indianapolis, IN"
+      ]
+    },
+    "Manage calendars and travel for three partners and a team of 12 advisers",
+    "Prepare client meeting packets and keep the client file system up to date",
+    "Process about 80 expense reports a month and reconcile the office credit card",
+    "Set up a shared request form that replaced most of the team's scheduling emails",
+    {
+      "anyOrder": [
+        "Wickenhay Health",
+        "Office Coordinator",
+        "Aug 2019 – Mar 2022",
+        "Carmel, IN"
+      ]
+    },
+    "Scheduled appointments for four providers and handled insurance checks at check-in",
+    "Ordered office and clinical supplies, keeping spending within the monthly budget",
+    "Trained two new front desk staff on scheduling and patient privacy rules",
+    "Kept the referral log current and followed up on missing paperwork with other offices",
+    {
+      "anyOrder": [
+        "Elkmeadow Rehabilitation Hospital",
+        "Front Desk Associate",
+        "Jun 2017 – Jul 2019",
+        "Indianapolis, IN"
+      ]
+    },
+    "Greeted about 100 patients and visitors a day and answered a busy phone line",
+    "Kept visitor logs and badges in order for a 90-bed hospital",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Basalt Bluff College",
+        "Indianapolis, IN",
+        "Associate of Applied Science in Office Administration",
+        "May 2017"
+      ]
+    },
+    "SKILLS",
+    "Software: Microsoft 365, Google Workspace, QuickBooks",
+    "Office: Scheduling, travel booking, expense reports",
+    "Typing: 70 words per minute",
+    "Certifications: Microsoft Office Specialist (Excel)"
+  ],
+  "template": "basic",
+  "doc": "resume",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Manage calendars and travel for three partners and a team of 12 advisers",
+    "Prepare client meeting packets and keep the client file system up to date",
+    "Process about 80 expense reports a month and reconcile the office credit card",
+    "Set up a shared request form that replaced most of the team's scheduling emails",
+    "Scheduled appointments for four providers and handled insurance checks at check-in",
+    "Ordered office and clinical supplies, keeping spending within the monthly budget",
+    "Trained two new front desk staff on scheduling and patient privacy rules",
+    "Kept the referral log current and followed up on missing paperwork with other offices",
+    "Greeted about 100 patients and visitors a day and answered a busy phone line",
+    "Kept visitor logs and badges in order for a 90-bed hospital"
+  ]
+}

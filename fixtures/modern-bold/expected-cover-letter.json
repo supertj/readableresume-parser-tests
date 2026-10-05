@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Andre Whitaker",
+    "Austin, TX",
+    "(512) 555-0154",
+    "andre.whitaker@example.com",
+    "linkedin.com/in/andrewhitaker",
+    "October 5, 2026",
+    "Hiring Manager",
+    "Wrenfold Health",
+    "Austin, TX",
+    "Dear Hiring Manager,",
+    "I'm writing about the Customer Success Manager role on your enterprise team. For the past seven years I've helped software customers get real use out of what they bought, most recently for research labs at Quill & Flask Labs, where I manage about $4 million in yearly renewals.",
+    "The part of the job I'm proudest of is catching problems early. At Quill & Flask I built a simple health score from support tickets and product usage. It now flags accounts at risk about two months sooner than our old process, which gives us time to fix things before a renewal conversation. Last year our gross retention was 96%.",
+    "Your posting mentions a large group of new hospital customers starting next year. I've led a customer base through a platform switch before, and I know how much a clear onboarding plan matters in the first 90 days.",
+    "Thank you for considering my application. I'd welcome the chance to talk about your onboarding plans.",
+    "Best regards,",
+    "Andre Whitaker"
+  ],
+  "template": "modern-bold",
+  "doc": "cover-letter",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

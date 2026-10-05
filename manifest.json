@@ -1,5 +1,149 @@
 {
   "files": {
+    "academic-cv-cover-letter-a4": {
+      "docId": "1HbCTFDeZM_fUqwpVRoaN2gzR6KWgEH--LufV0zBWOh4",
+      "template": "academic-cv",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Academic CV Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1nrzkVZ8GFOoROTHRH6JCviYQmyKsg6RnBtzUvKpYtGo"
+    },
+    "academic-cv-cover-letter-letter": {
+      "docId": "10BmuPSS_WYd0aHQzm4BrDBtpakW1-qzqo2g-8FliI4k",
+      "template": "academic-cv",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Academic CV Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1yZyW2A1VE-Vs5bkPcNf9JTAZ3TxvypX5lOPKhNJ9JyY"
+    },
+    "academic-cv-references-a4": {
+      "docId": "1bOEvMVyeXO3P6DrXWaT88M34sw12k8eaICgd6NgeqZY",
+      "template": "academic-cv",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Academic CV References – A4 – ReadableResume",
+      "backupDocId": "1mTVnttSxnJwVHyYor-qvUcxWPlQk_otMI6OSopVtjoc"
+    },
+    "academic-cv-references-letter": {
+      "docId": "1Dnwi_jjGKXq27RI9mQiD0-MT_Zw31kUZjabxeT-8xco",
+      "template": "academic-cv",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Academic CV References – US Letter – ReadableResume",
+      "backupDocId": "1gZemdGdBAFj6kEKnVWDYcv1PlCGqhT11Oo-gMYy1G0Q"
+    },
+    "academic-cv-resume-a4": {
+      "docId": "1z6PIa-8Ws9DyEuGpuHuUBZk9GtyGM9xB_qLlwUkSlh4",
+      "template": "academic-cv",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Academic CV Resume – A4 – ReadableResume",
+      "backupDocId": "1lq7LejlyZ87xUbturNwbzqyf1MKa8TuwmiBN01kimB8"
+    },
+    "academic-cv-resume-letter": {
+      "docId": "1oau2LT_WCccFKHv2qfRIuCxGaRY99mRcZhuw404NBBI",
+      "template": "academic-cv",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Academic CV Resume – US Letter – ReadableResume",
+      "backupDocId": "1GEGb7wDVrVJJuYk7-heXIFqYxwrtAR2Sg1DctZQteZY"
+    },
+    "basic-cover-letter-a4": {
+      "docId": "1nBA6FoXaTw8X67EXR75hIYx4xapWMwt0hzRoxzBXvLI",
+      "template": "basic",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Basic Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1_5vf-8o2VVbxzqaxxq9hM_VuNPl-xcbZrcHhQsQxOFs"
+    },
+    "basic-cover-letter-letter": {
+      "docId": "1CIjgZtOKy0x3pPmjC8esNJTniB_cJduIS-vRAUnhskc",
+      "template": "basic",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Basic Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1KBrSwYow9L620_qKiozvLUU--KUJ-sNs3WCP7Qc9j0o"
+    },
+    "basic-references-a4": {
+      "docId": "12hXmq0ezbxREXRLKm0F8o-NQ8_46-Mv1vI2gX9woVj0",
+      "template": "basic",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Basic References – A4 – ReadableResume",
+      "backupDocId": "1F-UBVdIF8AsoqJqm6t2iYi6s05F3frvUEAefuGuSiSs"
+    },
+    "basic-references-letter": {
+      "docId": "1ztoqCwPll6PPMNoJD-qTuRdRWBILqOIE0y9ovXRAXsg",
+      "template": "basic",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Basic References – US Letter – ReadableResume",
+      "backupDocId": "1U933JDS9_l8H7XzOG5DhTL_U6rnEhGNNNlD1OLgb-4g"
+    },
+    "basic-resume-a4": {
+      "docId": "1JkChmt7v8Cd6bBSzuupDAZXr4eHrlYqTpN5YamrRHfo",
+      "template": "basic",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Basic Resume – A4 – ReadableResume",
+      "backupDocId": "1nLEVNrWbY47WP3xGCZlsWJtu8LXytHzs6RdRMpR9aRA"
+    },
+    "basic-resume-letter": {
+      "docId": "1ScG463qwHHjOLZNWKPrNrN2uWE9HsmrX_9TOlvz5t8s",
+      "template": "basic",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Basic Resume – US Letter – ReadableResume",
+      "backupDocId": "15okpioKDUgeBzPgwRsUk8KJaaq5kcQ177ehIe5azCog"
+    },
+    "career-change-cover-letter-a4": {
+      "docId": "1-xApOOhPrnEMqVMJ0GbpQJ45PDfY2wzok9V95TM10uI",
+      "template": "career-change",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Career Change Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1NAbZHXEPFoBbtHhgtWHTa33_oJ_qLZT7EZLRdJBU5WI"
+    },
+    "career-change-cover-letter-letter": {
+      "docId": "1ife-tWb875mpsSJ4vGfxxVIM8DKk6NDZYUVDd72AYEk",
+      "template": "career-change",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Career Change Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1Ilk6WFtE8LB5H08hrlsfQOIMQfOtQpTKlOlYZPy9ByQ"
+    },
+    "career-change-references-a4": {
+      "docId": "1D6kY3YDYqSN-sFcbZNJ5qONBD_E4pCkSSM-FB0PUWGE",
+      "template": "career-change",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Career Change References – A4 – ReadableResume",
+      "backupDocId": "13b3Gi0FNvBi8YZG3qv8wCa14jKSLLHB-q9-ur_beSZA"
+    },
+    "career-change-references-letter": {
+      "docId": "1umouXKqK6taBtA1fYHCMMiqiw-MekGrNh2Vz6HLfttc",
+      "template": "career-change",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Career Change References – US Letter – ReadableResume",
+      "backupDocId": "18_NtOkCL4JpkrLk5n8K61fgVY42ztOhkhTYkGMT8MII"
+    },
+    "career-change-resume-a4": {
+      "docId": "1JEWJ6cQzx7zc67eAOow9a7Gi41CSnPwr-Gv2zG12s_0",
+      "template": "career-change",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Career Change Resume – A4 – ReadableResume",
+      "backupDocId": "1c9plh7liLq6HAuM-4IjN3NhRNm3jeqpWTCoc6Eli_7s"
+    },
+    "career-change-resume-letter": {
+      "docId": "1PW_Fvwx59AJ8OC0GKhaqiOcIukpKVbpSfr4VlGp-v2c",
+      "template": "career-change",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Career Change Resume – US Letter – ReadableResume",
+      "backupDocId": "1befr1e_vHfZa9XM2hbAkUHWMM5ZAtTFxfDpfULIu-yo"
+    },
     "classic-cover-letter-a4": {
       "docId": "1V4PyIi37m1-igOJj-3DkXCYeiHy58SmSGGNWPbo55J8",
       "template": "classic",
@@ -95,6 +239,54 @@
       "paper": "letter",
       "title": "Compact Resume – US Letter – ReadableResume",
       "backupDocId": "1U8PGOcycJ1HbfOPjcwsWeRVta_uOjnergaQGtr12OrM"
+    },
+    "creative-cover-letter-a4": {
+      "docId": "1bHKxMRdeEnOnsFAHZT1NzR8qzSCx0TegQpTihDnkSAw",
+      "template": "creative",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Creative Cover Letter – A4 – ReadableResume",
+      "backupDocId": "12lG3_fhG7FSO-lnFf8aHnhDxv8EzAiNLMtClIL1NZU8"
+    },
+    "creative-cover-letter-letter": {
+      "docId": "1GnRFd7YHtXl-DE3QljImZmeKeznG7fd6p7YgnnHcbxs",
+      "template": "creative",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Creative Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1Nn0VlqTSLDWpe4pd56Ifi5Uw3d1RnGk9wveYqI1cacY"
+    },
+    "creative-references-a4": {
+      "docId": "1yFS_vGPbOGFgUZMQVjOHB96xK2oI3-5aPYx5eyD6Mk8",
+      "template": "creative",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Creative References – A4 – ReadableResume",
+      "backupDocId": "1U2JmxR60feTblMdJ0gEbNpxbVcYREVoHJd1fNkBotpk"
+    },
+    "creative-references-letter": {
+      "docId": "1VkzwNF8t-fZg5mnm5TSQ2kI4AKC3FXZB_QATmw1jOu0",
+      "template": "creative",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Creative References – US Letter – ReadableResume",
+      "backupDocId": "1ICJ0Qepv2x2XAiAzi6SY5xcgFf_kQMOvpRswOXcGh-0"
+    },
+    "creative-resume-a4": {
+      "docId": "1BxsVNB59L-wpqoHoerQ7kfTLUOmJu8-7agpksMreYlo",
+      "template": "creative",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Creative Resume – A4 – ReadableResume",
+      "backupDocId": "1E4sgf9QQSkZLqu3Sm5FCUTznuqqUF-9pRpX8FHTFiuU"
+    },
+    "creative-resume-letter": {
+      "docId": "1yoy-Avs5RTn1QP4uxYo3bQwuq9QuW51yCy1yVK1R6-I",
+      "template": "creative",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Creative Resume – US Letter – ReadableResume",
+      "backupDocId": "15tZ06pO6gqPxpOwStLj3vm79sY7CjmyOn7KhvkUGc3I"
     },
     "example-acting-resume-letter": {
       "docId": "1GABBMV6Nkl6hOVR3Us94ycsH4xJtiHhEqlAb0-K2twI",
@@ -256,6 +448,198 @@
       "title": "Teacher Resume Example – US Letter – ReadableResume",
       "backupDocId": "1Nxg33k0MWaD7Sb-VR1q6blAxrcrRsGVW1INwxKJXZ6I"
     },
+    "executive-cover-letter-a4": {
+      "docId": "1HZmgPXSo6sOzag0xWIvEMWoHiN0YewouELGk_ddjZ5c",
+      "template": "executive",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Executive Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1XBbsO2n8qPLewgQ615Fj6IYhAMnOlxl8jrzPEjqK5Ro"
+    },
+    "executive-cover-letter-letter": {
+      "docId": "1dNwna-fG7hS8o94hsXK6Lo1HGFHgW-glJBZLPH3OJ8w",
+      "template": "executive",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Executive Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1Ec1VUfVoV_tTZhZKySsvUgWro3L7uEH4RY7g2lOcrp0"
+    },
+    "executive-references-a4": {
+      "docId": "12vN6bARpgcVdwcqi_PxbUN9hz_UWP05QmffxKE6wEbY",
+      "template": "executive",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Executive References – A4 – ReadableResume",
+      "backupDocId": "12pTuozBjTss_CtBXSjbkcPNo18G5txW9NNTuGNUhOFA"
+    },
+    "executive-references-letter": {
+      "docId": "1vX27ItNeUIhLNh8DtP4VRTSrjiiTkRZ96uOGEZ-uaG4",
+      "template": "executive",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Executive References – US Letter – ReadableResume",
+      "backupDocId": "1w9AghW1cJck_h7h7HEGho7OeSGj_QfnhJn7qdxaK0BM"
+    },
+    "executive-resume-a4": {
+      "docId": "1w37eLf99qKfzUw45inzWsG677LxIsycZYDHdMSoqaZ8",
+      "template": "executive",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Executive Resume – A4 – ReadableResume",
+      "backupDocId": "1ZrUtyAeO7dzOTdouGR1eJZDvrIiPyAXi0bTFHQ_6OSQ"
+    },
+    "executive-resume-letter": {
+      "docId": "1IbaeO2myHosrsNpT_n3Zu_5oshdRCmb89UvZbnxACQY",
+      "template": "executive",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Executive Resume – US Letter – ReadableResume",
+      "backupDocId": "1NXNXwaT-6RfN9JUdxSIvGbWeItE0eYWucqjsEOs_Mw4"
+    },
+    "federal-cover-letter-a4": {
+      "docId": "1DgPt56nuiQolLL1riq3Cancvjr68cMEcKCmpM3-LfuE",
+      "template": "federal",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Federal Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1boQBPhBMZkGm8iz0OKXgIZzqWzp1K9ucTIIEWIiYmOI"
+    },
+    "federal-cover-letter-letter": {
+      "docId": "1kAutHbhMRkSf1Sd4IzTCwcoELCftK9lHUMGgWxFo3-o",
+      "template": "federal",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Federal Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1JVfMOyu_huKGFYueV_PXR9vXn6L-mqnps4VHs4HHvXQ"
+    },
+    "federal-references-a4": {
+      "docId": "1HEMCdEOeWwVmIMp3seE5UHRzxSY13SpUszVyv4NA-xY",
+      "template": "federal",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Federal References – A4 – ReadableResume",
+      "backupDocId": "1e6JN5CYRVIOC295ozPCsDGhAJD93rF9Vk6fHaXFRwPE"
+    },
+    "federal-references-letter": {
+      "docId": "1jn4Rsg4k4T34KH3LqGRY4U30c5vdttcxTuMbob-5La0",
+      "template": "federal",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Federal References – US Letter – ReadableResume",
+      "backupDocId": "12r-aWTpNJa5rNx2BrPATJkPJpa3w1NeBTqZdwddztFk"
+    },
+    "federal-resume-a4": {
+      "docId": "172itNX0fJxO6KglKzmZeLAxN-z6fgaloSW-PkEtKNkI",
+      "template": "federal",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Federal Resume – A4 – ReadableResume",
+      "backupDocId": "1gJV0SEC24iU9n22Flmizpdubo5We1KYiftNBDnCvcls"
+    },
+    "federal-resume-letter": {
+      "docId": "18h2zhvZnvgCRD3gVVaXDikJhHoKtjrw_2icimbAvaGg",
+      "template": "federal",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Federal Resume – US Letter – ReadableResume",
+      "backupDocId": "107izxfF04U_O70xTEb351iWMdDLFDfxzj6VgZyQzFxQ"
+    },
+    "finance-cover-letter-a4": {
+      "docId": "1eRmoM0ikTT1tiSd6QV_OqzoctAEDeX_MWTPBdgRQqMw",
+      "template": "finance",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Finance Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1rln0T4lohTo1-LjCa49wuszQU6nZXWV9OKvYcayVGPE"
+    },
+    "finance-cover-letter-letter": {
+      "docId": "1QMe3kxyrcTz5g_ERTOxqKUYC-Ivq4zEEPORZ_46Gj3Y",
+      "template": "finance",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Finance Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1gi-3rz-eueDjiW5vfwRRwmG-RBDh73tgeT1KCIOB__g"
+    },
+    "finance-references-a4": {
+      "docId": "1y_RucbH9DN3xGBOpZ2yZI4DZrkTYKV52ypiZ3RQQ5gs",
+      "template": "finance",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Finance References – A4 – ReadableResume",
+      "backupDocId": "1ks4VCfHXHx_0FhOHke9p8ZSdwU4xjZhi6KSneCUCAWs"
+    },
+    "finance-references-letter": {
+      "docId": "1M49eNnFnNHNyllJf7PIx-Rql7sss2-Dho5mWIzMPATQ",
+      "template": "finance",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Finance References – US Letter – ReadableResume",
+      "backupDocId": "12BrrLMeEt1vmwCLnquiL0brLxKgz7j0p86MR5p8FBUw"
+    },
+    "finance-resume-a4": {
+      "docId": "1OopRP4jVrEJJ-8AKTeDw5sgnX5k9rUfXs8a142afU94",
+      "template": "finance",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Finance Resume – A4 – ReadableResume",
+      "backupDocId": "1h8mLhgbBIUgwX8AlslKdEvvxgskdTRzCBXCC30DRd6I"
+    },
+    "finance-resume-letter": {
+      "docId": "1iJ9qHmYKk7nQ-NSrR2VcQq5VkhPuKI7fpdUrrX5mK1Q",
+      "template": "finance",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Finance Resume – US Letter – ReadableResume",
+      "backupDocId": "1hXRlRyU7neUc7cx7fh9-rfr0412oGAsXow3AcLNXG3k"
+    },
+    "healthcare-cover-letter-a4": {
+      "docId": "1io6IN6GrrcgH1BTSx1jNATGYehLu1-r5FVfLtaq9fP0",
+      "template": "healthcare",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Healthcare Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1PT8MEKh8TRUCz_Iy5Af80mS989asMcwR27U_iaeL-y4"
+    },
+    "healthcare-cover-letter-letter": {
+      "docId": "1xTN-9I0qa_E37wVTYtFK_1AQ81-Zz8lGp7fR67d7VB8",
+      "template": "healthcare",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Healthcare Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1wQ-g0NvxIPlv42i3kaV-IAOI14exqWEACdjLk5avAtw"
+    },
+    "healthcare-references-a4": {
+      "docId": "1iigOOhoB-dsEPWvY0w81rphWbukfD_X-uPMkmGM_AFo",
+      "template": "healthcare",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Healthcare References – A4 – ReadableResume",
+      "backupDocId": "1KiH42YhWpiL_VXLWFi0sdZoVsjdEDnvoM5h2B5dKRog"
+    },
+    "healthcare-references-letter": {
+      "docId": "1RKRpAuvr4SnI1fxsY353DjQ_gFxbbwIVg7bs1G5GJso",
+      "template": "healthcare",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Healthcare References – US Letter – ReadableResume",
+      "backupDocId": "1fPE2oIFRwy5-dHuW1E100TRAhrviOMReretSyAkzPwU"
+    },
+    "healthcare-resume-a4": {
+      "docId": "19x7wIol6WwBk4_nkS4Eo4qg8e232np97NuMmy1CFvFQ",
+      "template": "healthcare",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Healthcare Resume – A4 – ReadableResume",
+      "backupDocId": "1g6PLj3g8U0dtb_SLvssMxYkgFkC_0F4tqgVoFCle5hk"
+    },
+    "healthcare-resume-letter": {
+      "docId": "1vIg3Q88E8gyjs6SR3FrC0cnKpdLvF0yKnDA7bbZPJSw",
+      "template": "healthcare",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Healthcare Resume – US Letter – ReadableResume",
+      "backupDocId": "1YNhr-1XbYUAoSQnUMEainSIzK2vN3qv7oq5FZtAXdmc"
+    },
     "international-cv-cover-letter-a4": {
       "docId": "1joktJ136owF2Lt6DrYZBlUXDh-Iyqly7TZaPaM6q-AI",
       "template": "international-cv",
@@ -400,6 +784,102 @@
       "title": "Modern Accent Resume – US Letter – ReadableResume",
       "backupDocId": "1usXloHgnqCN6ik3x18HWq084nBYc76cBK0kcSYKTh3M"
     },
+    "modern-bold-cover-letter-a4": {
+      "docId": "1nGqOvZtGvz-c4SJ3kV98IxaOvi8hwkuHh8vSzDc0I20",
+      "template": "modern-bold",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Modern Bold Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1n2VcfJPsATUoO6iWUXNvSXRNRZwwzRoHdlzh2cgcOCU"
+    },
+    "modern-bold-cover-letter-letter": {
+      "docId": "13k4h9JfG2BRE-MjT_2eXVRcINho2RHkIRzHPdYHna10",
+      "template": "modern-bold",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Modern Bold Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1wRwwa77QjSpYZAkuYYO9R8AoCPkq5OxmxL6EDgw_MI8"
+    },
+    "modern-bold-references-a4": {
+      "docId": "1PERMYwLoZsMCFKBBYyG8My_46huu9Vk3OfrRy8ojbB4",
+      "template": "modern-bold",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Modern Bold References – A4 – ReadableResume",
+      "backupDocId": "1kn5AdIauVf-F8WSVV46Meuqg-2NTuK32GwIVRHaxie4"
+    },
+    "modern-bold-references-letter": {
+      "docId": "11LcOAkxjZyKmPKZoMwNllJoCNeb8g08LuNVSBzgSUL8",
+      "template": "modern-bold",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Modern Bold References – US Letter – ReadableResume",
+      "backupDocId": "1BjDiXpvq5qAEGZyxO45hnIOygY67d2oUoqT4Cj2gxOw"
+    },
+    "modern-bold-resume-a4": {
+      "docId": "19J-EOak9tvoiMGQZLl3Jo5l6NYjrY4MbJ0Qo9CjMw2k",
+      "template": "modern-bold",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Modern Bold Resume – A4 – ReadableResume",
+      "backupDocId": "1BTfMU2Cm1r-qP_6bSFm5RHBFC2L3bcRiZVwOyLB8Dnc"
+    },
+    "modern-bold-resume-letter": {
+      "docId": "1Ih0fuuNSB7-ykyQKxl3sba96Ec0p4FbW1ZRwq6uLUWI",
+      "template": "modern-bold",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Modern Bold Resume – US Letter – ReadableResume",
+      "backupDocId": "1aJXqfneSiGrtjCHgjnG7VFcspBGyiQHKOz8xjgktd5w"
+    },
+    "modern-minimal-cover-letter-a4": {
+      "docId": "193RfKB9ByRywlyBbD-KklnggXR7Ri9AzPtn3nQA4wmM",
+      "template": "modern-minimal",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Modern Minimal Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1kRfMnZQ7_jNItsa07La1ihyVP0kcyZsqDFHBR3rTuBY"
+    },
+    "modern-minimal-cover-letter-letter": {
+      "docId": "1eQrfM_248ggR1o0AjZ2a3A2oHJ-IFgouk-zBUROJpBY",
+      "template": "modern-minimal",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Modern Minimal Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1OAniVf67XDKafJxHPmE_36yXP9Ne8wFVwzIV4cgQcH4"
+    },
+    "modern-minimal-references-a4": {
+      "docId": "1T1GuJbpd0P0iUdSNbDi7nbgZFEn4VINilOMWcDnD-8o",
+      "template": "modern-minimal",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Modern Minimal References – A4 – ReadableResume",
+      "backupDocId": "1pWRYLZDirK0jBTDM0_DSBumFI_VyVD-7D_MgC4guKRA"
+    },
+    "modern-minimal-references-letter": {
+      "docId": "1r8ig-9-19hP-UBs9CozMcUHj1WCwTNf1DRg25iZfi_o",
+      "template": "modern-minimal",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Modern Minimal References – US Letter – ReadableResume",
+      "backupDocId": "1-_rgljNz3wcavvcbcFHDcJB44FoAM23MxHPp0FT4zXA"
+    },
+    "modern-minimal-resume-a4": {
+      "docId": "1xZAhvRs-GEsDl9_z5U5U0ag18SSLi3U_4vwgZ2j28ys",
+      "template": "modern-minimal",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Modern Minimal Resume – A4 – ReadableResume",
+      "backupDocId": "16KC1cjVHkfG878-0giVR_ey6jyF_G7C9RkuVzeb1tJY"
+    },
+    "modern-minimal-resume-letter": {
+      "docId": "1gT8bP-0lGP07cr8LfJnJ_V5FubPZfAJ7pAFL5TmWnyQ",
+      "template": "modern-minimal",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Modern Minimal Resume – US Letter – ReadableResume",
+      "backupDocId": "1a1U3Z8y_bUuQY4LfhvqPJSLDIewKzWAiVud0D6YSCqU"
+    },
     "plain-cover-letter-a4": {
       "docId": "11NFlxr1VytnOTtMHTqr3JD_y8VFwOT-Oo5s8MCGPEn4",
       "template": "plain",
@@ -543,6 +1023,102 @@
       "paper": "letter",
       "title": "Student Resume – US Letter – ReadableResume",
       "backupDocId": "1IUQoWBjMQI1XzMcDWV2i11btnv82-nPTB-_fz-yffRM"
+    },
+    "technical-cover-letter-a4": {
+      "docId": "1kMbPqFqinXIDcgWA0cQ8Nh-BCvEcqyo56Ze775ZsjvE",
+      "template": "technical",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Technical Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1_0Y7gA4qGD_DEfk7jvVqcZVDrz4xVV5hdBjcxHlg5YY"
+    },
+    "technical-cover-letter-letter": {
+      "docId": "1ogIW6YkAdGnmyk497swj32GBQy8k5E6R0Qv8qiGa5mg",
+      "template": "technical",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Technical Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1OomHO9L_pvP0Pz0FMYFSw-Ri7yL9uK4VhYEDUQxRCqw"
+    },
+    "technical-references-a4": {
+      "docId": "1PJg8HIqynvRIx1FElCF3JPfM8cd-oqNc-Myjx-STH-g",
+      "template": "technical",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Technical References – A4 – ReadableResume",
+      "backupDocId": "10OuKRfxQ4Sz-t4BJbz8-5Y3t2Y_fB3aTe9Mvq7zLfPw"
+    },
+    "technical-references-letter": {
+      "docId": "10OiinhnPWMAU75g3E22PDZAjlHl3m1lQy0rT8b1eCpk",
+      "template": "technical",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Technical References – US Letter – ReadableResume",
+      "backupDocId": "1bsQ3vOD-Q47NA0c1NQ2A3C7Fsd-jp06fMxjjKrWTeWc"
+    },
+    "technical-resume-a4": {
+      "docId": "13jJ4NemVk2Gfi1zhetEqFuP6Hkmf_rS-uPSbSaLOGPk",
+      "template": "technical",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Technical Resume – A4 – ReadableResume",
+      "backupDocId": "1mKzNdnYJE4VFfX7eBERPvShduYyH0Ex5fMggMCRNDw0"
+    },
+    "technical-resume-letter": {
+      "docId": "11mrs1mia1L3eSWdGzAIOrOZ9hKslon8YTDKewDU0x-0",
+      "template": "technical",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Technical Resume – US Letter – ReadableResume",
+      "backupDocId": "14EiDGN80Bnef8-lXkxdNXjGBWf6XJFgiQzV9AmjD4GE"
+    },
+    "two-page-cover-letter-a4": {
+      "docId": "1hqDwLn3rBPMP81XGBnfLLagNkmrIeW5MooyvzacyqtI",
+      "template": "two-page",
+      "doc": "cover-letter",
+      "paper": "a4",
+      "title": "Two-page Professional Cover Letter – A4 – ReadableResume",
+      "backupDocId": "1DuYj3xEhitKJYsmOF6Eer3lCNL1khtJ6HdZSPxwcRB0"
+    },
+    "two-page-cover-letter-letter": {
+      "docId": "1I0-BGcPugaqLicMQoCsCrJMd8-i2yeTLixP2ZnQls0U",
+      "template": "two-page",
+      "doc": "cover-letter",
+      "paper": "letter",
+      "title": "Two-page Professional Cover Letter – US Letter – ReadableResume",
+      "backupDocId": "1zMnMf6lvddv_pC6ei-_WH5DLmDCjT90nFn1hVGnlsPc"
+    },
+    "two-page-references-a4": {
+      "docId": "1VcDdYarpxyU9T6FqQg8t7xDKqDsIS5Zbz44TjlLxqZY",
+      "template": "two-page",
+      "doc": "references",
+      "paper": "a4",
+      "title": "Two-page Professional References – A4 – ReadableResume",
+      "backupDocId": "1BClsa8pu2aY3VCAJF5kB-oJCiYanHlSyYiJmcqPump0"
+    },
+    "two-page-references-letter": {
+      "docId": "1nGZZC9Ey8BzhczD2KUa37-r3O6QrqYNgm_MvcDP1rvs",
+      "template": "two-page",
+      "doc": "references",
+      "paper": "letter",
+      "title": "Two-page Professional References – US Letter – ReadableResume",
+      "backupDocId": "1vZOrYTxwcZkFtLr7XJeJ1mpeazv08NB7eI5SVyzMbXg"
+    },
+    "two-page-resume-a4": {
+      "docId": "1d-iPbUOZlFcS0N3pshnpBpvRO6nhUcXkhO6NvfeU4WA",
+      "template": "two-page",
+      "doc": "resume",
+      "paper": "a4",
+      "title": "Two-page Professional Resume – A4 – ReadableResume",
+      "backupDocId": "1jRTcJTRrv5tSvMJPINZlVi0WjSpUPVrRkNKOkioc9nI"
+    },
+    "two-page-resume-letter": {
+      "docId": "13NwaLDdB3IKFEgm4BSt9nIElrd7Ufj__C9k9eW6oJ_E",
+      "template": "two-page",
+      "doc": "resume",
+      "paper": "letter",
+      "title": "Two-page Professional Resume – US Letter – ReadableResume",
+      "backupDocId": "1K1utH8J3NJtZln-ZbB9wl_Ky1UgPzakCTscBDA0w6d8"
     }
   }
 }

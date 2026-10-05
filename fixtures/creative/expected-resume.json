@@ -1,0 +1,196 @@
+{
+  "resume": {
+    "profile": {
+      "name": "Jules Moreau",
+      "email": "jules.moreau@example.com",
+      "phone": "(503) 555-0177",
+      "location": "Portland, OR",
+      "url": "behance.net/julesmoreau",
+      "summary": "Brand designer with seven years of identity, packaging and campaign work for food, outdoor and arts clients. I like small teams, tight briefs and print jobs where the paper matters as much as the screen."
+    },
+    "workExperiences": [
+      {
+        "company": "Juniper & Vale Creative",
+        "jobTitle": "Senior Brand Designer",
+        "date": "May 2022 – Present",
+        "descriptions": [
+          "Lead identity and packaging projects for 10 to 12 clients a year, from first workshop to final files",
+          "Redesigned packaging for a regional coffee roaster across 30 products; the new line was in 200 more stores within a year",
+          "Set up the studio's shared Figma library, cutting setup time for new projects by about a day",
+          "Mentor two junior designers and run the weekly critique"
+        ]
+      },
+      {
+        "company": "Larchpenny Studio",
+        "jobTitle": "Graphic Designer",
+        "date": "Aug 2019 – Apr 2022",
+        "descriptions": [
+          "Designed campaigns, social graphics and print pieces for 20 small businesses and nonprofits",
+          "Handled prepress and press checks for about 40 print jobs a year",
+          "Built animated social templates in After Effects that clients could update themselves"
+        ]
+      },
+      {
+        "company": "Talus & Tern Outdoor Supply",
+        "jobTitle": "Marketing Design Intern",
+        "date": "Jun 2018 – Aug 2018",
+        "descriptions": [
+          "Designed in-store signs and email headers for the summer sale season"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "school": "Filbert Hill University",
+        "degree": "Bachelor of Fine Arts in Graphic Design",
+        "date": "Jun 2019",
+        "gpa": "",
+        "descriptions": []
+      }
+    ],
+    "projects": [
+      {
+        "project": "Rattlebrush Brewing Company | Can labels and taproom signs",
+        "date": "2024",
+        "descriptions": [
+          "Designed a label system for 14 beers that lets the brewery add new flavors without a designer"
+        ]
+      },
+      {
+        "project": "Marram Grass Shakespeare Festival | Season identity, freelance",
+        "date": "2023",
+        "descriptions": [
+          "Posters, program and ticketing graphics for a five-play outdoor season"
+        ]
+      }
+    ],
+    "skills": {
+      "featuredSkills": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "descriptions": [
+        "Design: Figma, Illustrator, InDesign, Photoshop",
+        "Motion: After Effects, Lottie",
+        "Print: Prepress, packaging dielines, press checks"
+      ]
+    },
+    "custom": {
+      "descriptions": []
+    }
+  },
+  "outOfScope": [
+    {
+      "path": "workExperiences[0].location",
+      "value": "Portland, OR",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[1].location",
+      "value": "Portland, OR",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "workExperiences[2].location",
+      "value": "Bend, OR",
+      "reason": "no location field for jobs"
+    },
+    {
+      "path": "educations[0].location",
+      "value": "Eugene, OR",
+      "reason": "no location field for schools"
+    }
+  ],
+  "textSequence": [
+    "Jules Moreau",
+    "behance.net/julesmoreau",
+    "jules.moreau@example.com",
+    "(503) 555-0177",
+    "Portland, OR",
+    "SUMMARY",
+    "Brand designer with seven years of identity, packaging and campaign work for food, outdoor and arts clients. I like small teams, tight briefs and print jobs where the paper matters as much as the screen.",
+    "EXPERIENCE",
+    {
+      "anyOrder": [
+        "Juniper & Vale Creative",
+        "Senior Brand Designer",
+        "May 2022 – Present",
+        "Portland, OR"
+      ]
+    },
+    "Lead identity and packaging projects for 10 to 12 clients a year, from first workshop to final files",
+    "Redesigned packaging for a regional coffee roaster across 30 products; the new line was in 200 more stores within a year",
+    "Set up the studio's shared Figma library, cutting setup time for new projects by about a day",
+    "Mentor two junior designers and run the weekly critique",
+    {
+      "anyOrder": [
+        "Larchpenny Studio",
+        "Graphic Designer",
+        "Aug 2019 – Apr 2022",
+        "Portland, OR"
+      ]
+    },
+    "Designed campaigns, social graphics and print pieces for 20 small businesses and nonprofits",
+    "Handled prepress and press checks for about 40 print jobs a year",
+    "Built animated social templates in After Effects that clients could update themselves",
+    {
+      "anyOrder": [
+        "Talus & Tern Outdoor Supply",
+        "Marketing Design Intern",
+        "Jun 2018 – Aug 2018",
+        "Bend, OR"
+      ]
+    },
+    "Designed in-store signs and email headers for the summer sale season",
+    "SELECTED PROJECTS",
+    {
+      "anyOrder": [
+        "Rattlebrush Brewing Company",
+        "Can labels and taproom signs",
+        "2024"
+      ]
+    },
+    "Designed a label system for 14 beers that lets the brewery add new flavors without a designer",
+    {
+      "anyOrder": [
+        "Marram Grass Shakespeare Festival",
+        "Season identity, freelance",
+        "2023"
+      ]
+    },
+    "Posters, program and ticketing graphics for a five-play outdoor season",
+    "SKILLS",
+    "Design: Figma, Illustrator, InDesign, Photoshop",
+    "Motion: After Effects, Lottie",
+    "Print: Prepress, packaging dielines, press checks",
+    "EDUCATION",
+    {
+      "anyOrder": [
+        "Filbert Hill University",
+        "Eugene, OR",
+        "Bachelor of Fine Arts in Graphic Design",
+        "Jun 2019"
+      ]
+    }
+  ],
+  "template": "creative",
+  "doc": "resume",
+  "font": "Trebuchet MS",
+  "expectedPages": 1,
+  "bulletTexts": [
+    "Lead identity and packaging projects for 10 to 12 clients a year, from first workshop to final files",
+    "Redesigned packaging for a regional coffee roaster across 30 products; the new line was in 200 more stores within a year",
+    "Set up the studio's shared Figma library, cutting setup time for new projects by about a day",
+    "Mentor two junior designers and run the weekly critique",
+    "Designed campaigns, social graphics and print pieces for 20 small businesses and nonprofits",
+    "Handled prepress and press checks for about 40 print jobs a year",
+    "Built animated social templates in After Effects that clients could update themselves",
+    "Designed in-store signs and email headers for the summer sale season",
+    "Designed a label system for 14 beers that lets the brewery add new flavors without a designer",
+    "Posters, program and ticketing graphics for a five-play outdoor season"
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "file": "modern-bold-resume-letter",
+  "template": "modern-bold",
+  "doc": "resume",
+  "paper": "letter",
+  "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
+  "source": "https://docs.google.com/document/d/1Ih0fuuNSB7-ykyQKxl3sba96Ec0p4FbW1ZRwq6uLUWI/export?format=pdf",
+  "pdfSha256": "ae744b6278ed7aea2e9ae930ce5ee96fb34c09b3a4195b1bd2842a9048e62004",
+  "docxSha256": "6be172fb6aed641b1c638c5782a296e8acbf6526f91e565067bafc8e38cecf40",
+  "runAt": "2026-10-05T12:55:27+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "pages": {
+    "expected": 1,
+    "actual": 1,
+    "ok": true
+  },
+  "pageFill": 0.694,
+  "fonts": {
+    "expected": "Arial",
+    "found": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "unexpected": [],
+    "whitespaceFonts": {
+      "Arial-BoldMT": 18,
+      "ArialMT": 259,
+      "Arial-ItalicMT": 14
+    },
+    "notEmbedded": [],
+    "ok": true
+  },
+  "c2Text": {
+    "forbiddenChars": [],
+    "splitWords": [],
+    "notFoundInOrder": [],
+    "missingOccurrences": [],
+    "unexpectedText": "",
+    "ok": true,
+    "firstLines": [
+      "Andre Whitaker",
+      "Austin, TX | (512) 555-0154 | andre.whitaker@example.com | linkedin.com/in/andrewhitaker",
+      "SUMMARY",
+      "Customer success manager with seven years in software for labs and event teams. I manage renewals worth",
+      "about $4 million a year, and I'm known for catching unhappy accounts early, before they show up in the numbers.",
+      "EXPERIENCE",
+      "Senior Customer Success Manager Apr 2022 – Present",
+      "Quill & Flask Labs Austin, TX",
+      "• Manage 45 lab accounts with $4.1 million in yearly renewals and 96% gross retention last year",
+      "• Built a health score from support tickets and product usage that flags accounts at risk about two months",
+      "earlier than before",
+      "• Lead quarterly business reviews with lab directors and bring their requests back to the product team",
+      "• Onboarded and coached three new managers on the team",
+      "Customer Success Manager Jan 2019 – Mar 2022",
+      "Tallowbird Events Austin, TX",
+      "• Looked after 120 event agencies through the switch to a new ticketing platform, losing only four",
+      "• Wrote the onboarding guide and video series that cut setup calls from three to one",
+      "• Turned 22 accounts into paid upgrades by showing them features they already had but didn't use",
+      "• Ran the customer advisory group of 12 agencies that tested new features before release",
+      "Account Coordinator Jun 2017 – Dec 2018",
+      "Rattlebrush Brewing Company San Antonio, TX",
+      "• Handled orders and delivery problems for 90 bars and restaurants across three cities",
+      "• Kept the distributor price list current and caught billing errors before invoices went out",
+      "• Set up delivery schedules with three distributors and handled out-of-stock calls",
+      "EDUCATION",
+      "Mesquite Hollow University San Marcos, TX",
+      "Bachelor of Business Administration May 2017",
+      "SKILLS",
+      "Customer tools: Salesforce, Gainsight, HubSpot, Zendesk",
+      "Data: Excel, Looker, basic SQL"
+    ]
+  },
+  "c3Docx": {
+    "bullets": {
+      "expected": 11,
+      "actual": 11,
+      "ok": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "bulletGlyphProblems": [],
+    "structureProblems": [],
+    "text": {
+      "forbiddenChars": [],
+      "splitWords": [],
+      "notFoundInOrder": [],
+      "missingOccurrences": [],
+      "unexpectedText": "",
+      "ok": true
+    },
+    "ok": true
+  },
+  "c1Parser": {
+    "parser": "OpenResume @4f8255a",
+    "passed": 33,
+    "total": 33,
+    "items": [
+      {
+        "path": "profile.name",
+        "expected": "Andre Whitaker",
+        "actual": "Andre Whitaker",
+        "ok": true
+      },
+      {
+        "path": "profile.email",
+        "expected": "andre.whitaker@example.com",
+        "actual": "andre.whitaker@example.com",
+        "ok": true
+      },
+      {
+        "path": "profile.phone",
+        "expected": "(512) 555-0154",
+        "actual": "(512) 555-0154",
+        "ok": true
+      },
+      {
+        "path": "profile.location",
+        "expected": "Austin, TX",
+        "actual": "Austin, TX",
+        "ok": true
+      },
+      {
+        "path": "profile.url",
+        "expected": "linkedin.com/in/andrewhitaker",
+        "actual": "linkedin.com/in/andrewhitaker",
+        "ok": true
+      },
+      {
+        "path": "profile.summary",
+        "expected": "Customer success manager with seven years in software for labs and event teams. I manage renewals worth about $4 million a year, and I'm known for catching unhappy accounts early, before they show up in the numbers.",
+        "actual": "Customer success manager with seven years in software for labs and event teams. I manage renewals worth about $4 million a year, and I'm known for catching unhappy accounts early, before they show up in the numbers.",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].company",
+        "expected": "Quill & Flask Labs",
+        "actual": "Quill & Flask Labs",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].jobTitle",
+        "expected": "Senior Customer Success Manager",
+        "actual": "Senior Customer Success Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].date",
+        "expected": "Apr 2022 – Present",
+        "actual": "Apr 2022 – Present",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[0]",
+        "expected": "Manage 45 lab accounts with $4.1 million in yearly renewals and 96% gross retention last year",
+        "actual": "Manage 45 lab accounts with $4.1 million in yearly renewals and 96% gross retention last year",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[1]",
+        "expected": "Built a health score from support tickets and product usage that flags accounts at risk about two months earlier than before",
+        "actual": "Built a health score from support tickets and product usage that flags accounts at risk about two months earlier than before",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[2]",
+        "expected": "Lead quarterly business reviews with lab directors and bring their requests back to the product team",
+        "actual": "Lead quarterly business reviews with lab directors and bring their requests back to the product team",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions[3]",
+        "expected": "Onboarded and coached three new managers on the team",
+        "actual": "Onboarded and coached three new managers on the team",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].company",
+        "expected": "Tallowbird Events",
+        "actual": "Tallowbird Events",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].jobTitle",
+        "expected": "Customer Success Manager",
+        "actual": "Customer Success Manager",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].date",
+        "expected": "Jan 2019 – Mar 2022",
+        "actual": "Jan 2019 – Mar 2022",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[0]",
+        "expected": "Looked after 120 event agencies through the switch to a new ticketing platform, losing only four",
+        "actual": "Looked after 120 event agencies through the switch to a new ticketing platform, losing only four",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[1]",
+        "expected": "Wrote the onboarding guide and video series that cut setup calls from three to one",
+        "actual": "Wrote the onboarding guide and video series that cut setup calls from three to one",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[2]",
+        "expected": "Turned 22 accounts into paid upgrades by showing them features they already had but didn't use",
+        "actual": "Turned 22 accounts into paid upgrades by showing them features they already had but didn't use",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions[3]",
+        "expected": "Ran the customer advisory group of 12 agencies that tested new features before release",
+        "actual": "Ran the customer advisory group of 12 agencies that tested new features before release",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].company",
+        "expected": "Rattlebrush Brewing Company",
+        "actual": "Rattlebrush Brewing Company",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].jobTitle",
+        "expected": "Account Coordinator",
+        "actual": "Account Coordinator",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].date",
+        "expected": "Jun 2017 – Dec 2018",
+        "actual": "Jun 2017 – Dec 2018",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[0]",
+        "expected": "Handled orders and delivery problems for 90 bars and restaurants across three cities",
+        "actual": "Handled orders and delivery problems for 90 bars and restaurants across three cities",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[1]",
+        "expected": "Kept the distributor price list current and caught billing errors before invoices went out",
+        "actual": "Kept the distributor price list current and caught billing errors before invoices went out",
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions[2]",
+        "expected": "Set up delivery schedules with three distributors and handled out-of-stock calls",
+        "actual": "Set up delivery schedules with three distributors and handled out-of-stock calls",
+        "ok": true
+      },
+      {
+        "path": "educations[0].school",
+        "expected": "Mesquite Hollow University",
+        "actual": "Mesquite Hollow University",
+        "ok": true
+      },
+      {
+        "path": "educations[0].degree",
+        "expected": "Bachelor of Business Administration",
+        "actual": "Bachelor of Business Administration",
+        "ok": true
+      },
+      {
+        "path": "educations[0].date",
+        "expected": "May 2017",
+        "actual": "May 2017",
+        "ok": true
+      },
+      {
+        "path": "educations[0].gpa",
+        "expected": "",
+        "actual": "",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[0]",
+        "expected": "Customer tools: Salesforce, Gainsight, HubSpot, Zendesk",
+        "actual": "Customer tools: Salesforce, Gainsight, HubSpot, Zendesk",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[1]",
+        "expected": "Data: Excel, Looker, basic SQL",
+        "actual": "Data: Excel, Looker, basic SQL",
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions[2]",
+        "expected": "Languages: English (native), Spanish (fluent)",
+        "actual": "Languages: English (native), Spanish (fluent)",
+        "ok": true
+      }
+    ],
+    "structural": [
+      {
+        "path": "workExperiences (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[0].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[1].descriptions (count)",
+        "expected": 4,
+        "actual": 4,
+        "ok": true
+      },
+      {
+        "path": "workExperiences[2].descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "educations (count)",
+        "expected": 1,
+        "actual": 1,
+        "ok": true
+      },
+      {
+        "path": "educations[0].descriptions (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "projects (count)",
+        "expected": 0,
+        "actual": 0,
+        "ok": true
+      },
+      {
+        "path": "skills.descriptions (count)",
+        "expected": 3,
+        "actual": 3,
+        "ok": true
+      },
+      {
+        "path": "skills.featuredSkills (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      },
+      {
+        "path": "custom (empty)",
+        "expected": [],
+        "actual": [],
+        "ok": true
+      }
+    ],
+    "outOfScope": [
+      {
+        "path": "workExperiences[0].location",
+        "value": "Austin, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[1].location",
+        "value": "Austin, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "workExperiences[2].location",
+        "value": "San Antonio, TX",
+        "reason": "no location field for jobs",
+        "foundInText": true
+      },
+      {
+        "path": "educations[0].location",
+        "value": "San Marcos, TX",
+        "reason": "no location field for schools",
+        "foundInText": true
+      }
+    ],
+    "parserLines": [
+      "Andre Whitaker",
+      "Austin, TX | (512) 555-0154 | andre.whitaker@example.com | linkedin.com/in/andrewhitaker",
+      "SUMMARY",
+      "Customer success manager with seven years in software for labs and event teams. I manage renewals worth",
+      "about $4 million a year, and I'm known for catching unhappy accounts early, before they show up in the numbers.",
+      "EXPERIENCE",
+      "Senior Customer Success Manager ‖ Apr 2022 – Present",
+      "Quill & Flask Labs ‖ Austin, TX",
+      "• ‖ Manage 45 lab accounts with $4.1 million in yearly renewals and 96% gross retention last year",
+      "• ‖ Built a health score from support tickets and product usage that flags accounts at risk about two months",
+      "earlier than before",
+      "• ‖ Lead quarterly business reviews with lab directors and bring their requests back to the product team",
+      "• ‖ Onboarded and coached three new managers on the team",
+      "Customer Success Manager ‖ Jan 2019 – Mar 2022",
+      "Tallowbird Events ‖ Austin, TX",
+      "• ‖ Looked after 120 event agencies through the switch to a new ticketing platform, losing only four",
+      "• ‖ Wrote the onboarding guide and video series that cut setup calls from three to one",
+      "• ‖ Turned 22 accounts into paid upgrades by showing them features they already had but didn't use",
+      "• ‖ Ran the customer advisory group of 12 agencies that tested new features before release",
+      "Account Coordinator ‖ Jun 2017 – Dec 2018",
+      "Rattlebrush Brewing Company ‖ San Antonio, TX",
+      "• ‖ Handled orders and delivery problems for 90 bars and restaurants across three cities",
+      "• ‖ Kept the distributor price list current and caught billing errors before invoices went out",
+      "• ‖ Set up delivery schedules with three distributors and handled out-of-stock calls",
+      "EDUCATION",
+      "Mesquite Hollow University ‖ San Marcos, TX",
+      "Bachelor of Business Administration ‖ May 2017",
+      "SKILLS",
+      "Customer tools: Salesforce, Gainsight, HubSpot, Zendesk",
+      "Data: Excel, Looker, basic SQL",
+      "Languages: English (native), Spanish (fluent)"
+    ]
+  },
+  "pass": true
+}

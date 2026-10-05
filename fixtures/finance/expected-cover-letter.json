@@ -1,0 +1,25 @@
+{
+  "textSequence": [
+    "Ethan Calloway",
+    "New York, NY",
+    "(212) 555-0173",
+    "ethan.calloway@example.com",
+    "linkedin.com/in/ethancalloway",
+    "October 5, 2026",
+    "Recruiting Team",
+    "Quillfeather Capital Partners",
+    "New York, NY",
+    "Dear Recruiting Team,",
+    "I'm applying for the Private Equity Associate position at Quillfeather Capital Partners. After a summer internship, I spent two years as an investment banking analyst at Harlan Quay Capital Partners and the last three in corporate development at Thornholme Energy, so I've seen deals from both the adviser's side and the buyer's.",
+    "At Thornholme I built the operating model and valuation for our $220 million acquisition of a solar developer. That meant more than the spreadsheet. I worked through diligence with counsel and the accountants, tested the plan with the operating team who would run the business, and wrote the investment memo the board approved.",
+    "Your recent investments in energy services are why I'm writing to you now. I know how these businesses make money, where the integration risks are, and how management teams think about growth after a sale.",
+    "Thank you for considering my application. I'd welcome the chance to walk through a deal I've worked on.",
+    "Sincerely,",
+    "Ethan Calloway"
+  ],
+  "template": "finance",
+  "doc": "cover-letter",
+  "font": "Times New Roman",
+  "expectedPages": 1,
+  "bulletTexts": []
+}

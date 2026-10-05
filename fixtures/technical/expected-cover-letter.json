@@ -1,0 +1,26 @@
+{
+  "textSequence": [
+    "Kevin Osei",
+    "Seattle, WA",
+    "(206) 555-0159",
+    "kevin.osei@example.com",
+    "linkedin.com/in/kevinosei",
+    "github.com/kevinosei",
+    "October 5, 2026",
+    "Hiring Team",
+    "Ferncastle Payments",
+    "Seattle, WA",
+    "Dear Hiring Team,",
+    "I'm applying for the Senior Backend Engineer role on your payments platform team. I've spent four years building high-volume services in Go and Python, most recently the shipment events service at Tarnhollow Logistics, which handles about 40 million events a day.",
+    "Your posting mentions write latency and on-call load, and both have been my work this past year. I moved our service from a single database to partitioned PostgreSQL tables, which cut p95 write latency from 220 ms to 35 ms. I also rewrote our alerts and runbook, and pages per week dropped from 14 to 4.",
+    "I also enjoy the parts of the job around the code, like design reviews, mentoring and writing things down so the next person doesn't have to ask. I currently mentor two junior engineers and review most of the team's pull requests.",
+    "Thank you for your time. I'd be glad to talk through the database migration or anything else on my resume.",
+    "Best regards,",
+    "Kevin Osei"
+  ],
+  "template": "technical",
+  "doc": "cover-letter",
+  "font": "Arial",
+  "expectedPages": 1,
+  "bulletTexts": []
+}
