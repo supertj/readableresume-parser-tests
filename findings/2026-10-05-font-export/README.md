@@ -57,8 +57,7 @@ File > Download > PDF in a form a resume parser reads correctly? We tested 32 fo
 | Verdana | same | 2 | none | 0 | 41/46 |
 | Work Sans | same | 2 | fi ×4, fl ×1 | 0 | 40/46 |
 
-"Font in the PDF" is the font that drew the visible text. Google Docs keeps the font name you chose in the document
-even when it doesn't have that font, so the PDF is the only place that shows what was used.
+"Font in the PDF" is the font that drew the visible text, which shows what Google Docs actually used.
 
 ## What we found
 
