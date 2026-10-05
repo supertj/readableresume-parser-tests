@@ -4,10 +4,10 @@
   "doc": "references",
   "paper": "a4",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1T1GuJbpd0P0iUdSNbDi7nbgZFEn4VINilOMWcDnD-8o/export?format=pdf",
+  "source": "https://docs.google.com/document/d/1gLhLINvgUSVeIwZVRukjHmbHatMjfyoYT-_Too2FkfY/export?format=pdf",
   "pdfSha256": "c5fa54f6a8e9e7d94b63dad2098bb583a47097c1dcc7f344bfda0ce2b87158ed",
-  "docxSha256": "597950dec60aeb7d307f02bd869ac58113970d996d0a4dfc7aa3eda49804b4a4",
-  "runAt": "2026-10-05T12:55:27+00:00",
+  "docxSha256": "af1df571f68ccceef15f5ad04f335c41c1cf98209d378eabf4cd3483b618f699",
+  "runAt": "2026-10-05T18:13:08+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
