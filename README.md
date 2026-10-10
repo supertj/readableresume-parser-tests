@@ -38,6 +38,10 @@ OpenResume's `read-pdf.ts` loads pdf.js through a browser worker entry, which do
 self-tests, fetches every template from Google Docs again, and runs every check. The reports and the exact
 files tested are kept as a workflow artifact for 90 days.
 
+## ATS resume checker
+
+The free checker at [readableresume.com/ats-resume-checker](https://readableresume.com/ats-resume-checker) runs the same OpenResume version in the visitor's browser. Its source is in [`checker/`](checker/), including a script that confirms it reads every fixture PDF exactly as `parser/parse-pdf.ts` does.
+
 ## Findings
 
 One-off experiments live in `findings/`, each with the PDFs that were tested and the raw results, for
