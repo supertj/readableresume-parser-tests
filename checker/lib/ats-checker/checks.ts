@@ -248,13 +248,17 @@ const UNREADABLE = /[\uFFFD\uE000-\uF8FF\u{F0000}-\u{10FFFF}\u0000-\u0008\u000B\
 
 const WORD_AROUND = (pattern: RegExp) => new RegExp(`\\S*${pattern.source}\\S*`, "gu")
 
+// Unreadable characters are invisible or blank on screen, so examples spell them out: "[U+E081]312"
+const spellOut = (word: string) =>
+  word.replace(new RegExp(UNREADABLE.source, "gu"), (char) => `[U+${char.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")}]`)
+
 function characterCheck(id: CheckId, read: PdfRead, pattern: RegExp, found: (examples: string[], count: number) => string, clean: string): CheckResult {
   const examples = new Set<string>()
   let count = 0
   for (const text of read.rawText) {
     for (const match of text.matchAll(WORD_AROUND(pattern))) {
       count++
-      if (examples.size < 3) examples.add(match[0].slice(0, 40))
+      if (examples.size < 3) examples.add(spellOut(match[0].slice(0, 40)))
     }
   }
   if (count === 0) return { id, status: "pass", detail: clean }

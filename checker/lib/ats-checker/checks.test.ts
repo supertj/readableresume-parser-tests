@@ -92,6 +92,8 @@ test("joined letters and unreadable symbols are caught", () => {
   assert.equal(statusOf(report, "ligatures")?.status, "fail")
   assert.match(statusOf(report, "ligatures")!.detail, /Certiﬁed/)
   assert.equal(statusOf(report, "symbols")?.status, "fail")
+  // The icon itself would show as nothing, so it's spelled out
+  assert.match(statusOf(report, "symbols")!.detail, /\[U\+F0B7\]/)
 })
 
 function rows(count: number, top: number, step: number, x: number, width: number): PlacedItem[] {

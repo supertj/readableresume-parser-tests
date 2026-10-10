@@ -34,7 +34,7 @@ export interface PdfRead {
   items: TextItems
   /** Same items with their page number, before the parser merges them into lines */
   placed: PlacedItem[]
-  /** Each item's text without Unicode normalization: "ﬁ" stays one character */
+  /** The text line by line without Unicode normalization: "ﬁ" stays one character */
   rawText: string[]
   pages: PageSize[]
   /** Pages in the file, including the ones past `maxPages` */
@@ -127,8 +127,18 @@ export async function readPdf(pdfjs: PdfJs, data: Uint8Array, maxPages: number):
       // getTextContent() normalizes Unicode by default, which turns the ligature "ﬁ" into "fi" and
       // would hide exactly what the ligature check looks for. The parser keeps the normalized text
       // (upstream and the proof repository read it that way); the character checks read this copy.
+      // pdf.js often puts a ligature in an item of its own ("of", "ﬁ", "ce hours"), so items are
+      // joined into lines first; otherwise the example shown to the user would be a lone "ﬁ".
       const rawContent = await page.getTextContent({ disableNormalization: true })
-      for (const item of rawContent.items) if ("str" in item && item.str.trim() !== "") rawText.push(item.str)
+      let rawLine = ""
+      for (const item of rawContent.items) {
+        if (!("str" in item)) continue
+        rawLine += item.str
+        if (!item.hasEOL) continue
+        if (rawLine.trim() !== "") rawText.push(rawLine)
+        rawLine = ""
+      }
+      if (rawLine.trim() !== "") rawText.push(rawLine)
     }
 
     // Filter out empty space textItem noise

@@ -89,7 +89,9 @@ export const CHECK_FIX: Record<CheckId, React.ReactNode> = {
   symbols: (
     <>
       Usually bullets or icons set in a symbol font, like Wingdings or an icon font. Use the plain bullet (•) from your
-      regular font, and write contact details out instead of using icons.
+      regular font, and write contact details out instead of using icons. It can also be the font itself: in our tests,
+      Inter stored brackets, hyphens and colons this way.{" "}
+      <GuideLink href="/resume-fonts">Fonts that export cleanly</GuideLink>
     </>
   ),
 }
