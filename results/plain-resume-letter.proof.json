@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1sdeactnTyuTcZzAubFu5qh_MKcTrg6_C2gYWgKoHQys/export?format=pdf",
-  "pdfSha256": "2b74b66548a3ae9980bd70307cd2452dfd1bfde52eae5015fd742abba3462d03",
-  "docxSha256": "fd49a72e35d733dbfd03890a9642794ed96116eead9015ce162508507580aac3",
-  "runAt": "2026-10-03T05:31:32+00:00",
+  "source": "https://docs.google.com/document/d/1Cj8a1bVAELbM9-flbptlzuf_n2vFFbdACwr_2QhW15o/export?format=pdf",
+  "pdfSha256": "2d5d29d5206899a2fa0e93bcd549516ef59e8c0903cfd7e6e8b38e9f80505898",
+  "docxSha256": "ea97a58c61f54fbaf872028ae681da8fde89787abfd4a1d1c2ab1ccfedf02c29",
+  "runAt": "2026-10-23T18:47:17+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -48,7 +48,7 @@
       "Taylor Morgan",
       "Columbus, OH | (614) 555-0128 | taylor.morgan@example.com | linkedin.com/in/taylormorgan",
       "SUMMARY",
-      "Marketing coordinator with three years of experience running email and social campaigns for a regional",
+      "Marketing coordinator with five years of experience running email and social campaigns for a regional",
       "health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to",
       "turning campaign results into short reports for managers.",
       "EXPERIENCE",
@@ -134,8 +134,8 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Marketing coordinator with three years of experience running email and social campaigns for a regional health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to turning campaign results into short reports for managers.",
-        "actual": "Marketing coordinator with three years of experience running email and social campaigns for a regional health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to turning campaign results into short reports for managers.",
+        "expected": "Marketing coordinator with five years of experience running email and social campaigns for a regional health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to turning campaign results into short reports for managers.",
+        "actual": "Marketing coordinator with five years of experience running email and social campaigns for a regional health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to turning campaign results into short reports for managers.",
         "ok": true
       },
       {
@@ -393,7 +393,7 @@
       "Taylor Morgan",
       "Columbus, OH | (614) 555-0128 | taylor.morgan@example.com | linkedin.com/in/taylormorgan",
       "SUMMARY",
-      "Marketing coordinator with three years of experience running email and social campaigns for a regional",
+      "Marketing coordinator with five years of experience running email and social campaigns for a regional",
       "health network and a retail brand. Comfortable with HubSpot, Google Analytics and Excel, and used to",
       "turning campaign results into short reports for managers.",
       "EXPERIENCE",

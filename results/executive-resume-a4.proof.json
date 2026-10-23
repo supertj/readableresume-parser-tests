@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "a4",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1wT5WJWvAv7hPNx0SKZ5zLcGunsUtb0AuvzlsRws-Ruo/export?format=pdf",
-  "pdfSha256": "20749a497551a10ad1f51c09bace019f4e8532c4cef84a16b1b4d95e928cf4d1",
-  "docxSha256": "72cb4133ef68a61e59d7b91fbf5b1acc8caef0fa2cc8ac617d08661f579a4511",
-  "runAt": "2026-10-05T18:13:04+00:00",
+  "source": "https://docs.google.com/document/d/1d04m6WMRORqk8vXrk2WdSiRjS8G2c7QoOTw9XAdsriw/export?format=pdf",
+  "pdfSha256": "59caf4156e12da8307cf586fee7be80df91cf02a21ca584c5060e55d2ec2c498",
+  "docxSha256": "023603abc8fc91d9a57d6142fed0476af0949f5d0bbe66f74c2a9f5c8ea35631",
+  "runAt": "2026-10-23T18:47:12+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -50,7 +50,7 @@
       "Charlotte, NC | (704) 555-0119 | catherine.vance@example.com |",
       "linkedin.com/in/catherinevance",
       "EXECUTIVE SUMMARY",
-      "Operations executive with 18 years in industrial manufacturing, the last seven running",
+      "Operations executive with 20 years in industrial manufacturing, the last seven running",
       "multi-plant operations of up to 1,400 people. I turn around underperforming plants, build",
       "leadership teams that stay, and connect the shop floor to the numbers the board cares about.",
       "Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
@@ -135,8 +135,8 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Operations executive with 18 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
-        "actual": "Operations executive with 18 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
+        "expected": "Operations executive with 20 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
+        "actual": "Operations executive with 20 years in industrial manufacturing, the last seven running multi-plant operations of up to 1,400 people. I turn around underperforming plants, build leadership teams that stay, and connect the shop floor to the numbers the board cares about. Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
         "ok": true
       },
       {
@@ -551,7 +551,7 @@
       "Charlotte, NC | (704) 555-0119 | catherine.vance@example.com |",
       "linkedin.com/in/catherinevance",
       "EXECUTIVE SUMMARY",
-      "Operations executive with 18 years in industrial manufacturing, the last seven running",
+      "Operations executive with 20 years in industrial manufacturing, the last seven running",
       "multi-plant operations of up to 1,400 people. I turn around underperforming plants, build",
       "leadership teams that stay, and connect the shop floor to the numbers the board cares about.",
       "Most recently led a $40 million modernization that raised on-time delivery from 81% to 96%.",
