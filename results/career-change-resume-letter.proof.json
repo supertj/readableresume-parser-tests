@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "letter",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1yJ-Z9HzHYWcFhe6jxrZ4o6QyttO_w2qDWGjreGfmLvw/export?format=pdf",
-  "pdfSha256": "b39fe8102ca9b8e680624715c6a69116707effc9c4f107df90447c379d47b457",
-  "docxSha256": "6b53c9a9da5f40bb75373bff5b2603d32e7cbdb82613d51003b2eb84507c6dd9",
-  "runAt": "2026-10-05T18:13:03+00:00",
+  "source": "https://docs.google.com/document/d/1r_6Owg32u0Owo9DmlJ2yGbsGOxK1PW_j8rIf8Tdq_ho/export?format=pdf",
+  "pdfSha256": "db53a9ce45bc8e3593d78e90bb25e6431a0f166b75e04c0b7ae16bf2ced67686",
+  "docxSha256": "af5a938cbc40356fc1ecece1152d93cdc2f185fa13e91afc2df5c7b88b5cc212",
+  "runAt": "2026-10-23T18:47:11+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -49,7 +49,7 @@
       "Marisol Vega",
       "Sacramento, CA | (916) 555-0146 | marisol.vega@example.com | linkedin.com/in/marisolvega",
       "SUMMARY",
-      "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to",
+      "Retail store manager moving into data analysis. For ten years I've run stores on numbers, from labor plans to",
       "shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role",
       "where I can work with sales and operations data.",
       "SKILLS",
@@ -135,8 +135,8 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data.",
-        "actual": "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data.",
+        "expected": "Retail store manager moving into data analysis. For ten years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data.",
+        "actual": "Retail store manager moving into data analysis. For ten years I've run stores on numbers, from labor plans to shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role where I can work with sales and operations data.",
         "ok": true
       },
       {
@@ -388,7 +388,7 @@
       "Marisol Vega",
       "Sacramento, CA | (916) 555-0146 | marisol.vega@example.com | linkedin.com/in/marisolvega",
       "SUMMARY",
-      "Retail store manager moving into data analysis. For eight years I've run stores on numbers, from labor plans to",
+      "Retail store manager moving into data analysis. For ten years I've run stores on numbers, from labor plans to",
       "shrink, and for the last two I've done the analysis myself in SQL and Tableau. Looking for a junior analyst role",
       "where I can work with sales and operations data.",
       "SKILLS",

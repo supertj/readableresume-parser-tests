@@ -4,10 +4,10 @@
   "doc": "resume",
   "paper": "a4",
   "exportPath": "B1: Google Docs File > Download > PDF (public export URL)",
-  "source": "https://docs.google.com/document/d/1gST-lp8DGZpfbwkWoQSOPnDkPMhirkQ30nGNLJCrAB0/export?format=pdf",
-  "pdfSha256": "98ce512f04f05d2f1fd149da5002a6fc4c6000d6455071952c6dad141c8eb7cc",
-  "docxSha256": "182f0bd7242aae702e038b6bd68c37ed4c45d105c493474c0046a65109520329",
-  "runAt": "2026-10-05T18:13:07+00:00",
+  "source": "https://docs.google.com/document/d/1HwcEO_1ACtxlvn-vQf9q8geknvdrTwo37gsTTT0A2Bs/export?format=pdf",
+  "pdfSha256": "59d4c178eb7a201fc7a6d19e15f2773e018dfca0fd100f7f21429474a7e8a72b",
+  "docxSha256": "dbd436a72c55b27a47d481272de469179470e03943af7dc936fb596104c82aa3",
+  "runAt": "2026-10-23T18:47:14+00:00",
   "tools": {
     "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
     "pdfjsDist": "3.7.107",
@@ -48,7 +48,7 @@
       "Samantha Cho",
       "Durham, NC | (919) 555-0168 | samantha.cho@example.com | linkedin.com/in/samanthacho",
       "SUMMARY",
-      "Board-certified physician assistant with four years in emergency and urgent care. I see 25 to 30 patients a",
+      "Board-certified physician assistant with five years in emergency and urgent care. I see 25 to 30 patients a",
       "shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow",
       "them.",
       "LICENSES AND CERTIFICATIONS",
@@ -134,8 +134,8 @@
       },
       {
         "path": "profile.summary",
-        "expected": "Board-certified physician assistant with four years in emergency and urgent care. I see 25 to 30 patients a shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow them.",
-        "actual": "Board-certified physician assistant with four years in emergency and urgent care. I see 25 to 30 patients a shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow them.",
+        "expected": "Board-certified physician assistant with five years in emergency and urgent care. I see 25 to 30 patients a shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow them.",
+        "actual": "Board-certified physician assistant with five years in emergency and urgent care. I see 25 to 30 patients a shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow them.",
         "ok": true
       },
       {
@@ -441,7 +441,7 @@
       "Samantha Cho",
       "Durham, NC | (919) 555-0168 | samantha.cho@example.com | linkedin.com/in/samanthacho",
       "SUMMARY",
-      "Board-certified physician assistant with four years in emergency and urgent care. I see 25 to 30 patients a",
+      "Board-certified physician assistant with five years in emergency and urgent care. I see 25 to 30 patients a",
       "shift, work well in a busy department, and take the time to explain discharge plans so patients actually follow",
       "them.",
       "LICENSES AND CERTIFICATIONS",
