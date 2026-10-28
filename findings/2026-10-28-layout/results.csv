@@ -1,0 +1,11 @@
+layout,description,pdf_fields_read,pdf_fields_total,pdf_pages,pdf_images,pdf_values_missing_from_text,pdf_fields_lost_by_group,pdf_failed_fields,docx_contact_details_in,docx_values_in_body,docx_values_as_text,docx_values_total,docx_tables,docx_text_boxes,docx_images
+single-column,One column (control),46,46,1,0,0,,,body,51,51,51,0,0,0
+photo,Photo next to the name,46,46,1,1,0,,,body,51,51,51,0,0,1
+contact-icons,Icons instead of separators in the contact line,46,46,1,4,0,,,body,51,51,51,0,0,4
+skill-bars,Skill rating bars,46,46,1,3,0,,,body,51,51,51,0,0,2
+header-contact,Name and contact details in the page header,46,46,1,0,0,,,header,46,51,51,0,0,0
+table-dates-left,Dates in a table column on the left,46,46,1,0,0,,,body,51,51,51,3,0,0
+table-dates-narrow,Dates in a table column too narrow for them,34,46,1,0,0,jobs 6; education 6,workExperiences[0].company workExperiences[0].date workExperiences[1].company workExperiences[1].date workExperiences[2].company workExperiences[2].date educations[0].school educations[0].degree educations[0].date educations[0].gpa educations[0].descriptions[0] educations[0].descriptions[1],body,51,51,51,3,0,0
+two-column-table,Two columns built with a table,42,46,1,0,0,education 1; skills 3,educations[0].degree skills.descriptions[0] skills.descriptions[1] skills.descriptions[2],body,51,51,51,1,0,0
+two-column-columns,Two columns built with Format > Columns,42,46,1,0,0,jobs 2; education 1; skills 1,workExperiences[1].company workExperiences[1].date educations[0].degree skills.descriptions[2],body,51,51,51,0,0,0
+text-box-contact,Name and contact details in a text box,34,46,1,1,5,contact 6; education 6,profile.name profile.email profile.phone profile.location profile.url profile.summary educations[0].school educations[0].degree educations[0].date educations[0].gpa educations[0].descriptions[0] educations[0].descriptions[1],text box,46,51,51,0,1,1

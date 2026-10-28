@@ -45,8 +45,9 @@ The free checker at [readableresume.com/ats-resume-checker](https://readableresu
 ## Findings
 
 One-off experiments live in `findings/`, each with the PDFs that were tested and the raw results, for
-example how non-Latin names behave (`findings/2026-10-02-non-latin-names/`) and which fonts come through a
-Google Docs PDF export cleanly (`findings/2026-10-05-font-export/`, `make font-study`).
+example how non-Latin names behave (`findings/2026-10-02-non-latin-names/`), which fonts come through a
+Google Docs PDF export cleanly (`findings/2026-10-05-font-export/`, `make font-study`) and what ten layouts of the
+same resume do to the result (`findings/2026-10-28-layout/`, `make layout-study`).
 
 ## Known parser limits
 
