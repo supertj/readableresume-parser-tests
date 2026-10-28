@@ -1,5 +1,5 @@
-"""Tests for the rules analyze.py uses to sort failed fields and to find where text sits in a .docx.
-Runs before every `make layout-study`.
+"""Tests for the rules analyze.py uses to sort failed fields and to find where text sits in a .docx, and a check
+that every layout in docx/ keeps the control's text formatting. Runs before every `make layout-study`.
 
 Usage, from the repository root:
 
@@ -8,17 +8,22 @@ Usage, from the repository root:
 SPDX-License-Identifier: AGPL-3.0-only
 """
 
+import re
 import sys
 import tempfile
+import zipfile
+from collections import Counter
 from pathlib import Path
 
 from docx import Document
 from docx.oxml import parse_xml
+from docx.oxml.ns import qn
+from lxml import etree
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
-from analyze import docx_summary, docx_text, lost_by_group, where  # noqa: E402
+from analyze import ORDER, docx_summary, docx_text, lost_by_group, where  # noqa: E402
 
 TEXT_BOX_RUN = (
     '<w:r xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"'
@@ -49,9 +54,50 @@ def sample_docx(folder: Path) -> Path:
     return path
 
 
+def text_formats(path: Path) -> Counter:
+    """(text, paragraph style, run formatting) for every run with text in the body, tables, text boxes and headers.
+
+    Order doesn't matter: the layouts move text around. Formatting does, because a different size or style changes
+    where lines wrap and what the parser sees, and a lost field could no longer be put down to the layout alone.
+    Separators and spaces are left out: the icons layout replaces the | separators with pictures.
+    """
+    found = Counter()
+    with zipfile.ZipFile(path) as archive:
+        for name in archive.namelist():
+            if not re.fullmatch(r"word/(document|header\d*)\.xml", name):
+                continue
+            for run in etree.fromstring(archive.read(name)).iter(qn("w:r")):
+                # Only the run's own text: the run that holds a text box contains the box's runs, counted separately
+                text = "".join(node.text or "" for node in run.findall(qn("w:t")))
+                if text.strip(" |") == "":
+                    continue
+                style = next(run.iterancestors(qn("w:p"))).find(f"{qn('w:pPr')}/{qn('w:pStyle')}")
+                run_format = run.find(qn("w:rPr"))
+                found[
+                    (
+                        text,
+                        None if style is None else style.get(qn("w:val")),
+                        # Elements and attributes, without namespace declarations (runs in a text box carry extra ones)
+                        () if run_format is None else tuple((el.tag, tuple(sorted(el.attrib.items()))) for el in run_format.iter()),
+                    )
+                ] += 1
+    return found
+
+
+def changed_formatting() -> dict[str, Counter]:
+    """For each layout in docx/, the text whose formatting differs from the control (empty when none does)."""
+    control = text_formats(HERE / "docx" / "single-column.docx")
+    changed = {}
+    for path in sorted((HERE / "docx").glob("*.docx")):
+        runs = text_formats(path)
+        changed[path.stem] = (runs - control) + (control - runs)
+    return changed
+
+
 def main() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         text = docx_text(sample_docx(Path(tmp)))
+    changed = changed_formatting()
     results = [
         case(
             "failed fields are counted by group, groups with nothing lost are left out",
@@ -73,6 +119,11 @@ def main() -> None:
         case(
             "Google Docs' .docx keeps the text box contents as text",
             where("jordan.ellis@example.com", docx_text(HERE / "gdocs-docx" / "text-box-contact.docx")) == "text box",
+        ),
+        # Each layout changes one thing: the text keeps the control's fonts, sizes, bold and italics
+        case(
+            "every layout in docx/ keeps the control's text formatting",
+            sorted(changed) == sorted(ORDER) and not any(changed.values()),
         ),
     ]
     if not all(results):
