@@ -2,7 +2,7 @@
 # check:    run every check on the PDFs and .docx files already in fixtures/ (no network)
 # fetch:    download each template's PDF and .docx from Google Docs' public export URLs
 # verify:   fetch, then check (in that order, even under make -j)
-.PHONY: selftest check fetch verify docker-verify docker-verify-fresh font-study
+.PHONY: selftest check fetch verify docker-verify docker-verify-fresh font-study layout-study
 
 selftest:
 	uv run python checks/selftest.py
@@ -31,3 +31,8 @@ docker-verify-fresh:
 font-study:
 	uv run python findings/2026-10-05-font-export/test_analyze.py
 	uv run python findings/2026-10-05-font-export/analyze.py
+
+# One-off finding: test the analysis rules, then rerun the checks on the files stored in findings/2026-10-28-layout
+layout-study:
+	uv run python findings/2026-10-28-layout/test_analyze.py
+	uv run python findings/2026-10-28-layout/analyze.py

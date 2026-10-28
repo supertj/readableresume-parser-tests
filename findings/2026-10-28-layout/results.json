@@ -1,0 +1,4380 @@
+{
+  "sample": "fixtures/jakes/expected-resume.json (Jake's sample resume, US Letter, Times New Roman)",
+  "exportPath": "Google Docs: .docx imported through Drive, exported as PDF and as .docx (same files as File > Download)",
+  "exportedAt": "2026-10-28T16:21:44+00:00",
+  "runAt": "2026-10-28T16:21:51+00:00",
+  "tools": {
+    "openResumeCommit": "4f8255a2c763479837f69f1dccf2a3338730cd79",
+    "pdfjsDist": "3.7.107",
+    "node": "v26.3.0",
+    "pdfminerSix": "20260107",
+    "pythonDocx": "1.2.0"
+  },
+  "results": [
+    {
+      "layout": "single-column",
+      "label": "One column (control)",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/single-column.pdf",
+        "pdfSha256": "7f3f29f2338cb74b002717d350d4f7c3bc28635ab1c73e1b8928a2a8943d7e2f",
+        "pages": 1,
+        "images": 0,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 46,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [],
+          "lostByGroup": {},
+          "structuralFailed": [],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics ‖ Aug 2022 – May 2026",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May 2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL ‖ Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/single-column.docx",
+        "docxSha256": "8a5bb97ed603ad1833dda7b23c48e53013ed3b310caec6bfe55b4e0c183e4af4",
+        "tables": 0,
+        "textBoxes": 0,
+        "images": 0,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 0,
+          "textBoxes": 0,
+          "images": 0
+        }
+      }
+    },
+    {
+      "layout": "photo",
+      "label": "Photo next to the name",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/photo.pdf",
+        "pdfSha256": "08339339df4e7ebf0f281c18d1162f4eceb748be894d3bdf1990e280babcbb80",
+        "pages": 1,
+        "images": 1,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 46,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [],
+          "lostByGroup": {},
+          "structuralFailed": [],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics ‖ Aug 2022 – May 2026",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May 2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL ‖ Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/photo.docx",
+        "docxSha256": "29267e100875ce704d6253dace4e03a910883f9efef00b778673d2487c271f7e",
+        "tables": 0,
+        "textBoxes": 0,
+        "images": 1,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 0,
+          "textBoxes": 0,
+          "images": 1
+        }
+      }
+    },
+    {
+      "layout": "contact-icons",
+      "label": "Icons instead of separators in the contact line",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/contact-icons.pdf",
+        "pdfSha256": "a796cd92a7380f138c02b09f77a21fcc03a3a6d845725c8d23d676324f1bb43b",
+        "pages": 1,
+        "images": 4,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 46,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [],
+          "lostByGroup": {},
+          "structuralFailed": [],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 ‖ jordan.ellis@example.com ‖ linkedin.com/in/jordanellis ‖ github.com/jordanellis",
+            "EDUCATION",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics ‖ Aug 2022 – May 2026",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May 2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL ‖ Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/contact-icons.docx",
+        "docxSha256": "ea75bfc5f7dc95e08a4821d91fb55ec289586cde4a5adad3ff01ede19ae360e0",
+        "tables": 0,
+        "textBoxes": 0,
+        "images": 4,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 0,
+          "textBoxes": 0,
+          "images": 4
+        }
+      }
+    },
+    {
+      "layout": "skill-bars",
+      "label": "Skill rating bars",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/skill-bars.pdf",
+        "pdfSha256": "faac35af01b2d617a76cafa8c83713dc727de2548882cbdca6020cd8299f71a2",
+        "pages": 1,
+        "images": 3,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 46,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [],
+          "lostByGroup": {},
+          "structuralFailed": [],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics ‖ Aug 2022 – May 2026",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May 2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL ‖ Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/skill-bars.docx",
+        "docxSha256": "390b0425d35f37eecfdc220bddb6587ce7cfba5d63b5869eb754539d5b0a0f34",
+        "tables": 0,
+        "textBoxes": 0,
+        "images": 2,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 0,
+          "textBoxes": 0,
+          "images": 2
+        }
+      }
+    },
+    {
+      "layout": "header-contact",
+      "label": "Name and contact details in the page header",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/header-contact.pdf",
+        "pdfSha256": "9c4abfc6e5751c61103964d1b7c597e2eb2b72832c5eee8baccbd33828df6c9d",
+        "pages": 1,
+        "images": 0,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 46,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [],
+          "lostByGroup": {},
+          "structuralFailed": [],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics ‖ Aug 2022 – May 2026",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May 2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL ‖ Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/header-contact.docx",
+        "docxSha256": "eef943d44bbc010d4d2f0138850dc3b0ef0cabd867e640497e0e9ef5dd7c5a7b",
+        "tables": 0,
+        "textBoxes": 0,
+        "images": 0,
+        "contactIn": {
+          "name": "header",
+          "phone": "header",
+          "email": "header",
+          "url": "header"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 46,
+        "valuesAsText": 51,
+        "notInBody": {
+          "Jordan Ellis": "header",
+          "(312) 555-0143": "header",
+          "jordan.ellis@example.com": "header",
+          "linkedin.com/in/jordanellis": "header",
+          "github.com/jordanellis": "header"
+        },
+        "summary": {
+          "contactIn": "header",
+          "valuesInBody": 46,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 0,
+          "textBoxes": 0,
+          "images": 0
+        }
+      }
+    },
+    {
+      "layout": "table-dates-left",
+      "label": "Dates in a table column on the left",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/table-dates-left.pdf",
+        "pdfSha256": "7f441f08e5aa8183c37aa2374497ef54ad0990538c20c623f11cd07e9d7d49e4",
+        "pages": 1,
+        "images": 0,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 46,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [],
+          "lostByGroup": {},
+          "structuralFailed": [],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Aug 2022 – May 2026 ‖ Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer",
+            "Networks",
+            "EXPERIENCE",
+            "May 2025 – Aug 2025 ‖ Software Engineer Intern",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load",
+            "changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching",
+            "two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about",
+            "$1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first",
+            "during incidents",
+            "Jan 2024 – May 2025 ‖ Undergraduate Teaching Assistant",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each",
+            "assignment",
+            "Sep 2022 – Dec 2023 ‖ IT Support Technician",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping",
+            "first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Jan 2025 – Mar 2025 ‖ Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership",
+            "data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Sep 2024 ‖ Shelfie | Python, Flask, SQLite, Docker",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm",
+            "residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Apr 2024 ‖ Course Planner | Java, Spring Boot, MySQL",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under",
+            "a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/table-dates-left.docx",
+        "docxSha256": "136c5150e4d45b6ef281be64aeb7d1ed52a415b877d08d316a2a36ac18e226ee",
+        "tables": 3,
+        "textBoxes": 0,
+        "images": 0,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 3,
+          "textBoxes": 0,
+          "images": 0
+        }
+      }
+    },
+    {
+      "layout": "table-dates-narrow",
+      "label": "Dates in a table column too narrow for them",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/table-dates-narrow.pdf",
+        "pdfSha256": "8e9eb8b3cfa767041676663adb364ad28da774b0644b636f1a754e29ebb30747",
+        "pages": 1,
+        "images": 0,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 34,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "2025",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "2025",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "2023",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [
+            "workExperiences[0].company",
+            "workExperiences[0].date",
+            "workExperiences[1].company",
+            "workExperiences[1].date",
+            "workExperiences[2].company",
+            "workExperiences[2].date",
+            "educations[0].school",
+            "educations[0].degree",
+            "educations[0].date",
+            "educations[0].gpa",
+            "educations[0].descriptions[0]",
+            "educations[0].descriptions[1]"
+          ],
+          "lostByGroup": {
+            "jobs": 6,
+            "education": 6
+          },
+          "structuralFailed": [
+            {
+              "path": "educations (count)",
+              "expected": 1,
+              "actual": 2,
+              "ok": false
+            },
+            {
+              "path": "educations[0].descriptions (count)",
+              "expected": 2,
+              "actual": 0,
+              "ok": false
+            }
+          ],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Aug 2022 – May",
+            "2026",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer",
+            "Networks",
+            "EXPERIENCE",
+            "May 2025 – Aug",
+            "2025",
+            "Software Engineer Intern",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load",
+            "changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching",
+            "two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about",
+            "$1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first",
+            "during incidents",
+            "Jan 2024 – May",
+            "2025",
+            "Undergraduate Teaching Assistant",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each",
+            "assignment",
+            "Sep 2022 – Dec",
+            "2023",
+            "IT Support Technician",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response",
+            "time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Jan 2025 – Mar 2025 ‖ Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership",
+            "data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Sep 2024 ‖ Shelfie | Python, Flask, SQLite, Docker",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm",
+            "residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Apr 2024 ‖ Course Planner | Java, Spring Boot, MySQL",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a",
+            "second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/table-dates-narrow.docx",
+        "docxSha256": "bb45567f46e9a54be23a971d4a4c8c672b345719ef69df46f0b356c8cb2bc8fa",
+        "tables": 3,
+        "textBoxes": 0,
+        "images": 0,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 3,
+          "textBoxes": 0,
+          "images": 0
+        }
+      }
+    },
+    {
+      "layout": "two-column-table",
+      "label": "Two columns built with a table",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/two-column-table.pdf",
+        "pdfSha256": "d875eb8abbe1007bc212e6a6cf5570839785b87cbf270ffac93973ed4b965a4f",
+        "pages": 1,
+        "images": 0,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 42,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go,",
+              "ok": false,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "TypeScript, SQL, C",
+              "ok": false,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Frameworks: React, Node.js,",
+              "ok": false,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [
+            "educations[0].degree",
+            "skills.descriptions[0]",
+            "skills.descriptions[1]",
+            "skills.descriptions[2]"
+          ],
+          "lostByGroup": {
+            "education": 1,
+            "skills": 3
+          },
+          "structuralFailed": [
+            {
+              "path": "skills.descriptions (count)",
+              "expected": 3,
+              "actual": 6,
+              "ok": false
+            }
+          ],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Lakeshore State University",
+            "Bachelor of Science in Computer",
+            "Science, Minor in Mathematics",
+            "Aug 2022 – May 2026",
+            "Chicago, IL",
+            "• ‖ GPA: 3.7/4.0, Dean's List six",
+            "semesters",
+            "• ‖ Relevant Coursework: Data",
+            "Structures, Algorithms,",
+            "Operating Systems,",
+            "Databases, Computer",
+            "Networks",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go,",
+            "TypeScript, SQL, C",
+            "Frameworks: React, Node.js,",
+            "Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker,",
+            "AWS, PostgreSQL, Linux",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40",
+            "dispatchers see load changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to",
+            "81% and catching two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly",
+            "EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer",
+            "now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May 2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office",
+            "hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses",
+            "every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric",
+            "notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi,",
+            "keeping first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead",
+            "of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL ‖ Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from",
+            "public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500",
+            "simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the",
+            "first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks",
+            "loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with",
+            "one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course",
+            "catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local",
+            "engineers"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/two-column-table.docx",
+        "docxSha256": "e45ae2ce93c6de7320e708ef7b932791cab52426d67353f07c458c9e3b689203",
+        "tables": 1,
+        "textBoxes": 0,
+        "images": 0,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 1,
+          "textBoxes": 0,
+          "images": 0
+        }
+      }
+    },
+    {
+      "layout": "two-column-columns",
+      "label": "Two columns built with Format > Columns",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/two-column-columns.pdf",
+        "pdfSha256": "03b7b6eece40d8467b14f35beb7bf73a036060650afda1f8e6e8579bfb69bf24",
+        "pages": 1,
+        "images": 0,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [],
+          "forbiddenChars": [],
+          "splitWords": []
+        },
+        "parser": {
+          "passed": 42,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "Jordan Ellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "jordan.ellis@example.com",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "(312) 555-0143",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "linkedin.com/in/jordanellis",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "",
+              "ok": true,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "2025",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May",
+              "ok": false,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "Bachelor of Science in Computer Science, Minor in",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "Aug 2022 – May 2026",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "3.7",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "GPA: 3.7/4.0, Dean's List six semesters",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": true,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL,",
+              "ok": false,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [
+            "workExperiences[1].company",
+            "workExperiences[1].date",
+            "educations[0].degree",
+            "skills.descriptions[2]"
+          ],
+          "lostByGroup": {
+            "jobs": 2,
+            "education": 1,
+            "skills": 1
+          },
+          "structuralFailed": [
+            {
+              "path": "skills.descriptions (count)",
+              "expected": 3,
+              "actual": 4,
+              "ok": false
+            }
+          ],
+          "parserLines": [
+            "Jordan Ellis",
+            "(312) 555-0143 | jordan.ellis@example.com | linkedin.com/in/jordanellis | github.com/jordanellis",
+            "EDUCATION",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in",
+            "Mathematics ‖ Aug 2022 – May 2026",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms,",
+            "Operating Systems, Databases, Computer Networks",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly",
+            "CSV exports, so 40 dispatchers see load changes in",
+            "under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising",
+            "coverage from 52% to 81% and catching two rounding",
+            "bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which",
+            "lowered the team's monthly EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that",
+            "the on-call engineer now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May",
+            "2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data",
+            "Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that",
+            "the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under",
+            "10 by posting rubric notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers",
+            "and campus Wi-Fi, keeping first-response time under 2",
+            "hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines",
+            "in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+            "Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to",
+            "crowding estimates from public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in",
+            "under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100",
+            "students used it in the first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a",
+            "phone camera and tracks loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers",
+            "can run it locally with one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly",
+            "timetables from the course catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus",
+            "hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL,",
+            "Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/two-column-columns.docx",
+        "docxSha256": "b10e6f9634d10e5ec2ca98337448b77f65ba8b20ada763e9f8f1b0318893c178",
+        "tables": 0,
+        "textBoxes": 0,
+        "images": 0,
+        "contactIn": {
+          "name": "body",
+          "phone": "body",
+          "email": "body",
+          "url": "body"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 51,
+        "valuesAsText": 51,
+        "notInBody": {},
+        "summary": {
+          "contactIn": "body",
+          "valuesInBody": 51,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 0,
+          "textBoxes": 0,
+          "images": 0
+        }
+      }
+    },
+    {
+      "layout": "text-box-contact",
+      "label": "Name and contact details in a text box",
+      "gdocsPdf": {
+        "file": "gdocs-pdf/text-box-contact.pdf",
+        "pdfSha256": "0dac5c7d93bb852c82b4705f9355780fa72a8965391507af137f88fd3f0f81e3",
+        "pages": 1,
+        "images": 1,
+        "fontsInPdf": [
+          "TimesNewRomanPS-BoldMT",
+          "TimesNewRomanPS-ItalicMT",
+          "TimesNewRomanPSMT"
+        ],
+        "text": {
+          "missingOccurrences": [
+            "linkedin.com/in/jordanellis",
+            "jordan.ellis@example.com",
+            "github.com/jordanellis",
+            "(312) 555-0143",
+            "Jordan Ellis"
+          ],
+          "forbiddenChars": [],
+          "splitWords": [
+            "0143",
+            "312",
+            "555",
+            "com",
+            "ellis",
+            "example",
+            "github",
+            "jordan",
+            "jordanellis",
+            "linkedin"
+          ]
+        },
+        "parser": {
+          "passed": 34,
+          "total": 46,
+          "items": [
+            {
+              "path": "profile.name",
+              "expected": "Jordan Ellis",
+              "actual": "EDUCATION",
+              "ok": false,
+              "group": "contact"
+            },
+            {
+              "path": "profile.email",
+              "expected": "jordan.ellis@example.com",
+              "actual": "",
+              "ok": false,
+              "group": "contact"
+            },
+            {
+              "path": "profile.phone",
+              "expected": "(312) 555-0143",
+              "actual": "",
+              "ok": false,
+              "group": "contact"
+            },
+            {
+              "path": "profile.location",
+              "expected": "",
+              "actual": "Chicago, IL",
+              "ok": false,
+              "group": "contact"
+            },
+            {
+              "path": "profile.url",
+              "expected": "linkedin.com/in/jordanellis",
+              "actual": "",
+              "ok": false,
+              "group": "contact"
+            },
+            {
+              "path": "profile.summary",
+              "expected": "",
+              "actual": "Bachelor of Science in Computer Science, Minor in Mathematics Aug 2022 – May 2026 GPA: 3.7/4.0, Dean's List six semesters Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "ok": false,
+              "group": "contact"
+            },
+            {
+              "path": "workExperiences[0].company",
+              "expected": "Ironhaw Freight",
+              "actual": "Ironhaw Freight",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].jobTitle",
+              "expected": "Software Engineer Intern",
+              "actual": "Software Engineer Intern",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].date",
+              "expected": "May 2025 – Aug 2025",
+              "actual": "May 2025 – Aug 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[0].descriptions[0]",
+              "expected": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "actual": "Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[1]",
+              "expected": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "actual": "Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[2]",
+              "expected": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "actual": "Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[0].descriptions[3]",
+              "expected": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "actual": "Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].company",
+              "expected": "Lakeshore State University",
+              "actual": "Lakeshore State University",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].jobTitle",
+              "expected": "Undergraduate Teaching Assistant",
+              "actual": "Undergraduate Teaching Assistant",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].date",
+              "expected": "Jan 2024 – May 2025",
+              "actual": "Jan 2024 – May 2025",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[1].descriptions[0]",
+              "expected": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "actual": "Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[1]",
+              "expected": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "actual": "Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[1].descriptions[2]",
+              "expected": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "actual": "Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].company",
+              "expected": "Campus Technology Services",
+              "actual": "Campus Technology Services",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].jobTitle",
+              "expected": "IT Support Technician",
+              "actual": "IT Support Technician",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].date",
+              "expected": "Sep 2022 – Dec 2023",
+              "actual": "Sep 2022 – Dec 2023",
+              "ok": true,
+              "group": "jobs"
+            },
+            {
+              "path": "workExperiences[2].descriptions[0]",
+              "expected": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "actual": "Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "workExperiences[2].descriptions[1]",
+              "expected": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "actual": "Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+              "ok": true,
+              "group": "job bullets"
+            },
+            {
+              "path": "educations[0].school",
+              "expected": "Lakeshore State University",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].degree",
+              "expected": "Bachelor of Science in Computer Science, Minor in Mathematics",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].date",
+              "expected": "Aug 2022 – May 2026",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].gpa",
+              "expected": "3.7",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[0]",
+              "expected": "GPA: 3.7/4.0, Dean's List six semesters",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "educations[0].descriptions[1]",
+              "expected": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+              "actual": "",
+              "ok": false,
+              "group": "education"
+            },
+            {
+              "path": "projects[0].project",
+              "expected": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "actual": "Transit Pulse | TypeScript, React, Node.js, PostgreSQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].date",
+              "expected": "Jan 2025 – Mar 2025",
+              "actual": "Jan 2025 – Mar 2025",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[0]",
+              "expected": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "actual": "Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[1]",
+              "expected": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "actual": "Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[0].descriptions[2]",
+              "expected": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "actual": "Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].project",
+              "expected": "Shelfie | Python, Flask, SQLite, Docker",
+              "actual": "Shelfie | Python, Flask, SQLite, Docker",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].date",
+              "expected": "Sep 2024",
+              "actual": "Sep 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[0]",
+              "expected": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "actual": "Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[1].descriptions[1]",
+              "expected": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "actual": "Packaged it with Docker Compose so new maintainers can run it locally with one command",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].project",
+              "expected": "Course Planner | Java, Spring Boot, MySQL",
+              "actual": "Course Planner | Java, Spring Boot, MySQL",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].date",
+              "expected": "Apr 2024",
+              "actual": "Apr 2024",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[0]",
+              "expected": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "actual": "Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "projects[2].descriptions[1]",
+              "expected": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "actual": "Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+              "ok": true,
+              "group": "projects"
+            },
+            {
+              "path": "skills.descriptions[0]",
+              "expected": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "actual": "Languages: Java, Python, Go, TypeScript, SQL, C",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[1]",
+              "expected": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "actual": "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+              "ok": true,
+              "group": "skills"
+            },
+            {
+              "path": "skills.descriptions[2]",
+              "expected": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "actual": "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux",
+              "ok": true,
+              "group": "skills"
+            }
+          ],
+          "failedPaths": [
+            "profile.name",
+            "profile.email",
+            "profile.phone",
+            "profile.location",
+            "profile.url",
+            "profile.summary",
+            "educations[0].school",
+            "educations[0].degree",
+            "educations[0].date",
+            "educations[0].gpa",
+            "educations[0].descriptions[0]",
+            "educations[0].descriptions[1]"
+          ],
+          "lostByGroup": {
+            "contact": 6,
+            "education": 6
+          },
+          "structuralFailed": [
+            {
+              "path": "educations (count)",
+              "expected": 1,
+              "actual": 0,
+              "ok": false
+            },
+            {
+              "path": "educations[0].descriptions (count)",
+              "expected": 2,
+              "actual": 0,
+              "ok": false
+            }
+          ],
+          "parserLines": [
+            "EDUCATION",
+            "Lakeshore State University ‖ Chicago, IL",
+            "Bachelor of Science in Computer Science, Minor in Mathematics ‖ Aug 2022 – May 2026",
+            "• ‖ GPA: 3.7/4.0, Dean's List six semesters",
+            "• ‖ Relevant Coursework: Data Structures, Algorithms, Operating Systems, Databases, Computer Networks",
+            "EXPERIENCE",
+            "Software Engineer Intern ‖ May 2025 – Aug 2025",
+            "Ironhaw Freight ‖ Chicago, IL",
+            "• ‖ Built a shipment status API in Go to replace nightly CSV exports, so 40 dispatchers see load changes in under 5 minutes",
+            "• ‖ Wrote integration tests for the billing service, raising coverage from 52% to 81% and catching two rounding bugs",
+            "• ‖ Moved three cron jobs to AWS Lambda, which lowered the team's monthly EC2 bill by about $1,200",
+            "• ‖ Added structured logging and a Grafana dashboard that the on-call engineer now checks first during incidents",
+            "Undergraduate Teaching Assistant ‖ Jan 2024 – May 2025",
+            "Lakeshore State University ‖ Chicago, IL",
+            "• ‖ Led weekly lab sections of 30 students for Data Structures and held four office hours a week",
+            "• ‖ Wrote 12 autograded Java exercises in Gradescope that the course still uses every term",
+            "• ‖ Cut the regrade request backlog from about 60 to under 10 by posting rubric notes after each assignment",
+            "IT Support Technician ‖ Sep 2022 – Dec 2023",
+            "Campus Technology Services ‖ Chicago, IL",
+            "• ‖ Resolved about 25 tickets a week for laptops, printers and campus Wi-Fi, keeping first-response time under 2 hours",
+            "• ‖ Wrote a PowerShell script that set up new lab machines in 15 minutes instead of an hour",
+            "PROJECTS",
+            "Transit Pulse | TypeScript, React, Node.js, PostgreSQL ‖ Jan 2025 – Mar 2025",
+            "• ‖ Built a web app that shows live bus arrivals next to crowding estimates from public ridership data",
+            "• ‖ Cached feed responses in Redis so the page loads in under 300 ms with 500 simulated users",
+            "• ‖ Posted it on the campus subreddit, where about 1,100 students used it in the first month",
+            "Shelfie | Python, Flask, SQLite, Docker ‖ Sep 2024",
+            "• ‖ Made a Flask app that scans book barcodes with a phone camera and tracks loans for 60 dorm residents",
+            "• ‖ Packaged it with Docker Compose so new maintainers can run it locally with one command",
+            "Course Planner | Java, Spring Boot, MySQL ‖ Apr 2024",
+            "• ‖ Wrote a scheduler that builds conflict-free weekly timetables from the course catalog in under a second",
+            "• ‖ Won second place out of 34 teams at the campus hackathon, judged by local engineers",
+            "TECHNICAL SKILLS",
+            "Languages: Java, Python, Go, TypeScript, SQL, C",
+            "Frameworks: React, Node.js, Flask, JUnit, Pytest",
+            "Developer Tools: Git, Docker, AWS, PostgreSQL, Linux"
+          ]
+        }
+      },
+      "gdocsDocx": {
+        "file": "gdocs-docx/text-box-contact.docx",
+        "docxSha256": "7671b51fe87484b54c03589e08c65ab92cd8e348ab08023c27de9fb07d8d3554",
+        "tables": 0,
+        "textBoxes": 1,
+        "images": 1,
+        "contactIn": {
+          "name": "text box",
+          "phone": "text box",
+          "email": "text box",
+          "url": "text box"
+        },
+        "valuesTotal": 51,
+        "valuesInBody": 46,
+        "valuesAsText": 51,
+        "notInBody": {
+          "Jordan Ellis": "text box",
+          "(312) 555-0143": "text box",
+          "jordan.ellis@example.com": "text box",
+          "linkedin.com/in/jordanellis": "text box",
+          "github.com/jordanellis": "text box"
+        },
+        "summary": {
+          "contactIn": "text box",
+          "valuesInBody": 46,
+          "valuesAsText": 51,
+          "valuesTotal": 51,
+          "tables": 0,
+          "textBoxes": 1,
+          "images": 1
+        }
+      }
+    }
+  ]
+}
