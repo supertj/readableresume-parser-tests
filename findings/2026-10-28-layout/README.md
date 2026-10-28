@@ -60,15 +60,16 @@ Every PDF is one page.
   heading `EDUCATION` as the name, put the school's city in the location field and the rest of the education section
   in the summary, and found no education entry at all. The .docx from the same Google Doc still has the text, inside
   a text box.
-- **Pictures cost nothing.** A photo, icons in the contact line and rating bars next to the skills each read 46 of
-  46. The pictures sit beside the text; the text itself is unchanged.
-- **The page header cost nothing in the PDF.** Google Docs drew the header text at the top of the page like any
-  other line, and the parser read all of it. In the .docx, the same text is stored in the header part of the file
+- **The photo, contact icons and skill bars each read 46 of 46.** The pictures sit beside the text; the text
+  itself is unchanged.
+- **The parser read all of the page-header text in the PDF.** Google Docs drew the header text at the top of the
+  page like any other line. In the .docx, the same text is stored in the header part of the file
   (`word/header1.xml`), separate from the main body.
-- **A table cost nothing until the dates wrapped.** With a 1.45 in date cell, the parser joined each date to the
-  title next to it and read all 46 fields. At 1.3 in, four of the five date ranges wrapped onto two lines. For
-  each job, the year on the second line was read as the company (`2025` instead of `Ironhaw Freight`) and the date
-  lost its end year. The education entry split in two: one entry with only the date, one with everything else.
+- **Narrowing the date column from 1.45 in to 1.3 in dropped the score from 46/46 to 34/46.** With a 1.45 in date
+  cell, the parser joined each date to the title next to it and read all 46 fields. At 1.3 in, four of the five
+  date ranges wrapped onto two lines. For each job, the year on the second line was read as the company (`2025`
+  instead of `Ironhaw Freight`) and the date lost its end year. The education entry split in two: one entry with
+  only the date, one with everything else.
 - **Two columns: the columns stayed apart, wrapped lines didn't.** In both two-column PDFs, Google Docs stores each
   column's text in order, and the parser didn't mix the columns together. What it lost were lines that wrapped in
   the narrower columns. In the table version the degree was cut after its first line, and the three skills lines,
